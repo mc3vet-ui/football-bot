@@ -108,8 +108,14 @@ def fetch_and_build():
     day_str = today_str()
     print(f"[fetch] Getting fixtures for {day_str}")
 
-    fixtures_resp = api_get("/fixtures", {"date": day_str})
+        fixtures_resp = api_get("/fixtures", {"date": day_str})
     fixtures = fixtures_resp.get("response", [])
+    print(f"[debug] Raw fixtures from API: {len(fixtures)}")
+    print(f"[debug] API errors field: {fixtures_resp.get('errors')}")
+    print(f"[debug] API results field: {fixtures_resp.get('results')}")
+    if fixtures:
+        sample_leagues = {fx['league']['id']: fx['league']['name'] for fx in fixtures[:20]}
+        print(f"[debug] Sample league IDs found: {sample_leagues}")
 
     matches = []
     for fx in fixtures:
