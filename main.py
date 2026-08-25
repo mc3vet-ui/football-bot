@@ -37,7 +37,7 @@ LEAGUE_IDS = {
 }
 
 API_FOOTBALL_KEY = os.environ.get("API_FOOTBALL_KEY", "")
-API_FOOTBALL_HOST = "v3.football.api-sports.io"
+API_FOOTBALL_HOST = "api-football-v1.p.rapidapi.com"
 API_BASE = f"https://{API_FOOTBALL_HOST}"
 
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
