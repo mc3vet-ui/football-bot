@@ -108,7 +108,7 @@ def fetch_and_build():
     day_str = today_str()
     print(f"[fetch] Getting fixtures for {day_str}")
 
-        fixtures_resp = api_get("/fixtures", {"date": day_str})
+    fixtures_resp = api_get("/fixtures", {"date": day_str})
     fixtures = fixtures_resp.get("response", [])
     print(f"[debug] Raw fixtures from API: {len(fixtures)}")
     print(f"[debug] API errors field: {fixtures_resp.get('errors')}")
@@ -131,7 +131,6 @@ def fetch_and_build():
         away = fx["teams"]["away"]["name"]
         league_name = LEAGUE_IDS[league_id]
 
-        # Fetch 1X2 odds for this fixture
         odds_resp = api_get("/odds", {"fixture": fixture_id, "bet": BET_ID_MATCH_WINNER})
         odds_data = odds_resp.get("response", [])
 
@@ -167,7 +166,7 @@ def fetch_and_build():
             match.update({"odds": None, "probs": None, "verdict": "Коэффициенты пока недоступны"})
 
         matches.append(match)
-        time.sleep(0.3)  # be gentle on rate limits
+        time.sleep(0.3)
 
     matches.sort(key=lambda m: m["kickoff_local"])
 
