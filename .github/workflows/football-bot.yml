@@ -1,0 +1,42 @@
+name: Football predictions bot
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+    - cron: '0 12 * * *'
+    - cron: '0 16 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run bot (post next batch, fetches data if needed)
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+          TIMEZONE: 'Europe/Moscow'
+        run: python main.py post
+
+      - name: Commit updated data file
+        run: |
+          git config user.name "football-bot"
+          git config user.email "football-bot@users.noreply.github.com"
+          git add data/*.json
+          git diff --cached --quiet || git commit -m "Update match data [skip ci]"
+          git push
