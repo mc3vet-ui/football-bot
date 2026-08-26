@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T21:03:06.712028+03:00",
+  "posted_batches": [
+    "evening"
+  ],
+  "matches": [
+    {
+      "fixture_id": 1570340,
+      "league": "Ла Лига",
+      "home": "Real Madrid",
+      "away": "Real Sociedad",
+      "home_logo": "https://media.api-sports.io/football/teams/541.png",
+      "kickoff_local": "2026-08-26 22:00",
+      "kickoff_hour": 22,
+      "message_id": 17,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "match_winner",
+        "selection": "home",
+        "line": null,
+        "odd": 1.2,
+        "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
+      }
+    },
+    {
+      "fixture_id": 1622628,
+      "league": "Лига Чемпионов",
+      "home": "Celje",
+      "away": "Slovan Bratislava",
+      "home_logo": "https://media.api-sports.io/football/teams/4360.png",
+      "kickoff_local": "2026-08-26 22:00",
+      "kickoff_hour": 22,
+      "message_id": 18,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "match_winner",
+        "selection": "home",
+        "line": null,
+        "odd": 2.28,
+        "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
+      }
+    },
+    {
+      "fixture_id": 1622629,
+      "league": "Лига Чемпионов",
+      "home": "AEK Athens FC",
+      "away": "Levski Sofia",
+      "home_logo": "https://media.api-sports.io/football/teams/575.png",
+      "kickoff_local": "2026-08-26 22:00",
+      "kickoff_hour": 22,
+      "message_id": 19,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "match_winner",
+        "selection": "home",
+        "line": null,
+        "odd": 1.5,
+        "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
+      }
+    },
+    {
+      "fixture_id": 1622630,
+      "league": "Лига Чемпионов",
+      "home": "Lyon",
+      "away": "Fenerbahçe",
+      "home_logo": "https://media.api-sports.io/football/teams/80.png",
+      "kickoff_local": "2026-08-26 22:00",
+      "kickoff_hour": 22,
+      "message_id": 20,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "match_winner",
+        "selection": "home",
+        "line": null,
+        "odd": 1.9,
+        "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
+      }
+    },
+    {
+      "fixture_id": 1622631,
+      "league": "Лига Чемпионов",
+      "home": "Viking",
+      "away": "Dinamo Zagreb",
+      "home_logo": "https://media.api-sports.io/football/teams/759.png",
+      "kickoff_local": "2026-08-26 22:00",
+      "kickoff_hour": 22,
+      "message_id": 21,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "match_winner",
+        "selection": "home",
+        "line": null,
+        "odd": 2.42,
+        "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
+      }
+    }
+  ]
+}
