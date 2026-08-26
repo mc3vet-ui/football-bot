@@ -54,7 +54,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           TIMEZONE: 'Europe/Moscow'
-        run: python main.py bet_types
+        run: python main.py post
 
       - name: Check results
         if: |
