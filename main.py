@@ -278,12 +278,24 @@ def post_batch():
 
 # ---------------------------------------------------------------------------
 
+def find_leagues():
+    for term in ["MLS", "FA Cup"]:
+        resp = api_get("/leagues", {"search": term})
+        print(f"--- search: {term} ---")
+        for item in resp.get("response", []):
+            league = item["league"]
+            country = item["country"]["name"]
+            print(f"id={league['id']} name={league['name']} type={league['type']} country={country}")
+
+
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "post"
     if mode == "fetch":
         fetch_and_build()
     elif mode == "post":
         post_batch()
+    elif mode == "leagues":
+        find_leagues()
     else:
-        print("Usage: python main.py [fetch|post]")
+        print("Usage: python main.py [fetch|post|leagues]")
         sys.exit(1)
