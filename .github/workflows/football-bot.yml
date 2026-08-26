@@ -31,7 +31,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           TIMEZONE: 'Europe/Moscow'
-        run: python main.py leagues
+        run: python main.py post
 
       - name: Commit updated data file
         run: |
