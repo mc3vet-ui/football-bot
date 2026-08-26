@@ -496,6 +496,23 @@ def post_stats(period):
 # Debug: league search
 # ---------------------------------------------------------------------------
 
+def find_bet_types():
+    resp = api_get("/fixtures", {"date": today_str()})
+    fixtures = resp.get("response", [])
+    for fx in fixtures:
+        if fx["league"]["id"] in LEAGUE_IDS:
+            fixture_id = fx["fixture"]["id"]
+            odds_resp = api_get("/odds", {"fixture": fixture_id})
+            data = odds_resp.get("response", [])
+            if data:
+                bookmaker = data[0]["bookmakers"][0]
+                print(f"Fixture {fixture_id}: {fx['teams']['home']['name']} vs {fx['teams']['away']['name']}")
+                print(f"Bookmaker: {bookmaker['name']}")
+                for bet in bookmaker["bets"]:
+                    print(f"  id={bet['id']} name={bet['name']}")
+                return
+    print("No fixtures with odds found today in tracked leagues")
+    
 def find_leagues():
     for term in ["MLS", "FA Cup"]:
         resp = api_get("/leagues", {"search": term})
@@ -516,11 +533,13 @@ if __name__ == "__main__":
         post_batch()
     elif mode == "leagues":
         find_leagues()
+    elif mode == "bet_types":
+        find_bet_types()
     elif mode == "check_results":
         check_results()
     elif mode == "stats":
         period = sys.argv[2] if len(sys.argv) > 2 else "daily"
         post_stats(period)
     else:
-        print("Usage: python main.py [fetch|post|leagues|check_results|stats <daily|weekly|monthly|yearly>]")
+        print("Usage: python main.py [fetch|post|leagues|bet_types|check_results|stats <daily|weekly|monthly|yearly>]")
         sys.exit(1)
