@@ -681,7 +681,7 @@ def post_stats(period):
 def find_leagues():
     for term in ["MLS", "FA Cup", "EFL Cup", "Carabao Cup", "League Cup"]:
         resp = api_get("/leagues", {"search": term})
-        print(f"--- search: {term} ---")
+        print(f"--- search: {term} --- errors={resp.get('errors')} results={resp.get('results')}")
         for item in resp.get("response", []):
             league = item["league"]
             print(f"id={league['id']} name={league['name']} type={league['type']} country={item['country']['name']}")
