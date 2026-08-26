@@ -37,8 +37,7 @@ LEAGUE_IDS = {
 }
 
 API_FOOTBALL_KEY = os.environ.get("API_FOOTBALL_KEY", "")
-API_FOOTBALL_HOST = "api-football-v1.p.rapidapi.com"
-API_BASE = f"https://{API_FOOTBALL_HOST}"
+API_BASE = "https://v3.football.api-sports.io"
 
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHANNEL = os.environ.get("TELEGRAM_CHANNEL", "")
@@ -72,8 +71,7 @@ def data_path(day_str):
 
 def api_get(endpoint, params):
     headers = {
-        "x-rapidapi-host": API_FOOTBALL_HOST,
-        "x-rapidapi-key": API_FOOTBALL_KEY,
+        "x-apisports-key": API_FOOTBALL_KEY,
     }
     resp = requests.get(f"{API_BASE}{endpoint}", headers=headers, params=params, timeout=30)
     resp.raise_for_status()
