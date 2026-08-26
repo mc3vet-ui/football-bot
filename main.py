@@ -134,17 +134,25 @@ def get_all_odds(fixture_id):
     return {bet["id"]: bet for bet in bets}
 
 
-def extract_lines(bets_by_id, market_key, limit=6):
+MIN_PICK_ODD = 1.35
+
+
+def extract_lines(bets_by_id, market_key, limit=6, min_odd=None):
     bet_id = MARKET_IDS[market_key]
     bet = bets_by_id.get(bet_id)
     if not bet:
         return []
     out = []
-    for v in bet.get("values", [])[:limit]:
+    for v in bet.get("values", []):
         try:
-            out.append((v["value"], float(v["odd"])))
+            odd = float(v["odd"])
         except (KeyError, ValueError):
             continue
+        if min_odd is not None and odd < min_odd:
+            continue
+        out.append((v["value"], odd))
+        if len(out) >= limit:
+            break
     return out
 
 
@@ -157,7 +165,7 @@ def get_match_winner_odds(bets_by_id):
 def build_odds_context(bets_by_id):
     parts = []
     for key in ["match_winner", "handicap", "total_match", "total_1h", "total_2h", "total_home", "total_away"]:
-        lines = extract_lines(bets_by_id, key)
+        lines = extract_lines(bets_by_id, key, min_odd=MIN_PICK_ODD)
         if not lines:
             continue
         label = MARKET_LABELS[key]
@@ -270,6 +278,8 @@ def fallback_pick(bets_by_id):
     probs = implied_probabilities(home_odd, draw_odd, away_odd)
     outcome = predicted_outcome_from_probs(probs)
     odd = {"home": home_odd, "draw": draw_odd, "away": away_odd}[outcome]
+    if odd < MIN_PICK_ODD:
+        return None
     return {
         "market": "match_winner",
         "selection": outcome,
@@ -387,7 +397,7 @@ def format_match_block(m):
         lines.append(f"🎯 {describe_pick(m)}")
         lines.append(f"💬 {m['pick']['reasoning']}")
     else:
-        lines.append("Прогноз недоступен")
+        lines.append(f"Нет вариантов с коэффициентом от {MIN_PICK_ODD}")
     return "\n".join(lines)
 
 
