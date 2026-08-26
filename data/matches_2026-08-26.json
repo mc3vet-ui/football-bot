@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T12:01:01.009923+03:00",
+  "posted_batches": [
+    "morning"
+  ],
+  "matches": [
+    {
+      "fixture_id": 1570340,
+      "league": "Ла Лига",
+      "home": "Real Madrid",
+      "away": "Real Sociedad",
+      "kickoff_local": "2026-08-26 22:00",
+      "kickoff_hour": 22,
+      "odds": {
+        "home": 1.31,
+        "draw": 5.5,
+        "away": 8.1
+      },
+      "probs": {
+        "home": 71.4,
+        "draw": 17.0,
+        "away": 11.6
+      },
+      "verdict": "Уверенный фаворит: Real Madrid (71.4%)"
+    },
+    {
+      "fixture_id": 1622628,
+      "league": "Лига Чемпионов",
+      "home": "Celje",
+      "away": "Slovan Bratislava",
+      "kickoff_local": "2026-08-26 22:00",
+      "kickoff_hour": 22,
+      "odds": {
+        "home": 2.4,
+        "draw": 3.25,
+        "away": 2.9
+      },
+      "probs": {
+        "home": 39.0,
+        "draw": 28.8,
+        "away": 32.3
+      },
+      "verdict": "Матч без явного фаворита: Celje (39.0%)"
+    },
+    {
+      "fixture_id": 1622629,
+      "league": "Лига Чемпионов",
+      "home": "AEK Athens FC",
+      "away": "Levski Sofia",
+      "kickoff_local": "2026-08-26 22:00",
+      "kickoff_hour": 22,
+      "odds": {
+        "home": 1.5,
+        "draw": 3.95,
+        "away": 6.75
+      },
+      "probs": {
+        "home": 62.4,
+        "draw": 23.7,
+        "away": 13.9
+      },
+      "verdict": "Небольшой перевес: AEK Athens FC (62.4%)"
+    },
+    {
+      "fixture_id": 1622630,
+      "league": "Лига Чемпионов",
+      "home": "Lyon",
+      "away": "Fenerbahçe",
+      "kickoff_local": "2026-08-26 22:00",
+      "kickoff_hour": 22,
+      "odds": {
+        "home": 1.9,
+        "draw": 3.55,
+        "away": 3.85
+      },
+      "probs": {
+        "home": 49.3,
+        "draw": 26.4,
+        "away": 24.3
+      },
+      "verdict": "Матч без явного фаворита: Lyon (49.3%)"
+    },
+    {
+      "fixture_id": 1622631,
+      "league": "Лига Чемпионов",
+      "home": "Viking",
+      "away": "Dinamo Zagreb",
+      "kickoff_local": "2026-08-26 22:00",
+      "kickoff_hour": 22,
+      "odds": {
+        "home": 2.38,
+        "draw": 3.65,
+        "away": 2.66
+      },
+      "probs": {
+        "home": 39.3,
+        "draw": 25.6,
+        "away": 35.1
+      },
+      "verdict": "Матч без явного фаворита: Viking (39.3%)"
+    }
+  ]
+}
