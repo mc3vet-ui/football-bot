@@ -131,6 +131,7 @@ def fetch_and_build():
 
         home = fx["teams"]["home"]["name"]
         away = fx["teams"]["away"]["name"]
+        home_logo = fx["teams"]["home"].get("logo")
         league_name = LEAGUE_IDS[league_id]
 
         odds_resp = api_get("/odds", {"fixture": fixture_id, "bet": BET_ID_MATCH_WINNER})
@@ -153,6 +154,7 @@ def fetch_and_build():
             "league": league_name,
             "home": home,
             "away": away,
+            "home_logo": home_logo,
             "kickoff_local": kickoff_local.strftime("%Y-%m-%d %H:%M"),
             "kickoff_hour": kickoff_local.hour,
         }
@@ -222,6 +224,18 @@ def send_telegram_message(text):
     return resp.json()
 
 
+def send_telegram_photo(photo_url, caption):
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
+    resp = requests.post(url, data={
+        "chat_id": TELEGRAM_CHANNEL,
+        "photo": photo_url,
+        "caption": caption,
+        "parse_mode": "HTML",
+    }, timeout=30)
+    resp.raise_for_status()
+    return resp.json()
+
+
 def post_batch():
     day_str = today_str()
     path = data_path(day_str)
@@ -254,23 +268,15 @@ def post_batch():
         "evening": "🌆 <b>Вечерние матчи</b>",
     }[batch_name]
 
-    # Telegram messages have a ~4096 char limit; chunk if needed.
-    chunk = [header]
-    current_len = len(header)
-    chunks = []
-    for m in batch_matches:
-        block = format_match_block(m)
-        if current_len + len(block) + 2 > 3800:
-            chunks.append("\n\n".join(chunk))
-            chunk = [block]
-            current_len = len(block)
-        else:
-            chunk.append(block)
-            current_len += len(block) + 2
-    chunks.append("\n\n".join(chunk))
+    send_telegram_message(header)
+    time.sleep(1)
 
-    for text in chunks:
-        send_telegram_message(text)
+    for m in batch_matches:
+        caption = format_match_block(m)
+        if m.get("home_logo"):
+            send_telegram_photo(m["home_logo"], caption)
+        else:
+            send_telegram_message(caption)
         time.sleep(1)
 
     payload["posted_batches"].append(batch_name)
