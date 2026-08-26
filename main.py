@@ -279,7 +279,7 @@ def post_batch():
 # ---------------------------------------------------------------------------
 
 def find_leagues():
-    for term in ["MLS", "FA Cup"]:
+    for term in ["Major League Soccer"]:
         resp = api_get("/leagues", {"search": term})
         print(f"--- search: {term} ---")
         for item in resp.get("response", []):
