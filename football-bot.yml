@@ -1,0 +1,116 @@
+name: Football predictions bot
+
+on:
+  schedule:
+    - cron: '0 5 * * *'    # 08:00 мск — публикация утреннего батча
+    - cron: '0 12 * * *'   # 15:00 мск — публикация дневного батча
+    - cron: '0 16 * * *'   # 19:00 мск — публикация вечернего батча
+    - cron: '50 20 * * *'  # 23:50 мск — проверка результатов закончившихся матчей
+    - cron: '58 20 * * *'  # 23:58 мск — итоги дня
+    - cron: '59 20 * * 0'  # 23:59 мск по воскресеньям — итоги недели
+    - cron: '0 6 1 * *'    # 09:00 мск 1-го числа — итоги прошлого месяца
+    - cron: '5 6 1 1 *'    # 09:05 мск 1 января — итоги прошлого года
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Что запустить вручную'
+        required: true
+        default: 'post'
+        type: choice
+        options:
+          - post
+          - check_results
+          - stats_daily
+          - stats_weekly
+          - stats_monthly
+          - stats_yearly
+
+permissions:
+  contents: write
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Post batch
+        if: |
+          github.event.schedule == '0 5 * * *' ||
+          github.event.schedule == '0 12 * * *' ||
+          github.event.schedule == '0 16 * * *' ||
+          (github.event_name == 'workflow_dispatch' && inputs.mode == 'post')
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+          TIMEZONE: 'Europe/Moscow'
+        run: python main.py post
+
+      - name: Check results
+        if: |
+          github.event.schedule == '50 20 * * *' ||
+          (github.event_name == 'workflow_dispatch' && inputs.mode == 'check_results')
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+          TIMEZONE: 'Europe/Moscow'
+        run: python main.py check_results
+
+      - name: Daily stats
+        if: |
+          github.event.schedule == '58 20 * * *' ||
+          (github.event_name == 'workflow_dispatch' && inputs.mode == 'stats_daily')
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+          TIMEZONE: 'Europe/Moscow'
+        run: python main.py stats daily
+
+      - name: Weekly stats
+        if: |
+          github.event.schedule == '59 20 * * 0' ||
+          (github.event_name == 'workflow_dispatch' && inputs.mode == 'stats_weekly')
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+          TIMEZONE: 'Europe/Moscow'
+        run: python main.py stats weekly
+
+      - name: Monthly stats
+        if: |
+          github.event.schedule == '0 6 1 * *' ||
+          (github.event_name == 'workflow_dispatch' && inputs.mode == 'stats_monthly')
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+          TIMEZONE: 'Europe/Moscow'
+        run: python main.py stats monthly
+
+      - name: Yearly stats
+        if: |
+          github.event.schedule == '5 6 1 1 *' ||
+          (github.event_name == 'workflow_dispatch' && inputs.mode == 'stats_yearly')
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+          TIMEZONE: 'Europe/Moscow'
+        run: python main.py stats yearly
+
+      - name: Commit updated data files
+        run: |
+          git config user.name "football-bot"
+          git config user.email "football-bot@users.noreply.github.com"
+          git add data/*.json
+          git diff --cached --quiet || git commit -m "Update match data [skip ci]"
+          git push
