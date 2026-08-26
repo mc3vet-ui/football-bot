@@ -203,7 +203,8 @@ def call_groq(prompt):
         "model": GROQ_MODEL,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.4,
-        "max_tokens": 300,
+        "max_tokens": 800,
+        "response_format": {"type": "json_object"},
     }
     resp = requests.post(GROQ_URL, headers=headers, json=body, timeout=30)
     resp.raise_for_status()
