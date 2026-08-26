@@ -3,7 +3,8 @@
   "generated_at": "2026-08-26T13:24:22.815373+03:00",
   "posted_batches": [
     "morning",
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -14,7 +15,7 @@
       "home_logo": "https://media.api-sports.io/football/teams/541.png",
       "kickoff_local": "2026-08-26 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 5,
       "result_checked": false,
       "correct": null,
       "odds": {
@@ -38,7 +39,7 @@
       "home_logo": "https://media.api-sports.io/football/teams/4360.png",
       "kickoff_local": "2026-08-26 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 6,
       "result_checked": false,
       "correct": null,
       "odds": {
@@ -62,7 +63,7 @@
       "home_logo": "https://media.api-sports.io/football/teams/575.png",
       "kickoff_local": "2026-08-26 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 7,
       "result_checked": false,
       "correct": null,
       "odds": {
@@ -86,7 +87,7 @@
       "home_logo": "https://media.api-sports.io/football/teams/80.png",
       "kickoff_local": "2026-08-26 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 8,
       "result_checked": false,
       "correct": null,
       "odds": {
@@ -110,7 +111,7 @@
       "home_logo": "https://media.api-sports.io/football/teams/759.png",
       "kickoff_local": "2026-08-26 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 9,
       "result_checked": false,
       "correct": null,
       "odds": {
