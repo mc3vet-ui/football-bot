@@ -1,0 +1,47 @@
+{
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T20:56:18.549758+03:00",
+  "posted_batches": [
+    "evening"
+  ],
+  "matches": [
+    {
+      "event_id": "0b765da573acccbad3b07923f279c567",
+      "sport_key": "soccer_spain_la_liga",
+      "league": "Ла Лига",
+      "home": "Celta Vigo",
+      "away": "CA Osasuna",
+      "kickoff_local": "2026-08-27 21:30",
+      "kickoff_hour": 21,
+      "message_id": 51,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 1.39,
+        "reasoning": "Келта Виго — фаворит, коэффициент 1.39 на нулевую фору указывает на высокую вероятность их победы."
+      }
+    },
+    {
+      "event_id": "4e67f40bc51c915154f04559a7ab692c",
+      "sport_key": "soccer_spain_la_liga",
+      "league": "Ла Лига",
+      "home": "Barcelona",
+      "away": "Athletic Bilbao",
+      "kickoff_local": "2026-08-27 22:00",
+      "kickoff_hour": 22,
+      "message_id": 52,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": -1.5,
+        "odd": 1.7,
+        "reasoning": "Барселона явно сильнее соперника и часто выигрывает у Атлетик Бильбао разницей в два гола и более, поэтому ставка на форту -1.5 имеет наибольшую вероятность выигрыша."
+      }
+    }
+  ]
+}
