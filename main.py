@@ -118,11 +118,12 @@ def list_sports():
 # ---------------------------------------------------------------------------
 
 def build_odds_context(bookmakers, home, away):
-    """Builds a compact text block listing available markets/lines for the AI prompt."""
+    """Builds a compact text block listing available markets/lines for the AI prompt.
+    Lines below MIN_PICK_ODD are dropped entirely so the AI never sees them as an option.
+    """
     if not bookmakers:
         return "", {}
 
-    # Just use the first bookmaker returned — good enough for this use case.
     bookmaker = bookmakers[0]
     market_lookup = {}
     parts = []
@@ -137,6 +138,8 @@ def build_odds_context(bookmakers, home, away):
             name = o["name"]
             price = o["price"]
             point = o.get("point")
+            if price < MIN_PICK_ODD:
+                continue
             if point is not None:
                 line_bits.append(f"{name} {point} ({price})")
             else:
@@ -144,7 +147,8 @@ def build_odds_context(bookmakers, home, away):
             market_lookup.setdefault(key, []).append({
                 "name": name, "point": point, "price": price,
             })
-        parts.append(f"{label}: {', '.join(line_bits)}")
+        if line_bits:
+            parts.append(f"{label}: {', '.join(line_bits)}")
     return "\n".join(parts), market_lookup
 
 
