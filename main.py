@@ -43,7 +43,13 @@ SPORT_KEYS = {
     "soccer_germany_bundesliga": "Бундеслига",
     "soccer_france_ligue_one": "Лига 1",
     "soccer_uefa_champs_league": "Лига Чемпионов",
+    "soccer_uefa_champs_league_qualification": "Квалификация ЛЧ",
     "soccer_uefa_europa_league": "Лига Европы",
+    "soccer_efl_champ": "Чемпионшип",
+    "soccer_fa_cup": "Кубок Англии",
+    "soccer_england_efl_cup": "Кубок английской лиги",
+    "soccer_germany_bundesliga2": "Бундеслига 2",
+    "soccer_usa_mls": "MLS",
 }
 
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
