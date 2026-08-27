@@ -55,7 +55,7 @@ jobs:
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           TIMEZONE: 'Europe/Moscow'
-        run: python main.py leagues
+        run: python main.py post
 
       - name: Check results
         if: |
