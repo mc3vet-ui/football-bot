@@ -43,13 +43,7 @@ SPORT_KEYS = {
     "soccer_germany_bundesliga": "Бундеслига",
     "soccer_france_ligue_one": "Лига 1",
     "soccer_uefa_champs_league": "Лига Чемпионов",
-    "soccer_uefa_champs_league_qualification": "Квалификация ЛЧ",
     "soccer_uefa_europa_league": "Лига Европы",
-    "soccer_efl_champ": "Чемпионшип",
-    "soccer_fa_cup": "Кубок Англии",
-    "soccer_england_efl_cup": "Кубок английской лиги",
-    "soccer_germany_bundesliga2": "Бундеслига 2",
-    "soccer_usa_mls": "MLS",
 }
 
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
@@ -119,34 +113,46 @@ def list_sports():
 
 def build_odds_context(bookmakers, home, away):
     """Builds a compact text block listing available markets/lines for the AI prompt.
-    Lines below MIN_PICK_ODD are dropped entirely so the AI never sees them as an option.
+    Scans ALL bookmakers (not just the first) so markets like spreads/totals aren't
+    missed just because the first bookmaker in the list doesn't offer them for this
+    match. Lines below MIN_PICK_ODD are dropped entirely so the AI never sees them.
     """
     if not bookmakers:
         return "", {}
 
-    bookmaker = bookmakers[0]
     market_lookup = {}
+    seen_keys = set()
     parts = []
-    for market in bookmaker.get("markets", []):
-        key = market["key"]
-        if key not in MARKET_LABELS:
-            continue
+    # Order matters for readability: h2h first, then spreads, then totals.
+    for key in ["h2h", "spreads", "totals"]:
         label = MARKET_LABELS[key]
-        outcomes = market.get("outcomes", [])
         line_bits = []
-        for o in outcomes:
-            name = o["name"]
-            price = o["price"]
-            point = o.get("point")
-            if price < MIN_PICK_ODD:
+        for bookmaker in bookmakers:
+            market = next((m for m in bookmaker.get("markets", []) if m["key"] == key), None)
+            if not market:
                 continue
-            if point is not None:
-                line_bits.append(f"{name} {point} ({price})")
-            else:
-                line_bits.append(f"{name} ({price})")
-            market_lookup.setdefault(key, []).append({
-                "name": name, "point": point, "price": price,
-            })
+            for o in market.get("outcomes", []):
+                name = o["name"]
+                price = o["price"]
+                point = o.get("point")
+                if price < MIN_PICK_ODD:
+                    continue
+                dedup_key = (name, point)
+                if dedup_key in seen_keys:
+                    continue
+                seen_keys.add(dedup_key)
+                if point is not None:
+                    line_bits.append(f"{name} {point} ({price})")
+                else:
+                    line_bits.append(f"{name} ({price})")
+                market_lookup.setdefault(key, []).append({
+                    "name": name, "point": point, "price": price,
+                })
+            if line_bits:
+                # Found this market from some bookmaker — no need to keep scanning
+                # further bookmakers for it once we have a usable set of lines.
+                break
+        seen_keys = set()
         if line_bits:
             parts.append(f"{label}: {', '.join(line_bits)}")
     return "\n".join(parts), market_lookup
@@ -208,18 +214,24 @@ def build_ai_pick(home, away, league, odds_context):
         f"Ниже перечислены ТОЛЬКО те рынки и линии, коэффициент которых уже не ниже "
         f"{MIN_PICK_ODD} (более низкие коэффициенты заранее убраны из списка):\n"
         f"{odds_context}\n\n"
-        f"Выбери ОДИН наиболее вероятный ('проходимый') вариант ставки из этого списка. "
-        f"Важно: если исход матча (h2h) явного фаворита отсутствует в списке (значит, его "
-        f"коэффициент слишком низкий), НЕ выбирай ничью или победу аутсайдера просто "
-        f"потому что это единственное, что осталось в рынке h2h. В такой ситуации почти "
-        f"всегда разумнее выбрать фору (spreads) фаворита или тотал матча (totals) — "
-        f"эти рынки почти всегда предлагают более статистически обоснованный вариант "
-        f"с адекватным коэффициентом. Не придумывай данные, используй только то, что дано.\n\n"
-        f"Ответь СТРОГО в виде JSON без какого-либо текста до или после него, в формате:\n"
+        f"Выбери ОДИН наиболее вероятный ('проходимый') вариант ставки из этого списка.\n\n"
+        f"Важно: если в рынке h2h (исход матча) остались только ничья и/или победа "
+        f"аутсайдера (то есть явный фаворит был отфильтрован из-за слишком низкого "
+        f"коэффициента), а рынки spreads (фора) и totals (тотал) в списке ОТСУТСТВУЮТ "
+        f"или тоже не дают уверенного варианта — это означает, что для этого матча нет "
+        f"статистически обоснованной ставки. В таком случае НЕ выбирай ничью или "
+        f"аутсайдера просто чтобы формально что-то выбрать. Вместо этого ответь ровно "
+        f"{{\"market\": null}} и больше ничего.\n\n"
+        f"Если же среди рынков spreads или totals есть разумный вариант — выбирай его, "
+        f"это почти всегда статистически надёжнее, чем ничья явного аутсайдера.\n\n"
+        f"Не придумывай данные, используй только то, что дано выше.\n\n"
+        f"Если выбор есть, ответь СТРОГО в виде JSON без какого-либо текста до или "
+        f"после него, в формате:\n"
         f'{{"market": "h2h|spreads|totals", '
         f'"selection": "home|draw|away|over|under", "line": число или null, '
         f'"odd": число (скопируй точно из списка выше), '
-        f'"reasoning": "1-2 предложения на русском с обоснованием"}}'
+        f'"reasoning": "1-2 предложения на русском с обоснованием"}}\n\n'
+        f'Если варианта нет, ответь ровно {{"market": null}}.'
     )
     try:
         raw = call_groq(prompt)
@@ -231,6 +243,9 @@ def build_ai_pick(home, away, league, odds_context):
     if not parsed:
         print(f"[ai] Could not parse JSON from Groq response: {raw[:200]}")
         return None
+    if parsed.get("market") is None:
+        print("[ai] AI decided no confident pick exists for this match")
+        return None
     required = {"market", "selection", "odd", "reasoning"}
     if not required.issubset(parsed.keys()) or parsed["market"] not in MARKET_LABELS:
         print(f"[ai] Invalid Groq response: {parsed}")
@@ -240,16 +255,22 @@ def build_ai_pick(home, away, league, odds_context):
 
 
 def fallback_pick(market_lookup, home, away):
-    """Simple match-winner pick from the best available h2h odds, respecting MIN_PICK_ODD."""
+    """Simple match-winner pick from the best available h2h odds, respecting MIN_PICK_ODD.
+    Never defaults to draw or the underdog just because they're the only thing left —
+    that's a low-quality guess, not a real prediction. If home/away don't clear the
+    threshold, we'd rather post nothing than a weak forced pick.
+    """
     entries = market_lookup.get("h2h", [])
     if not entries:
         return None
-    candidates = [e for e in entries if e["price"] >= MIN_PICK_ODD]
-    if not candidates:
+    team_candidates = [
+        e for e in entries
+        if e["price"] >= MIN_PICK_ODD and e["name"] in (home, away)
+    ]
+    if not team_candidates:
         return None
-    # Pick the outcome with the lowest odd among those clearing the threshold (most likely).
-    best = min(candidates, key=lambda e: e["price"])
-    selection = "home" if best["name"] == home else "away" if best["name"] == away else "draw"
+    best = min(team_candidates, key=lambda e: e["price"])
+    selection = "home" if best["name"] == home else "away"
     return {
         "market": "h2h",
         "selection": selection,
