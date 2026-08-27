@@ -1,21 +1,20 @@
 """
-Football predictions bot.
+Football predictions bot — powered by The Odds API (the-odds-api.com)
 
 Modes:
-    python main.py fetch          -> pulls today's fixtures + all odds markets, asks AI to
+    python main.py sports         -> debug: list all available sport_key values (run this first!)
+    python main.py fetch          -> pulls today's matches + odds for tracked leagues, asks AI to
                                       pick the most promising bet, saves data/matches_<date>.json
     python main.py post           -> posts the next unposted time-batch to Telegram
-    python main.py leagues        -> debug: search league IDs by name
-    python main.py bet_types      -> debug: list available odds markets for today's first match
-    python main.py check_results  -> checks finished matches, grades the AI's pick, edits the
-                                      original Telegram messages, updates stats
+    python main.py check_results  -> checks finished matches (via /scores), grades the AI's pick,
+                                      edits the original Telegram messages, updates stats
     python main.py stats daily    -> posts a stats summary for today
     python main.py stats weekly   -> posts a stats summary for the trailing 7 days
     python main.py stats monthly  -> posts a stats summary for the previous calendar month
     python main.py stats yearly   -> posts a stats summary for the previous calendar year
 
 Environment variables (set as GitHub Actions secrets):
-    API_FOOTBALL_KEY     - API key from dashboard.api-football.com
+    ODDS_API_KEY         - API key from the-odds-api.com
     TELEGRAM_BOT_TOKEN   - Telegram bot token from @BotFather
     TELEGRAM_CHANNEL     - channel username, e.g. @footballgolplus or numeric chat id
     GROQ_API_KEY         - API key from console.groq.com
@@ -36,23 +35,21 @@ from zoneinfo import ZoneInfo
 # Config
 # ---------------------------------------------------------------------------
 
-LEAGUE_IDS = {
-    39: "АПЛ",
-    140: "Ла Лига",
-    135: "Серия А",
-    78: "Бундеслига",
-    61: "Лига 1",
-    2: "Лига Чемпионов",
-    3: "Лига Европы",
-    235: "РПЛ",
-    40: "Чемпионшип",
-    45: "Кубок Англии",
-    79: "Бундеслига 2",
-    253: "MLS",
+# NOTE: verify these against `python main.py sports` output before trusting them blindly.
+SPORT_KEYS = {
+    "soccer_epl": "АПЛ",
+    "soccer_spain_la_liga": "Ла Лига",
+    "soccer_italy_serie_a": "Серия А",
+    "soccer_germany_bundesliga": "Бундеслига",
+    "soccer_france_ligue_one": "Лига 1",
+    "soccer_uefa_champs_league": "Лига Чемпионов",
+    "soccer_uefa_europa_league": "Лига Европы",
 }
 
-API_FOOTBALL_KEY = os.environ.get("API_FOOTBALL_KEY", "")
-API_BASE = "https://v3.football.api-sports.io"
+ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
+ODDS_API_BASE = "https://api.the-odds-api.com/v4"
+ODDS_REGIONS = "eu"
+ODDS_MARKETS = "h2h,spreads,totals"
 
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHANNEL = os.environ.get("TELEGRAM_CHANNEL", "")
@@ -72,27 +69,13 @@ BATCHES = [
     ("evening", 19, 24),
 ]
 
-FINISHED_STATUSES = {"FT", "AET", "PEN"}
-DEAD_STATUSES = {"PST", "CANC", "ABD", "AWD", "WO"}
 STAKE_RUB = 1000
+MIN_PICK_ODD = 1.35
 
-MARKET_IDS = {
-    "match_winner": 1,
-    "handicap": 4,
-    "total_match": 5,
-    "total_1h": 6,
-    "total_2h": 26,
-    "total_home": 16,
-    "total_away": 17,
-}
 MARKET_LABELS = {
-    "match_winner": "Исход матча",
-    "handicap": "Фора",
-    "total_match": "Тотал матча",
-    "total_1h": "Тотал 1-го тайма",
-    "total_2h": "Тотал 2-го тайма",
-    "total_home": "Тотал хозяев",
-    "total_away": "Тотал гостей",
+    "h2h": "Исход матча",
+    "spreads": "Фора",
+    "totals": "Тотал матча",
 }
 
 
@@ -104,106 +87,85 @@ def data_path(day_str):
     return os.path.join(DATA_DIR, f"matches_{day_str}.json")
 
 
-def api_get(endpoint, params):
-    headers = {"x-apisports-key": API_FOOTBALL_KEY}
-    resp = requests.get(f"{API_BASE}{endpoint}", headers=headers, params=params, timeout=30)
+def odds_api_get(endpoint, params=None):
+    params = dict(params or {})
+    params["apiKey"] = ODDS_API_KEY
+    resp = requests.get(f"{ODDS_API_BASE}{endpoint}", params=params, timeout=30)
     resp.raise_for_status()
     return resp.json()
 
 
-def implied_probabilities(home_odd, draw_odd, away_odd):
-    raw = [1 / home_odd, 1 / draw_odd, 1 / away_odd]
-    total = sum(raw)
-    return [round(r / total * 100, 1) for r in raw]
+# ---------------------------------------------------------------------------
+# Debug: list sport keys
+# ---------------------------------------------------------------------------
+
+def list_sports():
+    data = odds_api_get("/sports", {"all": "true"})
+    print(f"[debug] Total sports returned: {len(data)}")
+    for s in data:
+        if "soccer" in s.get("key", "").lower():
+            print(f"key={s['key']:35s} title={s.get('title')}  active={s.get('active')}")
 
 
-def predicted_outcome_from_probs(probs):
-    keys = ["home", "draw", "away"]
-    return keys[probs.index(max(probs))]
+# ---------------------------------------------------------------------------
+# Odds parsing
+# ---------------------------------------------------------------------------
 
+def build_odds_context(bookmakers, home, away):
+    """Builds a compact text block listing available markets/lines for the AI prompt."""
+    if not bookmakers:
+        return "", {}
 
-def get_all_odds(fixture_id):
-    try:
-        resp = api_get("/odds", {"fixture": fixture_id})
-    except requests.exceptions.HTTPError:
-        return {}
-    data = resp.get("response", [])
-    if not data or not data[0].get("bookmakers"):
-        return {}
-    bets = data[0]["bookmakers"][0]["bets"]
-    return {bet["id"]: bet for bet in bets}
-
-
-MIN_PICK_ODD = 1.35
-
-
-def extract_lines(bets_by_id, market_key, limit=6, min_odd=None):
-    bet_id = MARKET_IDS[market_key]
-    bet = bets_by_id.get(bet_id)
-    if not bet:
-        return []
-    out = []
-    for v in bet.get("values", []):
-        try:
-            odd = float(v["odd"])
-        except (KeyError, ValueError):
-            continue
-        if min_odd is not None and odd < min_odd:
-            continue
-        out.append((v["value"], odd))
-        if len(out) >= limit:
-            break
-    return out
-
-
-def get_match_winner_odds(bets_by_id):
-    lines = extract_lines(bets_by_id, "match_winner", limit=3)
-    odds = {v.lower(): odd for v, odd in lines}
-    return odds.get("home"), odds.get("draw"), odds.get("away")
-
-
-def build_odds_context(bets_by_id):
+    # Just use the first bookmaker returned — good enough for this use case.
+    bookmaker = bookmakers[0]
+    market_lookup = {}
     parts = []
-    for key in ["match_winner", "handicap", "total_match", "total_1h", "total_2h", "total_home", "total_away"]:
-        lines = extract_lines(bets_by_id, key, min_odd=MIN_PICK_ODD)
-        if not lines:
+    for market in bookmaker.get("markets", []):
+        key = market["key"]
+        if key not in MARKET_LABELS:
             continue
         label = MARKET_LABELS[key]
-        line_text = ", ".join(f"{v} ({odd})" for v, odd in lines)
-        parts.append(f"{label}: {line_text}")
-    return "\n".join(parts)
+        outcomes = market.get("outcomes", [])
+        line_bits = []
+        for o in outcomes:
+            name = o["name"]
+            price = o["price"]
+            point = o.get("point")
+            if point is not None:
+                line_bits.append(f"{name} {point} ({price})")
+            else:
+                line_bits.append(f"{name} ({price})")
+            market_lookup.setdefault(key, []).append({
+                "name": name, "point": point, "price": price,
+            })
+        parts.append(f"{label}: {', '.join(line_bits)}")
+    return "\n".join(parts), market_lookup
 
 
-def get_recent_form(team_id):
-    try:
-        resp = api_get("/fixtures", {"team": team_id, "last": 5})
-    except requests.exceptions.HTTPError:
-        return "нет данных"
-    results = []
-    for fx in resp.get("response", []):
-        home_id = fx["teams"]["home"]["id"]
-        gh, ga = fx["goals"]["home"], fx["goals"]["away"]
-        if gh is None or ga is None:
-            continue
-        is_home = (home_id == team_id)
-        tg, og = (gh, ga) if is_home else (ga, gh)
-        results.append("W" if tg > og else "L" if tg < og else "D")
-    return "-".join(results) if results else "нет данных"
+def find_odd_for_pick(market_lookup, market_key, selection, line, home, away):
+    """Cross-checks the AI's chosen odd against the real data, falls back to a lookup if needed."""
+    entries = market_lookup.get(market_key, [])
+    if market_key == "h2h":
+        target_name = {"home": home, "away": away, "draw": "Draw"}.get(selection)
+        for e in entries:
+            if e["name"] == target_name:
+                return e["price"]
+    elif market_key == "spreads":
+        target_name = home if selection == "home" else away
+        for e in entries:
+            if e["name"] == target_name and e["point"] == line:
+                return e["price"]
+    elif market_key == "totals":
+        target_name = "Over" if selection == "over" else "Under"
+        for e in entries:
+            if e["name"] == target_name and e["point"] == line:
+                return e["price"]
+    return None
 
 
-def get_h2h_summary(home_id, away_id):
-    try:
-        resp = api_get("/fixtures/headtohead", {"h2h": f"{home_id}-{away_id}", "last": 5})
-    except requests.exceptions.HTTPError:
-        return "нет данных"
-    lines = []
-    for fx in resp.get("response", []):
-        gh, ga = fx["goals"]["home"], fx["goals"]["away"]
-        if gh is None or ga is None:
-            continue
-        lines.append(f"{fx['teams']['home']['name']} {gh}:{ga} {fx['teams']['away']['name']}")
-    return "; ".join(lines) if lines else "личных встреч не найдено"
-
+# ---------------------------------------------------------------------------
+# AI pick
+# ---------------------------------------------------------------------------
 
 def call_groq(prompt):
     headers = {"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"}
@@ -229,21 +191,18 @@ def parse_json_block(text):
         return None
 
 
-def build_ai_pick(home, away, league, odds_context, form_home, form_away, h2h):
+def build_ai_pick(home, away, league, odds_context):
     prompt = (
         f"Ты профессиональный аналитик по футбольным ставкам. Матч: {home} — {away}, "
         f"турнир «{league}».\n\n"
         f"Доступные рынки и коэффициенты букмекера (используй ТОЛЬКО эти данные, "
-        f"ничего не придумывай):\n{odds_context}\n\n"
-        f"Форма {home} (последние 5 матчей, от старых к новым): {form_home}\n"
-        f"Форма {away} (последние 5 матчей): {form_away}\n"
-        f"Личные встречи: {h2h}\n\n"
+        f"ничего не придумывай, и НЕ предлагай варианты с коэффициентом ниже {MIN_PICK_ODD}):\n"
+        f"{odds_context}\n\n"
         f"Выбери ОДИН наиболее вероятный ('проходимый') вариант ставки из перечисленных "
-        f"выше рынков и линий. Это может быть исход матча, фора или тотал (общий, по "
-        f"таймам или по команде) — выбирай то, что статистически выглядит надёжнее всего, "
-        f"необязательно с наименьшим коэффициентом.\n\n"
+        f"выше рынков и линий с коэффициентом не ниже {MIN_PICK_ODD}. Это может быть исход "
+        f"матча, фора (spreads) или общий тотал матча (totals).\n\n"
         f"Ответь СТРОГО в виде JSON без какого-либо текста до или после него, в формате:\n"
-        f'{{"market": "match_winner|handicap|total_match|total_1h|total_2h|total_home|total_away", '
+        f'{{"market": "h2h|spreads|totals", '
         f'"selection": "home|draw|away|over|under", "line": число или null, '
         f'"odd": число (скопируй точно из списка выше), '
         f'"reasoning": "1-2 предложения на русском с обоснованием"}}'
@@ -258,94 +217,98 @@ def build_ai_pick(home, away, league, odds_context, form_home, form_away, h2h):
     if not parsed:
         print(f"[ai] Could not parse JSON from Groq response: {raw[:200]}")
         return None
-
     required = {"market", "selection", "odd", "reasoning"}
-    if not required.issubset(parsed.keys()):
-        print(f"[ai] Groq response missing fields: {parsed}")
+    if not required.issubset(parsed.keys()) or parsed["market"] not in MARKET_LABELS:
+        print(f"[ai] Invalid Groq response: {parsed}")
         return None
-    if parsed["market"] not in MARKET_IDS:
-        print(f"[ai] Unknown market from Groq: {parsed['market']}")
-        return None
-
     parsed.setdefault("line", None)
     return parsed
 
 
-def fallback_pick(bets_by_id):
-    home_odd, draw_odd, away_odd = get_match_winner_odds(bets_by_id)
-    if not (home_odd and draw_odd and away_odd):
+def fallback_pick(market_lookup, home, away):
+    """Simple match-winner pick from the best available h2h odds, respecting MIN_PICK_ODD."""
+    entries = market_lookup.get("h2h", [])
+    if not entries:
         return None
-    probs = implied_probabilities(home_odd, draw_odd, away_odd)
-    outcome = predicted_outcome_from_probs(probs)
-    odd = {"home": home_odd, "draw": draw_odd, "away": away_odd}[outcome]
-    if odd < MIN_PICK_ODD:
+    candidates = [e for e in entries if e["price"] >= MIN_PICK_ODD]
+    if not candidates:
         return None
+    # Pick the outcome with the lowest odd among those clearing the threshold (most likely).
+    best = min(candidates, key=lambda e: e["price"])
+    selection = "home" if best["name"] == home else "away" if best["name"] == away else "draw"
     return {
-        "market": "match_winner",
-        "selection": outcome,
+        "market": "h2h",
+        "selection": selection,
         "line": None,
-        "odd": odd,
+        "odd": best["price"],
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен).",
     }
 
 
+# ---------------------------------------------------------------------------
+# Fetch mode
+# ---------------------------------------------------------------------------
+
 def fetch_and_build():
     day_str = today_str()
-    print(f"[fetch] Getting fixtures for {day_str}")
-
-    fixtures_resp = api_get("/fixtures", {"date": day_str})
-    fixtures = fixtures_resp.get("response", [])
-    print(f"[debug] Raw fixtures from API: {len(fixtures)}")
+    print(f"[fetch] Getting matches for {day_str}")
 
     matches = []
-    for fx in fixtures:
-        league_id = fx["league"]["id"]
-        if league_id not in LEAGUE_IDS:
+    for sport_key, league_name in SPORT_KEYS.items():
+        try:
+            events = odds_api_get(f"/sports/{sport_key}/odds", {
+                "regions": ODDS_REGIONS,
+                "markets": ODDS_MARKETS,
+                "oddsFormat": "decimal",
+            })
+        except requests.exceptions.HTTPError as e:
+            print(f"[fetch] Error fetching {sport_key}: {e}")
             continue
 
-        fixture_id = fx["fixture"]["id"]
-        kickoff_utc = fx["fixture"]["date"]
-        kickoff_local = datetime.fromisoformat(kickoff_utc).astimezone(TIMEZONE)
+        print(f"[debug] {sport_key}: {len(events)} events")
 
-        home = fx["teams"]["home"]["name"]
-        away = fx["teams"]["away"]["name"]
-        home_id = fx["teams"]["home"]["id"]
-        away_id = fx["teams"]["away"]["id"]
-        home_logo = fx["teams"]["home"].get("logo")
-        league_name = LEAGUE_IDS[league_id]
+        for ev in events:
+            commence = datetime.fromisoformat(ev["commence_time"].replace("Z", "+00:00"))
+            kickoff_local = commence.astimezone(TIMEZONE)
+            if kickoff_local.strftime("%Y-%m-%d") != day_str:
+                continue
 
-        bets_by_id = get_all_odds(fixture_id)
+            home, away = ev["home_team"], ev["away_team"]
+            odds_context, market_lookup = build_odds_context(ev.get("bookmakers", []), home, away)
 
-        match = {
-            "fixture_id": fixture_id,
-            "league": league_name,
-            "home": home,
-            "away": away,
-            "home_logo": home_logo,
-            "kickoff_local": kickoff_local.strftime("%Y-%m-%d %H:%M"),
-            "kickoff_hour": kickoff_local.hour,
-            "message_id": None,
-            "result_checked": False,
-            "correct": None,
-            "pick": None,
-        }
+            match = {
+                "event_id": ev["id"],
+                "sport_key": sport_key,
+                "league": league_name,
+                "home": home,
+                "away": away,
+                "kickoff_local": kickoff_local.strftime("%Y-%m-%d %H:%M"),
+                "kickoff_hour": kickoff_local.hour,
+                "message_id": None,
+                "result_checked": False,
+                "correct": None,
+                "pick": None,
+            }
 
-        if bets_by_id:
-            odds_context = build_odds_context(bets_by_id)
-            form_home = get_recent_form(home_id)
-            form_away = get_recent_form(away_id)
-            h2h = get_h2h_summary(home_id, away_id)
+            if odds_context:
+                pick = None
+                if GROQ_API_KEY:
+                    pick = build_ai_pick(home, away, league_name, odds_context)
+                    if pick:
+                        # Cross-check / correct the odd against real data where possible.
+                        real_odd = find_odd_for_pick(
+                            market_lookup, pick["market"], pick["selection"], pick.get("line"), home, away
+                        )
+                        if real_odd is not None:
+                            pick["odd"] = real_odd
+                        if pick["odd"] < MIN_PICK_ODD:
+                            pick = None
+                if not pick:
+                    pick = fallback_pick(market_lookup, home, away)
+                match["pick"] = pick
 
-            pick = None
-            if odds_context and GROQ_API_KEY:
-                pick = build_ai_pick(home, away, league_name, odds_context, form_home, form_away, h2h)
-            if not pick:
-                pick = fallback_pick(bets_by_id)
-
-            match["pick"] = pick
-
-        matches.append(match)
-        time.sleep(0.3)
+            matches.append(match)
+            time.sleep(0.2)
 
     matches.sort(key=lambda m: m["kickoff_local"])
 
@@ -363,6 +326,10 @@ def fetch_and_build():
     print(f"[fetch] Saved {len(matches)} matches to {data_path(day_str)}")
 
 
+# ---------------------------------------------------------------------------
+# Telegram helpers
+# ---------------------------------------------------------------------------
+
 def current_batch_name():
     forced = os.environ.get("FORCE_BATCH")
     if forced:
@@ -377,12 +344,12 @@ def current_batch_name():
 def describe_pick(m):
     pick = m.get("pick")
     if not pick:
-        return "Прогноз недоступен"
+        return f"Нет вариантов с коэффициентом от {MIN_PICK_ODD}"
     label = MARKET_LABELS.get(pick["market"], pick["market"])
-    if pick["market"] == "match_winner":
+    if pick["market"] == "h2h":
         sel_text = {"home": m["home"], "draw": "Ничья", "away": m["away"]}.get(pick["selection"], pick["selection"])
         return f"{label}: {sel_text} (кф. {pick['odd']})"
-    if pick["market"] == "handicap":
+    if pick["market"] == "spreads":
         team = m["home"] if pick["selection"] == "home" else m["away"]
         line = pick.get("line")
         sign = "+" if isinstance(line, (int, float)) and line > 0 else ""
@@ -397,7 +364,7 @@ def format_match_block(m):
         lines.append(f"🎯 {describe_pick(m)}")
         lines.append(f"💬 {m['pick']['reasoning']}")
     else:
-        lines.append(f"Нет вариантов с коэффициентом от {MIN_PICK_ODD}")
+        lines.append(describe_pick(m))
     return "\n".join(lines)
 
 
@@ -411,25 +378,19 @@ def send_telegram_message(text):
     return resp.json().get("result", {}).get("message_id")
 
 
-def send_telegram_photo(photo_url, caption):
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
-    resp = requests.post(url, data={
-        "chat_id": TELEGRAM_CHANNEL, "photo": photo_url,
-        "caption": caption, "parse_mode": "HTML",
-    }, timeout=30)
-    resp.raise_for_status()
-    return resp.json().get("result", {}).get("message_id")
-
-
-def edit_telegram_caption(message_id, new_caption):
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/editMessageCaption"
+def edit_telegram_message(message_id, new_text):
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/editMessageText"
     resp = requests.post(url, data={
         "chat_id": TELEGRAM_CHANNEL, "message_id": message_id,
-        "caption": new_caption, "parse_mode": "HTML",
+        "text": new_text, "parse_mode": "HTML",
     }, timeout=30)
     resp.raise_for_status()
     return resp.json()
 
+
+# ---------------------------------------------------------------------------
+# Post mode
+# ---------------------------------------------------------------------------
 
 def post_batch():
     day_str = today_str()
@@ -467,9 +428,8 @@ def post_batch():
     time.sleep(1)
 
     for m in batch_matches:
-        caption = format_match_block(m)
-        message_id = send_telegram_photo(m["home_logo"], caption) if m.get("home_logo") else send_telegram_message(caption)
-        m["message_id"] = message_id
+        text = format_match_block(m)
+        m["message_id"] = send_telegram_message(text)
         time.sleep(1)
 
     payload["posted_batches"].append(batch_name)
@@ -478,6 +438,10 @@ def post_batch():
 
     print(f"[post] Posted batch '{batch_name}' with {len(batch_matches)} matches")
 
+
+# ---------------------------------------------------------------------------
+# Stats storage
+# ---------------------------------------------------------------------------
 
 def load_stats():
     if not os.path.exists(STATS_PATH):
@@ -506,54 +470,46 @@ def record_result(date_str, correct, odd):
     save_stats(stats)
 
 
-def grade_pick(pick, goals_home, goals_away, ht_home, ht_away):
+# ---------------------------------------------------------------------------
+# Grading
+# ---------------------------------------------------------------------------
+
+def grade_pick(pick, home_score, away_score):
     market = pick["market"]
     selection = pick["selection"]
     line = pick.get("line")
 
-    if market == "match_winner":
-        actual = "home" if goals_home > goals_away else "away" if goals_away > goals_home else "draw"
+    if market == "h2h":
+        actual = "home" if home_score > away_score else "away" if away_score > home_score else "draw"
         return actual == selection, False
 
-    if market == "total_2h":
-        if ht_home is None or ht_away is None:
+    if market == "totals":
+        total = home_score + away_score
+        if line is None:
             return None, None
-        total = (goals_home - ht_home) + (goals_away - ht_away)
-    elif market == "total_1h":
-        if ht_home is None or ht_away is None:
-            return None, None
-        total = ht_home + ht_away
-    elif market == "total_match":
-        total = goals_home + goals_away
-    elif market == "total_home":
-        total = goals_home
-    elif market == "total_away":
-        total = goals_away
-    elif market == "handicap":
+        if total == line:
+            return None, True
+        return (total > line) if selection == "over" else (total < line), False
+
+    if market == "spreads":
         if line is None:
             return None, None
         if selection == "home":
-            adjusted, other = goals_home + line, goals_away
+            adjusted, other = home_score + line, away_score
         else:
-            adjusted, other = goals_away + line, goals_home
+            adjusted, other = away_score + line, home_score
         if adjusted == other:
             return None, True
         return adjusted > other, False
-    else:
-        return None, None
 
-    if line is None:
-        return None, None
-    if total == line:
-        return None, True
-    correct = (total > line) if selection == "over" else (total < line)
-    return correct, False
+    return None, None
 
 
 def check_results():
     today = datetime.now(TIMEZONE).date()
     checked_total = 0
 
+    # Group matches by sport_key so we call /scores once per sport, not once per match.
     for days_back in range(0, 3):
         day = (today - timedelta(days=days_back)).strftime("%Y-%m-%d")
         path = data_path(day)
@@ -563,54 +519,53 @@ def check_results():
         with open(path, "r", encoding="utf-8") as f:
             payload = json.load(f)
 
+        pending = [m for m in payload["matches"] if not m.get("result_checked") and m.get("pick")]
+        if not pending:
+            continue
+
+        sport_keys_needed = {m["sport_key"] for m in pending}
+        scores_by_event = {}
+        for sport_key in sport_keys_needed:
+            try:
+                scores = odds_api_get(f"/sports/{sport_key}/scores", {"daysFrom": 3})
+            except requests.exceptions.HTTPError as e:
+                print(f"[check_results] Error fetching scores for {sport_key}: {e}")
+                continue
+            for s in scores:
+                scores_by_event[s["id"]] = s
+
         changed = False
-        for m in payload["matches"]:
-            if m.get("result_checked"):
-                continue
-            if not m.get("pick"):
-                m["result_checked"] = True
-                changed = True
+        for m in pending:
+            score_data = scores_by_event.get(m["event_id"])
+            if not score_data or not score_data.get("completed"):
                 continue
 
-            resp = api_get("/fixtures", {"id": m["fixture_id"]})
-            items = resp.get("response", [])
-            if not items:
+            score_list = score_data.get("scores")
+            if not score_list:
                 continue
-            fixture = items[0]
-            status_short = fixture["fixture"]["status"]["short"]
-
-            if status_short in DEAD_STATUSES:
-                m["result_checked"] = True
-                changed = True
-                continue
-            if status_short not in FINISHED_STATUSES:
+            score_map = {s["name"]: int(s["score"]) for s in score_list}
+            home_score = score_map.get(m["home"])
+            away_score = score_map.get(m["away"])
+            if home_score is None or away_score is None:
                 continue
 
-            goals_home = fixture["goals"]["home"]
-            goals_away = fixture["goals"]["away"]
-            if goals_home is None or goals_away is None:
-                continue
-
-            halftime = fixture.get("score", {}).get("halftime", {}) or {}
-            ht_home, ht_away = halftime.get("home"), halftime.get("away")
-
-            correct, is_push = grade_pick(m["pick"], goals_home, goals_away, ht_home, ht_away)
+            correct, is_push = grade_pick(m["pick"], home_score, away_score)
             m["result_checked"] = True
-            m["final_score"] = f"{goals_home}:{goals_away}"
+            m["final_score"] = f"{home_score}:{away_score}"
             changed = True
 
             if correct is None and is_push is None:
                 m["correct"] = None
-                new_caption = format_match_block(m) + f"\n\nИтог: {m['final_score']} (не удалось проверить прогноз)"
+                new_text = format_match_block(m) + f"\n\nИтог: {m['final_score']} (не удалось проверить прогноз)"
             elif is_push:
                 m["correct"] = None
-                new_caption = format_match_block(m) + f"\n\nИтог: {m['final_score']} ➖ Возврат (пуш)"
+                new_text = format_match_block(m) + f"\n\nИтог: {m['final_score']} ➖ Возврат (пуш)"
             else:
                 m["correct"] = correct
                 profit = round((m["pick"]["odd"] - 1) * STAKE_RUB, 2) if correct else -STAKE_RUB
                 sign = "+" if profit >= 0 else ""
                 emoji = "✅" if correct else "❌"
-                new_caption = (
+                new_text = (
                     format_match_block(m)
                     + f"\n\nИтог: {m['final_score']} {emoji}"
                     + f"\nСтавка {STAKE_RUB}₽: {sign}{profit}₽"
@@ -620,11 +575,10 @@ def check_results():
 
             if m.get("message_id"):
                 try:
-                    edit_telegram_caption(m["message_id"], new_caption)
+                    edit_telegram_message(m["message_id"], new_text)
                 except requests.exceptions.HTTPError as e:
                     print(f"[check_results] Failed to edit message {m['message_id']}: {e}")
-
-            time.sleep(0.5)
+            time.sleep(0.3)
 
         if changed:
             with open(path, "w", encoding="utf-8") as f:
@@ -632,6 +586,10 @@ def check_results():
 
     print(f"[check_results] Newly graded matches: {checked_total}")
 
+
+# ---------------------------------------------------------------------------
+# Stats posting
+# ---------------------------------------------------------------------------
 
 def post_stats(period):
     stats = load_stats()
@@ -678,48 +636,21 @@ def post_stats(period):
     print(f"[stats] Posted {period} summary: {correct}/{total} correct, balance {sign}{balance}₽")
 
 
-def find_leagues():
-    for term in ["MLS", "FA Cup", "EFL Cup", "Carabao Cup", "League Cup"]:
-        resp = api_get("/leagues", {"search": term})
-        print(f"--- search: {term} --- errors={resp.get('errors')} results={resp.get('results')}")
-        for item in resp.get("response", []):
-            league = item["league"]
-            print(f"id={league['id']} name={league['name']} type={league['type']} country={item['country']['name']}")
-
-
-def find_bet_types():
-    resp = api_get("/fixtures", {"date": today_str()})
-    fixtures = resp.get("response", [])
-    for fx in fixtures:
-        if fx["league"]["id"] in LEAGUE_IDS:
-            fixture_id = fx["fixture"]["id"]
-            odds_resp = api_get("/odds", {"fixture": fixture_id})
-            data = odds_resp.get("response", [])
-            if data and data[0].get("bookmakers"):
-                bookmaker = data[0]["bookmakers"][0]
-                print(f"Fixture {fixture_id}: {fx['teams']['home']['name']} vs {fx['teams']['away']['name']}")
-                print(f"Bookmaker: {bookmaker['name']}")
-                for bet in bookmaker["bets"]:
-                    print(f"  id={bet['id']} name={bet['name']}")
-                return
-    print("No fixtures with odds found today in tracked leagues")
-
+# ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "post"
-    if mode == "fetch":
+    if mode == "sports":
+        list_sports()
+    elif mode == "fetch":
         fetch_and_build()
     elif mode == "post":
         post_batch()
-    elif mode == "leagues":
-        find_leagues()
-    elif mode == "bet_types":
-        find_bet_types()
     elif mode == "check_results":
         check_results()
     elif mode == "stats":
         period = sys.argv[2] if len(sys.argv) > 2 else "daily"
         post_stats(period)
     else:
-        print("Usage: python main.py [fetch|post|leagues|bet_types|check_results|stats <daily|weekly|monthly|yearly>]")
+        print("Usage: python main.py [sports|fetch|post|check_results|stats <daily|weekly|monthly|yearly>]")
         sys.exit(1)
