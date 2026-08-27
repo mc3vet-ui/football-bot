@@ -2,7 +2,7 @@ name: Football predictions bot
 
 on:
   schedule:
-    - cron: '0 5 * * *'    # 08:00 мск — публикация утреннего батча
+    - cron: '0 5 * * *'    # 08:00 мск — публикация утреннего батча (+ загрузка данных дня)
     - cron: '0 12 * * *'   # 15:00 мск — публикация дневного батча
     - cron: '0 16 * * *'   # 19:00 мск — публикация вечернего батча
     - cron: '50 20 * * *'  # 23:50 мск — проверка результатов закончившихся матчей
@@ -19,6 +19,7 @@ on:
         type: choice
         options:
           - post
+          - sports
           - check_results
           - stats_daily
           - stats_weekly
@@ -43,6 +44,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: List sport keys (debug)
+        if: |
+          github.event_name == 'workflow_dispatch' && inputs.mode == 'sports'
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python main.py sports
+
       - name: Post batch
         if: |
           github.event.schedule == '0 5 * * *' ||
@@ -50,7 +58,7 @@ jobs:
           github.event.schedule == '0 16 * * *' ||
           (github.event_name == 'workflow_dispatch' && inputs.mode == 'post')
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
@@ -62,10 +70,9 @@ jobs:
           github.event.schedule == '50 20 * * *' ||
           (github.event_name == 'workflow_dispatch' && inputs.mode == 'check_results')
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           TIMEZONE: 'Europe/Moscow'
         run: python main.py check_results
 
