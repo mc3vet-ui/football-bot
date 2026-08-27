@@ -1,0 +1,85 @@
+{
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T10:01:29.266431+03:00",
+  "posted_batches": [
+    "morning"
+  ],
+  "matches": [
+    {
+      "event_id": "0b765da573acccbad3b07923f279c567",
+      "sport_key": "soccer_spain_la_liga",
+      "league": "Ла Лига",
+      "home": "Celta Vigo",
+      "away": "CA Osasuna",
+      "kickoff_local": "2026-08-27 21:30",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.93,
+        "reasoning": "Celta играет на своем поле и имеет более высокий шанс победы по сравнению с гостем; учитывая текущую форму команды, победа дома выглядит наиболее вероятной."
+      }
+    },
+    {
+      "event_id": "0ff5ed10a1f01dc662f737af7c0cf53c",
+      "sport_key": "soccer_england_efl_cup",
+      "league": "Кубок английской лиги",
+      "home": "Chelsea",
+      "away": "Luton",
+      "kickoff_local": "2026-08-27 21:30",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": -2.25,
+        "odd": 1.88,
+        "reasoning": "Chelsea значительно сильнее Luton, поэтому с высокой вероятностью победит с разницей более 2.25 гола, что делает ставку на фору -2.25 привлекательной."
+      }
+    },
+    {
+      "event_id": "4e67f40bc51c915154f04559a7ab692c",
+      "sport_key": "soccer_spain_la_liga",
+      "league": "Ла Лига",
+      "home": "Barcelona",
+      "away": "Athletic Bilbao",
+      "kickoff_local": "2026-08-27 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "draw",
+        "line": null,
+        "odd": 7.25,
+        "reasoning": "Барселона явно фаворит, но при таком большом разрыве в коэффициентах шанс ничьи выше, чем победа Атлетика, поэтому более вероятный вариант среди доступных."
+      }
+    },
+    {
+      "event_id": "b3f57fa395ae6289e1bba58e01d36612",
+      "sport_key": "soccer_england_efl_cup",
+      "league": "Кубок английской лиги",
+      "home": "Fulham",
+      "away": "Wimbledon",
+      "kickoff_local": "2026-08-27 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "under",
+        "line": 3.5,
+        "odd": 1.85,
+        "reasoning": "Fulham явно фаворит, но матч ожидается с небольшим количеством голов, поэтому общий тотал скорее будет ниже 3.5."
+      }
+    }
+  ]
+}
