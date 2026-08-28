@@ -202,7 +202,7 @@ def call_groq(prompt, retries=3):
         "model": GROQ_MODEL,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.4,
-        "max_tokens": 800,
+        "max_tokens": 2000,
         "response_format": {"type": "json_object"},
     }
     for attempt in range(retries):
@@ -364,7 +364,7 @@ def fetch_and_build():
                 match["pick"] = pick
 
             matches.append(match)
-            time.sleep(4)
+            time.sleep(6)
 
     matches.sort(key=lambda m: m["kickoff_local"])
 
