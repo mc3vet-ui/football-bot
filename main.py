@@ -208,6 +208,8 @@ def call_groq(prompt, retries=3):
             print(f"[ai] Groq rate limited, retrying in {wait_seconds}s (attempt {attempt + 1}/{retries})")
             time.sleep(wait_seconds)
             continue
+        if resp.status_code >= 400:
+            print(f"[ai] Groq error {resp.status_code}: {resp.text[:500]}")
         resp.raise_for_status()
         return resp.json()["choices"][0]["message"]["content"].strip()
 
