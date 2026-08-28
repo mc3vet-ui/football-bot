@@ -3,5 +3,10 @@
     "correct": 2,
     "incorrect": 2,
     "balance": -320.0
+  },
+  "2026-08-28": {
+    "correct": 7,
+    "incorrect": 1,
+    "balance": 4850.0
   }
 }
