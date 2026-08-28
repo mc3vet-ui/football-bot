@@ -14,15 +14,16 @@
       "kickoff_local": "2026-08-27 21:30",
       "kickoff_hour": 21,
       "message_id": 54,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 0.0,
         "odd": 1.39,
         "reasoning": "Celta Vigo — явный фаворит дома, коэффициент 1.39 указывает на высокую вероятность победы, а ставка на форту 0.0 более надёжна, чем просто исход матча."
-      }
+      },
+      "final_score": "1:2"
     },
     {
       "event_id": "0ff5ed10a1f01dc662f737af7c0cf53c",
@@ -33,15 +34,16 @@
       "kickoff_local": "2026-08-27 21:30",
       "kickoff_hour": 21,
       "message_id": 55,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -2.5,
         "odd": 1.88,
         "reasoning": "Chelsea значительно сильнее Luton, в матчах Кубка они обычно выигрывают с разницей более 2.5 гола, поэтому ставка на форту -2.5 выглядит наиболее вероятной."
-      }
+      },
+      "final_score": "2:0"
     },
     {
       "event_id": "4e67f40bc51c915154f04559a7ab692c",
@@ -52,15 +54,16 @@
       "kickoff_local": "2026-08-27 22:00",
       "kickoff_hour": 22,
       "message_id": 56,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.5,
         "odd": 1.68,
         "reasoning": "Барселона традиционно сильнее Athletic Bilbao, и победа с разницей минимум в два гола выглядит наиболее вероятной, что подтверждается коэффициентом 1.68."
-      }
+      },
+      "final_score": "2:0"
     },
     {
       "event_id": "b3f57fa395ae6289e1bba58e01d36612",
@@ -71,15 +74,16 @@
       "kickoff_local": "2026-08-27 22:00",
       "kickoff_hour": 22,
       "message_id": 57,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -2.25,
         "odd": 2.0,
         "reasoning": "Фора -2.25 на Фулхэм с коэффициентом 2.0 указывает на высокую вероятность победы хозяев с разницей минимум в три гола, что типично для матча фаворита против аутсайдера."
-      }
+      },
+      "final_score": "3:0"
     }
   ]
 }
