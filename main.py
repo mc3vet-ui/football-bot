@@ -120,11 +120,13 @@ def list_sports():
 # Odds parsing
 # ---------------------------------------------------------------------------
 
-def build_odds_context(bookmakers, home, away):
+def build_odds_context(bookmakers, home, away, max_lines_per_market=8):
     """Builds a compact text block listing available markets/lines for the AI prompt.
     Scans ALL bookmakers (not just the first) so markets like spreads/totals aren't
     missed just because the first bookmaker in the list doesn't offer them for this
     match. Lines below MIN_PICK_ODD are dropped entirely so the AI never sees them.
+    Capped at max_lines_per_market lines per market to keep the prompt compact — a
+    huge prompt was causing Groq to run out of its token budget mid-response.
     """
     if not bookmakers:
         return "", {}
@@ -141,6 +143,8 @@ def build_odds_context(bookmakers, home, away):
             if not market:
                 continue
             for o in market.get("outcomes", []):
+                if len(line_bits) >= max_lines_per_market:
+                    break
                 name = o["name"]
                 price = o["price"]
                 point = o.get("point")
@@ -360,7 +364,7 @@ def fetch_and_build():
                 match["pick"] = pick
 
             matches.append(match)
-            time.sleep(1)
+            time.sleep(4)
 
     matches.sort(key=lambda m: m["kickoff_local"])
 
