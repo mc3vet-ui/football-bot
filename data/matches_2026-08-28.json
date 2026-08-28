@@ -2,7 +2,8 @@
   "date": "2026-08-28",
   "generated_at": "2026-08-28T17:16:00.572624+03:00",
   "posted_batches": [
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -13,7 +14,7 @@
       "away": "Hertha Berlin",
       "kickoff_local": "2026-08-28 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 61,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -22,7 +23,8 @@
         "line": 2.5,
         "odd": 1.6,
         "reasoning": "В матче ожидается открытая игра, а коэффициент на более 2.5 голов низок (1.6), что указывает на высокую вероятность этого исхода."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "c8a9e7890322cc54ff79cdd21dcc3843",
@@ -32,7 +34,7 @@
       "away": "VfL Osnabrück",
       "kickoff_local": "2026-08-28 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 62,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -41,7 +43,8 @@
         "line": 1.0,
         "odd": 1.57,
         "reasoning": "Коэффициент 1.57 указывает на высокую вероятность, что VfL Osnabrück не проиграет более чем в один гол, что делает эту ставку наиболее проходимой."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "041971041ef890f73177da5a2957adf6",
@@ -51,7 +54,7 @@
       "away": "Elche CF",
       "kickoff_local": "2026-08-28 20:00",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 63,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -60,7 +63,8 @@
         "line": 2.5,
         "odd": 1.61,
         "reasoning": "С учётом представленных коэффициентов более вероятным выглядит тотал больше 2.5 (коэффициент 1.61), что указывает на большую вероятность данного исхода."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "a8ca30a4492261eb5094ef63ba7e80d8",
@@ -70,7 +74,7 @@
       "away": "VfB Stuttgart",
       "kickoff_local": "2026-08-28 21:30",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 64,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -79,7 +83,8 @@
         "line": 2.5,
         "odd": 1.75,
         "reasoning": "Коэффициент 1.75 дает наибольшую вероятность (≈57 %). Ставка на то, что Stuttgart не проиграет с разницей более 2.5 гола, наиболее проходима."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "d0232ff2ec2fc373112664dc8a322910",
@@ -89,7 +94,7 @@
       "away": "Venezia",
       "kickoff_local": "2026-08-28 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 65,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -98,7 +103,8 @@
         "line": -1.5,
         "odd": 2.4,
         "reasoning": "У Милана сильный состав и играет дома, вероятность победы с разницей более одного гола высока, а коэффициент 2.4 предлагает хорошую ценность."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "7ae720e3b79aacef7ce13b93aedbfaa1",
@@ -108,7 +114,7 @@
       "away": "Paris Saint Germain",
       "kickoff_local": "2026-08-28 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 66,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -117,7 +123,8 @@
         "line": 2.5,
         "odd": 1.67,
         "reasoning": "Ожидается, что ПСЖ будет доминировать, что обычно приводит к более 2.5 голам в матче."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "373cc6e2fb57f471cd2deab9a28a6edb",
@@ -127,7 +134,7 @@
       "away": "Manchester City",
       "kickoff_local": "2026-08-28 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 67,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -136,7 +143,8 @@
         "line": -0.5,
         "odd": 1.64,
         "reasoning": "Manchester City — явный фаворит, и вероятность победы с разницей минимум в один гол высока; коэффициент 1.64 указывает на надёжный вариант."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "88f6e98e0a411a087ad525ca91bf5765",
@@ -146,7 +154,7 @@
       "away": "Birmingham City",
       "kickoff_local": "2026-08-28 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 68,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -155,7 +163,8 @@
         "line": 2.5,
         "odd": 1.65,
         "reasoning": "Низкий тотал 2.5 имеет коэффициент 1.65, что указывает на высокую вероятность матча с небольшим количеством голов."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "715b3a87491c67e056d3108b217ef4ea",
@@ -165,7 +174,7 @@
       "away": "Villarreal",
       "kickoff_local": "2026-08-28 22:30",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 69,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -174,7 +183,8 @@
         "line": 0.0,
         "odd": 2.36,
         "reasoning": "Спред 0.0 в пользу Alavés покрывает как победу, так и ничью хозяев, что повышает вероятность выигрыша ставки; коэффициент 2.36 выглядит более привлекательным, чем прямой результат."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
