@@ -125,7 +125,14 @@ jobs:
           if [ ${#files[@]} -gt 0 ]; then
             git add data/*.json
             git diff --cached --quiet || git commit -m "Update match data [skip ci]"
-            git push
+            for i in 1 2 3; do
+              if git push; then
+                break
+              fi
+              echo "Push rejected (probably a concurrent run), retrying ($i/3)..."
+              git pull --rebase origin main
+              sleep 3
+            done
           else
             echo "No data files to commit, skipping"
           fi
