@@ -23,6 +23,7 @@ Environment variables (set as GitHub Actions secrets):
 """
 
 import os
+import random
 import sys
 import re
 import json
@@ -67,6 +68,8 @@ GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 TIMEZONE = ZoneInfo(os.environ.get("TIMEZONE", "Europe/Moscow"))
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+IMAGES_DIR = os.path.join(os.path.dirname(__file__), "images")
+GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY", "")  # auto-set by GitHub Actions
 STATS_PATH = os.path.join(DATA_DIR, "stats.json")
 
 BATCHES = [
@@ -189,7 +192,7 @@ def find_odd_for_pick(market_lookup, market_key, selection, line, home, away):
 # AI pick
 # ---------------------------------------------------------------------------
 
-def call_groq(prompt):
+def call_groq(prompt, retries=3):
     headers = {"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"}
     body = {
         "model": GROQ_MODEL,
@@ -198,9 +201,15 @@ def call_groq(prompt):
         "max_tokens": 800,
         "response_format": {"type": "json_object"},
     }
-    resp = requests.post(GROQ_URL, headers=headers, json=body, timeout=30)
-    resp.raise_for_status()
-    return resp.json()["choices"][0]["message"]["content"].strip()
+    for attempt in range(retries):
+        resp = requests.post(GROQ_URL, headers=headers, json=body, timeout=30)
+        if resp.status_code == 429 and attempt < retries - 1:
+            wait_seconds = int(resp.headers.get("Retry-After", 8))
+            print(f"[ai] Groq rate limited, retrying in {wait_seconds}s (attempt {attempt + 1}/{retries})")
+            time.sleep(wait_seconds)
+            continue
+        resp.raise_for_status()
+        return resp.json()["choices"][0]["message"]["content"].strip()
 
 
 def parse_json_block(text):
@@ -349,7 +358,7 @@ def fetch_and_build():
                 match["pick"] = pick
 
             matches.append(match)
-            time.sleep(0.2)
+            time.sleep(1)
 
     matches.sort(key=lambda m: m["kickoff_local"])
 
@@ -409,6 +418,21 @@ def format_match_block(m):
     return "\n".join(lines)
 
 
+def get_random_image_url():
+    """Picks a random image from the images/ folder in the repo and returns a
+    public raw.githubusercontent.com URL Telegram can fetch. Returns None if the
+    folder is missing/empty or GITHUB_REPOSITORY isn't set (e.g. local testing).
+    """
+    if not GITHUB_REPOSITORY or not os.path.isdir(IMAGES_DIR):
+        return None
+    valid_ext = (".jpg", ".jpeg", ".png", ".webp")
+    files = [f for f in os.listdir(IMAGES_DIR) if f.lower().endswith(valid_ext)]
+    if not files:
+        return None
+    chosen = random.choice(files)
+    return f"https://raw.githubusercontent.com/{GITHUB_REPOSITORY}/main/images/{chosen}"
+
+
 def send_telegram_message(text):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     resp = requests.post(url, data={
@@ -419,11 +443,31 @@ def send_telegram_message(text):
     return resp.json().get("result", {}).get("message_id")
 
 
+def send_telegram_photo(photo_url, caption):
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
+    resp = requests.post(url, data={
+        "chat_id": TELEGRAM_CHANNEL, "photo": photo_url,
+        "caption": caption, "parse_mode": "HTML",
+    }, timeout=30)
+    resp.raise_for_status()
+    return resp.json().get("result", {}).get("message_id")
+
+
 def edit_telegram_message(message_id, new_text):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/editMessageText"
     resp = requests.post(url, data={
         "chat_id": TELEGRAM_CHANNEL, "message_id": message_id,
         "text": new_text, "parse_mode": "HTML",
+    }, timeout=30)
+    resp.raise_for_status()
+    return resp.json()
+
+
+def edit_telegram_caption(message_id, new_caption):
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/editMessageCaption"
+    resp = requests.post(url, data={
+        "chat_id": TELEGRAM_CHANNEL, "message_id": message_id,
+        "caption": new_caption, "parse_mode": "HTML",
     }, timeout=30)
     resp.raise_for_status()
     return resp.json()
@@ -470,7 +514,13 @@ def post_batch():
 
     for m in batch_matches:
         text = format_match_block(m)
-        m["message_id"] = send_telegram_message(text)
+        image_url = get_random_image_url()
+        if image_url:
+            m["message_id"] = send_telegram_photo(image_url, text)
+            m["has_photo"] = True
+        else:
+            m["message_id"] = send_telegram_message(text)
+            m["has_photo"] = False
         time.sleep(1)
 
     payload["posted_batches"].append(batch_name)
@@ -616,7 +666,10 @@ def check_results():
 
             if m.get("message_id"):
                 try:
-                    edit_telegram_message(m["message_id"], new_text)
+                    if m.get("has_photo"):
+                        edit_telegram_caption(m["message_id"], new_text)
+                    else:
+                        edit_telegram_message(m["message_id"], new_text)
                 except requests.exceptions.HTTPError as e:
                     print(f"[check_results] Failed to edit message {m['message_id']}: {e}")
             time.sleep(0.3)
