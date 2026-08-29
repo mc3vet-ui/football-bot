@@ -2,7 +2,8 @@
   "date": "2026-08-29",
   "generated_at": "2026-08-29T00:26:34.408992+03:00",
   "posted_batches": [
-    "morning"
+    "morning",
+    "day"
   ],
   "matches": [
     {
@@ -153,7 +154,7 @@
       "away": "TSG Hoffenheim",
       "kickoff_local": "2026-08-29 16:30",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 99,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -162,7 +163,8 @@
         "line": 3.5,
         "odd": 1.68,
         "reasoning": "Ожидается умеренный уровень атак обеих команд, поэтому вероятность того, что в матче будет менее 3.5 голов, выше, а коэффициент 1.68 подтверждает эту уверенность."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "bf5e00842d79a39d57b99fce07a1257e",
@@ -172,7 +174,7 @@
       "away": "Bayer Leverkusen",
       "kickoff_local": "2026-08-29 16:30",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 100,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -181,7 +183,8 @@
         "line": -1.5,
         "odd": 2.57,
         "reasoning": "Бавария значительно сильнее Эльверсберга, вероятность победы с разницей более 1.5 гола высока, коэффициент 2.57 оправдан"
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "831beb2ef9729a813b44d2a50dd19970",
@@ -191,7 +194,7 @@
       "away": "Borussia Monchengladbach",
       "kickoff_local": "2026-08-29 16:30",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 101,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -200,7 +203,8 @@
         "line": 1.5,
         "odd": 1.61,
         "reasoning": "БМГ получает фору +1.5, что покрывает небольшое отставание от фаворита, а коэффициент 1.61 указывает на высокую вероятность."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "57a8a5da3b5c298d388f4415c37cdf45",
@@ -210,7 +214,7 @@
       "away": "Eintracht Frankfurt",
       "kickoff_local": "2026-08-29 16:30",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 102,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -219,7 +223,8 @@
         "line": 2.5,
         "odd": 1.71,
         "reasoning": "Коэффициент на тотал > 2.5 самый низкий, что указывает на более высокую вероятность, а обе команды обычно создают достаточно атакующих моментов, делая превышение 2.5 голов вероятным."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "fa5bd7399799a6c451cc4e6ca6145f11",
@@ -229,7 +234,7 @@
       "away": "SC Paderborn",
       "kickoff_local": "2026-08-29 16:30",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 103,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -238,7 +243,8 @@
         "line": 2.5,
         "odd": 2.34,
         "reasoning": "Ожидается небольшое количество голов, учитывая форму обеих команд, поэтому ставка на тотал меньше 2.5 выглядит наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "ff4818bd73fa63c0a1e4c98e50c7a2e5",
@@ -248,7 +254,7 @@
       "away": "Everton",
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 104,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -257,7 +263,8 @@
         "line": 0.0,
         "odd": 1.54,
         "reasoning": "Борнмут — явный фаворит (коэф. 2.11), а ставка на форту 0.0 с коэффициентом 1.54 отражает высокую вероятность его победы; вероятность ничьи мала, поэтому это наиболее проходимый вариант."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "374dd92785cc06d6514d275515219c44",
@@ -267,7 +274,7 @@
       "away": "Hull City",
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 105,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -276,7 +283,8 @@
         "line": -0.5,
         "odd": 1.77,
         "reasoning": "Ковентри — явный фаворит, небольшая форa -0.5 дает высокий шанс победы с разницей хотя бы в один гол."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "061bb5eae6ddf78f5896b715413a8e14",
@@ -286,7 +294,7 @@
       "away": "Queens Park Rangers",
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 106,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -295,7 +303,8 @@
         "line": 0.0,
         "odd": 1.77,
         "reasoning": "Самый низкий коэффициент среди доступных – 1.77 на победу хозяев с форой 0.0, что указывает на наибольшую вероятность исхода."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "5c7262086dc36ac0adf2603619faff78",
@@ -305,7 +314,7 @@
       "away": "Lincoln City",
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 107,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -314,7 +323,8 @@
         "line": 0.0,
         "odd": 1.74,
         "reasoning": "Самый низкий коэффициент – 1.74 на Фору 0.0 в пользу Bolton, что указывает на наибольшую вероятность исхода."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "f4d7f49c97a3bad1736ffda82650454b",
@@ -324,7 +334,7 @@
       "away": "Portsmouth",
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 108,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -333,7 +343,8 @@
         "line": 0.0,
         "odd": 1.57,
         "reasoning": "Бристоль Сити имеет домашнее преимущество, а ставка на форту 0.0 с коэффициентом 1.57 дает хороший риск‑возврат при минимальном риске ничьи."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "90905cd897c01fba17cf3fb560925e4b",
@@ -343,7 +354,7 @@
       "away": "Burnley",
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 109,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -352,7 +363,8 @@
         "line": 2.5,
         "odd": 1.82,
         "reasoning": "Ожидается открытая игра, обе команды обычно забивают, а коэффициент на Over 2.5 самый низкий, что указывает на большую вероятность."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "057f16c17beffe8b70b4624868e833dc",
@@ -362,7 +374,7 @@
       "away": "Sheffield United",
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 110,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -371,7 +383,8 @@
         "line": 2.5,
         "odd": 1.7,
         "reasoning": "Коэффициент 1.7 – самый низкий из всех предложенных, что говорит о наибольшей вероятности события; в матчах Championship часто выпадает более 2.5 голов."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "8d7235fa965e2cb32f6852f24341e448",
@@ -381,7 +394,7 @@
       "away": "Preston North End",
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 111,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -390,7 +403,8 @@
         "line": 0.0,
         "odd": 1.5,
         "reasoning": "Ставка на Charlton Athletic 0.0 (double chance) покрывает победу и ничью, что повышает вероятность выигрыша, а коэффициент 1.5 остаётся привлекательным."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "fe8bc4e8d1005768e7d50d8cafe097ed",
@@ -400,7 +414,7 @@
       "away": "Millwall",
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 112,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -409,7 +423,8 @@
         "line": 0.0,
         "odd": 1.38,
         "reasoning": "Саутгемптон явный фаворит, ставка на их победу без форы (0.0) имеет самый низкий коэффициент и наибольшую вероятность."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "c0dfbb316fff4b999664a1a60b6f79f3",
@@ -419,7 +434,7 @@
       "away": "West Ham United",
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 113,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -428,7 +443,8 @@
         "line": 1.0,
         "odd": 1.5,
         "reasoning": "Вариант Watford +1.0 имеет наименьший коэффициент (1.5), что указывает на наибольшую вероятность исхода – команда не проиграет более чем в один гол."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "931ebda6d25d5a326182b4d9aaef50a3",
@@ -438,7 +454,7 @@
       "away": "Real Betis",
       "kickoff_local": "2026-08-29 18:00",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 114,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -447,7 +463,8 @@
         "line": 2.5,
         "odd": 1.81,
         "reasoning": "Ожидается небольшое количество голов, учитывая форму обеих команд, поэтому ставка на тотал меньше 2.5 выглядит наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "b875b7d3959faf73542d0bf88adf6b84",
@@ -457,7 +474,7 @@
       "away": "RC Lens",
       "kickoff_local": "2026-08-29 18:15",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 115,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -466,7 +483,8 @@
         "line": 2.5,
         "odd": 1.65,
         "reasoning": "С учётом атакующего стиля Lens и средней результативности обеих команд, вероятность матча с более чем 2.5 голами выше, что подтверждается самым низким коэффициентом 1.65."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "7a8746a45dc76378359a7d9cc5474bc8",
