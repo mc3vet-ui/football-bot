@@ -78,8 +78,8 @@
       "kickoff_local": "2026-08-28 21:30",
       "kickoff_hour": 21,
       "message_id": 64,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -87,7 +87,8 @@
         "odd": 1.75,
         "reasoning": "Коэффициент 1.75 дает наибольшую вероятность (≈57 %). Ставка на то, что Stuttgart не проиграет с разницей более 2.5 гола, наиболее проходима."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "5:1"
     },
     {
       "event_id": "d0232ff2ec2fc373112664dc8a322910",

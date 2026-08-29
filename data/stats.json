@@ -6,7 +6,12 @@
   },
   "2026-08-28": {
     "correct": 7,
-    "incorrect": 1,
-    "balance": 4850.0
+    "incorrect": 2,
+    "balance": 3850.0
+  },
+  "2026-08-29": {
+    "correct": 18,
+    "incorrect": 16,
+    "balance": -3910.0
   }
 }

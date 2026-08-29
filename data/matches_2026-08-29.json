@@ -16,8 +16,8 @@
       "kickoff_local": "2026-08-29 14:00",
       "kickoff_hour": 14,
       "message_id": 71,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -25,7 +25,8 @@
         "odd": 1.5,
         "reasoning": "Тотал более 2.5 голов имеет самый низкий коэффициент (1.5), что указывает на наибольшую вероятность события, и он более надёжен, чем ставка на победу аутсайдера."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "5:3"
     },
     {
       "event_id": "8ab1ff4e160b72d012913cd43f111f3e",
@@ -36,8 +37,8 @@
       "kickoff_local": "2026-08-29 14:00",
       "kickoff_hour": 14,
       "message_id": 72,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -45,7 +46,8 @@
         "odd": 1.52,
         "reasoning": "Коэффициент 1.52 — самый низкий, что свидетельствует о высокой вероятности события; учитывая равные шансы обеих команд, ожидается минимум 3 гола в матче."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:4"
     },
     {
       "event_id": "a00334a76594d73f062007ec85067713",
@@ -56,8 +58,8 @@
       "kickoff_local": "2026-08-29 14:00",
       "kickoff_hour": 14,
       "message_id": 73,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -65,7 +67,8 @@
         "odd": 1.4,
         "reasoning": "Фора +1.0 для Карлсруэ имеет самый низкий коэффициент, что указывает на наивысшую вероятность исхода, учитывая возможность небольшого поражения или ничьи."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:5"
     },
     {
       "event_id": "feafb731d0307bc91a58e18187aa2eab",
@@ -76,8 +79,8 @@
       "kickoff_local": "2026-08-29 14:30",
       "kickoff_hour": 14,
       "message_id": 74,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -85,7 +88,8 @@
         "odd": 1.79,
         "reasoning": "Ливерпуль явно фаворит, вероятность победы с разницей минимум в один гол выше, чем простая победа, коэффициент 1.79 подтверждает это."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:2"
     },
     {
       "event_id": "b39208bf1860b0c188a3d1c912183ff4",
@@ -96,8 +100,8 @@
       "kickoff_local": "2026-08-29 14:30",
       "kickoff_hour": 14,
       "message_id": 75,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "under",
@@ -105,7 +109,8 @@
         "odd": 1.76,
         "reasoning": "Низкие коэффициенты у Under 2.5 (1.76) указывают на большую вероятность, а тотал обычно надёжнее, чем ставка на победу."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:3"
     },
     {
       "event_id": "81f826e99abea6abbba82d76f21c8aff",
@@ -116,8 +121,8 @@
       "kickoff_local": "2026-08-29 14:30",
       "kickoff_hour": 14,
       "message_id": 76,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "under",
@@ -125,7 +130,8 @@
         "odd": 1.9,
         "reasoning": "Низкая вероятность большого количества голов в матче, а коэффициент 1.9 указывает на более 50% шанс, что суммарное количество мячей будет ≤2.5."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:1"
     },
     {
       "event_id": "125260c79efe28af0602f8ee4f051c29",
@@ -136,8 +142,8 @@
       "kickoff_local": "2026-08-29 14:30",
       "kickoff_hour": 14,
       "message_id": 77,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -145,7 +151,8 @@
         "odd": 2.43,
         "reasoning": "Вольверхэм играет дома и имеет высокий шанс выиграть с разницей более 1.5 гола, что отражено в коэффициенте 2.43."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "4:1"
     },
     {
       "event_id": "22ed1aaf03ab3966d098f7049715aada",
@@ -156,8 +163,8 @@
       "kickoff_local": "2026-08-29 16:30",
       "kickoff_hour": 16,
       "message_id": 99,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "under",
@@ -165,7 +172,8 @@
         "odd": 1.68,
         "reasoning": "Ожидается умеренный уровень атак обеих команд, поэтому вероятность того, что в матче будет менее 3.5 голов, выше, а коэффициент 1.68 подтверждает эту уверенность."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:2"
     },
     {
       "event_id": "bf5e00842d79a39d57b99fce07a1257e",
@@ -176,8 +184,8 @@
       "kickoff_local": "2026-08-29 16:30",
       "kickoff_hour": 16,
       "message_id": 100,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -185,7 +193,8 @@
         "odd": 2.57,
         "reasoning": "Бавария значительно сильнее Эльверсберга, вероятность победы с разницей более 1.5 гола высока, коэффициент 2.57 оправдан"
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:2"
     },
     {
       "event_id": "831beb2ef9729a813b44d2a50dd19970",
@@ -196,8 +205,8 @@
       "kickoff_local": "2026-08-29 16:30",
       "kickoff_hour": 16,
       "message_id": 101,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -205,7 +214,8 @@
         "odd": 1.61,
         "reasoning": "БМГ получает фору +1.5, что покрывает небольшое отставание от фаворита, а коэффициент 1.61 указывает на высокую вероятность."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:0"
     },
     {
       "event_id": "57a8a5da3b5c298d388f4415c37cdf45",
@@ -216,8 +226,8 @@
       "kickoff_local": "2026-08-29 16:30",
       "kickoff_hour": 16,
       "message_id": 102,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -225,7 +235,8 @@
         "odd": 1.71,
         "reasoning": "Коэффициент на тотал > 2.5 самый низкий, что указывает на более высокую вероятность, а обе команды обычно создают достаточно атакующих моментов, делая превышение 2.5 голов вероятным."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:3"
     },
     {
       "event_id": "fa5bd7399799a6c451cc4e6ca6145f11",
@@ -236,8 +247,8 @@
       "kickoff_local": "2026-08-29 16:30",
       "kickoff_hour": 16,
       "message_id": 103,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "under",
@@ -245,7 +256,8 @@
         "odd": 2.34,
         "reasoning": "Ожидается небольшое количество голов, учитывая форму обеих команд, поэтому ставка на тотал меньше 2.5 выглядит наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:0"
     },
     {
       "event_id": "ff4818bd73fa63c0a1e4c98e50c7a2e5",
@@ -256,7 +268,7 @@
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
       "message_id": 104,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -265,7 +277,8 @@
         "odd": 1.54,
         "reasoning": "Борнмут — явный фаворит (коэф. 2.11), а ставка на форту 0.0 с коэффициентом 1.54 отражает высокую вероятность его победы; вероятность ничьи мала, поэтому это наиболее проходимый вариант."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": "374dd92785cc06d6514d275515219c44",
@@ -276,8 +289,8 @@
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
       "message_id": 105,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -285,7 +298,8 @@
         "odd": 1.77,
         "reasoning": "Ковентри — явный фаворит, небольшая форa -0.5 дает высокий шанс победы с разницей хотя бы в один гол."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:1"
     },
     {
       "event_id": "061bb5eae6ddf78f5896b715413a8e14",
@@ -296,8 +310,8 @@
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
       "message_id": 106,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -305,7 +319,8 @@
         "odd": 1.77,
         "reasoning": "Самый низкий коэффициент среди доступных – 1.77 на победу хозяев с форой 0.0, что указывает на наибольшую вероятность исхода."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:2"
     },
     {
       "event_id": "5c7262086dc36ac0adf2603619faff78",
@@ -316,8 +331,8 @@
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
       "message_id": 107,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -325,7 +340,8 @@
         "odd": 1.74,
         "reasoning": "Самый низкий коэффициент – 1.74 на Фору 0.0 в пользу Bolton, что указывает на наибольшую вероятность исхода."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:1"
     },
     {
       "event_id": "f4d7f49c97a3bad1736ffda82650454b",
@@ -336,8 +352,8 @@
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
       "message_id": 108,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -345,7 +361,8 @@
         "odd": 1.57,
         "reasoning": "Бристоль Сити имеет домашнее преимущество, а ставка на форту 0.0 с коэффициентом 1.57 дает хороший риск‑возврат при минимальном риске ничьи."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     },
     {
       "event_id": "90905cd897c01fba17cf3fb560925e4b",
@@ -356,8 +373,8 @@
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
       "message_id": 109,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -365,7 +382,8 @@
         "odd": 1.82,
         "reasoning": "Ожидается открытая игра, обе команды обычно забивают, а коэффициент на Over 2.5 самый низкий, что указывает на большую вероятность."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "4:1"
     },
     {
       "event_id": "057f16c17beffe8b70b4624868e833dc",
@@ -376,8 +394,8 @@
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
       "message_id": 110,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -385,7 +403,8 @@
         "odd": 1.7,
         "reasoning": "Коэффициент 1.7 – самый низкий из всех предложенных, что говорит о наибольшей вероятности события; в матчах Championship часто выпадает более 2.5 голов."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:2"
     },
     {
       "event_id": "8d7235fa965e2cb32f6852f24341e448",
@@ -396,8 +415,8 @@
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
       "message_id": 111,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -405,7 +424,8 @@
         "odd": 1.5,
         "reasoning": "Ставка на Charlton Athletic 0.0 (double chance) покрывает победу и ничью, что повышает вероятность выигрыша, а коэффициент 1.5 остаётся привлекательным."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:0"
     },
     {
       "event_id": "fe8bc4e8d1005768e7d50d8cafe097ed",
@@ -416,8 +436,8 @@
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
       "message_id": 112,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -425,7 +445,8 @@
         "odd": 1.38,
         "reasoning": "Саутгемптон явный фаворит, ставка на их победу без форы (0.0) имеет самый низкий коэффициент и наибольшую вероятность."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "5:1"
     },
     {
       "event_id": "c0dfbb316fff4b999664a1a60b6f79f3",
@@ -436,8 +457,8 @@
       "kickoff_local": "2026-08-29 17:00",
       "kickoff_hour": 17,
       "message_id": 113,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -445,7 +466,8 @@
         "odd": 1.5,
         "reasoning": "Вариант Watford +1.0 имеет наименьший коэффициент (1.5), что указывает на наибольшую вероятность исхода – команда не проиграет более чем в один гол."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": "931ebda6d25d5a326182b4d9aaef50a3",
@@ -456,8 +478,8 @@
       "kickoff_local": "2026-08-29 18:00",
       "kickoff_hour": 18,
       "message_id": 114,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "under",
@@ -465,7 +487,8 @@
         "odd": 1.81,
         "reasoning": "Ожидается небольшое количество голов, учитывая форму обеих команд, поэтому ставка на тотал меньше 2.5 выглядит наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "5:2"
     },
     {
       "event_id": "b875b7d3959faf73542d0bf88adf6b84",
@@ -476,8 +499,8 @@
       "kickoff_local": "2026-08-29 18:15",
       "kickoff_hour": 18,
       "message_id": 115,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -485,7 +508,8 @@
         "odd": 1.65,
         "reasoning": "С учётом атакующего стиля Lens и средней результативности обеих команд, вероятность матча с более чем 2.5 голами выше, что подтверждается самым низким коэффициентом 1.65."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     },
     {
       "event_id": "7a8746a45dc76378359a7d9cc5474bc8",
@@ -496,8 +520,8 @@
       "kickoff_local": "2026-08-29 19:30",
       "kickoff_hour": 19,
       "message_id": 117,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -505,7 +529,8 @@
         "odd": 1.67,
         "reasoning": "Обе команды показывают хорошие атакующие показатели, а в последних встречах количество голов превышало 2.5, поэтому ставка на тотал больше 2.5 выглядит наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:2"
     },
     {
       "event_id": "2a6ec924ac6f68e07904ba0e23bf8447",
@@ -516,8 +541,8 @@
       "kickoff_local": "2026-08-29 19:30",
       "kickoff_hour": 19,
       "message_id": 118,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -525,7 +550,8 @@
         "odd": 1.51,
         "reasoning": "Самый низкий коэффициент у форы +1.5 для аутсайдера, что указывает на наибольшую вероятность; покрывает небольшое отставание и является наиболее вероятным вариантом."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:3"
     },
     {
       "event_id": "45f850a2ed2ff8cb8d6c58c282260227",
@@ -536,8 +562,8 @@
       "kickoff_local": "2026-08-29 19:30",
       "kickoff_hour": 19,
       "message_id": 119,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -545,7 +571,8 @@
         "odd": 2.25,
         "reasoning": "Monza играет дома, а ставка на форту 0.0 дает двойной шанс (победа или ничья) с коэффициентом 2.25, что делает её наиболее вероятным вариантом."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:3"
     },
     {
       "event_id": "0ef455b8f8559473cac7c4c9915904ab",
@@ -556,8 +583,8 @@
       "kickoff_local": "2026-08-29 19:30",
       "kickoff_hour": 19,
       "message_id": 120,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -565,7 +592,8 @@
         "odd": 1.67,
         "reasoning": "Сассуло — явный фаворит, а ставка на 0.0 форту покрывает как победу, так и ничью, что делает её статистически наиболее вероятной при коэффициенте 1.67."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     },
     {
       "event_id": "9d7f045126ec9185b73d9c67f881c6d2",
@@ -596,8 +624,8 @@
       "kickoff_local": "2026-08-29 20:00",
       "kickoff_hour": 20,
       "message_id": 122,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -605,7 +633,8 @@
         "odd": 1.37,
         "reasoning": "Real Sociedad является явным фаворитом, а ставка на их победу по форте 0.0 исключает риск ничьи, что делает её статистически надёжнее остальных вариантов."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     },
     {
       "event_id": "5a52aa36aba3d8c86d4a81011a869bbb",
@@ -616,8 +645,8 @@
       "kickoff_local": "2026-08-29 21:30",
       "kickoff_hour": 21,
       "message_id": 123,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -625,7 +654,8 @@
         "odd": 1.62,
         "reasoning": "Нюрнберг – явный фаворит, ожидается победа с несколькими голами, поэтому вероятность более 2.5 голов выше, чем у остальных вариантов."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "4:1"
     },
     {
       "event_id": "385281ab2794b520e81b08f6cf141903",
@@ -636,8 +666,8 @@
       "kickoff_local": "2026-08-29 21:45",
       "kickoff_hour": 21,
       "message_id": 124,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -645,7 +675,8 @@
         "odd": 1.81,
         "reasoning": "Juventus явно фаворит и, по статистике, часто выигрывает у Parma разницей в два гола и более, поэтому ставка Juventus -1.5 с коэффициентом 1.81 выглядит наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:0"
     },
     {
       "event_id": "3709d8c4e3ba4668a00c151efc689ff3",
@@ -656,8 +687,8 @@
       "kickoff_local": "2026-08-29 21:45",
       "kickoff_hour": 21,
       "message_id": 125,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -665,7 +696,8 @@
         "odd": 1.9,
         "reasoning": "Фаворит Auxerre играет дома и имеет небольшую фору -0.5 при коэффициенте 1.9, что указывает на высокую вероятность победы с разницей более полугола гола."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:3"
     },
     {
       "event_id": "cd68e8c5ee148b644c936b4f67bef251",
@@ -676,8 +708,8 @@
       "kickoff_local": "2026-08-29 21:45",
       "kickoff_hour": 21,
       "message_id": 126,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -685,7 +717,8 @@
         "odd": 1.49,
         "reasoning": "Коэффициент 1.49 – самый низкий, что указывает на высокую вероятность того, что Брест не проиграет (получит хотя бы половину гола). Спред +0.5 дает дополнительную страховку от небольшого поражения."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:2"
     },
     {
       "event_id": "b8549b20ce70a574ecc9f225b24ee3ff",
@@ -696,8 +729,8 @@
       "kickoff_local": "2026-08-29 21:45",
       "kickoff_hour": 21,
       "message_id": 127,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -705,7 +738,8 @@
         "odd": 1.48,
         "reasoning": "Лион — явный фаворит на домашнем поле, коэффициент 1.48 отражает высокую вероятность его победы."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": "0965d1995a254e4324319a8a7ada2b18",
@@ -716,8 +750,8 @@
       "kickoff_local": "2026-08-29 21:45",
       "kickoff_hour": 21,
       "message_id": 128,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -725,7 +759,8 @@
         "odd": 1.83,
         "reasoning": "Лориан сильнее, покрывает форой -0.5, коэффициент близок к фавориту в h2h и более надёжен, чем тоталы."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:2"
     },
     {
       "event_id": "9f599c08f90decb5098348bddfdd3c8a",
