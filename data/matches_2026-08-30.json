@@ -2,7 +2,8 @@
   "date": "2026-08-30",
   "generated_at": "2026-08-30T14:19:28.482898+03:00",
   "posted_batches": [
-    "morning"
+    "morning",
+    "day"
   ],
   "matches": [
     {
@@ -81,7 +82,7 @@
       "away_ru": "Брентфорд",
       "kickoff_local": "2026-08-30 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 148,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -90,7 +91,8 @@
         "line": 0.0,
         "odd": 1.85,
         "reasoning": "Самый низкий коэффициент среди доступных – Brentford 0.0 (1.85), что подразумевает победу или ничью гостя; вероятность этого исхода выше, чем у остальных вариантов."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "6a4c946a61ddb5ef4703eb4528ccdef1",
@@ -102,7 +104,7 @@
       "away_ru": "Брайтон энд Хоув Альбион",
       "kickoff_local": "2026-08-30 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 149,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -111,7 +113,8 @@
         "line": 2.5,
         "odd": 1.66,
         "reasoning": "Обе команды склонны к атакующей игре, в последних встречах часто было более 2.5 голов, а коэффициент 1.66 указывает на высокую вероятность такого исхода."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "9becb395ad634de55caec620f9d713fa",
@@ -123,7 +126,7 @@
       "away_ru": "Фулхэм",
       "kickoff_local": "2026-08-30 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 150,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -132,7 +135,8 @@
         "line": 0.0,
         "odd": 1.77,
         "reasoning": "Низкий коэффициент 1.77 и ставка покрывает победу или ничью хозяев, что делает её наиболее вероятной"
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "703209af93dfa14e0ad8de951ff76140",
@@ -144,7 +148,7 @@
       "away_ru": "Ницца",
       "kickoff_local": "2026-08-30 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 151,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -153,7 +157,8 @@
         "line": 0.0,
         "odd": 1.53,
         "reasoning": "Пари ФК играет дома, коэффициент 1.53 на нулевую фору указывает на наибольшую вероятность победы"
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "5d3afd8c18aec6fac47b3c1244bd9002",
@@ -165,7 +170,7 @@
       "away_ru": "Вердер Бремен",
       "kickoff_local": "2026-08-30 16:30",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 152,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -174,7 +179,8 @@
         "line": -0.75,
         "odd": 2.07,
         "reasoning": "Фрайбург играет дома и является явным фаворитом, коэффициент -0.75 (2.07) предлагает хорошее соотношение риска и вознаграждения, покрывая небольшую гандикап."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "6ff0ed06ec6e70d249bf0e5dbd4067f2",
@@ -186,7 +192,7 @@
       "away_ru": "Малага",
       "kickoff_local": "2026-08-30 18:00",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 153,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -195,7 +201,8 @@
         "line": -2.5,
         "odd": 1.78,
         "reasoning": "У Реал Мадрид сильный состав и домашнее поле, они часто выигрывают с разницей более 2.5 гола против Малаги; коэффициент 1.78 достаточно высокий для такой уверенной форы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "744192fed865ae616fd27a1dc5392c1c",
@@ -207,7 +214,7 @@
       "away_ru": "Ле Мэн",
       "kickoff_local": "2026-08-30 18:15",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 154,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -216,7 +223,8 @@
         "line": 1.5,
         "odd": 1.77,
         "reasoning": "Коэффициент на форту Le Mans +1.5 (1.77) ниже, что указывает на большую вероятность, а спреды обычно надёжнее прямого исхода."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "5759167055d94ba38e145ab92188abbf",
@@ -228,7 +236,7 @@
       "away_ru": "Ипсвич Таун",
       "kickoff_local": "2026-08-30 18:30",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 155,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -237,7 +245,8 @@
         "line": -1.5,
         "odd": 1.93,
         "reasoning": "Манчестер Юнайтед играет дома против аутсайдера и имеет высокий шанс победить с разницей в два гола, что делает ставку на форту -1.5 наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "78ab183499784117d62a40821294d9fa",
@@ -249,7 +258,7 @@
       "away_ru": "Шальке 04",
       "kickoff_local": "2026-08-30 18:30",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 156,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -258,7 +267,8 @@
         "line": -0.25,
         "odd": 1.93,
         "reasoning": "Аугсбург играет дома и является фаворитом, коэффициент на фору -0.25 (1.93) выше, чем на простую победу, что указывает на высокую вероятность победы с разницей хотя бы в один гол."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "c57fd532ff733bb6face677a55f41f09",
