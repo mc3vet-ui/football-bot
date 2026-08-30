@@ -247,10 +247,16 @@ def parse_json_block(text):
         return None
 
 
-def build_ai_pick(home, away, league, odds_context, home_history, away_history):
+def build_ai_response(home, away, league, odds_context, home_history, away_history):
+    """Calls Groq once per match: asks for a bet pick (or none) AND Russian
+    names for both teams, since we already need to call the model anyway.
+    Returns the parsed dict (with at least home_ru/away_ru) or None on failure.
+    """
     prompt = (
         f"Ты профессиональный аналитик по футбольным ставкам. Матч: {home} — {away}, "
-        f"турнир «{league}».\n\n"
+        f"турнир «{league}». Хозяин поля — {home}, гость — {away} "
+        f"(в паре первой всегда указана команда хозяев). Не перепутай их местами "
+        f"в обосновании.\n\n"
         f"Ниже перечислены ТОЛЬКО те рынки и линии, коэффициент которых уже не ниже "
         f"{MIN_PICK_ODD} (более низкие коэффициенты заранее убраны из списка):\n"
         f"{odds_context}\n\n"
@@ -264,18 +270,20 @@ def build_ai_pick(home, away, league, odds_context, home_history, away_history):
         f"коэффициента), а рынки spreads (фора) и totals (тотал) в списке ОТСУТСТВУЮТ "
         f"или тоже не дают уверенного варианта — это означает, что для этого матча нет "
         f"статистически обоснованной ставки. В таком случае НЕ выбирай ничью или "
-        f"аутсайдера просто чтобы формально что-то выбрать. Вместо этого ответь ровно "
-        f"{{\"market\": null}} и больше ничего.\n\n"
+        f"аутсайдера просто чтобы формально что-то выбрать — вместо этого верни "
+        f"\"market\": null.\n\n"
         f"Если же среди рынков spreads или totals есть разумный вариант — выбирай его, "
         f"это почти всегда статистически надёжнее, чем ничья явного аутсайдера.\n\n"
         f"Не придумывай данные, используй только то, что дано выше.\n\n"
-        f"Если выбор есть, ответь СТРОГО в виде JSON без какого-либо текста до или "
-        f"после него, в формате:\n"
-        f'{{"market": "h2h|spreads|totals", '
-        f'"selection": "home|draw|away|over|under", "line": число или null, '
-        f'"odd": число (скопируй точно из списка выше), '
-        f'"reasoning": "1-2 предложения на русском с обоснованием"}}\n\n'
-        f'Если варианта нет, ответь ровно {{"market": null}}.'
+        f"Ответь СТРОГО в виде JSON без какого-либо текста до или после него, "
+        f"в формате (translit — русская транслитерация/перевод названия команды, "
+        f"например 'Hannover 96' -> 'Ганновер 96'):\n"
+        f'{{"home_ru": "русское название {home}", "away_ru": "русское название {away}", '
+        f'"market": "h2h|spreads|totals \u0438\u043b\u0438 null, \u0435\u0441\u043b\u0438 \u0443\u0432\u0435\u0440\u0435\u043d\u043d\u043e\u0433\u043e \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430 \u043d\u0435\u0442", '
+        f'"selection": "home|draw|away|over|under \u0438\u043b\u0438 null", '
+        f'"line": число или null, '
+        f'"odd": число (скопируй точно из списка выше) или null, '
+        f'"reasoning": "1-2 предложения на русском с обоснованием, или null"}}'
     )
     try:
         raw = call_groq(prompt)
@@ -287,15 +295,21 @@ def build_ai_pick(home, away, league, odds_context, home_history, away_history):
     if not parsed:
         print(f"[ai] Could not parse JSON from Groq response: {raw[:200]}")
         return None
-    if parsed.get("market") is None:
-        print("[ai] AI decided no confident pick exists for this match")
+    return parsed
+
+
+def extract_pick_from_ai_response(parsed):
+    """Pulls out just the bet-pick fields from the combined AI response, or
+    None if the AI decided there's no confident pick / the response is invalid.
+    """
+    if not parsed or parsed.get("market") is None:
         return None
     required = {"market", "selection", "odd", "reasoning"}
     if not required.issubset(parsed.keys()) or parsed["market"] not in MARKET_LABELS:
         print(f"[ai] Invalid Groq response: {parsed}")
         return None
     parsed.setdefault("line", None)
-    return parsed
+    return {k: parsed[k] for k in ("market", "selection", "line", "odd", "reasoning")}
 
 
 def fallback_pick(market_lookup, home, away):
@@ -361,6 +375,8 @@ def fetch_and_build():
                 "league": league_name,
                 "home": home,
                 "away": away,
+                "home_ru": home,  # overwritten below if the AI supplies a translation
+                "away_ru": away,
                 "kickoff_local": kickoff_local.strftime("%Y-%m-%d %H:%M"),
                 "kickoff_hour": kickoff_local.hour,
                 "message_id": None,
@@ -374,7 +390,13 @@ def fetch_and_build():
                 if GROQ_API_KEY:
                     home_history = get_team_history_summary(home)
                     away_history = get_team_history_summary(away)
-                    pick = build_ai_pick(home, away, league_name, odds_context, home_history, away_history)
+                    ai_response = build_ai_response(home, away, league_name, odds_context, home_history, away_history)
+                    if ai_response:
+                        if ai_response.get("home_ru"):
+                            match["home_ru"] = ai_response["home_ru"]
+                        if ai_response.get("away_ru"):
+                            match["away_ru"] = ai_response["away_ru"]
+                        pick = extract_pick_from_ai_response(ai_response)
                     if pick:
                         # Cross-check / correct the odd against real data where possible.
                         real_odd = find_odd_for_pick(
@@ -424,14 +446,16 @@ def current_batch_name():
 
 def describe_pick(m):
     pick = m.get("pick")
+    home = m.get("home_ru", m["home"])
+    away = m.get("away_ru", m["away"])
     if not pick:
         return f"Нет вариантов с коэффициентом от {MIN_PICK_ODD}"
     label = MARKET_LABELS.get(pick["market"], pick["market"])
     if pick["market"] == "h2h":
-        sel_text = {"home": m["home"], "draw": "Ничья", "away": m["away"]}.get(pick["selection"], pick["selection"])
+        sel_text = {"home": home, "draw": "Ничья", "away": away}.get(pick["selection"], pick["selection"])
         return f"{label}: {sel_text} (кф. {pick['odd']})"
     if pick["market"] == "spreads":
-        team = m["home"] if pick["selection"] == "home" else m["away"]
+        team = home if pick["selection"] == "home" else away
         line = pick.get("line")
         sign = "+" if isinstance(line, (int, float)) and line > 0 else ""
         return f"{label}: {team} {sign}{line} (кф. {pick['odd']})"
@@ -440,7 +464,9 @@ def describe_pick(m):
 
 
 def format_match_block(m):
-    lines = [f"⚽ {m['league']}: {m['home']} — {m['away']}", f"🕒 {m['kickoff_local']} (мск)"]
+    home = m.get("home_ru", m["home"])
+    away = m.get("away_ru", m["away"])
+    lines = [f"⚽ {m['league']}: {home} — {away}", f"🕒 {m['kickoff_local']} (мск)"]
     if m.get("pick"):
         lines.append(f"🎯 {describe_pick(m)}")
         lines.append(f"💬 {m['pick']['reasoning']}")
