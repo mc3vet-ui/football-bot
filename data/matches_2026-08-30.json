@@ -1,0 +1,392 @@
+{
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T14:02:47.234713+03:00",
+  "posted_batches": [
+    "morning"
+  ],
+  "matches": [
+    {
+      "event_id": "53c8f2a3364ca1c41d2d62e6446e6095",
+      "sport_key": "soccer_germany_bundesliga2",
+      "league": "Бундеслига 2",
+      "home": "FC St. Pauli",
+      "away": "1. FC Kaiserslautern",
+      "kickoff_local": "2026-08-30 14:30",
+      "kickoff_hour": 14,
+      "message_id": 140,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": 1.0,
+        "odd": 1.61,
+        "reasoning": "Коэффициент 1.61 — самый низкий, указывает на высокую вероятность, а форой +1.0 для аутсайдера покрывает небольшой отрыв, делая ставку надёжнее, чем прямая победа."
+      },
+      "has_photo": true
+    },
+    {
+      "event_id": "7e54459b29e9b77a2d24b4f1aa77e573",
+      "sport_key": "soccer_germany_bundesliga2",
+      "league": "Бундеслига 2",
+      "home": "1. FC Magdeburg",
+      "away": "Holstein Kiel",
+      "kickoff_local": "2026-08-30 14:30",
+      "kickoff_hour": 14,
+      "message_id": 141,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": 1.0,
+        "odd": 1.41,
+        "reasoning": "Фора +1 для Holstein Kiel дает им преимущество в один гол, поэтому они почти наверняка не проиграют более чем на один мяч; низкий коэффициент 1.41 отражает высокую вероятность."
+      },
+      "has_photo": true
+    },
+    {
+      "event_id": "85f008e5fc6825f9bddd413b5d01116d",
+      "sport_key": "soccer_germany_bundesliga2",
+      "league": "Бундеслига 2",
+      "home": "SV Darmstadt 98",
+      "away": "Hannover 96",
+      "kickoff_local": "2026-08-30 14:30",
+      "kickoff_hour": 14,
+      "message_id": 142,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": -1.0,
+        "odd": 3.25,
+        "reasoning": "Ханновер имеет преимущество дома и шанс выиграть с разницей более одного гола выглядит более вероятным, а коэффициент 3.25 указывает на разумную ценность ставки."
+      },
+      "has_photo": true
+    },
+    {
+      "event_id": "e479c08421b8549c6959c2b84f6f3f79",
+      "sport_key": "soccer_epl",
+      "league": "АПЛ",
+      "home": "Leeds United",
+      "away": "Brentford",
+      "kickoff_local": "2026-08-30 16:00",
+      "kickoff_hour": 16,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": 0.0,
+        "odd": 1.87,
+        "reasoning": "Коэффициент 1.87 самый низкий, указывает на наибольшую вероятность победы Брентфорда без форы."
+      }
+    },
+    {
+      "event_id": "6a4c946a61ddb5ef4703eb4528ccdef1",
+      "sport_key": "soccer_epl",
+      "league": "АПЛ",
+      "home": "Chelsea",
+      "away": "Brighton and Hove Albion",
+      "kickoff_local": "2026-08-30 16:00",
+      "kickoff_hour": 16,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 1.45,
+        "reasoning": "Chelsea играет дома и является фаворитом; ставка на 0.0 (draw no bet) покрывает победу и возвращает ставку в случае ничьи, что делает её более надёжной."
+      }
+    },
+    {
+      "event_id": "9becb395ad634de55caec620f9d713fa",
+      "sport_key": "soccer_epl",
+      "league": "АПЛ",
+      "home": "Sunderland",
+      "away": "Fulham",
+      "kickoff_local": "2026-08-30 16:00",
+      "kickoff_hour": 16,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 1.77,
+        "reasoning": "Низкий коэффициент 1.77 на ставку Sunderland 0.0 указывает на наибольшую вероятность исхода среди доступных вариантов, а рынок спредов обычно более надёжен, чем прямой исход."
+      }
+    },
+    {
+      "event_id": "703209af93dfa14e0ad8de951ff76140",
+      "sport_key": "soccer_france_ligue_one",
+      "league": "Лига 1",
+      "home": "Paris FC",
+      "away": "Nice",
+      "kickoff_local": "2026-08-30 16:00",
+      "kickoff_hour": 16,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 1.53,
+        "reasoning": "Коэффициент 1.53 на Пари FC с форой 0.0 указывает на небольшое преимущество хозяев, что делает ставку более вероятной."
+      }
+    },
+    {
+      "event_id": "5d3afd8c18aec6fac47b3c1244bd9002",
+      "sport_key": "soccer_germany_bundesliga",
+      "league": "Бундеслига",
+      "home": "SC Freiburg",
+      "away": "Werder Bremen",
+      "kickoff_local": "2026-08-30 16:30",
+      "kickoff_hour": 16,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": -0.5,
+        "odd": 1.85,
+        "reasoning": "Фора -0.5 в пользу Фрайбурга имеет самый низкий коэффициент среди вариантов, что указывает на наибольшую вероятность победы с разницей хотя бы в один мяч."
+      }
+    },
+    {
+      "event_id": "6ff0ed06ec6e70d249bf0e5dbd4067f2",
+      "sport_key": "soccer_spain_la_liga",
+      "league": "Ла Лига",
+      "home": "Real Madrid",
+      "away": "Málaga",
+      "kickoff_local": "2026-08-30 18:00",
+      "kickoff_hour": 18,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": -2.5,
+        "odd": 1.8,
+        "reasoning": "Real Madrid явно сильнее соперника, коэффициент на победу с форой -2.5 (1.8) самый низкий, что указывает на высокую вероятность выигрыша с разницей минимум в три мяча."
+      }
+    },
+    {
+      "event_id": "744192fed865ae616fd27a1dc5392c1c",
+      "sport_key": "soccer_france_ligue_one",
+      "league": "Лига 1",
+      "home": "Rennes",
+      "away": "Le Mans FC",
+      "kickoff_local": "2026-08-30 18:15",
+      "kickoff_hour": 18,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "under",
+        "line": 3.5,
+        "odd": 1.6,
+        "reasoning": "Ожидается небольшое количество голов: Rennes сильна в защите, а Le Mans не обладает мощной атакой, поэтому вероятность тотала ниже 3.5 высока."
+      }
+    },
+    {
+      "event_id": "5759167055d94ba38e145ab92188abbf",
+      "sport_key": "soccer_epl",
+      "league": "АПЛ",
+      "home": "Manchester United",
+      "away": "Ipswich Town",
+      "kickoff_local": "2026-08-30 18:30",
+      "kickoff_hour": 18,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": 1.5,
+        "odd": 1.83,
+        "reasoning": "Фора +1.5 в пользу Ipswich покрывает вероятный небольшой отрыв, а коэффициент 1.83 указывает на высокую вероятность того, что команда не проиграет более чем в одно голе."
+      }
+    },
+    {
+      "event_id": "78ab183499784117d62a40821294d9fa",
+      "sport_key": "soccer_germany_bundesliga",
+      "league": "Бундеслига",
+      "home": "Augsburg",
+      "away": "FC Schalke 04",
+      "kickoff_local": "2026-08-30 18:30",
+      "kickoff_hour": 18,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": -0.25,
+        "odd": 1.94,
+        "reasoning": "Аугсбург – явный фаворит, коэффициент на победу с форой -0.25 (1.94) выше, чем у аутсайдера, и более надёжен, чем тотал, поэтому эта ставка наиболее вероятна."
+      }
+    },
+    {
+      "event_id": "c57fd532ff733bb6face677a55f41f09",
+      "sport_key": "soccer_italy_serie_a",
+      "league": "Серия А",
+      "home": "Napoli",
+      "away": "Como",
+      "kickoff_local": "2026-08-30 19:30",
+      "kickoff_hour": 19,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 1.81,
+        "reasoning": "Napоли — домашняя команда‑фаворит, коэффициент 2.65, а ставка на их победу без форы (0.0) имеет более низкий риск и более высокую вероятность, что отражено в коэффициенте 1.81."
+      }
+    },
+    {
+      "event_id": "ac00a0f9198e9e6446608a79b6a310af",
+      "sport_key": "soccer_spain_la_liga",
+      "league": "Ла Лига",
+      "home": "Deportivo La Coruña",
+      "away": "Valencia",
+      "kickoff_local": "2026-08-30 20:30",
+      "kickoff_hour": 20,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 1.82,
+        "reasoning": "Ставка на победу или ничью хозяев (Deportivo La Coruña) с форой 0.0 имеет самый низкий коэффициент 1.82, что указывает на наибольшую вероятность исхода."
+      }
+    },
+    {
+      "event_id": "3e8cb1ccc68725b086d8e0af6bbc72ce",
+      "sport_key": "soccer_italy_serie_a",
+      "league": "Серия А",
+      "home": "Cagliari",
+      "away": "Inter Milan",
+      "kickoff_local": "2026-08-30 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": -1.5,
+        "odd": 2.21,
+        "reasoning": "Inter Milan явно сильнее Cagliari и имеет высокие шансы выиграть с разницей минимум в два гола, что делает ставку на форту -1.5 привлекательной."
+      }
+    },
+    {
+      "event_id": "b920af3ced7e753c821036f7282edb55",
+      "sport_key": "soccer_italy_serie_a",
+      "league": "Серия А",
+      "home": "Lazio",
+      "away": "Genoa",
+      "kickoff_local": "2026-08-30 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "under",
+        "line": 2.5,
+        "odd": 1.56,
+        "reasoning": "Коэффициент 1.56 указывает на высокую вероятность, а обе команды обычно играют в оборонительном стиле, поэтому ожидается суммарный результат ниже 2.5 голов."
+      }
+    },
+    {
+      "event_id": "7c2ad8552e286ff88f69ce39ca49541a",
+      "sport_key": "soccer_france_ligue_one",
+      "league": "Лига 1",
+      "home": "AS Monaco",
+      "away": "Marseille",
+      "kickoff_local": "2026-08-30 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": 1.0,
+        "odd": 1.37,
+        "reasoning": "Коэффициент 1.37 у марсельской форы +1.0 самый низкий, что указывает на высокую вероятность того, что команда не проиграет разницей более одного гола."
+      }
+    },
+    {
+      "event_id": "41d50199bc21a00a53f3e0bd2a149ff2",
+      "sport_key": "soccer_spain_la_liga",
+      "league": "Ла Лига",
+      "home": "Celta Vigo",
+      "away": "Athletic Bilbao",
+      "kickoff_local": "2026-08-30 22:30",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "under",
+        "line": 2.5,
+        "odd": 1.76,
+        "reasoning": "Низкий коэффициент 1.76 указывает на высокую вероятность того, что в матче будет менее 2.5 голов, что делает ставку наиболее проходимой."
+      }
+    },
+    {
+      "event_id": "8f1aec488d5a6ce92622071ffbcf53ff",
+      "sport_key": "soccer_usa_mls",
+      "league": "MLS",
+      "home": "Columbus Crew SC",
+      "away": "New England Revolution",
+      "kickoff_local": "2026-08-30 23:30",
+      "kickoff_hour": 23,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "over",
+        "line": 2.5,
+        "odd": 1.57,
+        "reasoning": "Наименьший коэффициент среди всех вариантов указывает на высокую вероятность более 2.5 голов; тоталы обычно более стабильны, чем прямой исход матча."
+      }
+    },
+    {
+      "event_id": "69a49618d3f7a646e92462ab28c27111",
+      "sport_key": "soccer_usa_mls",
+      "league": "MLS",
+      "home": "St. Louis City SC",
+      "away": "FC Dallas",
+      "kickoff_local": "2026-08-31 02:00",
+      "kickoff_hour": 2,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "over",
+        "line": 2.5,
+        "odd": 1.55,
+        "reasoning": "Ожидается более 2.5 голов, коэффициент 1.55 указывает на высокую вероятность."
+      }
+    }
+  ]
+}
