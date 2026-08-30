@@ -1,5 +1,9 @@
 name: Football predictions bot
 
+concurrency:
+  group: football-bot
+  cancel-in-progress: false
+
 on:
   schedule:
     - cron: '0 5 * * *'    # 08:00 мск — публикация утреннего батча (+ загрузка данных дня)
