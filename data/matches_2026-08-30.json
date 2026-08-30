@@ -3,7 +3,8 @@
   "generated_at": "2026-08-30T14:19:28.482898+03:00",
   "posted_batches": [
     "morning",
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -280,7 +281,7 @@
       "away_ru": "Комо",
       "kickoff_local": "2026-08-30 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 158,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -289,7 +290,8 @@
         "line": 2.5,
         "odd": 1.71,
         "reasoning": "Ожидается небольшое количество голов: у Наполи сильная оборона, а у Комо ограниченные атакующие возможности, поэтому вероятность матча с суммарным счётом ≤2.5 высока."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "ac00a0f9198e9e6446608a79b6a310af",
@@ -301,7 +303,7 @@
       "away_ru": "Валенсия",
       "kickoff_local": "2026-08-30 20:30",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 159,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -310,7 +312,8 @@
         "line": 0.0,
         "odd": 1.82,
         "reasoning": "Низкий коэффициент на форту 0.0 в пользу хозяев (1.82) указывает на их преимущество, что обычно надёжнее, чем ставка на исход."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "3e8cb1ccc68725b086d8e0af6bbc72ce",
@@ -322,7 +325,7 @@
       "away_ru": "Интер Милан",
       "kickoff_local": "2026-08-30 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 160,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -331,7 +334,8 @@
         "line": 2.5,
         "odd": 1.83,
         "reasoning": "Ожидается более 2.5 голов, так как Интер сильно превосходит Калярри и обычно забивает несколько мячей."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "b920af3ced7e753c821036f7282edb55",
@@ -343,7 +347,7 @@
       "away_ru": "Генуя",
       "kickoff_local": "2026-08-30 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 161,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -352,7 +356,8 @@
         "line": 2.5,
         "odd": 1.56,
         "reasoning": "Ожидается небольшое количество голов, обе команды не отличаются атакующей мощью, поэтому ставка на тотал меньше 2.5 имеет наибольшую вероятность выигрыша."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "7c2ad8552e286ff88f69ce39ca49541a",
@@ -364,7 +369,7 @@
       "away_ru": "Марсель",
       "kickoff_local": "2026-08-30 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 162,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -373,7 +378,8 @@
         "line": 2.5,
         "odd": 1.56,
         "reasoning": "Монако играет дома и обычно забивает несколько голов; в таком матче вероятность более 2.5 голов высока."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "41d50199bc21a00a53f3e0bd2a149ff2",
@@ -385,7 +391,7 @@
       "away_ru": "Атлетик Бильбао",
       "kickoff_local": "2026-08-30 22:30",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 163,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -394,7 +400,8 @@
         "line": 2.5,
         "odd": 1.76,
         "reasoning": "Коэффициент на тотал меньше 2.5 самый низкий, что указывает на большую вероятность низкой результативности матча."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "8f1aec488d5a6ce92622071ffbcf53ff",
@@ -406,7 +413,7 @@
       "away_ru": "Нью-Ингленд Революшн",
       "kickoff_local": "2026-08-30 23:30",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 164,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -415,7 +422,8 @@
         "line": 2.5,
         "odd": 1.57,
         "reasoning": "Ожидается более 2.5 гола, так как обе команды атакуют, а коэффициент на тотал самый низкий, что указывает на высокую вероятность."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "69a49618d3f7a646e92462ab28c27111",
@@ -427,7 +435,7 @@
       "away_ru": "ФК Даллас",
       "kickoff_local": "2026-08-31 02:00",
       "kickoff_hour": 2,
-      "message_id": null,
+      "message_id": 165,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -436,7 +444,8 @@
         "line": 2.5,
         "odd": 1.55,
         "reasoning": "Низкий коэффициент 1.55 на тотал больше 2.5 указывает на высокую вероятность матча с более чем 2,5 голами, что делает эту ставку наиболее вероятной."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
