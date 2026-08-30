@@ -604,8 +604,8 @@
       "kickoff_local": "2026-08-29 19:30",
       "kickoff_hour": 19,
       "message_id": 121,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "under",
@@ -613,7 +613,8 @@
         "odd": 1.72,
         "reasoning": "Низкий коэффициент 1.72 указывает на высокую вероятность, а в матче Дортмунда с Хамбургером ожидается ограниченное количество голов, поэтому тотал ниже 3.5 выглядит наиболее проходимым."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:0"
     },
     {
       "event_id": "97e145971b50eb1e2f18ea61fbf06ea6",
@@ -771,8 +772,8 @@
       "kickoff_local": "2026-08-29 22:30",
       "kickoff_hour": 22,
       "message_id": 129,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -780,7 +781,8 @@
         "odd": 1.54,
         "reasoning": "Ставка на победу Атлетико с форой 0.0 имеет самый низкий коэффициент (1.54), что указывает на наибольшую вероятность исхода."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:3"
     },
     {
       "event_id": "edae0745bd30ebb0dbfd2a38024de8ab",
@@ -791,8 +793,8 @@
       "kickoff_local": "2026-08-29 23:30",
       "kickoff_hour": 23,
       "message_id": 130,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -800,7 +802,8 @@
         "odd": 1.57,
         "reasoning": "Коэффициент 1.57 указывает на высокую вероятность того, что в матче будет более 2.5 гола, что делает эту ставку более надёжной, чем форпост или победа аутсайдера."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:2"
     }
   ]
 }

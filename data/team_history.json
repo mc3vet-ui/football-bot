@@ -1,0 +1,110 @@
+{
+  "FC St. Pauli": [
+    true
+  ],
+  "1. FC Kaiserslautern": [
+    true
+  ],
+  "1. FC Magdeburg": [
+    false
+  ],
+  "Holstein Kiel": [
+    false
+  ],
+  "SV Darmstadt 98": [
+    true
+  ],
+  "Hannover 96": [
+    true
+  ],
+  "Chelsea": [
+    true
+  ],
+  "Brighton and Hove Albion": [
+    true
+  ],
+  "Sunderland": [
+    true
+  ],
+  "Fulham": [
+    true
+  ],
+  "Paris FC": [
+    true
+  ],
+  "Nice": [
+    true
+  ],
+  "SC Freiburg": [
+    true
+  ],
+  "Werder Bremen": [
+    true
+  ],
+  "Real Madrid": [
+    true
+  ],
+  "Málaga": [
+    true
+  ],
+  "Rennes": [
+    true
+  ],
+  "Le Mans FC": [
+    true
+  ],
+  "Manchester United": [
+    true
+  ],
+  "Ipswich Town": [
+    true
+  ],
+  "Napoli": [
+    false
+  ],
+  "Como": [
+    false
+  ],
+  "Deportivo La Coruña": [
+    true
+  ],
+  "Valencia": [
+    true
+  ],
+  "Cagliari": [
+    false
+  ],
+  "Inter Milan": [
+    false
+  ],
+  "Lazio": [
+    true
+  ],
+  "Genoa": [
+    true
+  ],
+  "AS Monaco": [
+    false
+  ],
+  "Marseille": [
+    false
+  ],
+  "Borussia Dortmund": [
+    true
+  ],
+  "Hamburger SV": [
+    true
+  ],
+  "Sevilla": [
+    true
+  ],
+  "Atlético Madrid": [
+    true
+  ],
+  "Seattle Sounders FC": [
+    true
+  ],
+  "Chicago Fire": [
+    true
+  ]
+}
