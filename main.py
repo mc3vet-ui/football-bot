@@ -73,10 +73,15 @@ GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY", "")  # auto-set by GitHu
 STATS_PATH = os.path.join(DATA_DIR, "stats.json")
 
 BATCHES = [
-    ("morning", 0, 15),
+    ("morning", 6, 15),
     ("day", 15, 19),
-    ("evening", 19, 24),
+    ("evening", 19, 30),  # 30 = 24+6, wraps past midnight through 05:59 next day
 ]
+
+# Matches kicking off before this hour are treated as part of the PREVIOUS
+# football day's "evening" — e.g. a 02:00 MSK MLS match belongs to yesterday's
+# lineup, not a fresh new day, since it's a continuation of last night's games.
+FOOTBALL_DAY_CUTOFF_HOUR = 6
 
 STAKE_RUB = 1000
 MIN_PICK_ODD = 1.35
@@ -88,8 +93,22 @@ MARKET_LABELS = {
 }
 
 
+def effective_hour(hour):
+    """Shifts hours 0-5 to 24-29 so they sort after 19-23 (same football day)."""
+    return hour if hour >= FOOTBALL_DAY_CUTOFF_HOUR else hour + 24
+
+
+def football_day_of(dt):
+    """Returns the YYYY-MM-DD of the football day a datetime belongs to — times
+    before FOOTBALL_DAY_CUTOFF_HOUR count as still being part of the previous day.
+    """
+    if dt.hour < FOOTBALL_DAY_CUTOFF_HOUR:
+        dt = dt - timedelta(days=1)
+    return dt.strftime("%Y-%m-%d")
+
+
 def today_str():
-    return datetime.now(TIMEZONE).strftime("%Y-%m-%d")
+    return football_day_of(datetime.now(TIMEZONE))
 
 
 def data_path(day_str):
@@ -228,13 +247,17 @@ def parse_json_block(text):
         return None
 
 
-def build_ai_pick(home, away, league, odds_context):
+def build_ai_pick(home, away, league, odds_context, home_history, away_history):
     prompt = (
         f"Ты профессиональный аналитик по футбольным ставкам. Матч: {home} — {away}, "
         f"турнир «{league}».\n\n"
         f"Ниже перечислены ТОЛЬКО те рынки и линии, коэффициент которых уже не ниже "
         f"{MIN_PICK_ODD} (более низкие коэффициенты заранее убраны из списка):\n"
         f"{odds_context}\n\n"
+        f"Справка по прошлым прогнозам (наша собственная статистика попаданий, "
+        f"учти как дополнительный сигнал, не как единственный фактор):\n"
+        f"— {home}: {home_history}\n"
+        f"— {away}: {away_history}\n\n"
         f"Выбери ОДИН наиболее вероятный ('проходимый') вариант ставки из этого списка.\n\n"
         f"Важно: если в рынке h2h (исход матча) остались только ничья и/или победа "
         f"аутсайдера (то есть явный фаворит был отфильтрован из-за слишком низкого "
@@ -326,7 +349,7 @@ def fetch_and_build():
         for ev in events:
             commence = datetime.fromisoformat(ev["commence_time"].replace("Z", "+00:00"))
             kickoff_local = commence.astimezone(TIMEZONE)
-            if kickoff_local.strftime("%Y-%m-%d") != day_str:
+            if football_day_of(kickoff_local) != day_str:
                 continue
 
             home, away = ev["home_team"], ev["away_team"]
@@ -349,7 +372,9 @@ def fetch_and_build():
             if odds_context:
                 pick = None
                 if GROQ_API_KEY:
-                    pick = build_ai_pick(home, away, league_name, odds_context)
+                    home_history = get_team_history_summary(home)
+                    away_history = get_team_history_summary(away)
+                    pick = build_ai_pick(home, away, league_name, odds_context, home_history, away_history)
                     if pick:
                         # Cross-check / correct the odd against real data where possible.
                         real_odd = find_odd_for_pick(
@@ -390,7 +415,7 @@ def current_batch_name():
     forced = os.environ.get("FORCE_BATCH")
     if forced:
         return forced
-    hour = datetime.now(TIMEZONE).hour
+    hour = effective_hour(datetime.now(TIMEZONE).hour)
     for name, start, end in BATCHES:
         if start <= hour < end:
             return name
@@ -500,7 +525,7 @@ def post_batch():
         return
 
     start, end = next((s, e) for n, s, e in BATCHES if n == batch_name)
-    batch_matches = [m for m in payload["matches"] if start <= m["kickoff_hour"] < end]
+    batch_matches = [m for m in payload["matches"] if start <= effective_hour(m["kickoff_hour"]) < end]
 
     if not batch_matches:
         print(f"[post] No matches in batch '{batch_name}', marking as posted")
@@ -565,6 +590,46 @@ def record_result(date_str, correct, odd):
         entry["balance"] -= STAKE_RUB
     entry["balance"] = round(entry["balance"], 2)
     save_stats(stats)
+
+
+TEAM_HISTORY_PATH = os.path.join(DATA_DIR, "team_history.json")
+TEAM_HISTORY_KEEP = 8  # how many recent results to remember per team
+
+
+def load_team_history():
+    if not os.path.exists(TEAM_HISTORY_PATH):
+        return {}
+    with open(TEAM_HISTORY_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_team_history(history):
+    os.makedirs(DATA_DIR, exist_ok=True)
+    with open(TEAM_HISTORY_PATH, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
+
+
+def record_team_history(team_name, correct):
+    """Tracks whether our recent picks involving this team hit or missed,
+    regardless of which market the pick was on — used as a rough signal for
+    the AI ('our predictions on this team haven't been landing lately').
+    """
+    if correct is None:
+        return  # pushes / unresolved picks don't count either way
+    history = load_team_history()
+    entries = history.setdefault(team_name, [])
+    entries.append(bool(correct))
+    history[team_name] = entries[-TEAM_HISTORY_KEEP:]
+    save_team_history(history)
+
+
+def get_team_history_summary(team_name):
+    history = load_team_history()
+    entries = history.get(team_name, [])
+    if not entries:
+        return "нет истории прошлых прогнозов"
+    hits = sum(1 for e in entries if e)
+    return f"{hits}/{len(entries)} последних прогнозов на эту команду сыграли"
 
 
 # ---------------------------------------------------------------------------
@@ -668,6 +733,8 @@ def check_results():
                     + f"\nСтавка {STAKE_RUB}₽: {sign}{profit}₽"
                 )
                 record_result(day, correct, m["pick"]["odd"])
+                record_team_history(m["home"], correct)
+                record_team_history(m["away"], correct)
                 checked_total += 1
 
             if m.get("message_id"):
