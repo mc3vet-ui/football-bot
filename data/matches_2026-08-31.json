@@ -1,0 +1,114 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T08:03:44.128266+03:00",
+  "posted_batches": [
+    "morning"
+  ],
+  "matches": [
+    {
+      "event_id": "29ac78994462bce061f8d01e93c7b3f0",
+      "sport_key": "soccer_italy_serie_a",
+      "league": "Серия А",
+      "home": "Lecce",
+      "away": "AS Roma",
+      "home_ru": "Лечче",
+      "away_ru": "АС Рома",
+      "kickoff_local": "2026-08-31 19:30",
+      "kickoff_hour": 19,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 1.45,
+        "reasoning": "Рома играет в гостях, но является явным фаворитом с коэффициентом 1.45, что указывает на высокую вероятность победы."
+      }
+    },
+    {
+      "event_id": "bbb9408b2825a8699540fe6f53325e17",
+      "sport_key": "soccer_spain_la_liga",
+      "league": "Ла Лига",
+      "home": "CA Osasuna",
+      "away": "Getafe",
+      "home_ru": "СА Осасуна",
+      "away_ru": "Хетафе",
+      "kickoff_local": "2026-08-31 20:30",
+      "kickoff_hour": 20,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 1.57,
+        "reasoning": "Самый низкий коэффициент – форту 0.0 в пользу хозяев (1.57), что указывает на высокую вероятность победы Осасуна без отставания, плюс домашний фактор."
+      }
+    },
+    {
+      "event_id": "507dca3c3b3ca18f79ed39f4803401d7",
+      "sport_key": "soccer_italy_serie_a",
+      "league": "Серия А",
+      "home": "Atalanta BC",
+      "away": "Bologna",
+      "home_ru": "Аталанта",
+      "away_ru": "Болонья",
+      "kickoff_local": "2026-08-31 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 1.4,
+        "reasoning": "Аталанта играет дома и является фаворитом; ставка на форту 0.0 с коэффициентом 1.4 имеет наибольшую вероятность исхода."
+      }
+    },
+    {
+      "event_id": "2c49e9d1ef855f62962b915e773f906d",
+      "sport_key": "soccer_epl",
+      "league": "АПЛ",
+      "home": "Aston Villa",
+      "away": "Arsenal",
+      "home_ru": "Астон Вилла",
+      "away_ru": "Арсенал",
+      "kickoff_local": "2026-08-31 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 1.5,
+        "odd": 1.6,
+        "reasoning": "Астон Вилла играет дома, и форой +1.5 покрывается в большинстве матчей, учитывая сильного соперника, вероятность не проиграть более чем в 1 голе высока."
+      }
+    },
+    {
+      "event_id": "5ab1a5278538ef69d7a84dfe2030facf",
+      "sport_key": "soccer_spain_la_liga",
+      "league": "Ла Лига",
+      "home": "Barcelona",
+      "away": "Rayo Vallecano",
+      "home_ru": "Барселона",
+      "away_ru": "Райо Вальекано",
+      "kickoff_local": "2026-08-31 22:30",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": -2.5,
+        "odd": 1.94,
+        "reasoning": "Барселона играет дома против аутсайдера и имеет хорошие шансы выиграть с разницей более 2.5 гола, коэффициент 1.94 подтверждает уверенность."
+      }
+    }
+  ]
+}
