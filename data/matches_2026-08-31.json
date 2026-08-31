@@ -3,7 +3,8 @@
   "generated_at": "2026-08-31T08:03:44.128266+03:00",
   "posted_batches": [
     "morning",
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -16,7 +17,7 @@
       "away_ru": "АС Рома",
       "kickoff_local": "2026-08-31 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 168,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -25,7 +26,8 @@
         "line": null,
         "odd": 1.45,
         "reasoning": "Рома играет в гостях, но является явным фаворитом с коэффициентом 1.45, что указывает на высокую вероятность победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "bbb9408b2825a8699540fe6f53325e17",
@@ -37,7 +39,7 @@
       "away_ru": "Хетафе",
       "kickoff_local": "2026-08-31 20:30",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 169,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -46,7 +48,8 @@
         "line": 0.0,
         "odd": 1.57,
         "reasoning": "Самый низкий коэффициент – форту 0.0 в пользу хозяев (1.57), что указывает на высокую вероятность победы Осасуна без отставания, плюс домашний фактор."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "507dca3c3b3ca18f79ed39f4803401d7",
@@ -58,7 +61,7 @@
       "away_ru": "Болонья",
       "kickoff_local": "2026-08-31 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 170,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -67,7 +70,8 @@
         "line": 0.0,
         "odd": 1.4,
         "reasoning": "Аталанта играет дома и является фаворитом; ставка на форту 0.0 с коэффициентом 1.4 имеет наибольшую вероятность исхода."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "2c49e9d1ef855f62962b915e773f906d",
@@ -79,7 +83,7 @@
       "away_ru": "Арсенал",
       "kickoff_local": "2026-08-31 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 171,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -88,7 +92,8 @@
         "line": 1.5,
         "odd": 1.6,
         "reasoning": "Астон Вилла играет дома, и форой +1.5 покрывается в большинстве матчей, учитывая сильного соперника, вероятность не проиграть более чем в 1 голе высока."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "5ab1a5278538ef69d7a84dfe2030facf",
@@ -100,7 +105,7 @@
       "away_ru": "Райо Вальекано",
       "kickoff_local": "2026-08-31 22:30",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 172,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -109,7 +114,8 @@
         "line": -2.5,
         "odd": 1.94,
         "reasoning": "Барселона играет дома против аутсайдера и имеет хорошие шансы выиграть с разницей более 2.5 гола, коэффициент 1.94 подтверждает уверенность."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
