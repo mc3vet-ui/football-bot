@@ -271,8 +271,8 @@
       "kickoff_local": "2026-08-30 18:30",
       "kickoff_hour": 18,
       "message_id": 156,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -280,7 +280,8 @@
         "odd": 1.93,
         "reasoning": "Аугсбург играет дома и является фаворитом, коэффициент на фору -0.25 (1.93) выше, чем на простую победу, что указывает на высокую вероятность победы с разницей хотя бы в один гол."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:0"
     },
     {
       "event_id": "c57fd532ff733bb6face677a55f41f09",
@@ -408,8 +409,8 @@
       "kickoff_local": "2026-08-30 22:30",
       "kickoff_hour": 22,
       "message_id": 163,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "under",
@@ -417,7 +418,8 @@
         "odd": 1.76,
         "reasoning": "Коэффициент на тотал меньше 2.5 самый низкий, что указывает на большую вероятность низкой результативности матча."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:2"
     },
     {
       "event_id": "8f1aec488d5a6ce92622071ffbcf53ff",
@@ -430,8 +432,8 @@
       "kickoff_local": "2026-08-30 23:30",
       "kickoff_hour": 23,
       "message_id": 164,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -439,7 +441,8 @@
         "odd": 1.57,
         "reasoning": "Ожидается более 2.5 гола, так как обе команды атакуют, а коэффициент на тотал самый низкий, что указывает на высокую вероятность."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:3"
     },
     {
       "event_id": "69a49618d3f7a646e92462ab28c27111",
@@ -452,8 +455,8 @@
       "kickoff_local": "2026-08-31 02:00",
       "kickoff_hour": 2,
       "message_id": 165,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -461,7 +464,8 @@
         "odd": 1.55,
         "reasoning": "Низкий коэффициент 1.55 на тотал больше 2.5 указывает на высокую вероятность матча с более чем 2,5 голами, что делает эту ставку наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:3"
     }
   ]
 }

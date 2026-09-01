@@ -15,8 +15,13 @@
     "balance": -2080.0
   },
   "2026-08-30": {
-    "correct": 11,
+    "correct": 15,
     "incorrect": 4,
-    "balance": 4420.0
+    "balance": 7230.0
+  },
+  "2026-08-31": {
+    "correct": 5,
+    "incorrect": 0,
+    "balance": 2960.0
   }
 }
