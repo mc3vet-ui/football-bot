@@ -65,6 +65,26 @@ GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 GROQ_MODEL = "openai/gpt-oss-120b"
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
+# Backup data source, used only when The Odds API is fully unavailable
+# (quota exhausted, outage, etc.) — a paid api-football.com subscription.
+API_FOOTBALL_KEY = os.environ.get("API_FOOTBALL_KEY", "")
+API_FOOTBALL_BASE = "https://v3.football.api-sports.io"
+LEAGUE_IDS_AF = {
+    39: "АПЛ",
+    140: "Ла Лига",
+    135: "Серия А",
+    78: "Бундеслига",
+    61: "Лига 1",
+    2: "Лига Чемпионов",
+    3: "Лига Европы",
+    235: "РПЛ",
+    40: "Чемпионшип",
+    45: "Кубок Англии",
+    79: "Бундеслига 2",
+    253: "MLS",
+}
+AF_MARKET_IDS = {"h2h": 1, "spreads": 4, "totals": 5}
+
 TIMEZONE = ZoneInfo(os.environ.get("TIMEZONE", "Europe/Moscow"))
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
@@ -339,6 +359,171 @@ def fallback_pick(market_lookup, home, away):
 
 
 # ---------------------------------------------------------------------------
+# Backup source: api-football.com
+# ---------------------------------------------------------------------------
+
+def api_football_get(endpoint, params):
+    headers = {"x-apisports-key": API_FOOTBALL_KEY}
+    resp = requests.get(f"{API_FOOTBALL_BASE}{endpoint}", headers=headers, params=params, timeout=30)
+    resp.raise_for_status()
+    return resp.json()
+
+
+def get_af_market_lookup(fixture_id, home, away):
+    """Fetches all odds markets for one api-football.com fixture in a single call
+    and normalizes them into the same (odds_context, market_lookup) shape that
+    build_odds_context() produces for The Odds API, so the rest of the pipeline
+    (AI prompt, grading, etc.) doesn't need to know which source a match came from.
+    """
+    try:
+        resp = api_football_get("/odds", {"fixture": fixture_id})
+    except requests.exceptions.HTTPError:
+        return "", {}
+    data = resp.get("response", [])
+    if not data or not data[0].get("bookmakers"):
+        return "", {}
+    bets = {b["id"]: b for b in data[0]["bookmakers"][0]["bets"]}
+
+    market_lookup = {}
+    for key, bet_id in AF_MARKET_IDS.items():
+        bet = bets.get(bet_id)
+        if not bet:
+            continue
+        for v in bet.get("values", []):
+            try:
+                odd = float(v["odd"])
+            except (KeyError, ValueError):
+                continue
+            if odd < MIN_PICK_ODD:
+                continue
+            raw_value = v["value"]
+            name, point = None, None
+            if key == "h2h":
+                name = {"Home": home, "Away": away, "Draw": "Draw"}.get(raw_value)
+            elif key == "spreads":
+                parts = raw_value.rsplit(" ", 1)
+                if len(parts) == 2:
+                    side, line_str = parts
+                    name = home if side == "Home" else away if side == "Away" else None
+                    try:
+                        point = float(line_str)
+                    except ValueError:
+                        name = None
+            else:  # totals
+                parts = raw_value.split(" ", 1)
+                if len(parts) == 2:
+                    side, line_str = parts
+                    name = "Over" if side == "Over" else "Under" if side == "Under" else None
+                    try:
+                        point = float(line_str)
+                    except ValueError:
+                        name = None
+            if not name:
+                continue
+            market_lookup.setdefault(key, []).append({"name": name, "point": point, "price": odd})
+
+    for key in market_lookup:
+        market_lookup[key] = market_lookup[key][:8]
+
+    parts_text = []
+    for key in ["h2h", "spreads", "totals"]:
+        lines = market_lookup.get(key, [])
+        if not lines:
+            continue
+        label = MARKET_LABELS[key]
+        line_text = ", ".join(
+            f"{l['name']} {l['point']} ({l['price']})" if l["point"] is not None else f"{l['name']} ({l['price']})"
+            for l in lines
+        )
+        parts_text.append(f"{label}: {line_text}")
+    return "\n".join(parts_text), market_lookup
+
+
+def fetch_via_api_football(day_str):
+    """Backup path used only when The Odds API is completely unavailable
+    (e.g. monthly quota exhausted). Produces match dicts in the exact same
+    shape fetch_and_build() builds, tagged with source='api_football'.
+    """
+    matches = []
+    if not API_FOOTBALL_KEY:
+        print("[fetch] No API_FOOTBALL_KEY set, cannot use backup source")
+        return matches
+
+    print("[fetch] Primary source unavailable — falling back to api-football.com")
+    try:
+        resp = api_football_get("/fixtures", {"date": day_str})
+    except requests.exceptions.HTTPError as e:
+        print(f"[fetch] api-football.com fixtures request failed: {e}")
+        return matches
+
+    fixtures = resp.get("response", [])
+    print(f"[fetch] api-football.com: {len(fixtures)} fixtures on {day_str}")
+
+    for fx in fixtures:
+        league_id = fx["league"]["id"]
+        if league_id not in LEAGUE_IDS_AF:
+            continue
+
+        fixture_id = fx["fixture"]["id"]
+        kickoff_utc = fx["fixture"]["date"]
+        kickoff_local = datetime.fromisoformat(kickoff_utc).astimezone(TIMEZONE)
+        if football_day_of(kickoff_local) != day_str:
+            continue
+
+        home = fx["teams"]["home"]["name"]
+        away = fx["teams"]["away"]["name"]
+        league_name = LEAGUE_IDS_AF[league_id]
+
+        odds_context, market_lookup = get_af_market_lookup(fixture_id, home, away)
+
+        match = {
+            "event_id": fixture_id,
+            "sport_key": f"af_{league_id}",
+            "source": "api_football",
+            "league": league_name,
+            "home": home,
+            "away": away,
+            "home_ru": home,
+            "away_ru": away,
+            "kickoff_local": kickoff_local.strftime("%Y-%m-%d %H:%M"),
+            "kickoff_hour": kickoff_local.hour,
+            "message_id": None,
+            "result_checked": False,
+            "correct": None,
+            "pick": None,
+        }
+
+        if odds_context:
+            pick = None
+            if GROQ_API_KEY:
+                home_history = get_team_history_summary(home)
+                away_history = get_team_history_summary(away)
+                ai_response = build_ai_response(home, away, league_name, odds_context, home_history, away_history)
+                if ai_response:
+                    if ai_response.get("home_ru"):
+                        match["home_ru"] = ai_response["home_ru"]
+                    if ai_response.get("away_ru"):
+                        match["away_ru"] = ai_response["away_ru"]
+                    pick = extract_pick_from_ai_response(ai_response)
+                if pick:
+                    real_odd = find_odd_for_pick(
+                        market_lookup, pick["market"], pick["selection"], pick.get("line"), home, away
+                    )
+                    if real_odd is not None:
+                        pick["odd"] = real_odd
+                    if pick["odd"] < MIN_PICK_ODD:
+                        pick = None
+            if not pick:
+                pick = fallback_pick(market_lookup, home, away)
+            match["pick"] = pick
+
+        matches.append(match)
+        time.sleep(1)
+
+    return matches
+
+
+# ---------------------------------------------------------------------------
 # Fetch mode
 # ---------------------------------------------------------------------------
 
@@ -347,7 +532,11 @@ def fetch_and_build():
     print(f"[fetch] Getting matches for {day_str}")
 
     matches = []
+    any_success = False
+    any_attempted = False
+
     for sport_key, league_name in SPORT_KEYS.items():
+        any_attempted = True
         try:
             events = odds_api_get(f"/sports/{sport_key}/odds", {
                 "regions": ODDS_REGIONS,
@@ -358,6 +547,7 @@ def fetch_and_build():
             print(f"[fetch] Error fetching {sport_key}: {e}")
             continue
 
+        any_success = True
         print(f"[debug] {sport_key}: {len(events)} events")
 
         for ev in events:
@@ -372,6 +562,7 @@ def fetch_and_build():
             match = {
                 "event_id": ev["id"],
                 "sport_key": sport_key,
+                "source": "odds_api",
                 "league": league_name,
                 "home": home,
                 "away": away,
@@ -412,6 +603,10 @@ def fetch_and_build():
 
             matches.append(match)
             time.sleep(6)
+
+    if any_attempted and not any_success:
+        print("[fetch] The Odds API appears fully unavailable today (all leagues failed)")
+        matches = fetch_via_api_football(day_str)
 
     matches.sort(key=lambda m: m["kickoff_local"])
 
@@ -697,7 +892,6 @@ def check_results():
     today = datetime.now(TIMEZONE).date()
     checked_total = 0
 
-    # Group matches by sport_key so we call /scores once per sport, not once per match.
     for days_back in range(0, 3):
         day = (today - timedelta(days=days_back)).strftime("%Y-%m-%d")
         path = data_path(day)
@@ -711,8 +905,12 @@ def check_results():
         if not pending:
             continue
 
-        sport_keys_needed = {m["sport_key"] for m in pending}
+        odds_api_pending = [m for m in pending if m.get("source", "odds_api") == "odds_api"]
+        af_pending = [m for m in pending if m.get("source") == "api_football"]
+
+        # Odds API: one /scores call per sport_key covers every pending match for it.
         scores_by_event = {}
+        sport_keys_needed = {m["sport_key"] for m in odds_api_pending}
         for sport_key in sport_keys_needed:
             try:
                 scores = odds_api_get(f"/sports/{sport_key}/scores", {"daysFrom": 3})
@@ -722,18 +920,48 @@ def check_results():
             for s in scores:
                 scores_by_event[s["id"]] = s
 
+        # api-football.com backup matches: one /fixtures?id= call per match.
+        af_fixtures_by_id = {}
+        for m in af_pending:
+            try:
+                resp = api_football_get("/fixtures", {"id": m["event_id"]})
+            except requests.exceptions.HTTPError as e:
+                print(f"[check_results] Error fetching api-football fixture {m['event_id']}: {e}")
+                continue
+            items = resp.get("response", [])
+            if items:
+                af_fixtures_by_id[m["event_id"]] = items[0]
+            time.sleep(0.3)
+
         changed = False
         for m in pending:
-            score_data = scores_by_event.get(m["event_id"])
-            if not score_data or not score_data.get("completed"):
-                continue
+            source = m.get("source", "odds_api")
+            home_score = away_score = None
 
-            score_list = score_data.get("scores")
-            if not score_list:
-                continue
-            score_map = {s["name"]: int(s["score"]) for s in score_list}
-            home_score = score_map.get(m["home"])
-            away_score = score_map.get(m["away"])
+            if source == "odds_api":
+                score_data = scores_by_event.get(m["event_id"])
+                if not score_data or not score_data.get("completed"):
+                    continue
+                score_list = score_data.get("scores")
+                if not score_list:
+                    continue
+                score_map = {s["name"]: int(s["score"]) for s in score_list}
+                home_score = score_map.get(m["home"])
+                away_score = score_map.get(m["away"])
+            else:
+                fixture = af_fixtures_by_id.get(m["event_id"])
+                if not fixture:
+                    continue
+                status_short = fixture["fixture"]["status"]["short"]
+                if status_short in {"PST", "CANC", "ABD", "AWD", "WO"}:
+                    m["result_checked"] = True
+                    changed = True
+                    continue
+                if status_short not in {"FT", "AET", "PEN"}:
+                    continue
+                home_score = fixture["goals"]["home"]
+                away_score = fixture["goals"]["away"]
+
             if home_score is None or away_score is None:
                 continue
 
