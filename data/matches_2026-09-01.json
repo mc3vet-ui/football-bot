@@ -3,7 +3,8 @@
   "generated_at": "2026-09-01T14:28:43.058427+03:00",
   "posted_batches": [
     "morning",
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -17,7 +18,7 @@
       "away_ru": "Блэкберн Роверс",
       "kickoff_local": "2026-09-01 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 175,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -26,7 +27,8 @@
         "line": null,
         "odd": 2.15,
         "reasoning": "Коэффициент на победу хозяев (2.15) самый низкий среди вариантов, что указывает на их наибольшую вероятность выигрыша."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "62fd921d078634bff521a039e5d072e2",
@@ -39,7 +41,7 @@
       "away_ru": "Болтон Уондерерс",
       "kickoff_local": "2026-09-01 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 176,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -48,7 +50,8 @@
         "line": null,
         "odd": 1.62,
         "reasoning": "Шеффилд Юнайтед играет дома и имеет наименьший коэффициент 1.62, что указывает на наибольшую вероятность победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "e9715e74e335151724f185cbd1d0c647",
@@ -61,7 +64,7 @@
       "away_ru": "Бристоль Сити",
       "kickoff_local": "2026-09-01 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 177,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -70,7 +73,8 @@
         "line": 0.0,
         "odd": 1.71,
         "reasoning": "Бристоль Сити имеет более низкий коэффициент на уровне 0.0 (1.71) и также фаворит в исходе (2.25), что указывает на наибольшую вероятность победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "4a0c89e22ab60bce04f19e7f735d2ef3",
@@ -83,7 +87,7 @@
       "away_ru": "Дерби Каунти",
       "kickoff_local": "2026-09-01 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 178,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -92,7 +96,8 @@
         "line": 1.0,
         "odd": 1.41,
         "reasoning": "Фора Derby County +1 имеет самый низкий коэффициент (1.41), что указывает на высокую вероятность того, что команда не проиграет более чем в одну головой разницу."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "9c08fc770f60a84902ee513eebe6f54a",
@@ -105,7 +110,7 @@
       "away_ru": "Уотфорд",
       "kickoff_local": "2026-09-01 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 179,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -114,7 +119,8 @@
         "line": -1.0,
         "odd": 2.6,
         "reasoning": "Суонси Сити играет дома и имеет хорошие шансы выиграть с разницей минимум в один мяч, коэффициент 2.6 выглядит привлекательным."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "0f8dbff5bc978914dc696a2e05f7997e",
@@ -127,7 +133,7 @@
       "away_ru": "Вулверхэмптон Уондерерс",
       "kickoff_local": "2026-09-01 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 180,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -136,7 +142,8 @@
         "line": 0.0,
         "odd": 1.45,
         "reasoning": "Команда хозяев имеет наилучший шанс победы, что подтверждается самым низким коэффициентом в рынке фор — 0.0 (1.45), что делает эту ставку наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "65ed43c0d11fbd082806b5977c92111a",
@@ -149,7 +156,7 @@
       "away_ru": "Саутгемптон",
       "kickoff_local": "2026-09-01 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 181,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -158,7 +165,8 @@
         "line": 2.5,
         "odd": 1.76,
         "reasoning": "Тотал более 2.5 имеет более низкий коэффициент и соответствует атакующему стилю обеих команд, поэтому более вероятен."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "516bbb5603f1f3b37e144e670daecbea",
@@ -171,7 +179,7 @@
       "away_ru": "Норидж Сити",
       "kickoff_local": "2026-09-01 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 182,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -180,7 +188,8 @@
         "line": 1.0,
         "odd": 1.39,
         "reasoning": "Низкие коэффициенты (1.39) у спреда Сток Сити +1.0 указывают на высокую вероятность, что хозяева не проиграют более чем в один гол."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
