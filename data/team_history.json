@@ -160,5 +160,53 @@
   ],
   "FC Dallas": [
     true
+  ],
+  "Lincoln City": [
+    false
+  ],
+  "Blackburn Rovers": [
+    false
+  ],
+  "Sheffield United": [
+    true
+  ],
+  "Bolton Wanderers": [
+    true
+  ],
+  "Preston North End": [
+    true
+  ],
+  "Bristol City": [
+    true
+  ],
+  "Portsmouth": [
+    true
+  ],
+  "Derby County": [
+    true
+  ],
+  "Swansea City": [
+    true
+  ],
+  "Watford": [
+    true
+  ],
+  "West Ham United": [
+    true
+  ],
+  "Wolverhampton Wanderers": [
+    true
+  ],
+  "Birmingham City": [
+    false
+  ],
+  "Southampton": [
+    false
+  ],
+  "Stoke City": [
+    true
+  ],
+  "Norwich City": [
+    true
   ]
 }
