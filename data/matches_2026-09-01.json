@@ -1,0 +1,177 @@
+{
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T08:05:50.845769+03:00",
+  "posted_batches": [
+    "morning"
+  ],
+  "matches": [
+    {
+      "event_id": "dbfc02fdb7965bc717b8cedf7071c847",
+      "sport_key": "soccer_efl_champ",
+      "league": "Чемпионшип",
+      "home": "Lincoln City",
+      "away": "Blackburn Rovers",
+      "home_ru": "Линкольн Сити",
+      "away_ru": "Блэкберн Роверс",
+      "kickoff_local": "2026-09-01 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "over",
+        "line": 2.5,
+        "odd": 1.84,
+        "reasoning": "Тотал более 2.5 имеет чуть более выгодный коэффициент (1.84) чем «меньше», что указывает на небольшую вероятность матча с более чем 2.5 голами, а остальные рынки менее уверенные."
+      }
+    },
+    {
+      "event_id": "62fd921d078634bff521a039e5d072e2",
+      "sport_key": "soccer_efl_champ",
+      "league": "Чемпионшип",
+      "home": "Sheffield United",
+      "away": "Bolton Wanderers",
+      "home_ru": "Шеффилд Юнайтед",
+      "away_ru": "Болтон Уондерерс",
+      "kickoff_local": "2026-09-01 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.62,
+        "reasoning": "Шеффилд Юнайтед — явный фаворит с самым низким коэффициентом, что указывает на наибольшую вероятность победы."
+      }
+    },
+    {
+      "event_id": "e9715e74e335151724f185cbd1d0c647",
+      "sport_key": "soccer_efl_champ",
+      "league": "Чемпионшип",
+      "home": "Preston North End",
+      "away": "Bristol City",
+      "home_ru": "Престон Норт Энд",
+      "away_ru": "Бристоль Сити",
+      "kickoff_local": "2026-09-01 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 1.94,
+        "reasoning": "Выбираем ставку на победу хозяев с форой 0.0, так как коэффициент 1.94 выше, а данная линия обычно более надёжна, чем прямой исход."
+      }
+    },
+    {
+      "event_id": "4a0c89e22ab60bce04f19e7f735d2ef3",
+      "sport_key": "soccer_efl_champ",
+      "league": "Чемпионшип",
+      "home": "Portsmouth",
+      "away": "Derby County",
+      "home_ru": "Портсмут",
+      "away_ru": "Дерби Каунти",
+      "kickoff_local": "2026-09-01 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": 1.0,
+        "odd": 1.38,
+        "reasoning": "Коэффициент 1.38 на форуме Derby County +1.0 указывает на высокую вероятность, что команда не проиграет более чем в один гол."
+      }
+    },
+    {
+      "event_id": "9c08fc770f60a84902ee513eebe6f54a",
+      "sport_key": "soccer_efl_champ",
+      "league": "Чемпионшип",
+      "home": "Swansea City",
+      "away": "Watford",
+      "home_ru": "Суонсей Сити",
+      "away_ru": "Уотфорд",
+      "kickoff_local": "2026-09-01 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": 1.0,
+        "odd": 1.45,
+        "reasoning": "Коэффициент 1.45 у форы Watford +1.0 самый низкий, что указывает на наибольшую вероятность исхода."
+      }
+    },
+    {
+      "event_id": "0f8dbff5bc978914dc696a2e05f7997e",
+      "sport_key": "soccer_efl_champ",
+      "league": "Чемпионшип",
+      "home": "West Ham United",
+      "away": "Wolverhampton Wanderers",
+      "home_ru": "Вест Хэм Юнайтед",
+      "away_ru": "Вулверхэмптон Уондерерс",
+      "kickoff_local": "2026-09-01 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 1.43,
+        "reasoning": "Коэффициент на форту 0.0 в пользу хозяев (1.43) даёт наибольшую вероятность исхода — победа или ничья для West Ham."
+      }
+    },
+    {
+      "event_id": "65ed43c0d11fbd082806b5977c92111a",
+      "sport_key": "soccer_efl_champ",
+      "league": "Чемпионшип",
+      "home": "Birmingham City",
+      "away": "Southampton",
+      "home_ru": "Бермингем Сити",
+      "away_ru": "Саутгемптон",
+      "kickoff_local": "2026-09-01 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "over",
+        "line": 2.5,
+        "odd": 1.8,
+        "reasoning": "Ожидается открытая игра, а коэффициент на тотал больше 2.5 (1.8) указывает на более высокую вероятность такого исхода."
+      }
+    },
+    {
+      "event_id": "516bbb5603f1f3b37e144e670daecbea",
+      "sport_key": "soccer_efl_champ",
+      "league": "Чемпионшип",
+      "home": "Stoke City",
+      "away": "Norwich City",
+      "home_ru": "Сток Сити",
+      "away_ru": "Норвич Сити",
+      "kickoff_local": "2026-09-01 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "over",
+        "line": 2.5,
+        "odd": 1.8,
+        "reasoning": "Норвич фаворит, ожидается победа с минимум двумя голами, что скорее приведёт к общему количеству голов более 2.5."
+      }
+    }
+  ]
+}
