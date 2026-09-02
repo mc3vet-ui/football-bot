@@ -19,8 +19,8 @@
       "kickoff_local": "2026-09-02 21:45",
       "kickoff_hour": 21,
       "message_id": 185,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -28,7 +28,8 @@
         "odd": 1.41,
         "reasoning": "Фора 0.0 в пользу хозяев имеет наименьший коэффициент (1.41), что указывает на наибольшую вероятность исхода."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     },
     {
       "event_id": "fa97d2c575f32b0f2856f48cc077e164",
@@ -42,8 +43,8 @@
       "kickoff_local": "2026-09-02 21:45",
       "kickoff_hour": 21,
       "message_id": 186,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -51,7 +52,8 @@
         "odd": 2.93,
         "reasoning": "У Вест Бромвич Альбион сильный фаворит, коэффициент -1.5 (2.93) указывает на уверенную победу с разницей минимум в два гола."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": "66f688fe97eb94eaedd3b6d8a3851f77",
@@ -65,8 +67,8 @@
       "kickoff_local": "2026-09-02 21:45",
       "kickoff_hour": 21,
       "message_id": 187,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -74,7 +76,8 @@
         "odd": 3.51,
         "reasoning": "Миллуолл играет дома и считается фаворитом; форой -1.0 с коэффициентом 3.51 предлагает выигрыш с разницей хотя бы в один мяч, что выглядит наиболее вероятным вариантом."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:3"
     },
     {
       "event_id": "6c968fe4325c9b7e75078abfc572560d",

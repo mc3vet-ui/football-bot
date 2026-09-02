@@ -208,5 +208,23 @@
   ],
   "Norwich City": [
     true
+  ],
+  "Queens Park Rangers": [
+    true
+  ],
+  "Cardiff City": [
+    true
+  ],
+  "West Bromwich Albion": [
+    false
+  ],
+  "Charlton Athletic": [
+    false
+  ],
+  "Millwall": [
+    false
+  ],
+  "Wrexham AFC": [
+    false
   ]
 }
