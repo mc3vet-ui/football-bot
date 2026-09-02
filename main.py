@@ -131,6 +131,15 @@ def today_str():
     return football_day_of(datetime.now(TIMEZONE))
 
 
+def previous_football_day_str():
+    """The football day that just fully ended — used for the morning-after
+    daily stats summary, so it covers matches that finished late (e.g. after
+    midnight) rather than being posted before they'd concluded.
+    """
+    current = datetime.strptime(today_str(), "%Y-%m-%d")
+    return (current - timedelta(days=1)).strftime("%Y-%m-%d")
+
+
 def data_path(day_str):
     return os.path.join(DATA_DIR, f"matches_{day_str}.json")
 
@@ -1017,8 +1026,10 @@ def post_stats(period):
     now = datetime.now(TIMEZONE)
 
     if period == "daily":
-        dates = [now.strftime("%Y-%m-%d")]
-        title = f"📊 <b>Итоги дня — {now.strftime('%d.%m.%Y')}</b>"
+        target_date = previous_football_day_str()
+        dates = [target_date]
+        title_date = datetime.strptime(target_date, "%Y-%m-%d").strftime("%d.%m.%Y")
+        title = f"📊 <b>Итоги дня — {title_date}</b>"
     elif period == "weekly":
         dates = [(now - timedelta(days=i)).strftime("%Y-%m-%d") for i in range(7)]
         title = "📊 <b>Итоги недели</b>"
