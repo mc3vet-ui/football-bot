@@ -3,7 +3,8 @@
   "generated_at": "2026-09-02T08:04:32.338145+03:00",
   "posted_batches": [
     "morning",
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -17,7 +18,7 @@
       "away_ru": "Кардифф Сити",
       "kickoff_local": "2026-09-02 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 185,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -26,7 +27,8 @@
         "line": 0.0,
         "odd": 1.41,
         "reasoning": "Фора 0.0 в пользу хозяев имеет наименьший коэффициент (1.41), что указывает на наибольшую вероятность исхода."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "fa97d2c575f32b0f2856f48cc077e164",
@@ -39,7 +41,7 @@
       "away_ru": "Чалтон Атлетик",
       "kickoff_local": "2026-09-02 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 186,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -48,7 +50,8 @@
         "line": -1.5,
         "odd": 2.93,
         "reasoning": "У Вест Бромвич Альбион сильный фаворит, коэффициент -1.5 (2.93) указывает на уверенную победу с разницей минимум в два гола."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "66f688fe97eb94eaedd3b6d8a3851f77",
@@ -61,7 +64,7 @@
       "away_ru": "Рексэм АФК",
       "kickoff_local": "2026-09-02 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 187,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -70,7 +73,8 @@
         "line": -1.0,
         "odd": 3.51,
         "reasoning": "Миллуолл играет дома и считается фаворитом; форой -1.0 с коэффициентом 3.51 предлагает выигрыш с разницей хотя бы в один мяч, что выглядит наиболее вероятным вариантом."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "6c968fe4325c9b7e75078abfc572560d",
@@ -83,7 +87,7 @@
       "away_ru": "Мидлсбро",
       "kickoff_local": "2026-09-02 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 188,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -92,7 +96,8 @@
         "line": 2.5,
         "odd": 1.67,
         "reasoning": "Низкий коэффициент на тотал больше 2.5 (1.67) указывает на высокую вероятность матча с более чем 2.5 голами."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
