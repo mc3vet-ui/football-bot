@@ -13,7 +13,8 @@ on:
     - cron: '0 16 * * *'   # 19:00 мск — публикация вечернего батча
     - cron: '0 18 * * *'   # 21:00 мск — доп. проверка результатов
     - cron: '50 20 * * *'  # 23:50 мск — проверка результатов закончившихся матчей
-    - cron: '58 20 * * *'  # 23:58 мск — итоги дня
+    - cron: '45 4 * * *'   # 07:45 мск след. утра — финальная проверка (даже поздние матчи уже закончились)
+    - cron: '50 4 * * *'   # 07:50 мск след. утра — итоги ПРОШЕДШЕГО игрового дня
     - cron: '59 20 * * 0'  # 23:59 мск по воскресеньям — итоги недели
     - cron: '0 6 1 * *'    # 09:00 мск 1-го числа — итоги прошлого месяца
     - cron: '5 6 1 1 *'    # 09:05 мск 1 января — итоги прошлого года
@@ -69,7 +70,6 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           TIMEZONE: 'Europe/Moscow'
         run: python main.py post
 
@@ -79,18 +79,18 @@ jobs:
           github.event.schedule == '0 13 * * *' ||
           github.event.schedule == '0 18 * * *' ||
           github.event.schedule == '50 20 * * *' ||
+          github.event.schedule == '45 4 * * *' ||
           (github.event_name == 'workflow_dispatch' && inputs.mode == 'check_results')
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           TIMEZONE: 'Europe/Moscow'
         run: python main.py check_results
 
       - name: Daily stats
         if: |
-          github.event.schedule == '58 20 * * *' ||
+          github.event.schedule == '50 4 * * *' ||
           (github.event_name == 'workflow_dispatch' && inputs.mode == 'stats_daily')
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
