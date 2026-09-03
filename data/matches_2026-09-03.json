@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T08:39:00.153296+03:00",
+  "posted_batches": [
+    "morning"
+  ],
+  "matches": [
+    {
+      "event_id": "9a31fb300796d3e97b63f1db49badedc",
+      "sport_key": "soccer_france_ligue_one",
+      "source": "odds_api",
+      "league": "Лига 1",
+      "home": "Toulouse",
+      "away": "Lille",
+      "home_ru": "Тулуза",
+      "away_ru": "Лилль",
+      "kickoff_local": "2026-09-03 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 1.0,
+        "odd": 1.44,
+        "reasoning": "Тулуза получает фору +1 гол, что дает им высокий шанс не проиграть более чем в 1 мяч; коэффициент 1.44 указывает на большую вероятность."
+      }
+    },
+    {
+      "event_id": "5a4aaa142d12a350f302f2fb62fef0b3",
+      "sport_key": "soccer_spain_la_liga",
+      "source": "odds_api",
+      "league": "Ла Лига",
+      "home": "Real Sociedad",
+      "away": "Celta Vigo",
+      "home_ru": "Реал Сосьедад",
+      "away_ru": "Сельта Виго",
+      "kickoff_local": "2026-09-03 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 1.46,
+        "reasoning": "Домашняя команда явный фаворит, ставка на форту 0.0 дает выигрыш при победе и возврат при ничье, что повышает шансы."
+      }
+    }
+  ]
+}
