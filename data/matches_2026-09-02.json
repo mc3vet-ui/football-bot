@@ -91,8 +91,8 @@
       "kickoff_local": "2026-09-02 22:00",
       "kickoff_hour": 22,
       "message_id": 188,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -100,7 +100,8 @@
         "odd": 1.67,
         "reasoning": "Низкий коэффициент на тотал больше 2.5 (1.67) указывает на высокую вероятность матча с более чем 2.5 голами."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     }
   ]
 }
