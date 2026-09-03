@@ -3,7 +3,8 @@
   "generated_at": "2026-09-03T08:39:00.153296+03:00",
   "posted_batches": [
     "morning",
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -17,7 +18,7 @@
       "away_ru": "Лилль",
       "kickoff_local": "2026-09-03 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 192,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -26,7 +27,8 @@
         "line": 1.0,
         "odd": 1.44,
         "reasoning": "Тулуза получает фору +1 гол, что дает им высокий шанс не проиграть более чем в 1 мяч; коэффициент 1.44 указывает на большую вероятность."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "5a4aaa142d12a350f302f2fb62fef0b3",
@@ -39,7 +41,7 @@
       "away_ru": "Сельта Виго",
       "kickoff_local": "2026-09-03 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 193,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -48,7 +50,8 @@
         "line": 0.0,
         "odd": 1.46,
         "reasoning": "Домашняя команда явный фаворит, ставка на форту 0.0 дает выигрыш при победе и возврат при ничье, что повышает шансы."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
