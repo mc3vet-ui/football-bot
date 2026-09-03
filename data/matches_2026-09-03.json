@@ -19,7 +19,7 @@
       "kickoff_local": "2026-09-03 21:45",
       "kickoff_hour": 21,
       "message_id": 192,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -28,7 +28,8 @@
         "odd": 1.44,
         "reasoning": "Тулуза получает фору +1 гол, что дает им высокий шанс не проиграть более чем в 1 мяч; коэффициент 1.44 указывает на большую вероятность."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:1"
     },
     {
       "event_id": "5a4aaa142d12a350f302f2fb62fef0b3",
