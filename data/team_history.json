@@ -1,5 +1,6 @@
 {
   "FC St. Pauli": [
+    true,
     true
   ],
   "1. FC Kaiserslautern": [
@@ -15,7 +16,8 @@
     true
   ],
   "Hannover 96": [
-    true
+    true,
+    false
   ],
   "Chelsea": [
     true
@@ -57,12 +59,14 @@
     true
   ],
   "Ipswich Town": [
+    true,
     true
   ],
   "Napoli": [
     false
   ],
   "Como": [
+    false,
     false
   ],
   "Deportivo La Coruña": [
@@ -81,7 +85,8 @@
     true
   ],
   "Genoa": [
-    true
+    true,
+    false
   ],
   "AS Monaco": [
     false
@@ -232,5 +237,20 @@
   ],
   "Middlesbrough": [
     false
+  ],
+  "Arminia Bielefeld": [
+    true
+  ],
+  "Karlsruher SC": [
+    false
+  ],
+  "Lyon": [
+    false
+  ],
+  "Auxerre": [
+    false
+  ],
+  "Liverpool": [
+    true
   ]
 }

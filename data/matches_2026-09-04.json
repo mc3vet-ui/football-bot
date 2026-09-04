@@ -19,8 +19,8 @@
       "kickoff_local": "2026-09-04 19:30",
       "kickoff_hour": 19,
       "message_id": 196,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -28,7 +28,8 @@
         "odd": 1.58,
         "reasoning": "Обе команды в последних матчах часто забивают более двух голов, общий тотал выше 2.5 встречается регулярно, а коэффициент 1.58 указывает на высокую вероятность исхода."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:2"
     },
     {
       "event_id": "b82e6d3e1dede77828d50d97d39981cb",
@@ -42,8 +43,8 @@
       "kickoff_local": "2026-09-04 19:30",
       "kickoff_hour": 19,
       "message_id": 197,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -51,7 +52,8 @@
         "odd": 1.63,
         "reasoning": "У Ханновера 96 хорошие шансы на победу: коэффициент 1.63, команда играет дома, а в прошлых прогнозах на неё 100% успех."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:2"
     },
     {
       "event_id": "dc9514d16c26bc6b7f2ae27d10069842",
@@ -65,8 +67,8 @@
       "kickoff_local": "2026-09-04 20:00",
       "kickoff_hour": 20,
       "message_id": 198,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "under",
@@ -74,7 +76,8 @@
         "odd": 1.76,
         "reasoning": "Лион играет дома и считается фаворитом, ожидается умеренное количество голов, поэтому тотал меньше 3.0 выглядит самым вероятным вариантом."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:1"
     },
     {
       "event_id": "bdb14878ab273b21885de07fec24d7d2",
@@ -111,8 +114,8 @@
       "kickoff_local": "2026-09-04 21:45",
       "kickoff_hour": 21,
       "message_id": 200,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "under",
@@ -120,7 +123,8 @@
         "odd": 1.65,
         "reasoning": "Ожидается небольшое количество голов в матче, что подтверждается низким коэффициентом на тотал и успешными прошлым прогнозом на Genoa."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:4"
     },
     {
       "event_id": "625c096fabb6047cbeb082dab9affce4",
@@ -134,8 +138,8 @@
       "kickoff_local": "2026-09-04 22:00",
       "kickoff_hour": 22,
       "message_id": 201,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -143,7 +147,8 @@
         "odd": 2.21,
         "reasoning": "Ливерпуль явно сильнее и, скорее всего, победит с разницей более 1.5 гола, а коэффициент 2.21 дает хорошую ценность."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:2"
     },
     {
       "event_id": "1484e27f774c67d124acae27e82e60fa",
