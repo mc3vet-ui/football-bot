@@ -43,7 +43,7 @@
       "kickoff_local": "2026-09-03 22:00",
       "kickoff_hour": 22,
       "message_id": 193,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -52,7 +52,8 @@
         "odd": 1.46,
         "reasoning": "Домашняя команда явный фаворит, ставка на форту 0.0 дает выигрыш при победе и возврат при ничье, что повышает шансы."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:0"
     }
   ]
 }
