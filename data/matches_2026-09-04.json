@@ -1,0 +1,207 @@
+{
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T08:05:07.652782+03:00",
+  "posted_batches": [
+    "morning"
+  ],
+  "matches": [
+    {
+      "event_id": "f43cf8b7c198fee138e957d8fb6d33a0",
+      "sport_key": "soccer_germany_bundesliga2",
+      "source": "odds_api",
+      "league": "Бундеслига 2",
+      "home": "Arminia Bielefeld",
+      "away": "FC St. Pauli",
+      "home_ru": "Арминия Билефельд",
+      "away_ru": "ФК Ст. Паули",
+      "kickoff_local": "2026-09-04 19:30",
+      "kickoff_hour": 19,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "over",
+        "line": 2.5,
+        "odd": 1.58,
+        "reasoning": "Обе команды в последних матчах часто забивают более двух голов, общий тотал выше 2.5 встречается регулярно, а коэффициент 1.58 указывает на высокую вероятность исхода."
+      }
+    },
+    {
+      "event_id": "b82e6d3e1dede77828d50d97d39981cb",
+      "sport_key": "soccer_germany_bundesliga2",
+      "source": "odds_api",
+      "league": "Бундеслига 2",
+      "home": "Hannover 96",
+      "away": "Karlsruher SC",
+      "home_ru": "Ганновер 96",
+      "away_ru": "Карлсруэр СК",
+      "kickoff_local": "2026-09-04 19:30",
+      "kickoff_hour": 19,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.63,
+        "reasoning": "У Ханновера 96 хорошие шансы на победу: коэффициент 1.63, команда играет дома, а в прошлых прогнозах на неё 100% успех."
+      }
+    },
+    {
+      "event_id": "dc9514d16c26bc6b7f2ae27d10069842",
+      "sport_key": "soccer_france_ligue_one",
+      "source": "odds_api",
+      "league": "Лига 1",
+      "home": "Lyon",
+      "away": "Auxerre",
+      "home_ru": "Лион",
+      "away_ru": "Осер",
+      "kickoff_local": "2026-09-04 20:00",
+      "kickoff_hour": 20,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "under",
+        "line": 3.0,
+        "odd": 1.76,
+        "reasoning": "Лион играет дома и считается фаворитом, ожидается умеренное количество голов, поэтому тотал меньше 3.0 выглядит самым вероятным вариантом."
+      }
+    },
+    {
+      "event_id": "bdb14878ab273b21885de07fec24d7d2",
+      "sport_key": "soccer_germany_bundesliga",
+      "source": "odds_api",
+      "league": "Бундеслига",
+      "home": "VfB Stuttgart",
+      "away": "1. FC Köln",
+      "home_ru": "ВФБ Штутгарт",
+      "away_ru": "1. ФК Кёльн",
+      "kickoff_local": "2026-09-04 21:30",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": 1.5,
+        "odd": 1.73,
+        "reasoning": "Фора +1.5 для Кёльна покрывает возможный небольшой отставание и имеет более привлекательный коэффициент, чем форой -1.5 для хозяев, что делает её более надёжной ставкой."
+      }
+    },
+    {
+      "event_id": "8acf5c039c4ab96357d35a665883705a",
+      "sport_key": "soccer_italy_serie_a",
+      "source": "odds_api",
+      "league": "Серия А",
+      "home": "Genoa",
+      "away": "Como",
+      "home_ru": "Генуа",
+      "away_ru": "Комо",
+      "kickoff_local": "2026-09-04 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "under",
+        "line": 2.5,
+        "odd": 1.65,
+        "reasoning": "Ожидается небольшое количество голов в матче, что подтверждается низким коэффициентом на тотал и успешными прошлым прогнозом на Genoa."
+      }
+    },
+    {
+      "event_id": "625c096fabb6047cbeb082dab9affce4",
+      "sport_key": "soccer_epl",
+      "source": "odds_api",
+      "league": "АПЛ",
+      "home": "Ipswich Town",
+      "away": "Liverpool",
+      "home_ru": "Ипсвич Таун",
+      "away_ru": "Ливерпуль",
+      "kickoff_local": "2026-09-04 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": -1.5,
+        "odd": 2.21,
+        "reasoning": "Ливерпуль явно сильнее и, скорее всего, победит с разницей более 1.5 гола, а коэффициент 2.21 дает хорошую ценность."
+      }
+    },
+    {
+      "event_id": "1484e27f774c67d124acae27e82e60fa",
+      "sport_key": "soccer_spain_la_liga",
+      "source": "odds_api",
+      "league": "Ла Лига",
+      "home": "Real Betis",
+      "away": "Real Madrid",
+      "home_ru": "Реал Бетис",
+      "away_ru": "Реал Мадрид",
+      "kickoff_local": "2026-09-04 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 1.5,
+        "odd": 1.8,
+        "reasoning": "Низкий спред +1.5 для хозяина с коэффициентом 1.8 указывает на высокую вероятность, что Реал Бетис не проиграет более чем в одну шайбу."
+      }
+    },
+    {
+      "event_id": "e6fc9c63d216738df1f2687a41c2d983",
+      "sport_key": "soccer_france_ligue_one",
+      "source": "odds_api",
+      "league": "Лига 1",
+      "home": "Paris Saint Germain",
+      "away": "AS Monaco",
+      "home_ru": "Пари Сен-Жермен",
+      "away_ru": "АС Монако",
+      "kickoff_local": "2026-09-04 22:05",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": -1.5,
+        "odd": 2.0,
+        "reasoning": "ПСЖ играет дома против Монако, сильнее, и с учётом их атакующего стиля вероятно победит с разницей минимум в два мяча, что подтверждается коэффициентом 2.0."
+      }
+    },
+    {
+      "event_id": "6b5aa4cdc3e4394a2ba8b106d48947d5",
+      "sport_key": "soccer_usa_mls",
+      "source": "odds_api",
+      "league": "MLS",
+      "home": "New York City FC",
+      "away": "Nashville SC",
+      "home_ru": "Нью-Йорк Сити ФК",
+      "away_ru": "Нэшвилл СК",
+      "kickoff_local": "2026-09-05 02:30",
+      "kickoff_hour": 2,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "over",
+        "line": 2.5,
+        "odd": 1.76,
+        "reasoning": "Ожидается более 2.5 голов, коэффициент ниже 2, что указывает на большую вероятность"
+      }
+    }
+  ]
+}
