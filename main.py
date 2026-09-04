@@ -810,8 +810,9 @@ def save_stats(stats):
 
 def record_result(date_str, correct, odd):
     stats = load_stats()
-    entry = stats.setdefault(date_str, {"correct": 0, "incorrect": 0, "balance": 0.0})
+    entry = stats.setdefault(date_str, {"correct": 0, "incorrect": 0, "push": 0, "balance": 0.0})
     entry.setdefault("balance", 0.0)
+    entry.setdefault("push", 0)
     if correct:
         entry["correct"] += 1
         entry["balance"] += round((odd - 1) * STAKE_RUB, 2)
@@ -819,6 +820,14 @@ def record_result(date_str, correct, odd):
         entry["incorrect"] += 1
         entry["balance"] -= STAKE_RUB
     entry["balance"] = round(entry["balance"], 2)
+    save_stats(stats)
+
+
+def record_push(date_str):
+    stats = load_stats()
+    entry = stats.setdefault(date_str, {"correct": 0, "incorrect": 0, "push": 0, "balance": 0.0})
+    entry.setdefault("push", 0)
+    entry["push"] += 1
     save_stats(stats)
 
 
@@ -985,6 +994,7 @@ def check_results():
             elif is_push:
                 m["correct"] = None
                 new_text = format_match_block(m) + f"\n\nИтог: {m['final_score']} ➖ Возврат (пуш)"
+                record_push(day)
             else:
                 m["correct"] = correct
                 profit = round((m["pick"]["odd"] - 1) * STAKE_RUB, 2) if correct else -STAKE_RUB
@@ -1048,11 +1058,21 @@ def post_stats(period):
 
     correct = sum(stats.get(d, {}).get("correct", 0) for d in dates)
     incorrect = sum(stats.get(d, {}).get("incorrect", 0) for d in dates)
+    pushes = sum(stats.get(d, {}).get("push", 0) for d in dates)
     balance = round(sum(stats.get(d, {}).get("balance", 0) for d in dates), 2)
     total = correct + incorrect
 
-    if total == 0:
+    if total == 0 and pushes == 0:
         print(f"[stats] No graded predictions for period '{period}', skipping post")
+        return
+
+    push_line = f"➖ Возвраты (пуш): {pushes}\n" if pushes else ""
+
+    if total == 0:
+        # Only pushes today — nothing to score, but still worth a short note.
+        text = f"{title}\n\n{push_line}Верных/неверных прогнозов не было — все ставки вернулись."
+        send_telegram_message(text)
+        print(f"[stats] Posted {period} summary: 0/0 graded, {pushes} pushes")
         return
 
     winrate = round(correct / total * 100, 1)
@@ -1061,11 +1081,12 @@ def post_stats(period):
         f"{title}\n\n"
         f"✅ Верных прогнозов: {correct}\n"
         f"❌ Неверных: {incorrect}\n"
+        f"{push_line}"
         f"📈 Точность: {winrate}%\n"
         f"💰 Баланс (ставка {STAKE_RUB}₽ на прогноз): {sign}{balance}₽"
     )
     send_telegram_message(text)
-    print(f"[stats] Posted {period} summary: {correct}/{total} correct, balance {sign}{balance}₽")
+    print(f"[stats] Posted {period} summary: {correct}/{total} correct, {pushes} pushes, balance {sign}{balance}₽")
 
 
 # ---------------------------------------------------------------------------
