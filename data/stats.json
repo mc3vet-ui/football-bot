@@ -33,5 +33,10 @@
     "correct": 1,
     "incorrect": 3,
     "balance": -2590.0
+    },
+  "2026-09-03": {
+    "correct": 0,
+    "incorrect": 0,
+    "push": 2,
+    "balance": 0.0
   }
-}
