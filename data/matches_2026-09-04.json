@@ -3,7 +3,8 @@
   "generated_at": "2026-09-04T08:05:07.652782+03:00",
   "posted_batches": [
     "morning",
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -17,7 +18,7 @@
       "away_ru": "ФК Ст. Паули",
       "kickoff_local": "2026-09-04 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 196,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -26,7 +27,8 @@
         "line": 2.5,
         "odd": 1.58,
         "reasoning": "Обе команды в последних матчах часто забивают более двух голов, общий тотал выше 2.5 встречается регулярно, а коэффициент 1.58 указывает на высокую вероятность исхода."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "b82e6d3e1dede77828d50d97d39981cb",
@@ -39,7 +41,7 @@
       "away_ru": "Карлсруэр СК",
       "kickoff_local": "2026-09-04 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 197,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -48,7 +50,8 @@
         "line": null,
         "odd": 1.63,
         "reasoning": "У Ханновера 96 хорошие шансы на победу: коэффициент 1.63, команда играет дома, а в прошлых прогнозах на неё 100% успех."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "dc9514d16c26bc6b7f2ae27d10069842",
@@ -61,7 +64,7 @@
       "away_ru": "Осер",
       "kickoff_local": "2026-09-04 20:00",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 198,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -70,7 +73,8 @@
         "line": 3.0,
         "odd": 1.76,
         "reasoning": "Лион играет дома и считается фаворитом, ожидается умеренное количество голов, поэтому тотал меньше 3.0 выглядит самым вероятным вариантом."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "bdb14878ab273b21885de07fec24d7d2",
@@ -83,7 +87,7 @@
       "away_ru": "1. ФК Кёльн",
       "kickoff_local": "2026-09-04 21:30",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 199,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -92,7 +96,8 @@
         "line": 1.5,
         "odd": 1.73,
         "reasoning": "Фора +1.5 для Кёльна покрывает возможный небольшой отставание и имеет более привлекательный коэффициент, чем форой -1.5 для хозяев, что делает её более надёжной ставкой."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "8acf5c039c4ab96357d35a665883705a",
@@ -105,7 +110,7 @@
       "away_ru": "Комо",
       "kickoff_local": "2026-09-04 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 200,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -114,7 +119,8 @@
         "line": 2.5,
         "odd": 1.65,
         "reasoning": "Ожидается небольшое количество голов в матче, что подтверждается низким коэффициентом на тотал и успешными прошлым прогнозом на Genoa."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "625c096fabb6047cbeb082dab9affce4",
@@ -127,7 +133,7 @@
       "away_ru": "Ливерпуль",
       "kickoff_local": "2026-09-04 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 201,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -136,7 +142,8 @@
         "line": -1.5,
         "odd": 2.21,
         "reasoning": "Ливерпуль явно сильнее и, скорее всего, победит с разницей более 1.5 гола, а коэффициент 2.21 дает хорошую ценность."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "1484e27f774c67d124acae27e82e60fa",
@@ -149,7 +156,7 @@
       "away_ru": "Реал Мадрид",
       "kickoff_local": "2026-09-04 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 202,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -158,7 +165,8 @@
         "line": 1.5,
         "odd": 1.8,
         "reasoning": "Низкий спред +1.5 для хозяина с коэффициентом 1.8 указывает на высокую вероятность, что Реал Бетис не проиграет более чем в одну шайбу."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "e6fc9c63d216738df1f2687a41c2d983",
@@ -171,7 +179,7 @@
       "away_ru": "АС Монако",
       "kickoff_local": "2026-09-04 22:05",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 203,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -180,7 +188,8 @@
         "line": -1.5,
         "odd": 2.0,
         "reasoning": "ПСЖ играет дома против Монако, сильнее, и с учётом их атакующего стиля вероятно победит с разницей минимум в два мяча, что подтверждается коэффициентом 2.0."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "6b5aa4cdc3e4394a2ba8b106d48947d5",
@@ -193,7 +202,7 @@
       "away_ru": "Нэшвилл СК",
       "kickoff_local": "2026-09-05 02:30",
       "kickoff_hour": 2,
-      "message_id": null,
+      "message_id": 204,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -202,7 +211,8 @@
         "line": 2.5,
         "odd": 1.76,
         "reasoning": "Ожидается более 2.5 голов, коэффициент ниже 2, что указывает на большую вероятность"
-      }
+      },
+      "has_photo": true
     }
   ]
 }
