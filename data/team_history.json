@@ -40,6 +40,7 @@
     true
   ],
   "Nice": [
+    true,
     true
   ],
   "SC Freiburg": [
@@ -61,6 +62,7 @@
     true
   ],
   "Le Mans FC": [
+    true,
     true
   ],
   "Manchester United": [
@@ -129,7 +131,8 @@
     true
   ],
   "AS Roma": [
-    true
+    true,
+    false
   ],
   "CA Osasuna": [
     true
@@ -138,7 +141,8 @@
     true
   ],
   "Atalanta BC": [
-    true
+    true,
+    false
   ],
   "Bologna": [
     true
@@ -153,13 +157,15 @@
     true
   ],
   "Rayo Vallecano": [
+    true,
     true
   ],
   "Augsburg": [
     true
   ],
   "FC Schalke 04": [
-    true
+    true,
+    false
   ],
   "Celta Vigo": [
     true
@@ -213,6 +219,7 @@
     false
   ],
   "Swansea City": [
+    true,
     true
   ],
   "Watford": [
@@ -260,7 +267,8 @@
     false
   ],
   "Wrexham AFC": [
-    false
+    false,
+    true
   ],
   "Burnley": [
     false,
@@ -367,6 +375,24 @@
     false
   ],
   "Lorient": [
+    false
+  ],
+  "Real Racing Club de Santander": [
+    true
+  ],
+  "Bayern Munich": [
+    false
+  ],
+  "Dynamo Dresden": [
+    false
+  ],
+  "VfL Bochum": [
+    false
+  ],
+  "Le Havre": [
+    false
+  ],
+  "Brest": [
     false
   ]
 }
