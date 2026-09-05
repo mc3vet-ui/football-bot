@@ -17,8 +17,8 @@
       "kickoff_local": "2026-09-05 14:00",
       "kickoff_hour": 14,
       "message_id": 207,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -26,7 +26,8 @@
         "odd": 1.89,
         "reasoning": "У Кайзерслаутерна небольшое преимущество в виде форы -0.25 с коэффициентом 1.89, что выше шансов на победу по прямому рынку, и учитывая хорошие результаты последних прогнозов, ставка выглядит наиболее надёжной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:0"
     },
     {
       "event_id": "6376be3814314ad34b65f0f67fe885c9",
@@ -40,8 +41,8 @@
       "kickoff_local": "2026-09-05 14:00",
       "kickoff_hour": 14,
       "message_id": 208,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -49,7 +50,8 @@
         "odd": 1.95,
         "reasoning": "Хольштейн Киль играет дома и является небольшим фаворитом, коэффициент на фору -0.25 близок к 2, что делает эту ставку наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:2"
     },
     {
       "event_id": "2ff697ade8de72c6577564fbe8432c6e",
@@ -63,8 +65,8 @@
       "kickoff_local": "2026-09-05 14:00",
       "kickoff_hour": 14,
       "message_id": 209,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -72,7 +74,8 @@
         "odd": 1.93,
         "reasoning": "Вольфсбург играет дома, а форой -1.5 с коэффициентом 1.93 показывает более надёжный вариант, чем аутсайдер или ничья."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "4:4"
     },
     {
       "event_id": "686358c484cc44fe8e617674c335d531",
