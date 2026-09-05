@@ -91,8 +91,8 @@
       "kickoff_local": "2026-09-04 21:30",
       "kickoff_hour": 21,
       "message_id": 199,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -100,7 +100,8 @@
         "odd": 1.73,
         "reasoning": "Фора +1.5 для Кёльна покрывает возможный небольшой отставание и имеет более привлекательный коэффициент, чем форой -1.5 для хозяев, что делает её более надёжной ставкой."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "4:1"
     },
     {
       "event_id": "8acf5c039c4ab96357d35a665883705a",
@@ -162,8 +163,8 @@
       "kickoff_local": "2026-09-04 22:00",
       "kickoff_hour": 22,
       "message_id": 202,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -171,7 +172,8 @@
         "odd": 1.8,
         "reasoning": "Низкий спред +1.5 для хозяина с коэффициентом 1.8 указывает на высокую вероятность, что Реал Бетис не проиграет более чем в одну шайбу."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:0"
     },
     {
       "event_id": "e6fc9c63d216738df1f2687a41c2d983",
@@ -185,8 +187,8 @@
       "kickoff_local": "2026-09-04 22:05",
       "kickoff_hour": 22,
       "message_id": 203,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -194,7 +196,8 @@
         "odd": 2.0,
         "reasoning": "ПСЖ играет дома против Монако, сильнее, и с учётом их атакующего стиля вероятно победит с разницей минимум в два мяча, что подтверждается коэффициентом 2.0."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:2"
     },
     {
       "event_id": "6b5aa4cdc3e4394a2ba8b106d48947d5",
@@ -208,8 +211,8 @@
       "kickoff_local": "2026-09-05 02:30",
       "kickoff_hour": 2,
       "message_id": 204,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -217,7 +220,8 @@
         "odd": 1.76,
         "reasoning": "Ожидается более 2.5 голов, коэффициент ниже 2, что указывает на большую вероятность"
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:0"
     }
   ]
 }

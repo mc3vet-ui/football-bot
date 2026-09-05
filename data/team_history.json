@@ -44,6 +44,7 @@
     true
   ],
   "Real Madrid": [
+    true,
     true
   ],
   "Málaga": [
@@ -89,6 +90,7 @@
     false
   ],
   "AS Monaco": [
+    false,
     false
   ],
   "Marseille": [
@@ -252,5 +254,23 @@
   ],
   "Liverpool": [
     true
+  ],
+  "VfB Stuttgart": [
+    false
+  ],
+  "1. FC Köln": [
+    false
+  ],
+  "Real Betis": [
+    true
+  ],
+  "Paris Saint Germain": [
+    false
+  ],
+  "New York City FC": [
+    false
+  ],
+  "Nashville SC": [
+    false
   ]
 }

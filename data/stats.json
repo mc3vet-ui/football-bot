@@ -41,9 +41,9 @@
     "balance": 0.0
   },
   "2026-09-04": {
-    "correct": 2,
-    "incorrect": 3,
+    "correct": 3,
+    "incorrect": 6,
     "push": 0,
-    "balance": -1210.0
+    "balance": -3410.0
   }
 }
