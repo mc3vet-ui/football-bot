@@ -112,7 +112,7 @@
       "kickoff_local": "2026-09-06 16:00",
       "kickoff_hour": 16,
       "message_id": 261,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -121,7 +121,8 @@
         "odd": 1.6,
         "reasoning": "Манчестер Юнайтед сильнее, коэффициент 1.6 на форту 0.0 указывает на высокую вероятность победы или ничьи, плюс успешный прошлый прогноз."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:2"
     },
     {
       "event_id": "6ea42c8a7fc2ee56698595c40c705e75",
@@ -135,8 +136,8 @@
       "kickoff_local": "2026-09-06 16:00",
       "kickoff_hour": 16,
       "message_id": 262,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -144,7 +145,8 @@
         "odd": 1.54,
         "reasoning": "Коэффициент на тотал больше 2.5 самый низкий (1.54), что указывает на более высокую вероятность данного исхода."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:2"
     },
     {
       "event_id": "238eaabc2b2e492f6cce5bcfeaa09405",
@@ -158,8 +160,8 @@
       "kickoff_local": "2026-09-06 16:00",
       "kickoff_hour": 16,
       "message_id": 263,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "under",
@@ -167,7 +169,8 @@
         "odd": 1.57,
         "reasoning": "Низкий коэффициент на тотал ниже 2.5 (1.57) указывает на высокую вероятность небольшого количества голов, что делает эту ставку наиболее проходимой."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": "b292d9e6b90eb73e0547ace2a44728e8",
@@ -181,8 +184,8 @@
       "kickoff_local": "2026-09-06 16:00",
       "kickoff_hour": 16,
       "message_id": 264,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -190,7 +193,8 @@
         "odd": 2.35,
         "reasoning": "Коэффициент на победу Страсбурга самый низкий, что указывает на наибольшую вероятность исхода."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:6"
     },
     {
       "event_id": "72559dd3c8eb2ae348c8d13e784e25b0",
@@ -273,7 +277,7 @@
       "kickoff_local": "2026-09-06 18:15",
       "kickoff_hour": 18,
       "message_id": 268,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -282,7 +286,8 @@
         "odd": 1.51,
         "reasoning": "Фора Ангерс +1.0 имеет самые низкие коэффициенты (1.51), что указывает на высокую вероятность того, что Ренн не выиграет с разницей более одного гола."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:2"
     },
     {
       "event_id": "78d4dfda8c2dc27bdc3ec26c2654f8fc",
@@ -296,8 +301,8 @@
       "kickoff_local": "2026-09-06 18:30",
       "kickoff_hour": 18,
       "message_id": 269,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -305,7 +310,8 @@
         "odd": 1.69,
         "reasoning": "Арсенал — явный фаворит, коэффициент на победу с форой -0.5 (1.69) чуть ниже, чем на обычную победу, что делает ставку более статистически надёжной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     },
     {
       "event_id": "4170df86e38cce05981284b914ce86d1",
@@ -342,7 +348,7 @@
       "kickoff_local": "2026-09-06 19:00",
       "kickoff_hour": 19,
       "message_id": 272,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -351,7 +357,8 @@
         "odd": 1.52,
         "reasoning": "Болонья играет дома, имеет положительный опыт прогнозов и коэффициент 1.52 на форту 0.0, что указывает на высокую вероятность победы или ничьи."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:2"
     },
     {
       "event_id": "cc2d83728ebda9924e83fe6a3d4642a5",

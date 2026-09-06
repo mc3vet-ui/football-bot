@@ -23,6 +23,7 @@
     false
   ],
   "Chelsea": [
+    true,
     true
   ],
   "Brighton and Hove Albion": [
@@ -154,6 +155,7 @@
     true
   ],
   "Arsenal": [
+    true,
     true
   ],
   "Barcelona": [
@@ -456,5 +458,23 @@
   ],
   "Vancouver Whitecaps FC": [
     false
+  ],
+  "Frosinone": [
+    true
+  ],
+  "Venezia": [
+    true
+  ],
+  "Parma": [
+    true
+  ],
+  "Monza": [
+    true
+  ],
+  "Troyes": [
+    true
+  ],
+  "Strasbourg": [
+    true
   ]
 }
