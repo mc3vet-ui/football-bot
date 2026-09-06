@@ -852,15 +852,16 @@
       "kickoff_local": "2026-09-05 22:00",
       "kickoff_hour": 22,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.5,
         "odd": 2.38,
         "reasoning": "Вильярреал играет дома и имеет сильный атакующий состав, поэтому победа с разницей минимум в два гола выглядит наиболее вероятной."
-      }
+      },
+      "final_score": "2:3"
     },
     {
       "event_id": "f3331ac1a5d78924c34001ca0867d450",
@@ -897,15 +898,16 @@
       "kickoff_local": "2026-09-06 02:30",
       "kickoff_hour": 2,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.5,
         "odd": 1.85,
         "reasoning": "Коэффициент на форту -1.5 для хозяев ниже, что указывает на более высокую вероятность их победы с разницей минимум в два гола."
-      }
+      },
+      "final_score": "2:2"
     },
     {
       "event_id": "3da4838a751c8b4bbddb2d9155d48c1c",
@@ -919,15 +921,16 @@
       "kickoff_local": "2026-09-06 02:30",
       "kickoff_hour": 2,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.0,
         "odd": 1.71,
         "reasoning": "У Филадельфии Юнион сильный домашний фактор, а коэффициент на фору -1.0 (1.71) указывает на высокую вероятность победы с разницей более одного гола."
-      }
+      },
+      "final_score": "2:0"
     },
     {
       "event_id": "fc4aa19aff79092d0ac992f2bef43250",
@@ -941,15 +944,16 @@
       "kickoff_local": "2026-09-06 02:30",
       "kickoff_hour": 2,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 2.5,
         "odd": 1.7,
         "reasoning": "Ожидается открытая игра, обе команды атакуют, среднее количество голов в матчах MLS превышает 2.5, а коэффициент на over 2.5 низкий, что указывает на высокую вероятность"
-      }
+      },
+      "final_score": "0:0"
     },
     {
       "event_id": "27d8f9c28008a780744c181925da2d4f",
@@ -963,15 +967,16 @@
       "kickoff_local": "2026-09-06 02:30",
       "kickoff_hour": 2,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 3.0,
         "odd": 1.85,
         "reasoning": "Ожидается более 3 голов, так как обе команды атакуют, а коэффициент на тотал выше 1.8, что указывает на высокую вероятность."
-      }
+      },
+      "final_score": "4:4"
     },
     {
       "event_id": "1bf99ef423ec499aeec556ee713180f2",
@@ -985,15 +990,16 @@
       "kickoff_local": "2026-09-06 02:30",
       "kickoff_hour": 2,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 2.5,
         "odd": 1.74,
         "reasoning": "Ожидается более 2.5 голов, коэффициент 1.74 указывает на высокую вероятность."
-      }
+      },
+      "final_score": "3:0"
     },
     {
       "event_id": "22ab6f035459cf448e4c4ebac3f6c053",
@@ -1029,7 +1035,7 @@
       "kickoff_local": "2026-09-06 02:30",
       "kickoff_hour": 2,
       "message_id": null,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -1037,7 +1043,8 @@
         "line": -1.0,
         "odd": 3.03,
         "reasoning": "У Орландо Сити домашний матч, коэффициент на фору -1.0 (3.03) указывает на явное преимущество, что делает эту ставку более надёжной, чем простой победы или тотал."
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "f5db8bb9519e7aadef08603be700267b",
@@ -1051,15 +1058,16 @@
       "kickoff_local": "2026-09-06 03:30",
       "kickoff_hour": 3,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 3.0,
         "odd": 1.8,
         "reasoning": "Коэффициент на тотал больше 3.0 самый низкий (1.8), что указывает на наибольшую вероятность большого количества голов в матче."
-      }
+      },
+      "final_score": "1:1"
     },
     {
       "event_id": "6f8d5e91050dd9253b0f95879e4e9b90",
@@ -1073,15 +1081,16 @@
       "kickoff_local": "2026-09-06 03:30",
       "kickoff_hour": 3,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.5,
         "odd": 2.15,
         "reasoning": "Фаворит Даллас имеет хорошие шансы выиграть с разницей более одного гола, а коэффициент на форту -1.5 (2.15) выглядит наиболее ценным."
-      }
+      },
+      "final_score": "4:3"
     },
     {
       "event_id": "82dd9475d4b2b9b7f3a396a7be2547f3",
@@ -1095,15 +1104,16 @@
       "kickoff_local": "2026-09-06 03:30",
       "kickoff_hour": 3,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.0,
         "odd": 2.41,
         "reasoning": "Сиэтл – хозяин поля и явный фаворит, часто выигрывает с разницей более одного гола, коэффициент 2.41 выглядит привлекательным"
-      }
+      },
+      "final_score": "0:0"
     },
     {
       "event_id": "0ed5e9f3a90677d12a8bfb38e67764ee",
@@ -1117,7 +1127,7 @@
       "kickoff_local": "2026-09-06 04:30",
       "kickoff_hour": 4,
       "message_id": null,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "totals",
@@ -1125,7 +1135,8 @@
         "line": 3.0,
         "odd": 1.8,
         "reasoning": "Тотал более 3.0 имеет самый низкий коэффициент (1.8) и считается более вероятным, чем форка -1.0 или победа в матче."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "8289ab720fb9bbc036bf0cdf52516ce2",
@@ -1139,15 +1150,16 @@
       "kickoff_local": "2026-09-06 04:30",
       "kickoff_hour": 4,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "under",
         "line": 3.0,
         "odd": 1.76,
         "reasoning": "Низкие коэффициенты на тотал ниже 3.0 указывают на более высокую вероятность того, что в матче будет менее 3 голов, что делает эту ставку наиболее проходимой."
-      }
+      },
+      "final_score": "2:2"
     },
     {
       "event_id": "5866122c8f843a48da441b82a2a5f8e1",
@@ -1161,15 +1173,16 @@
       "kickoff_local": "2026-09-06 05:30",
       "kickoff_hour": 5,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "under",
         "line": 3.0,
         "odd": 1.98,
         "reasoning": "Тотал матча ниже 3.0 имеет более низкий коэффициент (1.98) и обычно более надёжен, чем форка -1.0, учитывая отсутствие данных о высокой результативности команд."
-      }
+      },
+      "final_score": "5:4"
     },
     {
       "event_id": "7fb26778bcbf01b9a8dba00d3d9d79f3",
@@ -1183,15 +1196,16 @@
       "kickoff_local": "2026-09-06 05:30",
       "kickoff_hour": 5,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.0,
         "odd": 1.71,
         "reasoning": "Ванкувер играет дома и считается фаворитом, коэффициент -1.0 (1.71) указывает на высокую вероятность победы с разницей более одного гола."
-      }
+      },
+      "final_score": "1:3"
     }
   ]
 }

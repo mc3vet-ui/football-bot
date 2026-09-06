@@ -81,7 +81,8 @@
     false
   ],
   "Deportivo La Coruña": [
-    true
+    true,
+    false
   ],
   "Valencia": [
     true
@@ -122,9 +123,11 @@
     true
   ],
   "Seattle Sounders FC": [
-    true
+    true,
+    false
   ],
   "Chicago Fire": [
+    true,
     true
   ],
   "Lecce": [
@@ -175,16 +178,19 @@
     true
   ],
   "Columbus Crew SC": [
+    true,
     true
   ],
   "New England Revolution": [
     true
   ],
   "St. Louis City SC": [
-    true
+    true,
+    false
   ],
   "FC Dallas": [
-    true
+    true,
+    false
   ],
   "Lincoln City": [
     false,
@@ -393,6 +399,60 @@
     false
   ],
   "Brest": [
+    false
+  ],
+  "Villarreal": [
+    false
+  ],
+  "Inter Miami CF": [
+    false
+  ],
+  "Atlanta United FC": [
+    false
+  ],
+  "Philadelphia Union": [
+    true
+  ],
+  "CF Montreal": [
+    true
+  ],
+  "Charlotte FC": [
+    false
+  ],
+  "Houston Dynamo": [
+    false
+  ],
+  "Toronto FC": [
+    true
+  ],
+  "Colorado Rapids": [
+    true
+  ],
+  "Austin FC": [
+    false
+  ],
+  "San Jose Earthquakes": [
+    false
+  ],
+  "Sporting Kansas City": [
+    false
+  ],
+  "New York Red Bulls": [
+    false
+  ],
+  "Real Salt Lake": [
+    false
+  ],
+  "Los Angeles FC": [
+    false
+  ],
+  "Portland Timbers": [
+    false
+  ],
+  "Minnesota United FC": [
+    false
+  ],
+  "Vancouver Whitecaps FC": [
     false
   ]
 }
