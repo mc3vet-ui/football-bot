@@ -18,8 +18,8 @@
       "kickoff_local": "2026-09-06 14:00",
       "kickoff_hour": 14,
       "message_id": 256,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -27,7 +27,8 @@
         "odd": 3.95,
         "reasoning": "Вулверхэмптон Уондерерс в текущей форме сильнее хозяев и имеет хорошие показатели в прошлых прогнозах, а фора -1.0 с коэффициентом 3.95 выглядит наиболее вероятным вариантом."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:2"
     },
     {
       "event_id": "a83b4afa66cdd3d3bbc34dc1b04e313a",

@@ -236,9 +236,11 @@
     false
   ],
   "Wolverhampton Wanderers": [
-    true
+    true,
+    false
   ],
   "Birmingham City": [
+    false,
     false
   ],
   "Southampton": [
