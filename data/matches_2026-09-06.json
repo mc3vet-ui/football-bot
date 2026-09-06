@@ -3,7 +3,8 @@
   "generated_at": "2026-09-06T08:06:47.965060+03:00",
   "posted_batches": [
     "morning",
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -340,7 +341,7 @@
       "away_ru": "Сассуоло",
       "kickoff_local": "2026-09-06 19:00",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 272,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -349,7 +350,8 @@
         "line": 0.0,
         "odd": 1.52,
         "reasoning": "Болонья играет дома, имеет положительный опыт прогнозов и коэффициент 1.52 на форту 0.0, что указывает на высокую вероятность победы или ничьи."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "cc2d83728ebda9924e83fe6a3d4642a5",
@@ -362,7 +364,7 @@
       "away_ru": "Осауса",
       "kickoff_local": "2026-09-06 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 273,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -371,7 +373,8 @@
         "line": 2.5,
         "odd": 1.58,
         "reasoning": "Низкие коэффициенты у тотала «меньше 2.5» (1.58) указывают на высокую вероятность небольшого количества голов, что делает эту ставку наиболее надёжной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "21d097a6de34ab1f68bf4c9380757fcc",
@@ -384,7 +387,7 @@
       "away_ru": "Леванте",
       "kickoff_local": "2026-09-06 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 274,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -393,7 +396,8 @@
         "line": 0.0,
         "odd": 1.77,
         "reasoning": "Коэффициент 1.77 на форту 0.0 в пользу Малаги самый низкий, указывая на наибольшую вероятность, а у Малаги положительная история прогнозов."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "9837f5ef9e30ed8b1729c4cf606137ec",
@@ -406,7 +410,7 @@
       "away_ru": "Милан",
       "kickoff_local": "2026-09-06 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 275,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -415,7 +419,8 @@
         "line": 0.0,
         "odd": 1.55,
         "reasoning": "По спреду 0.0 фаворит — Ювентус, коэффициент 1.55 указывает на высокую вероятность победы хозяина поля."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "6c86fc624f91552d591d8f368f6d965e",
@@ -428,7 +433,7 @@
       "away_ru": "Пари ФК",
       "kickoff_local": "2026-09-06 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 276,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -437,7 +442,8 @@
         "line": 0.0,
         "odd": 1.44,
         "reasoning": "Марсель — явный фаворит, ставка на 0.0 форту дает высокую вероятность победы или ничьи, коэффициент 1.44"
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "823ef5c97dc93ff1e8fd7dbafb90c9d5",
@@ -450,7 +456,7 @@
       "away_ru": "Севилья",
       "kickoff_local": "2026-09-06 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 277,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -459,7 +465,8 @@
         "line": 0.0,
         "odd": 1.66,
         "reasoning": "Коэффициент 0.0 на Эспаньоль (1.66) указывает на высокую вероятность, что хозяин не проиграет, при этом прибыль хорошая."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
