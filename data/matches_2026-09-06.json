@@ -2,7 +2,8 @@
   "date": "2026-09-06",
   "generated_at": "2026-09-06T08:06:47.965060+03:00",
   "posted_batches": [
-    "morning"
+    "morning",
+    "day"
   ],
   "matches": [
     {
@@ -108,7 +109,7 @@
       "away_ru": "Манчестер Юнайтед",
       "kickoff_local": "2026-09-06 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 261,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -117,7 +118,8 @@
         "line": 0.0,
         "odd": 1.6,
         "reasoning": "Манчестер Юнайтед сильнее, коэффициент 1.6 на форту 0.0 указывает на высокую вероятность победы или ничьи, плюс успешный прошлый прогноз."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "6ea42c8a7fc2ee56698595c40c705e75",
@@ -130,7 +132,7 @@
       "away_ru": "Венеция",
       "kickoff_local": "2026-09-06 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 262,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -139,7 +141,8 @@
         "line": 2.5,
         "odd": 1.54,
         "reasoning": "Коэффициент на тотал больше 2.5 самый низкий (1.54), что указывает на более высокую вероятность данного исхода."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "238eaabc2b2e492f6cce5bcfeaa09405",
@@ -152,7 +155,7 @@
       "away_ru": "Монца",
       "kickoff_local": "2026-09-06 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 263,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -161,7 +164,8 @@
         "line": 2.5,
         "odd": 1.57,
         "reasoning": "Низкий коэффициент на тотал ниже 2.5 (1.57) указывает на высокую вероятность небольшого количества голов, что делает эту ставку наиболее проходимой."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "b292d9e6b90eb73e0547ace2a44728e8",
@@ -174,7 +178,7 @@
       "away_ru": "Страсбург",
       "kickoff_local": "2026-09-06 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 264,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -183,7 +187,8 @@
         "line": null,
         "odd": 2.35,
         "reasoning": "Коэффициент на победу Страсбурга самый низкий, что указывает на наибольшую вероятность исхода."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "72559dd3c8eb2ae348c8d13e784e25b0",
@@ -196,7 +201,7 @@
       "away_ru": "ФСВ Майнц 05",
       "kickoff_local": "2026-09-06 16:30",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 265,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -205,7 +210,8 @@
         "line": 2.5,
         "odd": 1.79,
         "reasoning": "Ожидаем более 2.5 голов, так как обе команды способны забить, а коэффициент на тотал Over 2.5 наиболее выгодный среди доступных вариантов"
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "04c1e3ca7af84244c59bd25acbe78f5b",
@@ -218,7 +224,7 @@
       "away_ru": "Рашалл Олимпик ФК",
       "kickoff_local": "2026-09-06 17:00",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 266,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -227,7 +233,8 @@
         "line": 0.0,
         "odd": 1.54,
         "reasoning": "Команда хозяев имеет наименьший коэффициент в рынке фор (0.0) — 1.54, что указывает на наибольшую вероятность победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "73639380311449b9494a3230cf1356ba",
@@ -240,7 +247,7 @@
       "away_ru": "Барселона",
       "kickoff_local": "2026-09-06 17:15",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 267,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -249,7 +256,8 @@
         "line": -1.5,
         "odd": 1.79,
         "reasoning": "Барселона явно сильнее, ожидается победа с разницей минимум в два гола, коэффициент 1.79"
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "72b918e99d594d40a13ca399f029a7ce",
@@ -262,7 +270,7 @@
       "away_ru": "Ренн",
       "kickoff_local": "2026-09-06 18:15",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 268,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -271,7 +279,8 @@
         "line": 1.0,
         "odd": 1.51,
         "reasoning": "Фора Ангерс +1.0 имеет самые низкие коэффициенты (1.51), что указывает на высокую вероятность того, что Ренн не выиграет с разницей более одного гола."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "78d4dfda8c2dc27bdc3ec26c2654f8fc",
@@ -284,7 +293,7 @@
       "away_ru": "Челси",
       "kickoff_local": "2026-09-06 18:30",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 269,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -293,7 +302,8 @@
         "line": -0.5,
         "odd": 1.69,
         "reasoning": "Арсенал — явный фаворит, коэффициент на победу с форой -0.5 (1.69) чуть ниже, чем на обычную победу, что делает ставку более статистически надёжной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "4170df86e38cce05981284b914ce86d1",
@@ -306,7 +316,7 @@
       "away_ru": "Аугсбург",
       "kickoff_local": "2026-09-06 18:30",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 270,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -315,7 +325,8 @@
         "line": 0.0,
         "odd": 1.48,
         "reasoning": "Франкфурт играет дома и имеет наименьший коэффициент в рынке форы (0.0, 1.48), что указывает на наибольшую вероятность победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "60776ba6c26557c9c5e6a34ae72e2ec8",
