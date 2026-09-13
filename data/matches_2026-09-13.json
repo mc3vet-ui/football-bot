@@ -2,7 +2,8 @@
   "date": "2026-09-13",
   "generated_at": "2026-09-13T11:17:37.275896+03:00",
   "posted_batches": [
-    "morning"
+    "morning",
+    "day"
   ],
   "matches": [
     {
@@ -131,7 +132,7 @@
       "away_ru": "Малага",
       "kickoff_local": "2026-09-13 15:00",
       "kickoff_hour": 15,
-      "message_id": null,
+      "message_id": 287,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -140,7 +141,8 @@
         "line": null,
         "odd": 1.73,
         "reasoning": "Celta Vigo является фаворитом с коэффициентом 1.73, в прошлых прогнозах команда выигрывала, поэтому ставка на победу хозяев наиболее вероятна."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1550122,
@@ -153,7 +155,7 @@
       "away_ru": "Монца",
       "kickoff_local": "2026-09-13 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 288,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -162,7 +164,8 @@
         "line": null,
         "odd": 2.62,
         "reasoning": "Monza имеет наименьший коэффициент (2.62) и считается фаворитом, что подтверждает наш прошлый успех прогнозов."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1552760,
@@ -175,7 +178,7 @@
       "away_ru": "Эстак Труа",
       "kickoff_local": "2026-09-13 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 289,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -184,7 +187,8 @@
         "line": null,
         "odd": 1.4,
         "reasoning": "Лилль явный фаворит с коэффициентом 1.4, что выше минимального порога, поэтому самая вероятная ставка."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1557400,
@@ -197,7 +201,7 @@
       "away_ru": "Брайтон",
       "kickoff_local": "2026-09-13 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 290,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -206,7 +210,8 @@
         "line": null,
         "odd": 1.91,
         "reasoning": "Брайтон является явным фаворитом матча, что подтверждается более низким коэффициентом 1.91."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1575159,
@@ -219,7 +224,7 @@
       "away_ru": "Гамбургер СВ",
       "kickoff_local": "2026-09-13 16:30",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 291,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -228,7 +233,8 @@
         "line": null,
         "odd": 7.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1561393,
@@ -241,7 +247,7 @@
       "away_ru": "ФК Ростов",
       "kickoff_local": "2026-09-13 17:00",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 292,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -250,7 +256,8 @@
         "line": -0.75,
         "odd": 1.86,
         "reasoning": "Спартак — явный фаворит (коэф. 1.7), а фора -0.75 с коэффициентом 1.86 указывает на высокую вероятность победы с разницей минимум в один мяч."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570376,
@@ -263,7 +270,7 @@
       "away_ru": "Барселона",
       "kickoff_local": "2026-09-13 17:15",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 293,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -272,7 +279,8 @@
         "line": null,
         "odd": 15.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1552759,
@@ -285,7 +293,7 @@
       "away_ru": "Ланс",
       "kickoff_local": "2026-09-13 18:15",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 294,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -294,7 +302,8 @@
         "line": null,
         "odd": 1.65,
         "reasoning": "Ланс является явным фаворитом матча, коэффициент 1.65 указывает на наибольшую вероятность победы гостя."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1557404,
@@ -307,7 +316,7 @@
       "away_ru": "Манчестер Сити",
       "kickoff_local": "2026-09-13 18:30",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 295,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -316,7 +325,8 @@
         "line": null,
         "odd": 2.1,
         "reasoning": "Фаворит с лучшими шансами на победу, коэффициент 2.1, а прошлые прогнозы на Манчестер Сити пока не подтверждались, что делает ставку на победу гостя наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1575166,
@@ -329,7 +339,7 @@
       "away_ru": "Бавария Мюнхен",
       "kickoff_local": "2026-09-13 18:30",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 296,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -338,7 +348,8 @@
         "line": null,
         "odd": 13.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1550123,
