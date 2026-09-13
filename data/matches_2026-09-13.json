@@ -18,8 +18,8 @@
       "kickoff_local": "2026-09-13 14:00",
       "kickoff_hour": 14,
       "message_id": 281,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -27,7 +27,8 @@
         "odd": 1.95,
         "reasoning": "Победа Wolves имеет наименьший коэффициент и является фаворитом матча, поэтому наиболее вероятен."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:1"
     },
     {
       "event_id": 1561387,
