@@ -3,7 +3,8 @@
   "generated_at": "2026-09-13T11:17:37.275896+03:00",
   "posted_batches": [
     "morning",
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -363,7 +364,7 @@
       "away_ru": "Болонья",
       "kickoff_local": "2026-09-13 19:00",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 298,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -372,7 +373,8 @@
         "line": null,
         "odd": 1.83,
         "reasoning": "Наполи – явный фаворит с коэффициентом 1.83, что выше порога 1.35, и статистика прошлых прогнозов не противоречит его победе."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1561391,
@@ -385,7 +387,7 @@
       "away_ru": "Akron",
       "kickoff_local": "2026-09-13 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 299,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -394,7 +396,8 @@
         "line": null,
         "odd": 9.1,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570375,
@@ -407,7 +410,7 @@
       "away_ru": "Депортиво Ла Корунья",
       "kickoff_local": "2026-09-13 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 300,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -416,7 +419,8 @@
         "line": null,
         "odd": 2.4,
         "reasoning": "У Хетафе домашний матч, коэффициент 2.4 – самый низкий, плюс в прошлых прогнозах на эту команду был 100% успех, поэтому выбираем победу хозяина."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1550124,
@@ -429,7 +433,7 @@
       "away_ru": "Ювентус",
       "kickoff_local": "2026-09-13 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 301,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -438,7 +442,8 @@
         "line": null,
         "odd": 1.65,
         "reasoning": "Ювентус является явным фаворитом с самым низким коэффициентом, что указывает на наибольшую вероятность победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1552757,
@@ -451,7 +456,7 @@
       "away_ru": "Пари Сен-Жермен",
       "kickoff_local": "2026-09-13 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 302,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -460,7 +465,8 @@
         "line": null,
         "odd": 10.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570380,
@@ -473,7 +479,7 @@
       "away_ru": "Атлетико Мадрид",
       "kickoff_local": "2026-09-13 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 303,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -482,7 +488,8 @@
         "line": null,
         "odd": 2.2,
         "reasoning": "Атлетико Мадрид имеет наименьший коэффициент (2.2), что указывает на наибольшую вероятность победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1490479,
@@ -495,7 +502,7 @@
       "away_ru": "Нью-Ингленд Революшн",
       "kickoff_local": "2026-09-14 00:30",
       "kickoff_hour": 0,
-      "message_id": null,
+      "message_id": 304,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -504,7 +511,8 @@
         "line": null,
         "odd": 1.91,
         "reasoning": "У Чикаго Файр коэффициент 1.91 и в последних прогнозах они выиграли 2 из 2, поэтому ставка на победу хозяев наиболее вероятна."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1490478,
@@ -517,7 +525,7 @@
       "away_ru": "Остин",
       "kickoff_local": "2026-09-14 01:30",
       "kickoff_hour": 1,
-      "message_id": null,
+      "message_id": 305,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -526,7 +534,8 @@
         "line": null,
         "odd": 9.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
