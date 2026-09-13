@@ -147,7 +147,8 @@
     true
   ],
   "Getafe": [
-    true
+    true,
+    false
   ],
   "Atalanta BC": [
     true,
@@ -322,6 +323,7 @@
     true
   ],
   "Paris Saint Germain": [
+    false,
     false
   ],
   "New York City FC": [
@@ -547,6 +549,24 @@
     false
   ],
   "Bayern München": [
+    false
+  ],
+  "FC Krasnodar": [
+    false
+  ],
+  "Akron": [
+    false
+  ],
+  "Deportivo La Coruna": [
+    false
+  ],
+  "Sassuolo": [
+    false
+  ],
+  "Juventus": [
+    false
+  ],
+  "Stade Brestois 29": [
     false
   ]
 }

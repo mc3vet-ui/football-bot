@@ -403,8 +403,8 @@
       "kickoff_local": "2026-09-13 19:30",
       "kickoff_hour": 19,
       "message_id": 299,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -412,7 +412,8 @@
         "odd": 9.1,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": 1570375,
@@ -426,8 +427,8 @@
       "kickoff_local": "2026-09-13 19:30",
       "kickoff_hour": 19,
       "message_id": 300,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -435,7 +436,8 @@
         "odd": 2.4,
         "reasoning": "У Хетафе домашний матч, коэффициент 2.4 – самый низкий, плюс в прошлых прогнозах на эту команду был 100% успех, поэтому выбираем победу хозяина."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": 1550124,
@@ -449,8 +451,8 @@
       "kickoff_local": "2026-09-13 21:45",
       "kickoff_hour": 21,
       "message_id": 301,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -458,7 +460,8 @@
         "odd": 1.65,
         "reasoning": "Ювентус является явным фаворитом с самым низким коэффициентом, что указывает на наибольшую вероятность победы."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:2"
     },
     {
       "event_id": 1552757,
@@ -472,8 +475,8 @@
       "kickoff_local": "2026-09-13 21:45",
       "kickoff_hour": 21,
       "message_id": 302,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -481,7 +484,8 @@
         "odd": 10.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:1"
     },
     {
       "event_id": 1570380,
