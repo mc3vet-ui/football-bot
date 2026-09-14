@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T08:04:39.358454+03:00",
+  "posted_batches": [
+    "morning"
+  ],
+  "matches": [
+    {
+      "event_id": 1550118,
+      "sport_key": "af_135",
+      "source": "api_football",
+      "league": "Серия А",
+      "home": "Como",
+      "away": "Parma",
+      "home_ru": "Комо",
+      "away_ru": "Парма",
+      "kickoff_local": "2026-09-14 19:30",
+      "kickoff_hour": 19,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 13.0,
+        "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
+      }
+    },
+    {
+      "event_id": 1550125,
+      "sport_key": "af_135",
+      "source": "api_football",
+      "league": "Серия А",
+      "home": "Torino",
+      "away": "AS Roma",
+      "home_ru": "Торино",
+      "away_ru": "АС Рома",
+      "kickoff_local": "2026-09-14 19:30",
+      "kickoff_hour": 19,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 1.55,
+        "reasoning": "АС Рома — явный фаворит с более низким коэффициентом и лучшей историей прогнозов, поэтому ставка на её победу наиболее обоснована."
+      }
+    },
+    {
+      "event_id": 1550120,
+      "sport_key": "af_135",
+      "source": "api_football",
+      "league": "Серия А",
+      "home": "Inter",
+      "away": "Udinese",
+      "home_ru": "Интер",
+      "away_ru": "Удинезе",
+      "kickoff_local": "2026-09-14 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 10.0,
+        "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
+      }
+    },
+    {
+      "event_id": 1557402,
+      "sport_key": "af_39",
+      "source": "api_football",
+      "league": "АПЛ",
+      "home": "Leeds",
+      "away": "Newcastle",
+      "home_ru": "Лидс",
+      "away_ru": "Ньюкасл",
+      "kickoff_local": "2026-09-14 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 2.3,
+        "reasoning": "Лидс — фаворит с самым низким коэффициентом 2.3, поэтому наиболее вероятный исход."
+      }
+    },
+    {
+      "event_id": 1570382,
+      "sport_key": "af_140",
+      "source": "api_football",
+      "league": "Ла Лига",
+      "home": "Villarreal",
+      "away": "Real Betis",
+      "home_ru": "Вильярреал",
+      "away_ru": "Реал Бетис",
+      "kickoff_local": "2026-09-14 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.91,
+        "reasoning": "Вильярреал — явный фаворит с коэффициентом 1.91, что делает ставку наиболее вероятной."
+      }
+    }
+  ]
+}
