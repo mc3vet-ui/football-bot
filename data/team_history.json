@@ -133,7 +133,8 @@
   ],
   "Chicago Fire": [
     true,
-    true
+    true,
+    false
   ],
   "Lecce": [
     true,
@@ -193,7 +194,8 @@
     true
   ],
   "New England Revolution": [
-    true
+    true,
+    false
   ],
   "St. Louis City SC": [
     true,
@@ -568,5 +570,17 @@
   ],
   "Stade Brestois 29": [
     false
+  ],
+  "Real Sociedad": [
+    true
+  ],
+  "Atletico Madrid": [
+    true
+  ],
+  "Vancouver Whitecaps": [
+    true
+  ],
+  "Austin": [
+    true
   ]
 }

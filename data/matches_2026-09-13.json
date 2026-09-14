@@ -499,8 +499,8 @@
       "kickoff_local": "2026-09-13 22:00",
       "kickoff_hour": 22,
       "message_id": 303,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -508,7 +508,8 @@
         "odd": 2.2,
         "reasoning": "Атлетико Мадрид имеет наименьший коэффициент (2.2), что указывает на наибольшую вероятность победы."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:3"
     },
     {
       "event_id": 1490479,
@@ -522,8 +523,8 @@
       "kickoff_local": "2026-09-14 00:30",
       "kickoff_hour": 0,
       "message_id": 304,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -531,7 +532,8 @@
         "odd": 1.91,
         "reasoning": "У Чикаго Файр коэффициент 1.91 и в последних прогнозах они выиграли 2 из 2, поэтому ставка на победу хозяев наиболее вероятна."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:2"
     },
     {
       "event_id": 1490478,
@@ -545,8 +547,8 @@
       "kickoff_local": "2026-09-14 01:30",
       "kickoff_hour": 1,
       "message_id": 305,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -554,7 +556,8 @@
         "odd": 9.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:2"
     }
   ]
 }
