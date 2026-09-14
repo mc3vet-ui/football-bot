@@ -82,6 +82,7 @@
   ],
   "Como": [
     false,
+    false,
     false
   ],
   "Deportivo La Coruña": [
@@ -142,7 +143,8 @@
   ],
   "AS Roma": [
     true,
-    false
+    false,
+    true
   ],
   "CA Osasuna": [
     true
@@ -322,7 +324,8 @@
     false
   ],
   "Real Betis": [
-    true
+    true,
+    false
   ],
   "Paris Saint Germain": [
     false,
@@ -359,7 +362,8 @@
     false
   ],
   "Torino": [
-    false
+    false,
+    true
   ],
   "Bayer Leverkusen": [
     true
@@ -421,6 +425,7 @@
     false
   ],
   "Villarreal": [
+    false,
     false
   ],
   "Inter Miami CF": [
@@ -481,7 +486,8 @@
     true
   ],
   "Parma": [
-    true
+    true,
+    false
   ],
   "Monza": [
     true,
@@ -581,6 +587,18 @@
     true
   ],
   "Austin": [
+    true
+  ],
+  "Inter": [
+    false
+  ],
+  "Udinese": [
+    false
+  ],
+  "Leeds": [
+    true
+  ],
+  "Newcastle": [
     true
   ]
 }
