@@ -3,7 +3,8 @@
   "generated_at": "2026-09-14T08:04:39.358454+03:00",
   "posted_batches": [
     "morning",
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -17,7 +18,7 @@
       "away_ru": "Парма",
       "kickoff_local": "2026-09-14 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 309,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -26,7 +27,8 @@
         "line": null,
         "odd": 13.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1550125,
@@ -39,7 +41,7 @@
       "away_ru": "АС Рома",
       "kickoff_local": "2026-09-14 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 310,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -48,7 +50,8 @@
         "line": null,
         "odd": 1.55,
         "reasoning": "АС Рома — явный фаворит с более низким коэффициентом и лучшей историей прогнозов, поэтому ставка на её победу наиболее обоснована."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1550120,
@@ -61,7 +64,7 @@
       "away_ru": "Удинезе",
       "kickoff_local": "2026-09-14 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 311,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -70,7 +73,8 @@
         "line": null,
         "odd": 10.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1557402,
@@ -83,7 +87,7 @@
       "away_ru": "Ньюкасл",
       "kickoff_local": "2026-09-14 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 312,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -92,7 +96,8 @@
         "line": null,
         "odd": 2.3,
         "reasoning": "Лидс — фаворит с самым низким коэффициентом 2.3, поэтому наиболее вероятный исход."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570382,
@@ -105,7 +110,7 @@
       "away_ru": "Реал Бетис",
       "kickoff_local": "2026-09-14 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 313,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -114,7 +119,8 @@
         "line": null,
         "odd": 1.91,
         "reasoning": "Вильярреал — явный фаворит с коэффициентом 1.91, что делает ставку наиболее вероятной."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
