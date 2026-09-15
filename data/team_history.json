@@ -90,7 +90,8 @@
     false
   ],
   "Valencia": [
-    true
+    true,
+    false
   ],
   "Cagliari": [
     false
@@ -174,6 +175,7 @@
   ],
   "Rayo Vallecano": [
     true,
+    true,
     true
   ],
   "Augsburg": [
@@ -229,7 +231,8 @@
   ],
   "Bristol City": [
     true,
-    true
+    true,
+    false
   ],
   "Portsmouth": [
     true,
@@ -287,6 +290,7 @@
   ],
   "Millwall": [
     false,
+    false,
     false
   ],
   "Wrexham AFC": [
@@ -298,6 +302,7 @@
     true
   ],
   "Middlesbrough": [
+    false,
     false,
     false
   ],
@@ -600,5 +605,14 @@
   ],
   "Newcastle": [
     true
+  ],
+  "Espanyol": [
+    true
+  ],
+  "Alaves": [
+    false
+  ],
+  "Lincoln": [
+    false
   ]
 }

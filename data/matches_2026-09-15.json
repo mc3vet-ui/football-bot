@@ -19,8 +19,8 @@
       "kickoff_local": "2026-09-15 20:00",
       "kickoff_hour": 20,
       "message_id": 316,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -28,7 +28,8 @@
         "odd": 2.2,
         "reasoning": "Учитывая хорошую форму хозяев и 2 из 2 успешных прогноза на Райо, победа команды на своем поле выглядит наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     },
     {
       "event_id": 1570383,
@@ -42,8 +43,8 @@
       "kickoff_local": "2026-09-15 21:00",
       "kickoff_hour": 21,
       "message_id": 317,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -51,7 +52,8 @@
         "odd": 1.85,
         "reasoning": "Алавес – явный фаворит с более низким коэффициентом (1.85) и домашним полем, поэтому наиболее вероятный исход."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:1"
     },
     {
       "event_id": 1563145,
@@ -65,8 +67,8 @@
       "kickoff_local": "2026-09-15 21:45",
       "kickoff_hour": 21,
       "message_id": 318,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -74,7 +76,8 @@
         "odd": 1.95,
         "reasoning": "Бристол Сити — явный фаворит с коэффициентом 1.95 и 2 из 2 успешных прошлых прогнозов, поэтому ставка на победу хозяев наиболее вероятна."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:1"
     },
     {
       "event_id": 1563147,
@@ -88,8 +91,8 @@
       "kickoff_local": "2026-09-15 21:45",
       "kickoff_hour": 21,
       "message_id": 319,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -97,7 +100,8 @@
         "odd": 1.55,
         "reasoning": "Фаворит Мидлсбро имеет наилучший шанс победы и коэффициент 1.55, что делает эту ставку наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:2"
     },
     {
       "event_id": 1638445,
