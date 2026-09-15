@@ -1,0 +1,135 @@
+{
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T08:04:29.903231+03:00",
+  "posted_batches": [
+    "morning"
+  ],
+  "matches": [
+    {
+      "event_id": 1570391,
+      "sport_key": "af_140",
+      "source": "api_football",
+      "league": "Ла Лига",
+      "home": "Rayo Vallecano",
+      "away": "Espanyol",
+      "home_ru": "Райо Вальекано",
+      "away_ru": "Эспаньол",
+      "kickoff_local": "2026-09-15 20:00",
+      "kickoff_hour": 20,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 2.2,
+        "reasoning": "Учитывая хорошую форму хозяев и 2 из 2 успешных прогноза на Райо, победа команды на своем поле выглядит наиболее вероятной."
+      }
+    },
+    {
+      "event_id": 1570383,
+      "sport_key": "af_140",
+      "source": "api_football",
+      "league": "Ла Лига",
+      "home": "Alaves",
+      "away": "Valencia",
+      "home_ru": "Алавес",
+      "away_ru": "Валенсия",
+      "kickoff_local": "2026-09-15 21:00",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.85,
+        "reasoning": "Алавес – явный фаворит с более низким коэффициентом (1.85) и домашним полем, поэтому наиболее вероятный исход."
+      }
+    },
+    {
+      "event_id": 1563145,
+      "sport_key": "af_40",
+      "source": "api_football",
+      "league": "Чемпионшип",
+      "home": "Bristol City",
+      "away": "Lincoln",
+      "home_ru": "Бристол Сити",
+      "away_ru": "Линкольн",
+      "kickoff_local": "2026-09-15 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.95,
+        "reasoning": "Бристол Сити — явный фаворит с коэффициентом 1.95 и 2 из 2 успешных прошлых прогнозов, поэтому ставка на победу хозяев наиболее вероятна."
+      }
+    },
+    {
+      "event_id": 1563147,
+      "sport_key": "af_40",
+      "source": "api_football",
+      "league": "Чемпионшип",
+      "home": "Middlesbrough",
+      "away": "Millwall",
+      "home_ru": "Мидлсбро",
+      "away_ru": "Миллуол",
+      "kickoff_local": "2026-09-15 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.55,
+        "reasoning": "Фаворит Мидлсбро имеет наилучший шанс победы и коэффициент 1.55, что делает эту ставку наиболее вероятной."
+      }
+    },
+    {
+      "event_id": 1638445,
+      "sport_key": "af_45",
+      "source": "api_football",
+      "league": "Кубок Англии",
+      "home": "Jersey Bulls",
+      "away": "Burgess Hill Town",
+      "home_ru": "Jersey Bulls",
+      "away_ru": "Burgess Hill Town",
+      "kickoff_local": "2026-09-15 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": null
+    },
+    {
+      "event_id": 1570388,
+      "sport_key": "af_140",
+      "source": "api_football",
+      "league": "Ла Лига",
+      "home": "Elche",
+      "away": "Real Madrid",
+      "home_ru": "Эльче",
+      "away_ru": "Реал Мадрид",
+      "kickoff_local": "2026-09-15 22:30",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 11.0,
+        "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
+      }
+    }
+  ]
+}
