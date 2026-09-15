@@ -3,7 +3,8 @@
   "generated_at": "2026-09-15T08:04:29.903231+03:00",
   "posted_batches": [
     "morning",
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -17,7 +18,7 @@
       "away_ru": "Эспаньол",
       "kickoff_local": "2026-09-15 20:00",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 316,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -26,7 +27,8 @@
         "line": null,
         "odd": 2.2,
         "reasoning": "Учитывая хорошую форму хозяев и 2 из 2 успешных прогноза на Райо, победа команды на своем поле выглядит наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570383,
@@ -39,7 +41,7 @@
       "away_ru": "Валенсия",
       "kickoff_local": "2026-09-15 21:00",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 317,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -48,7 +50,8 @@
         "line": null,
         "odd": 1.85,
         "reasoning": "Алавес – явный фаворит с более низким коэффициентом (1.85) и домашним полем, поэтому наиболее вероятный исход."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1563145,
@@ -61,7 +64,7 @@
       "away_ru": "Линкольн",
       "kickoff_local": "2026-09-15 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 318,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -70,7 +73,8 @@
         "line": null,
         "odd": 1.95,
         "reasoning": "Бристол Сити — явный фаворит с коэффициентом 1.95 и 2 из 2 успешных прошлых прогнозов, поэтому ставка на победу хозяев наиболее вероятна."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1563147,
@@ -83,7 +87,7 @@
       "away_ru": "Миллуол",
       "kickoff_local": "2026-09-15 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 319,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -92,7 +96,8 @@
         "line": null,
         "odd": 1.55,
         "reasoning": "Фаворит Мидлсбро имеет наилучший шанс победы и коэффициент 1.55, что делает эту ставку наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1638445,
@@ -105,10 +110,11 @@
       "away_ru": "Burgess Hill Town",
       "kickoff_local": "2026-09-15 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 320,
       "result_checked": false,
       "correct": null,
-      "pick": null
+      "pick": null,
+      "has_photo": true
     },
     {
       "event_id": 1570388,
@@ -121,7 +127,7 @@
       "away_ru": "Реал Мадрид",
       "kickoff_local": "2026-09-15 22:30",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 321,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -130,7 +136,8 @@
         "line": null,
         "odd": 11.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
