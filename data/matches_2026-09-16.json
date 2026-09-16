@@ -3,7 +3,8 @@
   "generated_at": "2026-09-16T08:05:48.562920+03:00",
   "posted_batches": [
     "morning",
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -63,7 +64,7 @@
       "away_ru": "Спарта Прага",
       "kickoff_local": "2026-09-16 19:45",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 327,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -72,7 +73,8 @@
         "line": null,
         "odd": 1.62,
         "reasoning": "Спарта Прага является явным фаворитом с самым низким коэффициентом, что повышает вероятность её победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636312,
@@ -85,7 +87,7 @@
       "away_ru": "Сельта Вига",
       "kickoff_local": "2026-09-16 19:45",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 328,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -94,7 +96,8 @@
         "line": null,
         "odd": 2.0,
         "reasoning": "У команды Celta Vigo более высокий показатель в прошлых прогнозах (1 из 2) и коэффициент 2.0 указывает на фаворита, поэтому ставка на победу гостя выглядит наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570384,
@@ -107,7 +110,7 @@
       "away_ru": "Осасуна",
       "kickoff_local": "2026-09-16 20:00",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 329,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -116,7 +119,8 @@
         "line": null,
         "odd": 1.4,
         "reasoning": "У Атлетико Мадрид явный фаворит с коэффициентом 1.4, что выше порога 1.35, поэтому ставка на победу хозяина поля имеет наибольшую вероятность."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570387,
@@ -129,7 +133,7 @@
       "away_ru": "Севилья",
       "kickoff_local": "2026-09-16 20:00",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 330,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -138,7 +142,8 @@
         "line": null,
         "odd": 2.9,
         "reasoning": "Учитывая успешный прошлый прогноз на Севилью и близкие коэффициенты, ставка на победу Севильи выглядит наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1561396,
@@ -151,7 +156,7 @@
       "away_ru": "Зенит",
       "kickoff_local": "2026-09-16 20:45",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 331,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -160,7 +165,8 @@
         "line": 0.0,
         "odd": 1.35,
         "reasoning": "Зенит является явным фаворитом, победа без гандикапа имеет высокую вероятность."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1561399,
@@ -173,7 +179,7 @@
       "away_ru": "Крылья Советов",
       "kickoff_local": "2026-09-16 20:45",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 332,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -182,7 +188,8 @@
         "line": -0.25,
         "odd": 1.59,
         "reasoning": "Локомотив играет дома и является фаворитом, коэффициент 1.59 на фору -0.25 указывает на высокую вероятность победы с разницей минимум в один гол."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636207,
@@ -195,7 +202,7 @@
       "away_ru": "Бенфика",
       "kickoff_local": "2026-09-16 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 333,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -204,7 +211,8 @@
         "line": null,
         "odd": 2.1,
         "reasoning": "У Милана явный фаворит с коэффициентом 2.1, что делает ставку на победу хозяина наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636212,
@@ -217,7 +225,7 @@
       "away_ru": "Лион",
       "kickoff_local": "2026-09-16 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 334,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -226,7 +234,8 @@
         "line": null,
         "odd": 2.3,
         "reasoning": "Лион является фаворитом по коэффициенту 2.3, что указывает на более высокую вероятность победы по сравнению с Андерлехтом (2.9) и ничьей (3.4)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636225,
@@ -239,7 +248,7 @@
       "away_ru": "Целье",
       "kickoff_local": "2026-09-16 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 335,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -248,7 +257,8 @@
         "line": null,
         "odd": 17.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636265,
@@ -261,7 +271,7 @@
       "away_ru": "Динамо Загреб",
       "kickoff_local": "2026-09-16 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 336,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -270,7 +280,8 @@
         "line": null,
         "odd": 1.91,
         "reasoning": "Динамо Загреб является явным фаворитом матча, имеет более низкие коэффициенты и традиционно сильнее хозяина поля."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636309,
@@ -283,7 +294,7 @@
       "away_ru": "Ягеллония",
       "kickoff_local": "2026-09-16 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 337,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -292,7 +303,8 @@
         "line": null,
         "odd": 1.36,
         "reasoning": "У Олимпиакоса Пирей явный фаворит с коэффициентом 1.36, что делает ставку на победу хозяина наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636341,
@@ -305,7 +317,7 @@
       "away_ru": "Rennes",
       "kickoff_local": "2026-09-16 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 338,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -314,7 +326,8 @@
         "line": null,
         "odd": 1.91,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636344,
@@ -327,7 +340,7 @@
       "away_ru": "АЗ Алкмаар",
       "kickoff_local": "2026-09-16 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 339,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -336,7 +349,8 @@
         "line": null,
         "odd": 1.57,
         "reasoning": "Сандерленд – явный фаворит с коэффициентом 1.57 и более высокой вероятностью победы, что делает ставку на его победу наиболее проходимой."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570385,
@@ -349,7 +363,7 @@
       "away_ru": "Рейсинг Сантандер",
       "kickoff_local": "2026-09-16 22:30",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 340,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -358,7 +372,8 @@
         "line": null,
         "odd": 26.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570389,
@@ -371,7 +386,7 @@
       "away_ru": "Атлетик Бильбао",
       "kickoff_local": "2026-09-16 22:30",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 341,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -380,7 +395,8 @@
         "line": null,
         "odd": 2.1,
         "reasoning": "Фаворит – Athletic Club с более низким коэффициентом 2.1, что делает его наиболее вероятным исходом."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
