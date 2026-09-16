@@ -132,8 +132,8 @@
       "kickoff_local": "2026-09-15 22:30",
       "kickoff_hour": 22,
       "message_id": 321,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -141,7 +141,8 @@
         "odd": 11.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:3"
     }
   ]
 }

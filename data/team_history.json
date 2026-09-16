@@ -55,7 +55,8 @@
   ],
   "Real Madrid": [
     true,
-    true
+    true,
+    false
   ],
   "Málaga": [
     true
@@ -613,6 +614,9 @@
     false
   ],
   "Lincoln": [
+    false
+  ],
+  "Elche": [
     false
   ]
 }
