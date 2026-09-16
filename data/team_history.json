@@ -32,7 +32,8 @@
   ],
   "Sunderland": [
     true,
-    false
+    false,
+    true
   ],
   "Fulham": [
     true,
@@ -124,6 +125,7 @@
     false
   ],
   "Sevilla": [
+    true,
     true
   ],
   "Atlético Madrid": [
@@ -188,6 +190,7 @@
   ],
   "Celta Vigo": [
     true,
+    false,
     false
   ],
   "Athletic Bilbao": [
@@ -315,7 +318,8 @@
     false
   ],
   "Lyon": [
-    false
+    false,
+    true
   ],
   "Auxerre": [
     false
@@ -372,7 +376,8 @@
     true
   ],
   "Bayer Leverkusen": [
-    true
+    true,
+    false
   ],
   "Union Berlin": [
     true
@@ -573,7 +578,8 @@
     false
   ],
   "Deportivo La Coruna": [
-    false
+    false,
+    true
   ],
   "Sassuolo": [
     false
@@ -588,6 +594,7 @@
     true
   ],
   "Atletico Madrid": [
+    true,
     true
   ],
   "Vancouver Whitecaps": [
@@ -627,6 +634,57 @@
     false
   ],
   "Fakel": [
+    true
+  ],
+  "Ararat-Armenia": [
+    true
+  ],
+  "Sparta Praha": [
+    true
+  ],
+  "Omonia Nicosia": [
+    false
+  ],
+  "Osasuna": [
+    true
+  ],
+  "Baltika": [
+    true
+  ],
+  "Zenit": [
+    true
+  ],
+  "Lokomotiv": [
+    false
+  ],
+  "Krylia Sovetov": [
+    false
+  ],
+  "AC Milan": [
+    false
+  ],
+  "Benfica": [
+    false
+  ],
+  "Anderlecht": [
+    true
+  ],
+  "Celje": [
+    false
+  ],
+  "Hapoel Beer Sheva": [
+    false
+  ],
+  "Dinamo Zagreb": [
+    false
+  ],
+  "Olympiakos Piraeus": [
+    true
+  ],
+  "Jagiellonia": [
+    true
+  ],
+  "AZ Alkmaar": [
     true
   ]
 }
