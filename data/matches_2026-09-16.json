@@ -19,8 +19,8 @@
       "kickoff_local": "2026-09-16 18:30",
       "kickoff_hour": 18,
       "message_id": 324,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -28,7 +28,8 @@
         "odd": 1.47,
         "reasoning": "Коэффициент 1.47 на фору Рубин -0.25 показывает, что букмекеры считают наиболее вероятным, что гости не проиграют (выиграют или сыграют вничью)."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": 1561402,
@@ -42,8 +43,8 @@
       "kickoff_local": "2026-09-16 18:30",
       "kickoff_hour": 18,
       "message_id": 325,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -51,7 +52,8 @@
         "odd": 1.37,
         "reasoning": "Спартак играет дома и является явным фаворитом; форой -0.75 он должен выиграть минимум с разницей в один гол, что соответствует высоким шансам при коэффициенте 1.37."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:0"
     },
     {
       "event_id": 1636217,

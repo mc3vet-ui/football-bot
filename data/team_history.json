@@ -545,6 +545,7 @@
     true
   ],
   "Spartak Moscow": [
+    true,
     true
   ],
   "FC Rostov": [
@@ -618,5 +619,14 @@
   ],
   "Elche": [
     false
+  ],
+  "Rodina Moskva": [
+    false
+  ],
+  "Rubin": [
+    false
+  ],
+  "Fakel": [
+    true
   ]
 }
