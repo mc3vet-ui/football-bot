@@ -3,7 +3,8 @@
   "generated_at": "2026-09-17T08:06:09.460042+03:00",
   "posted_batches": [
     "morning",
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -86,7 +87,7 @@
       "away_ru": "Ред Булл Зальцбург",
       "kickoff_local": "2026-09-17 19:45",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 348,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -95,7 +96,8 @@
         "line": null,
         "odd": 2.3,
         "reasoning": "Ред Булл Зальцбург имеет более низкий коэффициент (2.3) по сравнению с хозяевами (2.9) и ничьей (3.4), что указывает на более высокую вероятность их победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636304,
@@ -108,7 +110,7 @@
       "away_ru": "Хоффенхайм",
       "kickoff_local": "2026-09-17 19:45",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 349,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -117,7 +119,8 @@
         "line": null,
         "odd": 1.36,
         "reasoning": "Хоффенхайм является явным фаворитом с самым низким коэффициентом 1.36, что указывает на высокую вероятность его победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570386,
@@ -130,7 +133,7 @@
       "away_ru": "Хетафе",
       "kickoff_local": "2026-09-17 20:00",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 350,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -139,7 +142,8 @@
         "line": null,
         "odd": 1.67,
         "reasoning": "У Реал Бетис явный фаворит с коэффициентом 1.67, что делает ставку на их победу наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1561397,
@@ -152,7 +156,7 @@
       "away_ru": "CSKA Moscow",
       "kickoff_local": "2026-09-17 20:45",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 351,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -161,7 +165,8 @@
         "line": null,
         "odd": 2.24,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636232,
@@ -174,7 +179,7 @@
       "away_ru": "Марсель",
       "kickoff_local": "2026-09-17 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 352,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -183,7 +188,8 @@
         "line": null,
         "odd": 1.75,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636247,
@@ -196,7 +202,7 @@
       "away_ru": "Ференцвароши ТС",
       "kickoff_local": "2026-09-17 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 353,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -205,7 +211,8 @@
         "line": null,
         "odd": 1.75,
         "reasoning": "Селтик — явный фаворит с лучшим коэффициентом, поэтому наиболее вероятный исход матча."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636251,
@@ -218,7 +225,7 @@
       "away_ru": "Лех Познань",
       "kickoff_local": "2026-09-17 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 354,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -227,7 +234,8 @@
         "line": null,
         "odd": 1.36,
         "reasoning": "Победа хозяев с коэффициентом 1.36, команда‑фаворит и в прошлых прогнозах имела 100% успех."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636278,
@@ -240,7 +248,7 @@
       "away_ru": "НЕК Неймеген",
       "kickoff_local": "2026-09-17 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 355,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -249,7 +257,8 @@
         "line": null,
         "odd": 11.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636287,
@@ -262,7 +271,7 @@
       "away_ru": "Торреенсе",
       "kickoff_local": "2026-09-17 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 356,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -271,7 +280,8 @@
         "line": null,
         "odd": 1.5,
         "reasoning": "Лиллесстрём — явный фаворит, коэффициент 1.5, победа наиболее вероятна."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636316,
@@ -284,7 +294,7 @@
       "away_ru": "Юнион Сен-Жиль",
       "kickoff_local": "2026-09-17 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 357,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -293,7 +303,8 @@
         "line": null,
         "odd": 2.45,
         "reasoning": "Union St. Gilloise имеет чуть более низкий коэффициент (2.45) по сравнению с Plzen (2.62), что указывает на небольшое преимущество и делает их более вероятным победителем."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636321,
@@ -306,7 +317,7 @@
       "away_ru": "Борнмут",
       "kickoff_local": "2026-09-17 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 358,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -315,7 +326,8 @@
         "line": null,
         "odd": 2.25,
         "reasoning": "Борнмут является фаворитом с более низким коэффициентом 2.25, что указывает на большую вероятность победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570390,
@@ -328,7 +340,7 @@
       "away_ru": "Вильярреаль",
       "kickoff_local": "2026-09-17 22:30",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 359,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -337,7 +349,8 @@
         "line": null,
         "odd": 1.95,
         "reasoning": "Вильярреаль – явный фаворит с коэффициентом 1.95, что делает ставку наиболее вероятной."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
