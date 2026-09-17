@@ -156,7 +156,8 @@
   ],
   "Getafe": [
     true,
-    false
+    false,
+    true
   ],
   "Atalanta BC": [
     true,
@@ -337,7 +338,8 @@
   ],
   "Real Betis": [
     true,
-    false
+    false,
+    true
   ],
   "Paris Saint Germain": [
     false,
@@ -362,7 +364,8 @@
     false
   ],
   "Bournemouth": [
-    false
+    false,
+    true
   ],
   "Curzon Ashton FC": [
     false
@@ -411,6 +414,7 @@
     false
   ],
   "Crystal Palace": [
+    true,
     true
   ],
   "RC Lens": [
@@ -523,6 +527,7 @@
     false
   ],
   "Dinamo Makhachkala": [
+    true,
     true
   ],
   "1. FC Heidenheim": [
@@ -591,12 +596,14 @@
     false
   ],
   "Juventus": [
+    false,
     false
   ],
   "Stade Brestois 29": [
     false
   ],
   "Real Sociedad": [
+    true,
     true
   ],
   "Atletico Madrid": [
@@ -703,6 +710,39 @@
     false
   ],
   "Dynamo": [
+    true
+  ],
+  "Levski Sofia": [
+    true
+  ],
+  "Red Bull Salzburg": [
+    true
+  ],
+  "OFI": [
+    false
+  ],
+  "1899 Hoffenheim": [
+    false
+  ],
+  "CSKA Moscow": [
+    true
+  ],
+  "Celtic": [
+    false
+  ],
+  "Ferencvarosi TC": [
+    false
+  ],
+  "Lech Poznan": [
+    true
+  ],
+  "NEC Nijmegen": [
+    false
+  ],
+  "Plzen": [
+    true
+  ],
+  "Union St. Gilloise": [
     true
   ]
 }
