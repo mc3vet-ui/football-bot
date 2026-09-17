@@ -1,0 +1,339 @@
+{
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T08:06:09.460042+03:00",
+  "posted_batches": [
+    "morning"
+  ],
+  "matches": [
+    {
+      "event_id": 1561400,
+      "sport_key": "af_235",
+      "source": "api_football",
+      "league": "РПЛ",
+      "home": "FC Orenburg",
+      "away": "FC Krasnodar",
+      "home_ru": "ФК Оренбург",
+      "away_ru": "ФК Краснодар",
+      "kickoff_local": "2026-09-17 16:15",
+      "kickoff_hour": 16,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "over",
+        "line": 2.0,
+        "odd": 1.35,
+        "reasoning": "Краснодар сильнее, ожидается минимум два гола в матче, поэтому ставка на тотал больше 2.0 имеет наибольшую вероятность выигрыша."
+      }
+    },
+    {
+      "event_id": 1561395,
+      "sport_key": "af_235",
+      "source": "api_football",
+      "league": "РПЛ",
+      "home": "Akron",
+      "away": "Akhmat",
+      "home_ru": "Акрон",
+      "away_ru": "Ахмат",
+      "kickoff_local": "2026-09-17 18:30",
+      "kickoff_hour": 18,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 2.28,
+        "reasoning": "Ахмат является фаворитом по коэффициенту 2.28 и имеет положительную статистику прошлых прогнозов, что делает ставку на их победу наиболее вероятной."
+      }
+    },
+    {
+      "event_id": 1561398,
+      "sport_key": "af_235",
+      "source": "api_football",
+      "league": "РПЛ",
+      "home": "FC Rostov",
+      "away": "Dynamo",
+      "home_ru": "Ростов",
+      "away_ru": "Динамо",
+      "kickoff_local": "2026-09-17 18:30",
+      "kickoff_hour": 18,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": -0.25,
+        "odd": 1.49,
+        "reasoning": "Динамо является фаворитом, ставка -0.25 на гостя требует их победы и имеет самый низкий коэффициент, что делает её наиболее вероятной"
+      }
+    },
+    {
+      "event_id": 1636285,
+      "sport_key": "af_3",
+      "source": "api_football",
+      "league": "Лига Европы",
+      "home": "Levski Sofia",
+      "away": "Red Bull Salzburg",
+      "home_ru": "Левски София",
+      "away_ru": "Ред Булл Зальцбург",
+      "kickoff_local": "2026-09-17 19:45",
+      "kickoff_hour": 19,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 2.3,
+        "reasoning": "Ред Булл Зальцбург имеет более низкий коэффициент (2.3) по сравнению с хозяевами (2.9) и ничьей (3.4), что указывает на более высокую вероятность их победы."
+      }
+    },
+    {
+      "event_id": 1636304,
+      "sport_key": "af_3",
+      "source": "api_football",
+      "league": "Лига Европы",
+      "home": "OFI",
+      "away": "1899 Hoffenheim",
+      "home_ru": "ОФИ",
+      "away_ru": "Хоффенхайм",
+      "kickoff_local": "2026-09-17 19:45",
+      "kickoff_hour": 19,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 1.36,
+        "reasoning": "Хоффенхайм является явным фаворитом с самым низким коэффициентом 1.36, что указывает на высокую вероятность его победы."
+      }
+    },
+    {
+      "event_id": 1570386,
+      "sport_key": "af_140",
+      "source": "api_football",
+      "league": "Ла Лига",
+      "home": "Real Betis",
+      "away": "Getafe",
+      "home_ru": "Реал Бетис",
+      "away_ru": "Хетафе",
+      "kickoff_local": "2026-09-17 20:00",
+      "kickoff_hour": 20,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.67,
+        "reasoning": "У Реал Бетис явный фаворит с коэффициентом 1.67, что делает ставку на их победу наиболее вероятной."
+      }
+    },
+    {
+      "event_id": 1561397,
+      "sport_key": "af_235",
+      "source": "api_football",
+      "league": "РПЛ",
+      "home": "Dinamo Makhachkala",
+      "away": "CSKA Moscow",
+      "home_ru": "Dinamo Makhachkala",
+      "away_ru": "CSKA Moscow",
+      "kickoff_local": "2026-09-17 20:45",
+      "kickoff_hour": 20,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 2.24,
+        "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
+      }
+    },
+    {
+      "event_id": 1636232,
+      "sport_key": "af_3",
+      "source": "api_football",
+      "league": "Лига Европы",
+      "home": "Beşiktaş",
+      "away": "Marseille",
+      "home_ru": "Бешикташ",
+      "away_ru": "Марсель",
+      "kickoff_local": "2026-09-17 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.75,
+        "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
+      }
+    },
+    {
+      "event_id": 1636247,
+      "sport_key": "af_3",
+      "source": "api_football",
+      "league": "Лига Европы",
+      "home": "Celtic",
+      "away": "Ferencvarosi TC",
+      "home_ru": "Селтик",
+      "away_ru": "Ференцвароши ТС",
+      "kickoff_local": "2026-09-17 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.75,
+        "reasoning": "Селтик — явный фаворит с лучшим коэффициентом, поэтому наиболее вероятный исход матча."
+      }
+    },
+    {
+      "event_id": 1636251,
+      "sport_key": "af_3",
+      "source": "api_football",
+      "league": "Лига Европы",
+      "home": "Crystal Palace",
+      "away": "Lech Poznan",
+      "home_ru": "Кристал Пэлас",
+      "away_ru": "Лех Познань",
+      "kickoff_local": "2026-09-17 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.36,
+        "reasoning": "Победа хозяев с коэффициентом 1.36, команда‑фаворит и в прошлых прогнозах имела 100% успех."
+      }
+    },
+    {
+      "event_id": 1636278,
+      "sport_key": "af_3",
+      "source": "api_football",
+      "league": "Лига Европы",
+      "home": "Juventus",
+      "away": "NEC Nijmegen",
+      "home_ru": "Ювентус",
+      "away_ru": "НЕК Неймеген",
+      "kickoff_local": "2026-09-17 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 11.0,
+        "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
+      }
+    },
+    {
+      "event_id": 1636287,
+      "sport_key": "af_3",
+      "source": "api_football",
+      "league": "Лига Европы",
+      "home": "Lillestrom",
+      "away": "Torreense",
+      "home_ru": "Лиллесстрём",
+      "away_ru": "Торреенсе",
+      "kickoff_local": "2026-09-17 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.5,
+        "reasoning": "Лиллесстрём — явный фаворит, коэффициент 1.5, победа наиболее вероятна."
+      }
+    },
+    {
+      "event_id": 1636316,
+      "sport_key": "af_3",
+      "source": "api_football",
+      "league": "Лига Европы",
+      "home": "Plzen",
+      "away": "Union St. Gilloise",
+      "home_ru": "Пльзень",
+      "away_ru": "Юнион Сен-Жиль",
+      "kickoff_local": "2026-09-17 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 2.45,
+        "reasoning": "Union St. Gilloise имеет чуть более низкий коэффициент (2.45) по сравнению с Plzen (2.62), что указывает на небольшое преимущество и делает их более вероятным победителем."
+      }
+    },
+    {
+      "event_id": 1636321,
+      "sport_key": "af_3",
+      "source": "api_football",
+      "league": "Лига Европы",
+      "home": "Real Sociedad",
+      "away": "Bournemouth",
+      "home_ru": "Реал Сосьедад",
+      "away_ru": "Борнмут",
+      "kickoff_local": "2026-09-17 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 2.25,
+        "reasoning": "Борнмут является фаворитом с более низким коэффициентом 2.25, что указывает на большую вероятность победы."
+      }
+    },
+    {
+      "event_id": 1570390,
+      "sport_key": "af_140",
+      "source": "api_football",
+      "league": "Ла Лига",
+      "home": "Malaga",
+      "away": "Villarreal",
+      "home_ru": "Малага",
+      "away_ru": "Вильярреаль",
+      "kickoff_local": "2026-09-17 22:30",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 1.95,
+        "reasoning": "Вильярреаль – явный фаворит с коэффициентом 1.95, что делает ставку наиболее вероятной."
+      }
+    }
+  ]
+}
