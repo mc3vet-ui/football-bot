@@ -175,6 +175,7 @@
   ],
   "Barcelona": [
     true,
+    false,
     false
   ],
   "Rayo Vallecano": [
@@ -689,6 +690,9 @@
     true
   ],
   "Sturm Graz": [
+    false
+  ],
+  "Racing Santander": [
     false
   ]
 }
