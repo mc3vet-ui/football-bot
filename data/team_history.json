@@ -63,7 +63,8 @@
     true
   ],
   "Rennes": [
-    true
+    true,
+    false
   ],
   "Le Mans FC": [
     true,
@@ -686,5 +687,8 @@
   ],
   "AZ Alkmaar": [
     true
+  ],
+  "Sturm Graz": [
+    false
   ]
 }

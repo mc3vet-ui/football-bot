@@ -331,8 +331,8 @@
       "kickoff_local": "2026-09-16 22:00",
       "kickoff_hour": 22,
       "message_id": 338,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -340,7 +340,8 @@
         "odd": 1.91,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:0"
     },
     {
       "event_id": 1636344,
