@@ -2,7 +2,8 @@
   "date": "2026-09-17",
   "generated_at": "2026-09-17T08:06:09.460042+03:00",
   "posted_batches": [
-    "morning"
+    "morning",
+    "day"
   ],
   "matches": [
     {
@@ -16,7 +17,7 @@
       "away_ru": "ФК Краснодар",
       "kickoff_local": "2026-09-17 16:15",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 344,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -25,7 +26,8 @@
         "line": 2.0,
         "odd": 1.35,
         "reasoning": "Краснодар сильнее, ожидается минимум два гола в матче, поэтому ставка на тотал больше 2.0 имеет наибольшую вероятность выигрыша."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1561395,
@@ -38,7 +40,7 @@
       "away_ru": "Ахмат",
       "kickoff_local": "2026-09-17 18:30",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 345,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -47,7 +49,8 @@
         "line": null,
         "odd": 2.28,
         "reasoning": "Ахмат является фаворитом по коэффициенту 2.28 и имеет положительную статистику прошлых прогнозов, что делает ставку на их победу наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1561398,
@@ -60,7 +63,7 @@
       "away_ru": "Динамо",
       "kickoff_local": "2026-09-17 18:30",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 346,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -69,7 +72,8 @@
         "line": -0.25,
         "odd": 1.49,
         "reasoning": "Динамо является фаворитом, ставка -0.25 на гостя требует их победы и имеет самый низкий коэффициент, что делает её наиболее вероятной"
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1636285,
