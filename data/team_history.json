@@ -519,7 +519,8 @@
     true
   ],
   "Akhmat": [
-    true
+    true,
+    false
   ],
   "Dinamo Makhachkala": [
     true
@@ -556,6 +557,7 @@
     true
   ],
   "FC Rostov": [
+    true,
     true
   ],
   "Levante": [
@@ -574,9 +576,11 @@
     false
   ],
   "FC Krasnodar": [
+    false,
     false
   ],
   "Akron": [
+    false,
     false
   ],
   "Deportivo La Coruna": [
@@ -694,5 +698,11 @@
   ],
   "Racing Santander": [
     false
+  ],
+  "FC Orenburg": [
+    false
+  ],
+  "Dynamo": [
+    true
   ]
 }
