@@ -1,0 +1,251 @@
+{
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18T08:04:32.937561+03:00",
+  "posted_batches": [
+    "morning"
+  ],
+  "matches": [
+    {
+      "event_id": 1576181,
+      "sport_key": "af_79",
+      "source": "api_football",
+      "league": "Бундеслига 2",
+      "home": "SpVgg Greuther Fürth",
+      "away": "1. FC Magdeburg",
+      "home_ru": "Гройтер Фюрт",
+      "away_ru": "Магдебург",
+      "kickoff_local": "2026-09-18 19:30",
+      "kickoff_hour": 19,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 2.2,
+        "reasoning": "Коэффициент на победу Магдебурга самый низкий (2.2), что указывает на его фаворитство; учитывая отсутствие иных рынков, ставка на победу гостя выглядит наиболее обоснованной."
+      }
+    },
+    {
+      "event_id": 1576187,
+      "sport_key": "af_79",
+      "source": "api_football",
+      "league": "Бундеслига 2",
+      "home": "VfL Wolfsburg",
+      "away": "SV Darmstadt 98",
+      "home_ru": "Вольфсбург",
+      "away_ru": "Дармштадт 98",
+      "kickoff_local": "2026-09-18 19:30",
+      "kickoff_hour": 19,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.57,
+        "reasoning": "Вольфсбург является фаворитом с более низким коэффициентом 1.57, что указывает на большую вероятность победы, несмотря на хорошие результаты прогнозов на Дармштадт."
+      }
+    },
+    {
+      "event_id": 1575167,
+      "sport_key": "af_78",
+      "source": "api_football",
+      "league": "Бундеслига",
+      "home": "Bayern München",
+      "away": "Union Berlin",
+      "home_ru": "Бавария Мюнхен",
+      "away_ru": "Унион Берлин",
+      "kickoff_local": "2026-09-18 21:30",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 23.0,
+        "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
+      }
+    },
+    {
+      "event_id": 1550133,
+      "sport_key": "af_135",
+      "source": "api_football",
+      "league": "Серия А",
+      "home": "Monza",
+      "away": "Sassuolo",
+      "home_ru": "Монца",
+      "away_ru": "Сассуоло",
+      "kickoff_local": "2026-09-18 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 2.3,
+        "reasoning": "Сассуоло имеет более низкий коэффициент (2.3), что указывает на большую вероятность победы, а статистика прошлых прогнозов не противоречит."
+      }
+    },
+    {
+      "event_id": 1552769,
+      "sport_key": "af_61",
+      "source": "api_football",
+      "league": "Лига 1",
+      "home": "Monaco",
+      "away": "Lens",
+      "home_ru": "Монако",
+      "away_ru": "Ланс",
+      "kickoff_local": "2026-09-18 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 2.05,
+        "reasoning": "Монте‑Карло имеет более низкие коэффициенты и является явным фаворитом, что повышает вероятность его победы."
+      }
+    },
+    {
+      "event_id": 1638819,
+      "sport_key": "af_45",
+      "source": "api_football",
+      "league": "Кубок Англии",
+      "home": "Worcester City",
+      "away": "Stratford Town",
+      "home_ru": "Вустер Сити",
+      "away_ru": "Стратфорд Таун",
+      "kickoff_local": "2026-09-18 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": -0.5,
+        "odd": 1.9,
+        "reasoning": "Вустер Сити является фаворитом с коэффициентом 1.85, а ставка на их фору -0.5 (коэф. 1.9) дает более надёжный вариант победы хозяев."
+      }
+    },
+    {
+      "event_id": 1638820,
+      "sport_key": "af_45",
+      "source": "api_football",
+      "league": "Кубок Англии",
+      "home": "Yate Town",
+      "away": "Chippenham Town",
+      "home_ru": "Йейт Таун",
+      "away_ru": "Чиппенхэм Таун",
+      "kickoff_local": "2026-09-18 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "over",
+        "line": 2.5,
+        "odd": 1.62,
+        "reasoning": "Коэффициент на тотал > 2.5 самый низкий (1.62), что указывает на более высокую вероятность превышения 2.5 гола в матче."
+      }
+    },
+    {
+      "event_id": 1557408,
+      "sport_key": "af_39",
+      "source": "api_football",
+      "league": "АПЛ",
+      "home": "Brentford",
+      "away": "Chelsea",
+      "home_ru": "Брентфорд",
+      "away_ru": "Челси",
+      "kickoff_local": "2026-09-18 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 2.3,
+        "reasoning": "Chelsea – фаворит с более низким коэффициентом и хорошей историей наших прогнозов, поэтому выбираем победу гостя."
+      }
+    },
+    {
+      "event_id": 1563168,
+      "sport_key": "af_40",
+      "source": "api_football",
+      "league": "Чемпионшип",
+      "home": "Bristol City",
+      "away": "Watford",
+      "home_ru": "Бристоль Сити",
+      "away_ru": "Уотфорд",
+      "kickoff_local": "2026-09-18 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.83,
+        "reasoning": "Бристоль Сити имеет более низкий коэффициент (1.83) и 2 из 3 прошлых прогнозов на эту команду были успешны, что делает её наиболее вероятным победителем."
+      }
+    },
+    {
+      "event_id": 1570397,
+      "sport_key": "af_140",
+      "source": "api_football",
+      "league": "Ла Лига",
+      "home": "Espanyol",
+      "away": "Elche",
+      "home_ru": "Эспаньол",
+      "away_ru": "Эльче",
+      "kickoff_local": "2026-09-18 22:00",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.85,
+        "reasoning": "Эспаньол играет дома, коэффициент 1.85, команда имеет 100% успех в прошлых прогнозах, в то время как у Эльче нет, поэтому выбираем победу хозяев."
+      }
+    },
+    {
+      "event_id": 1490481,
+      "sport_key": "af_253",
+      "source": "api_football",
+      "league": "MLS",
+      "home": "New York City FC",
+      "away": "New York Red Bulls",
+      "home_ru": "Нью-Йорк Сити ФК",
+      "away_ru": "Нью-Йорк Ред Буллз",
+      "kickoff_local": "2026-09-19 02:30",
+      "kickoff_hour": 2,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.75,
+        "reasoning": "Нью-Йорк Сити ФК является явным фаворитом дома, коэффициент 1.75 указывает на высокую вероятность победы."
+      }
+    }
+  ]
+}
