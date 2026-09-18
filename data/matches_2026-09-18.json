@@ -19,8 +19,8 @@
       "kickoff_local": "2026-09-18 19:30",
       "kickoff_hour": 19,
       "message_id": 362,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -28,7 +28,8 @@
         "odd": 2.2,
         "reasoning": "Коэффициент на победу Магдебурга самый низкий (2.2), что указывает на его фаворитство; учитывая отсутствие иных рынков, ставка на победу гостя выглядит наиболее обоснованной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": 1576187,
@@ -42,8 +43,8 @@
       "kickoff_local": "2026-09-18 19:30",
       "kickoff_hour": 19,
       "message_id": 363,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -51,7 +52,8 @@
         "odd": 1.57,
         "reasoning": "Вольфсбург является фаворитом с более низким коэффициентом 1.57, что указывает на большую вероятность победы, несмотря на хорошие результаты прогнозов на Дармштадт."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "5:1"
     },
     {
       "event_id": 1575167,
@@ -65,8 +67,8 @@
       "kickoff_local": "2026-09-18 21:30",
       "kickoff_hour": 21,
       "message_id": 364,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -74,7 +76,8 @@
         "odd": 23.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "7:0"
     },
     {
       "event_id": 1550133,
@@ -88,8 +91,8 @@
       "kickoff_local": "2026-09-18 21:45",
       "kickoff_hour": 21,
       "message_id": 365,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -97,7 +100,8 @@
         "odd": 2.3,
         "reasoning": "Сассуоло имеет более низкий коэффициент (2.3), что указывает на большую вероятность победы, а статистика прошлых прогнозов не противоречит."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     },
     {
       "event_id": 1552769,
@@ -111,8 +115,8 @@
       "kickoff_local": "2026-09-18 21:45",
       "kickoff_hour": 21,
       "message_id": 366,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -120,7 +124,8 @@
         "odd": 2.05,
         "reasoning": "Монте‑Карло имеет более низкие коэффициенты и является явным фаворитом, что повышает вероятность его победы."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     },
     {
       "event_id": 1638819,
@@ -180,8 +185,8 @@
       "kickoff_local": "2026-09-18 22:00",
       "kickoff_hour": 22,
       "message_id": 369,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -189,7 +194,8 @@
         "odd": 2.3,
         "reasoning": "Chelsea – фаворит с более низким коэффициентом и хорошей историей наших прогнозов, поэтому выбираем победу гостя."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:0"
     },
     {
       "event_id": 1563168,
@@ -203,8 +209,8 @@
       "kickoff_local": "2026-09-18 22:00",
       "kickoff_hour": 22,
       "message_id": 370,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -212,7 +218,8 @@
         "odd": 1.83,
         "reasoning": "Бристоль Сити имеет более низкий коэффициент (1.83) и 2 из 3 прошлых прогнозов на эту команду были успешны, что делает её наиболее вероятным победителем."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:0"
     },
     {
       "event_id": 1570397,

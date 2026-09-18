@@ -8,6 +8,7 @@
     true
   ],
   "1. FC Magdeburg": [
+    false,
     false
   ],
   "Holstein Kiel": [
@@ -17,6 +18,7 @@
   ],
   "SV Darmstadt 98": [
     true,
+    true,
     true
   ],
   "Hannover 96": [
@@ -25,7 +27,8 @@
   ],
   "Chelsea": [
     true,
-    true
+    true,
+    false
   ],
   "Brighton and Hove Albion": [
     true
@@ -240,7 +243,8 @@
   "Bristol City": [
     true,
     true,
-    false
+    false,
+    true
   ],
   "Portsmouth": [
     true,
@@ -255,6 +259,7 @@
     true
   ],
   "Watford": [
+    true,
     true
   ],
   "West Ham United": [
@@ -356,7 +361,8 @@
     false
   ],
   "VfL Wolfsburg": [
-    false
+    false,
+    true
   ],
   "FC Energie Cottbus": [
     false
@@ -386,7 +392,8 @@
     false
   ],
   "Union Berlin": [
-    true
+    true,
+    false
   ],
   "TSG Hoffenheim": [
     true
@@ -405,6 +412,7 @@
     true
   ],
   "Brentford": [
+    false,
     false
   ],
   "Manchester City": [
@@ -510,6 +518,7 @@
   ],
   "Monza": [
     true,
+    false,
     false
   ],
   "Troyes": [
@@ -575,12 +584,14 @@
     false
   ],
   "Lens": [
-    false
+    false,
+    true
   ],
   "SV Elversberg": [
     false
   ],
   "Bayern München": [
+    false,
     false
   ],
   "FC Krasnodar": [
@@ -596,6 +607,7 @@
     true
   ],
   "Sassuolo": [
+    false,
     false
   ],
   "Juventus": [
@@ -756,5 +768,11 @@
   ],
   "Torreense": [
     false
+  ],
+  "SpVgg Greuther Fürth": [
+    false
+  ],
+  "Monaco": [
+    true
   ]
 }
