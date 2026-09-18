@@ -187,8 +187,8 @@
       "kickoff_local": "2026-09-17 22:00",
       "kickoff_hour": 22,
       "message_id": 352,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -196,7 +196,8 @@
         "odd": 1.75,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "4:1"
     },
     {
       "event_id": 1636247,
@@ -282,8 +283,8 @@
       "kickoff_local": "2026-09-17 22:00",
       "kickoff_hour": 22,
       "message_id": 356,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -291,7 +292,8 @@
         "odd": 1.5,
         "reasoning": "Лиллесстрём — явный фаворит, коэффициент 1.5, победа наиболее вероятна."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:2"
     },
     {
       "event_id": 1636316,
@@ -353,8 +355,8 @@
       "kickoff_local": "2026-09-17 22:30",
       "kickoff_hour": 22,
       "message_id": 359,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -362,7 +364,8 @@
         "odd": 1.95,
         "reasoning": "Вильярреаль – явный фаворит с коэффициентом 1.95, что делает ставку наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:3"
     }
   ]
 }

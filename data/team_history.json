@@ -115,7 +115,8 @@
     false
   ],
   "Marseille": [
-    false
+    false,
+    true
   ],
   "Borussia Dortmund": [
     true,
@@ -443,7 +444,8 @@
   ],
   "Villarreal": [
     false,
-    false
+    false,
+    true
   ],
   "Inter Miami CF": [
     false
@@ -543,7 +545,8 @@
     true
   ],
   "Malaga": [
-    false
+    false,
+    true
   ],
   "Lille": [
     true
@@ -744,5 +747,14 @@
   ],
   "Union St. Gilloise": [
     true
+  ],
+  "Beşiktaş": [
+    true
+  ],
+  "Lillestrom": [
+    false
+  ],
+  "Torreense": [
+    false
   ]
 }
