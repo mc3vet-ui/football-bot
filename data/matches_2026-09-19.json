@@ -2,7 +2,8 @@
   "date": "2026-09-19",
   "generated_at": "2026-09-19T08:12:21.577183+03:00",
   "posted_batches": [
-    "morning"
+    "morning",
+    "evening"
   ],
   "matches": [
     {
@@ -1929,7 +1930,7 @@
       "away_ru": "Интер",
       "kickoff_local": "2026-09-19 19:00",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 404,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -1938,7 +1939,8 @@
         "line": null,
         "odd": 2.5,
         "reasoning": "У АС Рома более высокая статистика успешных прогнозов (2 из 3), а коэффициент равен гостевому, поэтому выбираем победу хозяев."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1557415,
@@ -1951,7 +1953,7 @@
       "away_ru": "Ковентри",
       "kickoff_local": "2026-09-19 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 405,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -1960,7 +1962,8 @@
         "line": null,
         "odd": 1.65,
         "reasoning": "Ноттингем Форест – явный фаворит с коэффициентом 1.65, что делает ставку на победу хозяина наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570395,
@@ -1973,7 +1976,7 @@
       "away_ru": "Рейсинг Сантандер",
       "kickoff_local": "2026-09-19 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 406,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -1982,7 +1985,8 @@
         "line": null,
         "odd": 1.75,
         "reasoning": "Фаворит дома имеет наименьший коэффициент и более высокий шанс победы, чем аутсайдер или ничья."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1575168,
@@ -1995,7 +1999,7 @@
       "away_ru": "Боруссия Дортмунд",
       "kickoff_local": "2026-09-19 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 407,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -2004,7 +2008,8 @@
         "line": null,
         "odd": 2.62,
         "reasoning": "У «Боруссии Дортмунд» в последних прогнозах 2 из 2 удачных, а коэффициент 2.62 предлагает хорошую ценность при небольшом отставании от фаворита."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1576186,
@@ -2017,7 +2022,7 @@
       "away_ru": "Херта БСК",
       "kickoff_local": "2026-09-19 21:30",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 408,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -2026,7 +2031,8 @@
         "line": null,
         "odd": 2.3,
         "reasoning": "У Hertha BSC в последних прогнозах 100% успеха, а коэффициент 2.3 более привлекательный, чем у Динамо Дрезден."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1550136,
@@ -2039,7 +2045,7 @@
       "away_ru": "Лацио",
       "kickoff_local": "2026-09-19 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 409,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -2048,7 +2054,8 @@
         "line": null,
         "odd": 1.91,
         "reasoning": "Лацио является явным фаворитом матча, учитывая более высокую форму и коэффициент 1.91, что повышает вероятность победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1552765,
@@ -2061,7 +2068,7 @@
       "away_ru": "Эстак Труа",
       "kickoff_local": "2026-09-19 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 410,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -2070,7 +2077,8 @@
         "line": null,
         "odd": 2.1,
         "reasoning": "Анже играет дома, имеет более низкие коэффициенты и считается фаворитом, поэтому наиболее вероятный исход – победа хозяев."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1552767,
@@ -2083,7 +2091,7 @@
       "away_ru": "Лориан",
       "kickoff_local": "2026-09-19 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 411,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -2092,7 +2100,8 @@
         "line": null,
         "odd": 2.5,
         "reasoning": "Лориан считается фаворитом матча, его коэффициент ниже, чем у хозяев, что указывает на более высокую вероятность победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1552768,
@@ -2105,7 +2114,7 @@
       "away_ru": "Ренн",
       "kickoff_local": "2026-09-19 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 412,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -2114,7 +2123,8 @@
         "line": null,
         "odd": 2.1,
         "reasoning": "Лион играет дома, является фаворитом с коэффициентом 2.1, а прошлые прогнозы показывают 50% успеха, что делает эту ставку наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1552772,
@@ -2127,7 +2137,7 @@
       "away_ru": "Ле-Авр",
       "kickoff_local": "2026-09-19 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 413,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -2136,7 +2146,8 @@
         "line": null,
         "odd": 1.73,
         "reasoning": "Тулуза — явный фаворит с коэффициентом 1.73, а у Le Havre нет успешных прогнозов, поэтому ставим на победу хозяев."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570400,
@@ -2149,7 +2160,7 @@
       "away_ru": "Барселона",
       "kickoff_local": "2026-09-19 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 414,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -2158,7 +2169,8 @@
         "line": null,
         "odd": 11.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1490482,
@@ -2171,7 +2183,7 @@
       "away_ru": "Лос-Анджелес ФК",
       "kickoff_local": "2026-09-20 02:30",
       "kickoff_hour": 2,
-      "message_id": null,
+      "message_id": 415,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -2180,7 +2192,8 @@
         "line": null,
         "odd": 2.15,
         "reasoning": "Лос-Анджелес ФК является фаворитом матча, коэффициент 2.15 указывает на более высокую вероятность победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1490483,
@@ -2193,7 +2206,7 @@
       "away_ru": "Коламбус Крю",
       "kickoff_local": "2026-09-20 02:30",
       "kickoff_hour": 2,
-      "message_id": null,
+      "message_id": 416,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -2202,7 +2215,8 @@
         "line": null,
         "odd": 2.4,
         "reasoning": "Низкий коэффициент 2.4 и 100% успешных прошлых прогнозов на CF Montreal указывают на победу хозяев."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1490484,
@@ -2215,7 +2229,7 @@
       "away_ru": "Орландо Сити",
       "kickoff_local": "2026-09-20 02:30",
       "kickoff_hour": 2,
-      "message_id": null,
+      "message_id": 417,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -2224,7 +2238,8 @@
         "line": null,
         "odd": 1.85,
         "reasoning": "Нью-Ингленд Революшн – явный фаворит с коэффициентом 1.85 и историей 50% успешных прогнозов, поэтому наиболее вероятный исход – победа хозяев."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1490485,
@@ -2237,7 +2252,7 @@
       "away_ru": "Шарлотт",
       "kickoff_local": "2026-09-20 02:30",
       "kickoff_hour": 2,
-      "message_id": null,
+      "message_id": 418,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -2246,7 +2261,8 @@
         "line": null,
         "odd": 2.3,
         "reasoning": "У Чарлотт наименьший коэффициент (2.3), значит они фаворит матча и наиболее вероятный победитель."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
