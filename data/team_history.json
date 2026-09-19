@@ -45,6 +45,7 @@
     true
   ],
   "Paris FC": [
+    true,
     true
   ],
   "Nice": [
@@ -53,11 +54,13 @@
   ],
   "SC Freiburg": [
     true,
-    true
+    true,
+    false
   ],
   "Werder Bremen": [
     true,
-    false
+    false,
+    true
   ],
   "Real Madrid": [
     true,
@@ -102,6 +105,7 @@
     false
   ],
   "Cagliari": [
+    false,
     false
   ],
   "Inter Milan": [
@@ -129,6 +133,7 @@
   ],
   "Hamburger SV": [
     true,
+    false,
     false
   ],
   "Sevilla": [
@@ -155,7 +160,8 @@
   "AS Roma": [
     true,
     false,
-    true
+    true,
+    false
   ],
   "CA Osasuna": [
     true
@@ -171,14 +177,17 @@
   ],
   "Bologna": [
     true,
-    true
+    true,
+    false
   ],
   "Aston Villa": [
-    true
+    true,
+    false
   ],
   "Arsenal": [
     true,
-    true
+    true,
+    false
   ],
   "Barcelona": [
     true,
@@ -188,7 +197,8 @@
   "Rayo Vallecano": [
     true,
     true,
-    true
+    true,
+    false
   ],
   "Augsburg": [
     true
@@ -250,6 +260,7 @@
   ],
   "Portsmouth": [
     true,
+    false,
     false
   ],
   "Derby County": [
@@ -278,9 +289,11 @@
   ],
   "Southampton": [
     false,
-    true
+    true,
+    false
   ],
   "Stoke City": [
+    true,
     true,
     true
   ],
@@ -306,6 +319,7 @@
   "Millwall": [
     false,
     false,
+    false,
     false
   ],
   "Wrexham AFC": [
@@ -314,9 +328,11 @@
   ],
   "Burnley": [
     false,
-    true
+    true,
+    false
   ],
   "Middlesbrough": [
+    false,
     false,
     false,
     false
@@ -343,6 +359,7 @@
     false
   ],
   "1. FC Köln": [
+    false,
     false
   ],
   "Real Betis": [
@@ -390,7 +407,8 @@
   ],
   "Torino": [
     false,
-    true
+    true,
+    false
   ],
   "Bayer Leverkusen": [
     true,
@@ -531,9 +549,11 @@
     true
   ],
   "Strasbourg": [
+    true,
     true
   ],
   "Sheffield Utd": [
+    true,
     true
   ],
   "Wolves": [
@@ -574,7 +594,8 @@
     true
   ],
   "Brighton": [
-    true
+    true,
+    false
   ],
   "Spartak Moscow": [
     true,
@@ -639,15 +660,18 @@
     true
   ],
   "Inter": [
+    false,
     false
   ],
   "Udinese": [
+    false,
     false
   ],
   "Leeds": [
     true
   ],
   "Newcastle": [
+    true,
     true
   ],
   "Espanyol": [
@@ -655,10 +679,12 @@
     false
   ],
   "Alaves": [
+    false,
     false
   ],
   "Lincoln": [
-    false
+    false,
+    true
   ],
   "Elche": [
     false,
@@ -683,7 +709,8 @@
     false
   ],
   "Osasuna": [
-    true
+    true,
+    false
   ],
   "Baltika": [
     true
@@ -798,5 +825,176 @@
   ],
   "Eintracht Braunschweig": [
     true
+  ],
+  "Tottenham": [
+    false
+  ],
+  "Cardiff": [
+    true
+  ],
+  "Charlton": [
+    true
+  ],
+  "West Ham": [
+    false
+  ],
+  "Eintracht Frankfurt": [
+    false
+  ],
+  "FC Augsburg": [
+    true
+  ],
+  "Borussia Mönchengladbach": [
+    true
+  ],
+  "FSV Mainz 05": [
+    true
+  ],
+  "Everton": [
+    true
+  ],
+  "Ipswich": [
+    true
+  ],
+  "Hull City": [
+    true
+  ],
+  "Birmingham": [
+    false
+  ],
+  "Derby": [
+    false
+  ],
+  "Swansea": [
+    true
+  ],
+  "Blackburn": [
+    false
+  ],
+  "QPR": [
+    false
+  ],
+  "Preston": [
+    false
+  ],
+  "Wrexham": [
+    false
+  ],
+  "Bedford Town": [
+    true
+  ],
+  "King's Lynn Town": [
+    true
+  ],
+  "Brackley Town": [
+    false
+  ],
+  "AFC Portchester": [
+    false
+  ],
+  "Bury": [
+    true
+  ],
+  "Workington": [
+    true
+  ],
+  "Buxton": [
+    false
+  ],
+  "Ashton United": [
+    false
+  ],
+  "United of Manchester": [
+    true
+  ],
+  "Ossett United": [
+    true
+  ],
+  "Gorleston": [
+    true
+  ],
+  "Bury Town": [
+    true
+  ],
+  "Leamington": [
+    false
+  ],
+  "Gainsborough Trinity": [
+    false
+  ],
+  "Redcar Athletic": [
+    true
+  ],
+  "Macclesfield": [
+    true
+  ],
+  "Redditch United": [
+    true
+  ],
+  "Evesham United": [
+    true
+  ],
+  "Walton & Hersham": [
+    false
+  ],
+  "Horsham": [
+    false
+  ],
+  "Rylands": [
+    true
+  ],
+  "Chorley": [
+    true
+  ],
+  "Cray Wanderers": [
+    true
+  ],
+  "Maidstone Utd": [
+    true
+  ],
+  "Hemel Hempstead Town": [
+    false
+  ],
+  "Wingate & Finchley": [
+    false
+  ],
+  "Kettering Town": [
+    true
+  ],
+  "Quorn": [
+    true
+  ],
+  "Needham Market": [
+    true
+  ],
+  "Braintree": [
+    true
+  ],
+  "Torquay": [
+    true
+  ],
+  "AFC Stoneham": [
+    true
+  ],
+  "Weston-super-Mare": [
+    false
+  ],
+  "Wimborne Town": [
+    false
+  ],
+  "AFC Emley": [
+    true
+  ],
+  "Spennymoor Town": [
+    true
+  ],
+  "Thame United": [
+    false
+  ],
+  "Exmouth": [
+    false
+  ],
+  "Athletic Club": [
+    false
   ]
 }
