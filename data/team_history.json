@@ -352,6 +352,7 @@
     false
   ],
   "New York City FC": [
+    false,
     false
   ],
   "Nashville SC": [
@@ -489,6 +490,7 @@
     false
   ],
   "New York Red Bulls": [
+    false,
     false
   ],
   "Real Salt Lake": [
@@ -644,7 +646,8 @@
     true
   ],
   "Espanyol": [
-    true
+    true,
+    false
   ],
   "Alaves": [
     false
@@ -653,6 +656,7 @@
     false
   ],
   "Elche": [
+    false,
     false
   ],
   "Rodina Moskva": [
@@ -774,5 +778,17 @@
   ],
   "Monaco": [
     true
+  ],
+  "Worcester City": [
+    true
+  ],
+  "Stratford Town": [
+    true
+  ],
+  "Yate Town": [
+    false
+  ],
+  "Chippenham Town": [
+    false
   ]
 }
