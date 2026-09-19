@@ -17,8 +17,8 @@
       "kickoff_local": "2026-09-19 14:00",
       "kickoff_hour": 14,
       "message_id": 375,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -26,7 +26,8 @@
         "odd": 1.75,
         "reasoning": "Домашняя команда играет на своем поле и имеет коэффициент 1.75, что делает её явным фаворитом матча, поэтому победа Holstein Kiel наиболее вероятна."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": 1576184,
@@ -40,8 +41,8 @@
       "kickoff_local": "2026-09-19 14:00",
       "kickoff_hour": 14,
       "message_id": 376,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -49,7 +50,8 @@
         "odd": 1.95,
         "reasoning": "Кайзерслаутерн имеет 2 из 2 последних успешных прогноза и является явным фаворитом с коэффициентом 1.95."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:0"
     },
     {
       "event_id": 1576185,
@@ -63,8 +65,8 @@
       "kickoff_local": "2026-09-19 14:00",
       "kickoff_hour": 14,
       "message_id": 377,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -72,7 +74,8 @@
         "odd": 2.2,
         "reasoning": "У 1. FC Nürnberg самый низкий коэффициент (2.2), что указывает на его статус фаворита, поэтому победа гостя наиболее вероятна."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:1"
     },
     {
       "event_id": 1557416,

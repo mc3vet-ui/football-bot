@@ -5,6 +5,7 @@
   ],
   "1. FC Kaiserslautern": [
     true,
+    true,
     true
   ],
   "1. FC Magdeburg": [
@@ -14,7 +15,8 @@
   "Holstein Kiel": [
     false,
     false,
-    true
+    true,
+    false
   ],
   "SV Darmstadt 98": [
     true,
@@ -324,7 +326,8 @@
   ],
   "Karlsruher SC": [
     false,
-    false
+    false,
+    true
   ],
   "Lyon": [
     false,
@@ -359,7 +362,8 @@
     false
   ],
   "1. FC Nürnberg": [
-    false
+    false,
+    true
   ],
   "VfL Wolfsburg": [
     false,
@@ -550,7 +554,8 @@
     false
   ],
   "VfL Osnabrück": [
-    true
+    true,
+    false
   ],
   "Hertha BSC": [
     true
@@ -790,5 +795,8 @@
   ],
   "Chippenham Town": [
     false
+  ],
+  "Eintracht Braunschweig": [
+    true
   ]
 }
