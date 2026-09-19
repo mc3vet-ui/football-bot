@@ -72,7 +72,8 @@
   ],
   "Rennes": [
     true,
-    false
+    false,
+    true
   ],
   "Le Mans FC": [
     true,
@@ -113,6 +114,7 @@
     true
   ],
   "Lazio": [
+    true,
     true
   ],
   "Genoa": [
@@ -128,6 +130,7 @@
     true
   ],
   "Borussia Dortmund": [
+    true,
     true,
     true
   ],
@@ -210,7 +213,8 @@
   "Celta Vigo": [
     true,
     false,
-    false
+    false,
+    true
   ],
   "Athletic Bilbao": [
     true,
@@ -347,6 +351,7 @@
   ],
   "Lyon": [
     false,
+    true,
     true
   ],
   "Auxerre": [
@@ -356,7 +361,8 @@
     true
   ],
   "VfB Stuttgart": [
-    false
+    false,
+    true
   ],
   "1. FC Köln": [
     false,
@@ -453,6 +459,7 @@
     false
   ],
   "Lorient": [
+    false,
     false
   ],
   "Real Racing Club de Santander": [
@@ -462,13 +469,15 @@
     false
   ],
   "Dynamo Dresden": [
-    false
+    false,
+    true
   ],
   "VfL Bochum": [
     false
   ],
   "Le Havre": [
-    false
+    false,
+    true
   ],
   "Brest": [
     false
@@ -534,6 +543,7 @@
     true
   ],
   "Venezia": [
+    true,
     true
   ],
   "Parma": [
@@ -578,6 +588,7 @@
     false
   ],
   "Hertha BSC": [
+    true,
     true
   ],
   "Malaga": [
@@ -588,10 +599,12 @@
     true
   ],
   "Estac Troyes": [
+    true,
     true
   ],
   "Coventry": [
-    true
+    true,
+    false
   ],
   "Brighton": [
     true,
@@ -609,6 +622,7 @@
     false
   ],
   "Le Mans": [
+    false,
     false
   ],
   "Lens": [
@@ -755,7 +769,8 @@
     false
   ],
   "Racing Santander": [
-    false
+    false,
+    true
   ],
   "FC Orenburg": [
     false
@@ -996,5 +1011,14 @@
   ],
   "Athletic Club": [
     false
+  ],
+  "Nottingham Forest": [
+    false
+  ],
+  "Angers": [
+    true
+  ],
+  "Toulouse": [
+    true
   ]
 }

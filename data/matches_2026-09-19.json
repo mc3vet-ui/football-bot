@@ -1997,8 +1997,8 @@
       "kickoff_local": "2026-09-19 19:30",
       "kickoff_hour": 19,
       "message_id": 405,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -2006,7 +2006,8 @@
         "odd": 1.65,
         "reasoning": "Ноттингем Форест – явный фаворит с коэффициентом 1.65, что делает ставку на победу хозяина наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:1"
     },
     {
       "event_id": 1570395,
@@ -2020,8 +2021,8 @@
       "kickoff_local": "2026-09-19 19:30",
       "kickoff_hour": 19,
       "message_id": 406,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -2029,7 +2030,8 @@
         "odd": 1.75,
         "reasoning": "Фаворит дома имеет наименьший коэффициент и более высокий шанс победы, чем аутсайдер или ничья."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "5:0"
     },
     {
       "event_id": 1575168,
@@ -2043,8 +2045,8 @@
       "kickoff_local": "2026-09-19 19:30",
       "kickoff_hour": 19,
       "message_id": 407,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -2052,7 +2054,8 @@
         "odd": 2.62,
         "reasoning": "У «Боруссии Дортмунд» в последних прогнозах 2 из 2 удачных, а коэффициент 2.62 предлагает хорошую ценность при небольшом отставании от фаворита."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:1"
     },
     {
       "event_id": 1576186,
@@ -2066,8 +2069,8 @@
       "kickoff_local": "2026-09-19 21:30",
       "kickoff_hour": 21,
       "message_id": 408,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -2075,7 +2078,8 @@
         "odd": 2.3,
         "reasoning": "У Hertha BSC в последних прогнозах 100% успеха, а коэффициент 2.3 более привлекательный, чем у Динамо Дрезден."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:2"
     },
     {
       "event_id": 1550136,
@@ -2089,8 +2093,8 @@
       "kickoff_local": "2026-09-19 21:45",
       "kickoff_hour": 21,
       "message_id": 409,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -2098,7 +2102,8 @@
         "odd": 1.91,
         "reasoning": "Лацио является явным фаворитом матча, учитывая более высокую форму и коэффициент 1.91, что повышает вероятность победы."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:2"
     },
     {
       "event_id": 1552765,
@@ -2112,8 +2117,8 @@
       "kickoff_local": "2026-09-19 21:45",
       "kickoff_hour": 21,
       "message_id": 410,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -2121,7 +2126,8 @@
         "odd": 2.1,
         "reasoning": "Анже играет дома, имеет более низкие коэффициенты и считается фаворитом, поэтому наиболее вероятный исход – победа хозяев."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:0"
     },
     {
       "event_id": 1552767,
@@ -2135,8 +2141,8 @@
       "kickoff_local": "2026-09-19 21:45",
       "kickoff_hour": 21,
       "message_id": 411,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -2144,7 +2150,8 @@
         "odd": 2.5,
         "reasoning": "Лориан считается фаворитом матча, его коэффициент ниже, чем у хозяев, что указывает на более высокую вероятность победы."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     },
     {
       "event_id": 1552768,
@@ -2158,8 +2165,8 @@
       "kickoff_local": "2026-09-19 21:45",
       "kickoff_hour": 21,
       "message_id": 412,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -2167,7 +2174,8 @@
         "odd": 2.1,
         "reasoning": "Лион играет дома, является фаворитом с коэффициентом 2.1, а прошлые прогнозы показывают 50% успеха, что делает эту ставку наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "4:0"
     },
     {
       "event_id": 1552772,
@@ -2181,8 +2189,8 @@
       "kickoff_local": "2026-09-19 21:45",
       "kickoff_hour": 21,
       "message_id": 413,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -2190,7 +2198,8 @@
         "odd": 1.73,
         "reasoning": "Тулуза — явный фаворит с коэффициентом 1.73, а у Le Havre нет успешных прогнозов, поэтому ставим на победу хозяев."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:2"
     },
     {
       "event_id": 1570400,
