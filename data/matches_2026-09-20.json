@@ -2,7 +2,8 @@
   "date": "2026-09-20",
   "generated_at": "2026-09-20T08:06:52.941524+03:00",
   "posted_batches": [
-    "morning"
+    "morning",
+    "day"
   ],
   "matches": [
     {
@@ -131,7 +132,7 @@
       "away_ru": "Малага",
       "kickoff_local": "2026-09-20 15:00",
       "kickoff_hour": 15,
-      "message_id": null,
+      "message_id": 427,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -140,7 +141,8 @@
         "line": null,
         "odd": 2.0,
         "reasoning": "Учитывая более высокий процент успешных прогнозов на Getafe (2 из 3) и более низкий коэффициент, победа хозяев выглядит наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1563173,
@@ -153,7 +155,7 @@
       "away_ru": "Болтон",
       "kickoff_local": "2026-09-20 15:30",
       "kickoff_hour": 15,
-      "message_id": null,
+      "message_id": 428,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -162,7 +164,8 @@
         "line": null,
         "odd": 1.44,
         "reasoning": "Норидж играет дома, имеет наименьший коэффициент 1.44, что указывает на наибольшую вероятность победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1550131,
@@ -175,7 +178,7 @@
       "away_ru": "Комо",
       "kickoff_local": "2026-09-20 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 429,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -184,7 +187,8 @@
         "line": null,
         "odd": 1.5,
         "reasoning": "Фаворит Комо имеет низкий коэффициент 1.5, что указывает на высокую вероятность победы, а альтернативных спредов или тоталов нет."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1550134,
@@ -197,7 +201,7 @@
       "away_ru": "Генуя",
       "kickoff_local": "2026-09-20 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 430,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -206,7 +210,8 @@
         "line": null,
         "odd": 2.45,
         "reasoning": "Генуя является фаворитом с самым низким коэффициентом, поэтому наиболее вероятный исход — победа гостя."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1552766,
@@ -219,7 +224,7 @@
       "away_ru": "Брест",
       "kickoff_local": "2026-09-20 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 431,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -228,7 +233,8 @@
         "line": null,
         "odd": 2.38,
         "reasoning": "Ставка на победу гостя, так как у него самая низкая коэффициент и он считается фаворитом матча."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1557407,
@@ -241,7 +247,7 @@
       "away_ru": "Ливерпуль",
       "kickoff_local": "2026-09-20 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 432,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -250,7 +256,8 @@
         "line": null,
         "odd": 2.15,
         "reasoning": "У Ливерпуля в последних прогнозах 100% успех и более низкий коэффициент, что делает победу фаворита наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1557412,
@@ -263,7 +270,7 @@
       "away_ru": "Кристал Пэлас",
       "kickoff_local": "2026-09-20 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 433,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -272,7 +279,8 @@
         "line": null,
         "odd": 1.73,
         "reasoning": "Лидс играет дома, коэффициент 1.73, команда в хорошей форме и в прошлых прогнозах показывала 100% точность, что делает победу фаворита наиболее вероятным исходом."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1557413,
@@ -285,7 +293,7 @@
       "away_ru": "Сандерленд",
       "kickoff_local": "2026-09-20 16:00",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 434,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -294,7 +302,8 @@
         "line": null,
         "odd": 8.5,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1575169,
@@ -307,7 +316,7 @@
       "away_ru": "РБ Лейпциг",
       "kickoff_local": "2026-09-20 16:30",
       "kickoff_hour": 16,
-      "message_id": null,
+      "message_id": 435,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -316,7 +325,8 @@
         "line": null,
         "odd": 1.95,
         "reasoning": "Байер Леверкузен имеет более высокий шанс победы, коэффициент 1.95 и в прошлых прогнозах на эту команду был 50% успех, в то время как у Лейпцига нет удачных прогнозов."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1638720,
@@ -329,10 +339,11 @@
       "away_ru": "Dorking Wanderers",
       "kickoff_local": "2026-09-20 17:00",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 436,
       "result_checked": false,
       "correct": null,
-      "pick": null
+      "pick": null,
+      "has_photo": true
     },
     {
       "event_id": 1570394,
@@ -345,7 +356,7 @@
       "away_ru": "Real Madrid",
       "kickoff_local": "2026-09-20 17:15",
       "kickoff_hour": 17,
-      "message_id": null,
+      "message_id": 437,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -354,7 +365,8 @@
         "line": null,
         "odd": 2.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1552770,
@@ -367,7 +379,7 @@
       "away_ru": "Лилль",
       "kickoff_local": "2026-09-20 18:15",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 438,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -376,7 +388,8 @@
         "line": null,
         "odd": 2.0,
         "reasoning": "Лилль является фаворитом с коэффициентом 2.0 и имеет 100% успех последних прогнозов, что делает ставку на победу гостя наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1557411,
@@ -389,7 +402,7 @@
       "away_ru": "Манчестер Юнайтед",
       "kickoff_local": "2026-09-20 18:30",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 439,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -398,7 +411,8 @@
         "line": null,
         "odd": 2.0,
         "reasoning": "Фаворит Манчестер Юнайтед имеет наименьший коэффициент 2.0, что указывает на наибольшую вероятность победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1575173,
@@ -411,7 +425,7 @@
       "away_ru": "Эльверсберг",
       "kickoff_local": "2026-09-20 18:30",
       "kickoff_hour": 18,
-      "message_id": null,
+      "message_id": 440,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -420,7 +434,8 @@
         "line": null,
         "odd": 2.0,
         "reasoning": "Шальке 04 является фаворитом с коэффициентом 2.0 и имеет более высокую успешность прошлых прогнозов, чем Эльверсберг, поэтому ставка на победу хозяев выглядит наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1550132,
