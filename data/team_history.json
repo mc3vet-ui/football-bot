@@ -141,7 +141,8 @@
   ],
   "Sevilla": [
     true,
-    true
+    true,
+    false
   ],
   "Atlético Madrid": [
     true,
@@ -195,6 +196,7 @@
   "Barcelona": [
     true,
     false,
+    false,
     false
   ],
   "Rayo Vallecano": [
@@ -226,7 +228,8 @@
   ],
   "New England Revolution": [
     true,
-    false
+    false,
+    true
   ],
   "St. Louis City SC": [
     true,
@@ -497,7 +500,8 @@
     true
   ],
   "CF Montreal": [
-    true
+    true,
+    false
   ],
   "Charlotte FC": [
     false
@@ -515,6 +519,7 @@
     false
   ],
   "San Jose Earthquakes": [
+    false,
     false
   ],
   "Sporting Kansas City": [
@@ -528,6 +533,7 @@
     false
   ],
   "Los Angeles FC": [
+    false,
     false
   ],
   "Portland Timbers": [
@@ -1019,6 +1025,18 @@
     true
   ],
   "Toulouse": [
+    true
+  ],
+  "Columbus Crew": [
+    false
+  ],
+  "Orlando City SC": [
+    true
+  ],
+  "DC United": [
+    true
+  ],
+  "Charlotte": [
     true
   ]
 }
