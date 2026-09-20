@@ -3,7 +3,8 @@
   "generated_at": "2026-09-20T08:06:52.941524+03:00",
   "posted_batches": [
     "morning",
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -450,7 +451,7 @@
       "away_ru": "Аталанта",
       "kickoff_local": "2026-09-20 19:00",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 442,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -459,7 +460,8 @@
         "line": null,
         "odd": 1.7,
         "reasoning": "Ювентус — явный фаворит с коэффициентом 1.7, поэтому наиболее вероятный исход."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570396,
@@ -472,7 +474,7 @@
       "away_ru": "Реал Бетис",
       "kickoff_local": "2026-09-20 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 443,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -481,7 +483,8 @@
         "line": null,
         "odd": 2.1,
         "reasoning": "У Реал Бетис более высокая точность прошлых прогнозов (2 из 3) и более низкие коэффициенты, что указывает на большую вероятность победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570402,
@@ -494,7 +497,7 @@
       "away_ru": "Леванте",
       "kickoff_local": "2026-09-20 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 444,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -503,7 +506,8 @@
         "line": null,
         "odd": 1.5,
         "reasoning": "Вильярреаль — явный фаворит с коэффициентом 1.5, а статистика прошлых прогнозов показывает небольшую успешность, что делает ставку на победу хозяина наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1575175,
@@ -516,7 +520,7 @@
       "away_ru": "Хоффенхайм",
       "kickoff_local": "2026-09-20 20:30",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 445,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -525,7 +529,8 @@
         "line": null,
         "odd": 1.67,
         "reasoning": "Хоффенхайм является явным фаворитом с коэффициентом 1.67, что указывает на большую вероятность победы в матче."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1550127,
@@ -538,7 +543,7 @@
       "away_ru": "Lecce",
       "kickoff_local": "2026-09-20 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 446,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -547,7 +552,8 @@
         "line": null,
         "odd": 11.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1552773,
@@ -560,7 +566,7 @@
       "away_ru": "Пари Сен-Жермен",
       "kickoff_local": "2026-09-20 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 447,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -569,7 +575,8 @@
         "line": null,
         "odd": 1.36,
         "reasoning": "ПСЖ явный фаворит с самым низким коэффициентом 1.36, что указывает на высокую вероятность их победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1570401,
@@ -582,7 +589,7 @@
       "away_ru": "Real Sociedad",
       "kickoff_local": "2026-09-20 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 448,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -591,7 +598,8 @@
         "line": null,
         "odd": 2.5,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1490495,
@@ -604,7 +612,7 @@
       "away_ru": "Сан-Диего",
       "kickoff_local": "2026-09-21 02:00",
       "kickoff_hour": 2,
-      "message_id": null,
+      "message_id": 449,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -613,7 +621,8 @@
         "line": null,
         "odd": 1.44,
         "reasoning": "У фаворита (Интер Майами) хорошие шансы победы и коэффициент 1.44, что делает ставку обоснованной."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
