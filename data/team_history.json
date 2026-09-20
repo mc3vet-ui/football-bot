@@ -137,6 +137,7 @@
   ],
   "Marseille": [
     false,
+    true,
     true
   ],
   "Borussia Dortmund": [
@@ -169,6 +170,7 @@
   ],
   "Lecce": [
     true,
+    false,
     false
   ],
   "AS Roma": [
@@ -389,11 +391,13 @@
   "Real Betis": [
     true,
     false,
-    true
+    true,
+    false
   ],
   "Paris Saint Germain": [
     false,
-    false
+    false,
+    true
   ],
   "New York City FC": [
     false,
@@ -510,6 +514,7 @@
   "Villarreal": [
     false,
     false,
+    true,
     true
   ],
   "Inter Miami CF": [
@@ -654,7 +659,8 @@
     true
   ],
   "Levante": [
-    false
+    false,
+    true
   ],
   "Le Mans": [
     false,
@@ -682,7 +688,8 @@
   ],
   "Deportivo La Coruna": [
     false,
-    true
+    true,
+    false
   ],
   "Sassuolo": [
     false,
@@ -779,6 +786,7 @@
     false
   ],
   "AC Milan": [
+    false,
     false
   ],
   "Benfica": [
@@ -828,6 +836,7 @@
     false
   ],
   "1899 Hoffenheim": [
+    false,
     false
   ],
   "CSKA Moscow": [
@@ -1084,5 +1093,8 @@
   ],
   "Atalanta": [
     true
+  ],
+  "SC Paderborn 07": [
+    false
   ]
 }

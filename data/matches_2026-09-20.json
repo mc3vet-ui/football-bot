@@ -492,8 +492,8 @@
       "kickoff_local": "2026-09-20 19:30",
       "kickoff_hour": 19,
       "message_id": 443,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -501,7 +501,8 @@
         "odd": 2.1,
         "reasoning": "У Реал Бетис более высокая точность прошлых прогнозов (2 из 3) и более низкие коэффициенты, что указывает на большую вероятность победы."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": 1570402,
@@ -515,8 +516,8 @@
       "kickoff_local": "2026-09-20 19:30",
       "kickoff_hour": 19,
       "message_id": 444,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -524,7 +525,8 @@
         "odd": 1.5,
         "reasoning": "Вильярреаль — явный фаворит с коэффициентом 1.5, а статистика прошлых прогнозов показывает небольшую успешность, что делает ставку на победу хозяина наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:1"
     },
     {
       "event_id": 1575175,
@@ -538,8 +540,8 @@
       "kickoff_local": "2026-09-20 20:30",
       "kickoff_hour": 20,
       "message_id": 445,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -547,7 +549,8 @@
         "odd": 1.67,
         "reasoning": "Хоффенхайм является явным фаворитом с коэффициентом 1.67, что указывает на большую вероятность победы в матче."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:1"
     },
     {
       "event_id": 1550127,
@@ -561,8 +564,8 @@
       "kickoff_local": "2026-09-20 21:45",
       "kickoff_hour": 21,
       "message_id": 446,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -570,7 +573,8 @@
         "odd": 11.0,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:0"
     },
     {
       "event_id": 1552773,
@@ -584,8 +588,8 @@
       "kickoff_local": "2026-09-20 21:45",
       "kickoff_hour": 21,
       "message_id": 447,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -593,7 +597,8 @@
         "odd": 1.36,
         "reasoning": "ПСЖ явный фаворит с самым низким коэффициентом 1.36, что указывает на высокую вероятность их победы."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:2"
     },
     {
       "event_id": 1570401,
