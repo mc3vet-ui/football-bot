@@ -18,8 +18,8 @@
       "kickoff_local": "2026-09-20 13:30",
       "kickoff_hour": 13,
       "message_id": 421,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -27,7 +27,8 @@
         "odd": 2.25,
         "reasoning": "У Napoli более высокий коэффициент победы (2.25) и лучшая статистика прошлых прогнозов (2 из 3), поэтому это наиболее вероятный вариант."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": 1563177,
@@ -41,8 +42,8 @@
       "kickoff_local": "2026-09-20 14:00",
       "kickoff_hour": 14,
       "message_id": 422,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -50,7 +51,8 @@
         "odd": 1.8,
         "reasoning": "Вулверхэмптон — явный фаворит с коэффициентом 1.8, а наш прошлый прогноз по этой команде имел 100% успех, поэтому ставка на победу хозяев наиболее вероятна."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:0"
     },
     {
       "event_id": 1576179,

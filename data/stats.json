@@ -99,5 +99,11 @@
     "incorrect": 28,
     "push": 1,
     "balance": 1180.0
+  },
+  "2026-09-20": {
+    "correct": 1,
+    "incorrect": 1,
+    "push": 0,
+    "balance": -200.0
   }
 }

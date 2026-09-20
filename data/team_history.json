@@ -90,7 +90,8 @@
   "Napoli": [
     false,
     true,
-    true
+    true,
+    false
   ],
   "Como": [
     false,
@@ -412,6 +413,7 @@
     false
   ],
   "Fiorentina": [
+    false,
     false
   ],
   "Torino": [
@@ -573,6 +575,7 @@
     true
   ],
   "Wolves": [
+    true,
     true
   ],
   "Akhmat": [
@@ -1037,6 +1040,9 @@
     true
   ],
   "Charlotte": [
+    true
+  ],
+  "West Brom": [
     true
   ]
 }
