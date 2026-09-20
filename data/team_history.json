@@ -1,7 +1,8 @@
 {
   "FC St. Pauli": [
     true,
-    true
+    true,
+    false
   ],
   "1. FC Kaiserslautern": [
     true,
@@ -25,7 +26,8 @@
   ],
   "Hannover 96": [
     true,
-    false
+    false,
+    true
   ],
   "Chelsea": [
     true,
@@ -38,11 +40,13 @@
   "Sunderland": [
     true,
     false,
-    true
+    true,
+    false
   ],
   "Fulham": [
     true,
-    true
+    true,
+    false
   ],
   "Paris FC": [
     true,
@@ -50,7 +54,8 @@
   ],
   "Nice": [
     true,
-    true
+    true,
+    false
   ],
   "SC Freiburg": [
     true,
@@ -65,6 +70,7 @@
   "Real Madrid": [
     true,
     true,
+    false,
     false
   ],
   "Málaga": [
@@ -81,7 +87,8 @@
   ],
   "Manchester United": [
     true,
-    true
+    true,
+    false
   ],
   "Ipswich Town": [
     true,
@@ -94,6 +101,7 @@
     false
   ],
   "Como": [
+    false,
     false,
     false,
     false
@@ -120,6 +128,7 @@
   ],
   "Genoa": [
     true,
+    false,
     false
   ],
   "AS Monaco": [
@@ -174,6 +183,7 @@
   "Getafe": [
     true,
     false,
+    true,
     true
   ],
   "Atalanta BC": [
@@ -211,6 +221,7 @@
   ],
   "FC Schalke 04": [
     true,
+    false,
     false
   ],
   "Celta Vigo": [
@@ -346,7 +357,8 @@
     false
   ],
   "Arminia Bielefeld": [
-    true
+    true,
+    false
   ],
   "Karlsruher SC": [
     false,
@@ -359,9 +371,11 @@
     true
   ],
   "Auxerre": [
+    false,
     false
   ],
   "Liverpool": [
+    true,
     true
   ],
   "VfB Stuttgart": [
@@ -404,6 +418,7 @@
   ],
   "Bournemouth": [
     false,
+    true,
     true
   ],
   "Curzon Ashton FC": [
@@ -423,7 +438,8 @@
   ],
   "Bayer Leverkusen": [
     true,
-    false
+    false,
+    true
   ],
   "Union Berlin": [
     true,
@@ -440,7 +456,8 @@
   ],
   "RB Leipzig": [
     false,
-    false
+    false,
+    true
   ],
   "SC Paderborn": [
     true
@@ -451,14 +468,16 @@
   ],
   "Manchester City": [
     false,
-    true
+    true,
+    false
   ],
   "Coventry City": [
     false
   ],
   "Crystal Palace": [
     true,
-    true
+    true,
+    false
   ],
   "RC Lens": [
     false
@@ -478,7 +497,8 @@
     true
   ],
   "VfL Bochum": [
-    false
+    false,
+    true
   ],
   "Le Havre": [
     false,
@@ -548,7 +568,8 @@
     false
   ],
   "Frosinone": [
-    true
+    true,
+    false
   ],
   "Venezia": [
     true,
@@ -556,6 +577,7 @@
   ],
   "Parma": [
     true,
+    false,
     false
   ],
   "Monza": [
@@ -587,9 +609,11 @@
     true
   ],
   "1. FC Heidenheim": [
-    true
+    true,
+    false
   ],
   "Energie Cottbus": [
+    false,
     false
   ],
   "VfL Osnabrück": [
@@ -602,10 +626,12 @@
   ],
   "Malaga": [
     false,
+    true,
     true
   ],
   "Lille": [
-    true
+    true,
+    false
   ],
   "Estac Troyes": [
     true,
@@ -639,6 +665,7 @@
     true
   ],
   "SV Elversberg": [
+    false,
     false
   ],
   "Bayern München": [
@@ -663,9 +690,11 @@
   ],
   "Juventus": [
     false,
-    false
+    false,
+    true
   ],
   "Stade Brestois 29": [
+    false,
     false
   ],
   "Real Sociedad": [
@@ -674,7 +703,8 @@
   ],
   "Atletico Madrid": [
     true,
-    true
+    true,
+    false
   ],
   "Vancouver Whitecaps": [
     true
@@ -691,7 +721,8 @@
     false
   ],
   "Leeds": [
-    true
+    true,
+    false
   ],
   "Newcastle": [
     true,
@@ -1043,6 +1074,15 @@
     true
   ],
   "West Brom": [
+    true
+  ],
+  "Norwich": [
+    false
+  ],
+  "Bolton": [
+    false
+  ],
+  "Atalanta": [
     true
   ]
 }
