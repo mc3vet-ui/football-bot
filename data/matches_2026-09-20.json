@@ -612,8 +612,8 @@
       "kickoff_local": "2026-09-20 22:00",
       "kickoff_hour": 22,
       "message_id": 448,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -621,7 +621,8 @@
         "odd": 2.5,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:3"
     },
     {
       "event_id": 1490495,
@@ -635,8 +636,8 @@
       "kickoff_local": "2026-09-21 02:00",
       "kickoff_hour": 2,
       "message_id": 449,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -644,7 +645,8 @@
         "odd": 1.44,
         "reasoning": "У фаворита (Интер Майами) хорошие шансы победы и коэффициент 1.44, что делает ставку обоснованной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:2"
     }
   ]
 }

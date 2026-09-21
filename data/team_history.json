@@ -112,7 +112,8 @@
   ],
   "Valencia": [
     true,
-    false
+    false,
+    true
   ],
   "Cagliari": [
     false,
@@ -706,6 +707,7 @@
   ],
   "Real Sociedad": [
     true,
+    true,
     true
   ],
   "Atletico Madrid": [
@@ -1095,6 +1097,12 @@
     true
   ],
   "SC Paderborn 07": [
+    false
+  ],
+  "Inter Miami": [
+    false
+  ],
+  "San Diego": [
     false
   ]
 }
