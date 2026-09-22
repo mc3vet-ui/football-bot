@@ -3,7 +3,8 @@
   "generated_at": "2026-09-22T08:04:40.220512+03:00",
   "posted_batches": [
     "morning",
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -17,10 +18,11 @@
       "away_ru": "Yate Town",
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 453,
       "result_checked": false,
       "correct": null,
-      "pick": null
+      "pick": null,
+      "has_photo": true
     },
     {
       "event_id": 1640757,
@@ -33,10 +35,11 @@
       "away_ru": "Needham Market",
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 454,
       "result_checked": false,
       "correct": null,
-      "pick": null
+      "pick": null,
+      "has_photo": true
     },
     {
       "event_id": 1640758,
@@ -49,10 +52,11 @@
       "away_ru": "Hampton & Richmond",
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 455,
       "result_checked": false,
       "correct": null,
-      "pick": null
+      "pick": null,
+      "has_photo": true
     },
     {
       "event_id": 1640759,
@@ -65,7 +69,7 @@
       "away_ru": "Уолтем Эбби",
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 456,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -74,7 +78,8 @@
         "line": 2.5,
         "odd": 1.44,
         "reasoning": "Низкий коэффициент 1.44 указывает на высокую вероятность более 2.5 голов в матче, учитывая атакующий потенциал обеих команд."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1640761,
@@ -87,10 +92,11 @@
       "away_ru": "Uxbridge",
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 457,
       "result_checked": false,
       "correct": null,
-      "pick": null
+      "pick": null,
+      "has_photo": true
     },
     {
       "event_id": 1640762,
@@ -103,10 +109,11 @@
       "away_ru": "Cirencester Town",
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 458,
       "result_checked": false,
       "correct": null,
-      "pick": null
+      "pick": null,
+      "has_photo": true
     },
     {
       "event_id": 1640763,
@@ -119,7 +126,7 @@
       "away_ru": "Лемингтон",
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 459,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -128,7 +135,8 @@
         "line": 2.5,
         "odd": 1.62,
         "reasoning": "Коэффициент на тотал более низкий, что указывает на высокую вероятность более 2.5 голов в матче."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1640764,
@@ -141,10 +149,11 @@
       "away_ru": "Cray Wanderers",
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 460,
       "result_checked": false,
       "correct": null,
-      "pick": null
+      "pick": null,
+      "has_photo": true
     },
     {
       "event_id": 1640765,
@@ -157,7 +166,7 @@
       "away_ru": "Мертир Таун",
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 461,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -166,7 +175,8 @@
         "line": 2.5,
         "odd": 1.7,
         "reasoning": "Ожидается открытая игра с вероятным набором более 2.5 голов, коэффициент 1.7 указывает на высокую вероятность"
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1640766,
@@ -179,10 +189,11 @@
       "away_ru": "Weston-super-Mare",
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 462,
       "result_checked": false,
       "correct": null,
-      "pick": null
+      "pick": null,
+      "has_photo": true
     },
     {
       "event_id": 1640767,
@@ -195,10 +206,11 @@
       "away_ru": "Hemel Hempstead Town",
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 463,
       "result_checked": false,
       "correct": null,
-      "pick": null
+      "pick": null,
+      "has_photo": true
     },
     {
       "event_id": 1640768,
@@ -211,7 +223,7 @@
       "away_ru": "ЭФС Тельфорд Юнайтед",
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 464,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -220,7 +232,8 @@
         "line": -0.25,
         "odd": 1.8,
         "reasoning": "Команда хозяев имеет небольшое преимущество, коэффициент на фору -0.25 (1.8) самый низкий, что указывает на наибольшую вероятность выигрыша."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": 1641074,
@@ -233,10 +246,11 @@
       "away_ru": "Southall",
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 465,
       "result_checked": false,
       "correct": null,
-      "pick": null
+      "pick": null,
+      "has_photo": true
     }
   ]
 }
