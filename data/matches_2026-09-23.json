@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T08:03:54.305891+03:00",
+  "posted_batches": [
+    "morning"
+  ],
+  "matches": [
+    {
+      "event_id": 1640760,
+      "sport_key": "af_45",
+      "source": "api_football",
+      "league": "Кубок Англии",
+      "home": "Exmouth",
+      "away": "Thame United",
+      "home_ru": "Exmouth",
+      "away_ru": "Thame United",
+      "kickoff_local": "2026-09-23 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": null
+    }
+  ]
+}
