@@ -983,10 +983,12 @@
     true
   ],
   "Leamington": [
-    false
+    false,
+    true
   ],
   "Gainsborough Trinity": [
-    false
+    false,
+    true
   ],
   "Redcar Athletic": [
     true
@@ -1104,5 +1106,23 @@
   ],
   "San Diego": [
     false
+  ],
+  "Dagenham & Redbridge": [
+    true
+  ],
+  "Waltham Abbey": [
+    true
+  ],
+  "Truro City": [
+    false
+  ],
+  "Merthyr Town": [
+    false
+  ],
+  "Worksop Town": [
+    true
+  ],
+  "AFC Telford United": [
+    true
   ]
 }

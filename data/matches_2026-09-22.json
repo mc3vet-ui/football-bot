@@ -70,8 +70,8 @@
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
       "message_id": 456,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -79,7 +79,8 @@
         "odd": 1.44,
         "reasoning": "Низкий коэффициент 1.44 указывает на высокую вероятность более 2.5 голов в матче, учитывая атакующий потенциал обеих команд."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:0"
     },
     {
       "event_id": 1640761,
@@ -127,8 +128,8 @@
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
       "message_id": 459,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -136,7 +137,8 @@
         "odd": 1.62,
         "reasoning": "Коэффициент на тотал более низкий, что указывает на высокую вероятность более 2.5 голов в матче."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:0"
     },
     {
       "event_id": 1640764,
@@ -167,8 +169,8 @@
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
       "message_id": 461,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -176,7 +178,8 @@
         "odd": 1.7,
         "reasoning": "Ожидается открытая игра с вероятным набором более 2.5 голов, коэффициент 1.7 указывает на высокую вероятность"
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:0"
     },
     {
       "event_id": 1640766,
@@ -224,8 +227,8 @@
       "kickoff_local": "2026-09-22 21:45",
       "kickoff_hour": 21,
       "message_id": 464,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -233,7 +236,8 @@
         "odd": 1.8,
         "reasoning": "Команда хозяев имеет небольшое преимущество, коэффициент на фору -0.25 (1.8) самый низкий, что указывает на наибольшую вероятность выигрыша."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "5:2"
     },
     {
       "event_id": 1641074,
