@@ -106,7 +106,7 @@
       "kickoff_local": "2026-09-27 02:30",
       "kickoff_hour": 2,
       "message_id": null,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
