@@ -167,6 +167,7 @@
   "Chicago Fire": [
     true,
     true,
+    false,
     false
   ],
   "Lecce": [
@@ -402,6 +403,7 @@
   ],
   "New York City FC": [
     false,
+    false,
     false
   ],
   "Nashville SC": [
@@ -522,13 +524,16 @@
     false
   ],
   "Atlanta United FC": [
+    false,
     false
   ],
   "Philadelphia Union": [
+    true,
     true
   ],
   "CF Montreal": [
     true,
+    false,
     false
   ],
   "Charlotte FC": [
@@ -1078,13 +1083,15 @@
     false
   ],
   "Orlando City SC": [
+    true,
     true
   ],
   "DC United": [
     true
   ],
   "Charlotte": [
-    true
+    true,
+    false
   ],
   "West Brom": [
     true
@@ -1124,5 +1131,8 @@
   ],
   "AFC Telford United": [
     true
+  ],
+  "FC Cincinnati": [
+    false
   ]
 }
