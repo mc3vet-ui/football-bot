@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T13:49:22.718175+03:00",
+  "posted_batches": [
+    "morning"
+  ],
+  "matches": [
+    {
+      "event_id": 1490500,
+      "sport_key": "af_253",
+      "source": "api_football",
+      "league": "MLS",
+      "home": "New York Red Bulls",
+      "away": "St. Louis City",
+      "home_ru": "Нью-Йорк Ред Буллз",
+      "away_ru": "Сент-Луис Сити",
+      "kickoff_local": "2026-10-01 02:30",
+      "kickoff_hour": 2,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 1.85,
+        "reasoning": "Ставка на победу фаворита St. Louis City, так как у него лучшие коэффициенты и нет причин сомневаться."
+      }
+    }
+  ]
+}
