@@ -2,7 +2,8 @@
   "date": "2026-10-01",
   "generated_at": "2026-10-01T14:15:58.785857+03:00",
   "posted_batches": [
-    "morning"
+    "morning",
+    "evening"
   ],
   "matches": [
     {
@@ -16,7 +17,7 @@
       "away_ru": "Спортинг Канзас Сити",
       "kickoff_local": "2026-10-02 04:30",
       "kickoff_hour": 4,
-      "message_id": null,
+      "message_id": 485,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -25,7 +26,8 @@
         "line": null,
         "odd": 1.42,
         "reasoning": "Сиэтл играет дома и является явным фаворитом, коэффициент 1.42 указывает на высокую вероятность победы."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
