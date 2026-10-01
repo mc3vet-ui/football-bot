@@ -18,8 +18,8 @@
       "kickoff_local": "2026-10-01 02:30",
       "kickoff_hour": 2,
       "message_id": 481,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -27,7 +27,8 @@
         "odd": 1.85,
         "reasoning": "Ставка на победу фаворита St. Louis City, так как у него лучшие коэффициенты и нет причин сомневаться."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:3"
     }
   ]
 }

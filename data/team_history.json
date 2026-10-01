@@ -560,7 +560,8 @@
   ],
   "New York Red Bulls": [
     false,
-    false
+    false,
+    true
   ],
   "Real Salt Lake": [
     false
@@ -1136,5 +1137,8 @@
   ],
   "FC Cincinnati": [
     false
+  ],
+  "St. Louis City": [
+    true
   ]
 }
