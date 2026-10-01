@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T14:15:58.785857+03:00",
+  "posted_batches": [
+    "morning"
+  ],
+  "matches": [
+    {
+      "event_id": "c68442e0bfc400d8e7ee97ec662e13e0",
+      "sport_key": "soccer_usa_mls",
+      "source": "odds_api",
+      "league": "MLS",
+      "home": "Seattle Sounders FC",
+      "away": "Sporting Kansas City",
+      "home_ru": "Сиэтл Саундерс ФК",
+      "away_ru": "Спортинг Канзас Сити",
+      "kickoff_local": "2026-10-02 04:30",
+      "kickoff_hour": 4,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.42,
+        "reasoning": "Сиэтл играет дома и является явным фаворитом, коэффициент 1.42 указывает на высокую вероятность победы."
+      }
+    }
+  ]
+}
