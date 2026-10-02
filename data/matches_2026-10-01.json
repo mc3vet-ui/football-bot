@@ -18,8 +18,8 @@
       "kickoff_local": "2026-10-02 04:30",
       "kickoff_hour": 4,
       "message_id": 485,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -27,7 +27,8 @@
         "odd": 1.42,
         "reasoning": "Сиэтл играет дома и является явным фаворитом, коэффициент 1.42 указывает на высокую вероятность победы."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     }
   ]
 }

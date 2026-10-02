@@ -162,7 +162,8 @@
   ],
   "Seattle Sounders FC": [
     true,
-    false
+    false,
+    true
   ],
   "Chicago Fire": [
     true,
@@ -556,7 +557,8 @@
     false
   ],
   "Sporting Kansas City": [
-    false
+    false,
+    true
   ],
   "New York Red Bulls": [
     false,
