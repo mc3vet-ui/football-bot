@@ -1142,5 +1142,29 @@
   ],
   "St. Louis City": [
     true
+  ],
+  "Atherton Collieries AFC": [
+    true
+  ],
+  "Trafford FC": [
+    true
+  ],
+  "Wingate and Finchley FC": [
+    true
+  ],
+  "Bedford Town FC": [
+    true
+  ],
+  "Spalding United FC": [
+    true
+  ],
+  "Bury Town FC": [
+    true
+  ],
+  "Halesowen Town FC": [
+    false
+  ],
+  "Stafford Rangers FC": [
+    false
   ]
 }
