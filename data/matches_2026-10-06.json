@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T14:37:16.367727+03:00",
+  "posted_batches": [
+    "morning"
+  ],
+  "matches": [
+    {
+      "event_id": "53be2cb5dd4f30170d2afc7471cce807",
+      "sport_key": "soccer_fa_cup",
+      "source": "odds_api",
+      "league": "Кубок Англии",
+      "home": "Atherton Collieries AFC",
+      "away": "Trafford FC",
+      "home_ru": "Этерн Коллиерис АФК",
+      "away_ru": "Траффорд ФК",
+      "kickoff_local": "2026-10-06 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 1.55,
+        "reasoning": "Нулевая фора на хозяев с коэффициентом 1.55 учитывает победу или ничью, что делает ставку наиболее надёжной среди доступных вариантов."
+      }
+    },
+    {
+      "event_id": "fb0966df4c5e0b1ac4afe14c6f17d08e",
+      "sport_key": "soccer_fa_cup",
+      "source": "odds_api",
+      "league": "Кубок Англии",
+      "home": "Wingate and Finchley FC",
+      "away": "Bedford Town FC",
+      "home_ru": "Вингейт энд Финчли ФК",
+      "away_ru": "Бедфорд Таун ФК",
+      "kickoff_local": "2026-10-06 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": 0.0,
+        "odd": 1.44,
+        "reasoning": "Самый низкий коэффициент – 0.0 форой в пользу Бедфорд Таун, указывающий на наибольшую вероятность исхода."
+      }
+    },
+    {
+      "event_id": "12c7b0a86750583a85280fd1f5e62e95",
+      "sport_key": "soccer_fa_cup",
+      "source": "odds_api",
+      "league": "Кубок Англии",
+      "home": "Spalding United FC",
+      "away": "Bury Town FC",
+      "home_ru": "Сполдинг Юнайтед",
+      "away_ru": "Бери Таун",
+      "kickoff_local": "2026-10-06 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 2.0,
+        "reasoning": "Сполдинг Юнайтед играет дома и имеет наименьший коэффициент 2.0, что указывает на наибольшую вероятность победы."
+      }
+    },
+    {
+      "event_id": "fc13f218b78403a801d3c10b6565f1f4",
+      "sport_key": "soccer_fa_cup",
+      "source": "odds_api",
+      "league": "Кубок Англии",
+      "home": "Halesowen Town FC",
+      "away": "Stafford Rangers FC",
+      "home_ru": "Хейлсоувен Таун ФК",
+      "away_ru": "Стаффорд Рейнджерс ФК",
+      "kickoff_local": "2026-10-06 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 1.43,
+        "reasoning": "Самый низкий коэффициент – 0.0 форой на хозяев (1.43), при ничейном результате ставка возвращается, что делает её наиболее надёжной."
+      }
+    },
+    {
+      "event_id": "854eb35b0f5089043039c93530607b6a",
+      "sport_key": "soccer_fa_cup",
+      "source": "odds_api",
+      "league": "Кубок Англии",
+      "home": "Scarborough Athletic FC",
+      "away": "Macclesfield Town",
+      "home_ru": "Скарборо Атлетик ФК",
+      "away_ru": "Макклесфилд Таун",
+      "kickoff_local": "2026-10-06 21:45",
+      "kickoff_hour": 21,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": 0.0,
+        "odd": 1.57,
+        "reasoning": "Низкие коэффициенты на победу Macclesfield Town по форте 0.0 (1.57) указывают на наибольшую вероятность исхода."
+      }
+    },
+    {
+      "event_id": "0d9ff865c4599c72a746da08260279b3",
+      "sport_key": "soccer_usa_mls",
+      "source": "odds_api",
+      "league": "MLS",
+      "home": "Chicago Fire",
+      "away": "Vancouver Whitecaps FC",
+      "home_ru": "Чикаго Файр",
+      "away_ru": "Ванкувер Уайткэпс",
+      "kickoff_local": "2026-10-07 03:30",
+      "kickoff_hour": 3,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "over",
+        "line": 2.5,
+        "odd": 1.44,
+        "reasoning": "Низкий коэффициент 1.44 на тотал > 2.5 говорит о высокой вероятности этого исхода, а обе команды в среднем забивают, что делает более вероятным превышение 2.5 гола."
+      }
+    }
+  ]
+}
