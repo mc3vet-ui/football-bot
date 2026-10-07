@@ -114,8 +114,8 @@
       "kickoff_local": "2026-10-06 21:45",
       "kickoff_hour": 21,
       "message_id": 493,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -123,7 +123,8 @@
         "odd": 1.57,
         "reasoning": "Низкие коэффициенты на победу Macclesfield Town по форте 0.0 (1.57) указывают на наибольшую вероятность исхода."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:2"
     },
     {
       "event_id": "0d9ff865c4599c72a746da08260279b3",
