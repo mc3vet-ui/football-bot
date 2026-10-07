@@ -169,7 +169,8 @@
     true,
     true,
     false,
-    false
+    false,
+    true
   ],
   "Lecce": [
     true,
@@ -579,7 +580,8 @@
     false
   ],
   "Vancouver Whitecaps FC": [
-    false
+    false,
+    true
   ],
   "Frosinone": [
     true,

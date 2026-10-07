@@ -138,8 +138,8 @@
       "kickoff_local": "2026-10-07 03:30",
       "kickoff_hour": 3,
       "message_id": 494,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -147,7 +147,8 @@
         "odd": 1.44,
         "reasoning": "Низкий коэффициент 1.44 на тотал > 2.5 говорит о высокой вероятности этого исхода, а обе команды в среднем забивают, что делает более вероятным превышение 2.5 гола."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:1"
     }
   ]
 }
