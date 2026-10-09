@@ -2,7 +2,8 @@
   "date": "2026-10-09",
   "generated_at": "2026-10-09T14:35:50.335457+03:00",
   "posted_batches": [
-    "morning"
+    "morning",
+    "evening"
   ],
   "matches": [
     {
@@ -16,7 +17,7 @@
       "away_ru": "Кайзерслаутерн",
       "kickoff_local": "2026-10-09 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 497,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -25,7 +26,8 @@
         "line": 0.5,
         "odd": 2.01,
         "reasoning": "Прогнозы на Кайзерслаутерн имели 100% успех, а ставка на фору +0.5 покрывает возможность ничьи или победы, что выглядит более надёжным вариантом."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "8dbe13623ac23fa7d820a7d0c6c001ca",
@@ -38,7 +40,7 @@
       "away_ru": "Хольштейн Киль",
       "kickoff_local": "2026-10-09 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 498,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -47,7 +49,8 @@
         "line": 3.25,
         "odd": 1.87,
         "reasoning": "Низкие коэффициенты у тотала «ниже 3.25» (1.87) указывают на большую вероятность, а статистика прогнозов команды хозяев положительная, поэтому ставка на «ниже» выглядит наиболее надёжной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "3fb63658405d468954f57745cd115118",
@@ -60,7 +63,7 @@
       "away_ru": "Вердер Бремен",
       "kickoff_local": "2026-10-09 21:30",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 499,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -69,7 +72,8 @@
         "line": -1.5,
         "odd": 1.95,
         "reasoning": "Дортмунд играет дома против Вердера, последние прогнозы на Дортмунд 3/3, а коэффициент -1.5 (1.95) указывает на уверенную победу с разницей минимум в два гола."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "17694e68f399fdf9c5030021ec9bb595",
@@ -82,7 +86,7 @@
       "away_ru": "Лион",
       "kickoff_local": "2026-10-09 21:45",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 500,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -91,7 +95,8 @@
         "line": 0.0,
         "odd": 1.99,
         "reasoning": "Учитывая более высокий процент успешных прогнозов на Лион и небольшое преимущество в коэффициенте на форту 0.0, ставка на победу Лиона без риска ничьи выглядит наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "4e4c6763037ffc0e1dfe92ed16287b6d",
@@ -104,7 +109,7 @@
       "away_ru": "Эспаньоль",
       "kickoff_local": "2026-10-09 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 501,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -113,7 +118,8 @@
         "line": 0.0,
         "odd": 1.83,
         "reasoning": "Фора 0.0 на аутсайдера имеет более низкий коэффициент и считается более надёжным вариантом, чем прямая ставка на победу."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "838aaa8567409b87835ad22ed9255e61",
@@ -126,7 +132,7 @@
       "away_ru": "Куинз Парк Рейнджерс",
       "kickoff_local": "2026-10-09 22:00",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 502,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -135,7 +141,8 @@
         "line": 1.5,
         "odd": 1.58,
         "reasoning": "Коэффициент 1.58 на фору +1.5 для гостей указывает на высокую вероятность, что QPR не проиграют более чем в одной шайбе, учитывая сильного фаворита и небольшой риск отрыва."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
