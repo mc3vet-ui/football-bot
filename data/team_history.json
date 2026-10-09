@@ -67,7 +67,8 @@
   "Werder Bremen": [
     true,
     false,
-    true
+    true,
+    false
   ],
   "Real Madrid": [
     true,
@@ -146,7 +147,8 @@
   "Borussia Dortmund": [
     true,
     true,
-    true
+    true,
+    false
   ],
   "Hamburger SV": [
     true,
@@ -304,7 +306,8 @@
   ],
   "West Ham United": [
     true,
-    false
+    false,
+    true
   ],
   "Wolverhampton Wanderers": [
     true,
@@ -330,7 +333,8 @@
   ],
   "Queens Park Rangers": [
     true,
-    false
+    false,
+    true
   ],
   "Cardiff City": [
     true,
@@ -376,7 +380,8 @@
   "Lyon": [
     false,
     true,
-    true
+    true,
+    false
   ],
   "Auxerre": [
     false,
@@ -491,6 +496,7 @@
     false
   ],
   "RC Lens": [
+    false,
     false
   ],
   "Lorient": [

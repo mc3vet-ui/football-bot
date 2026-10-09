@@ -66,8 +66,8 @@
       "kickoff_local": "2026-10-09 21:30",
       "kickoff_hour": 21,
       "message_id": 499,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -75,7 +75,8 @@
         "odd": 1.95,
         "reasoning": "Дортмунд играет дома против Вердера, последние прогнозы на Дортмунд 3/3, а коэффициент -1.5 (1.95) указывает на уверенную победу с разницей минимум в два гола."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:2"
     },
     {
       "event_id": "17694e68f399fdf9c5030021ec9bb595",
@@ -89,8 +90,8 @@
       "kickoff_local": "2026-10-09 21:45",
       "kickoff_hour": 21,
       "message_id": 500,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -98,7 +99,8 @@
         "odd": 1.99,
         "reasoning": "Учитывая более высокий процент успешных прогнозов на Лион и небольшое преимущество в коэффициенте на форту 0.0, ставка на победу Лиона без риска ничьи выглядит наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     },
     {
       "event_id": "4e4c6763037ffc0e1dfe92ed16287b6d",
@@ -112,7 +114,7 @@
       "kickoff_local": "2026-10-09 22:00",
       "kickoff_hour": 22,
       "message_id": 501,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -121,7 +123,8 @@
         "odd": 1.83,
         "reasoning": "Фора 0.0 на аутсайдера имеет более низкий коэффициент и считается более надёжным вариантом, чем прямая ставка на победу."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": "838aaa8567409b87835ad22ed9255e61",
@@ -135,8 +138,8 @@
       "kickoff_local": "2026-10-09 22:00",
       "kickoff_hour": 22,
       "message_id": 502,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -144,7 +147,8 @@
         "odd": 1.58,
         "reasoning": "Коэффициент 1.58 на фору +1.5 для гостей указывает на высокую вероятность, что QPR не проиграют более чем в одной шайбе, учитывая сильного фаворита и небольшой риск отрыва."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     }
   ]
 }
