@@ -18,8 +18,8 @@
       "kickoff_local": "2026-10-09 19:30",
       "kickoff_hour": 19,
       "message_id": 497,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -27,7 +27,8 @@
         "odd": 2.01,
         "reasoning": "Прогнозы на Кайзерслаутерн имели 100% успех, а ставка на фору +0.5 покрывает возможность ничьи или победы, что выглядит более надёжным вариантом."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:0"
     },
     {
       "event_id": "8dbe13623ac23fa7d820a7d0c6c001ca",
@@ -41,8 +42,8 @@
       "kickoff_local": "2026-10-09 19:30",
       "kickoff_hour": 19,
       "message_id": 498,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "under",
@@ -50,7 +51,8 @@
         "odd": 1.87,
         "reasoning": "Низкие коэффициенты у тотала «ниже 3.25» (1.87) указывают на большую вероятность, а статистика прогнозов команды хозяев положительная, поэтому ставка на «ниже» выглядит наиболее надёжной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:0"
     },
     {
       "event_id": "3fb63658405d468954f57745cd115118",

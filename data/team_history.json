@@ -7,6 +7,7 @@
   "1. FC Kaiserslautern": [
     true,
     true,
+    true,
     true
   ],
   "1. FC Magdeburg": [
@@ -17,7 +18,8 @@
     false,
     false,
     true,
-    false
+    false,
+    true
   ],
   "SV Darmstadt 98": [
     true,
@@ -626,7 +628,8 @@
   ],
   "1. FC Heidenheim": [
     true,
-    false
+    false,
+    true
   ],
   "Energie Cottbus": [
     false,
@@ -900,6 +903,7 @@
     false
   ],
   "Eintracht Braunschweig": [
+    true,
     true
   ],
   "Tottenham": [
