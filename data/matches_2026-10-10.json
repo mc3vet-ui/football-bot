@@ -230,15 +230,16 @@
       "kickoff_local": "2026-10-10 16:30",
       "kickoff_hour": 16,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 2.5,
         "odd": 1.92,
         "reasoning": "Учитывая хорошие результаты прошлых прогнозов на Аугсбург и более низкий коэффициент на фору +2.5, эта ставка выглядит наиболее вероятной."
-      }
+      },
+      "final_score": "2:2"
     },
     {
       "event_id": "418f8c26d46eaabd829f2e265673b855",
@@ -252,15 +253,16 @@
       "kickoff_local": "2026-10-10 16:30",
       "kickoff_hour": 16,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": -0.25,
         "odd": 1.93,
         "reasoning": "Байер Леверкузен является явным фаворитом, ожидается победа с разницей минимум один гол, коэффициент 1.93 достаточно выгодный"
-      }
+      },
+      "final_score": "3:4"
     },
     {
       "event_id": "2fd48be0a24ed906187067d4170bf010",
@@ -274,15 +276,16 @@
       "kickoff_local": "2026-10-10 16:30",
       "kickoff_hour": 16,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 0.0,
         "odd": 1.83,
         "reasoning": "Унион Берлин играет дома, коэффициент на победу по форте 0.0 самый низкий, что указывает на наибольшую вероятность исхода."
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "f03c08c0ae5fd66c2d2df2053115bb94",
@@ -296,15 +299,16 @@
       "kickoff_local": "2026-10-10 16:30",
       "kickoff_hour": 16,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
         "line": null,
         "odd": 1.41,
         "reasoning": "Хофенхайм является явным фаворитом с коэффициентом 1.41 и имеет 100% успех в прошлых прогнозах, что делает ставку на их победу наиболее надёжной."
-      }
+      },
+      "final_score": "2:3"
     },
     {
       "event_id": "9aade3e736c3d113dab19e641c43e272",
@@ -318,15 +322,16 @@
       "kickoff_local": "2026-10-10 16:30",
       "kickoff_hour": 16,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 1.0,
         "odd": 1.96,
         "reasoning": "Падерборн играет дома и с форой +1.0 покрывает небольшой разрыв, что более вероятно, чем победа Штутгарта с разницей в два мяча."
-      }
+      },
+      "final_score": "0:2"
     },
     {
       "event_id": "02e6c0ccb11bb7ce78989ce49d67110b",
@@ -340,15 +345,16 @@
       "kickoff_local": "2026-10-10 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 2.5,
         "odd": 1.63,
         "reasoning": "Низкие коэффициенты у тотала Over 2.5 (1.63) указывают на высокую вероятность матча с более чем 2.5 голами, что делает эту ставку наиболее проходимой."
-      }
+      },
+      "final_score": "2:2"
     },
     {
       "event_id": "45d4a466e32cd2b4ea535207923ceaf5",
@@ -362,15 +368,16 @@
       "kickoff_local": "2026-10-10 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 2.5,
         "odd": 1.61,
         "reasoning": "Ожидается более 2.5 голов, так как Челси играет дома и имеет высокий атакующий потенциал, а Борнмут часто забивает в гостях."
-      }
+      },
+      "final_score": "5:1"
     },
     {
       "event_id": "380b8f24ec5430fb545a7490c1017285",
@@ -384,15 +391,16 @@
       "kickoff_local": "2026-10-10 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 0.0,
         "odd": 1.73,
         "reasoning": "В спреде без гандикапа коэффициент на победу Brighton (1.73) выше, а в прошлых прогнозах команда показывала 100% успех, что делает эту ставку наиболее вероятной."
-      }
+      },
+      "final_score": "0:2"
     },
     {
       "event_id": "288b4ff00c79daa712c911c564fe1be7",
@@ -406,15 +414,16 @@
       "kickoff_local": "2026-10-10 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 2.5,
         "odd": 1.66,
         "reasoning": "Тотал больше 2.5 имеет самый низкий коэффициент (1.66), что указывает на высокую вероятность события, и поддерживается общей успешностью наших прогнозов."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "713bc529f655efc0aff6109cb2396c11",
@@ -428,15 +437,16 @@
       "kickoff_local": "2026-10-10 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 0.0,
         "odd": 1.67,
         "reasoning": "Низкие коэффициенты у форы 0.0 в пользу Кардифф Сити (1.67) указывают на наибольшую вероятность их победы, а статистика прогнозов обеих команд одинаково нейтральна."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "23b8467e4efdab4833d7e38ccfc06353",
@@ -450,15 +460,16 @@
       "kickoff_local": "2026-10-10 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 0.0,
         "odd": 1.8,
         "reasoning": "У Сток Сити хорошие результаты в последних прогнозах (3 из 3), а коэффициент 0.0 на аутсайдера 1.8 указывает на высокую вероятность, что команда не проиграет."
-      }
+      },
+      "final_score": "1:2"
     },
     {
       "event_id": "92f161645aed415d240b06de729f5015",
@@ -472,15 +483,16 @@
       "kickoff_local": "2026-10-10 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 2.5,
         "odd": 1.68,
         "reasoning": "Коэффициент на тотал Over 2.5 самый низкий (1.68), что указывает на наибольшую вероятность события; такой вариант считается статистически надёжным."
-      }
+      },
+      "final_score": "0:4"
     },
     {
       "event_id": "9f2bb19d00e60d89a304ff8c8da85e2c",
@@ -494,7 +506,7 @@
       "kickoff_local": "2026-10-10 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -502,7 +514,8 @@
         "line": 0.0,
         "odd": 1.69,
         "reasoning": "Низкий коэффициент 1.69 на победу гостя по форe 0.0 указывает на высокую вероятность, а рынок спредов обычно надёжнее тотала."
-      }
+      },
+      "final_score": "1:1"
     },
     {
       "event_id": "6e370faecd2f841fc843ec49c641a9e3",
@@ -516,15 +529,16 @@
       "kickoff_local": "2026-10-10 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 0.0,
         "odd": 1.5,
         "reasoning": "Шеффилд Юнайтед имеет хорошие показатели, обе наши прошлые прогнозы на эту команду были успешны, а коэффициент 1.5 на нулевом гандикапе указывает на явного фаворита."
-      }
+      },
+      "final_score": "3:0"
     },
     {
       "event_id": "96673c1fdea1d48aa7440246f5e00bd6",
@@ -538,15 +552,16 @@
       "kickoff_local": "2026-10-10 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 2.5,
         "odd": 1.58,
         "reasoning": "Обе команды обычно играют открыто, а коэффициент на тотал больше 2.5 (1.58) указывает на высокую вероятность забить минимум три гола."
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "1f9e31de12bb3b92a0deaaf9ee57af3d",
@@ -560,15 +575,16 @@
       "kickoff_local": "2026-10-10 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 0.0,
         "odd": 2.09,
         "reasoning": "У Preston North End хорошие результаты в прошлых прогнозах (2 из 2) и коэффициент на нулевую фору 2.09, что делает ставку более надёжной."
-      }
+      },
+      "final_score": "0:1"
     },
     {
       "event_id": "3869391e3dbdcaa74153b11df56a3fe5",
@@ -582,15 +598,16 @@
       "kickoff_local": "2026-10-10 17:15",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": -0.75,
         "odd": 2.07,
         "reasoning": "У Атлетико Мадрид хороший показатель в прошлых прогнозах (2 из 2) и они являются фаворитом; ставка на их победу с форой -0.75 имеет более высокие шансы, чем простой исход."
-      }
+      },
+      "final_score": "1:2"
     },
     {
       "event_id": "2c173b3bd3a1491f17fcad1012019c4f",
@@ -604,15 +621,16 @@
       "kickoff_local": "2026-10-10 18:15",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.25,
         "odd": 2.05,
         "reasoning": "Лилль играет дома, является явным фаворитом и имеет хорошие шансы выиграть с разницей минимум в два гола, поэтому ставка на форту -1.25 выглядит наиболее вероятной."
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "1a01b0611dacd334e1558a5097e05023",

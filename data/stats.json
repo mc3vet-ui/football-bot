@@ -149,9 +149,9 @@
     "balance": 460.0
   },
   "2026-10-10": {
-    "correct": 3,
-    "incorrect": 3,
-    "push": 2,
-    "balance": -540.0
+    "correct": 14,
+    "incorrect": 9,
+    "push": 3,
+    "balance": 1820.0
   }
 }

@@ -37,21 +37,25 @@
   "Chelsea": [
     true,
     true,
-    false
+    false,
+    true
   ],
   "Brighton and Hove Albion": [
+    true,
     true
   ],
   "Sunderland": [
     true,
     false,
     true,
-    false
+    false,
+    true
   ],
   "Fulham": [
     true,
     true,
-    false
+    false,
+    true
   ],
   "Paris FC": [
     true,
@@ -97,6 +101,7 @@
     false
   ],
   "Ipswich Town": [
+    true,
     true,
     true
   ],
@@ -157,6 +162,7 @@
   "Hamburger SV": [
     true,
     false,
+    false,
     false
   ],
   "Sevilla": [
@@ -165,6 +171,7 @@
     false
   ],
   "Atlético Madrid": [
+    true,
     true,
     true
   ],
@@ -211,7 +218,8 @@
   ],
   "Aston Villa": [
     true,
-    false
+    false,
+    true
   ],
   "Arsenal": [
     true,
@@ -232,6 +240,7 @@
     false
   ],
   "Augsburg": [
+    true,
     true
   ],
   "FC Schalke 04": [
@@ -268,23 +277,28 @@
   ],
   "Lincoln City": [
     false,
+    true,
     true
   ],
   "Blackburn Rovers": [
     false,
-    true
+    true,
+    false
   ],
   "Sheffield United": [
+    true,
     true,
     true
   ],
   "Bolton Wanderers": [
     true,
-    false
+    false,
+    true
   ],
   "Preston North End": [
     true,
-    true
+    true,
+    false
   ],
   "Bristol City": [
     true,
@@ -308,6 +322,7 @@
   ],
   "Watford": [
     true,
+    true,
     true
   ],
   "West Ham United": [
@@ -317,6 +332,7 @@
   ],
   "Wolverhampton Wanderers": [
     true,
+    false,
     false
   ],
   "Birmingham City": [
@@ -330,6 +346,7 @@
     false
   ],
   "Stoke City": [
+    true,
     true,
     true,
     true
@@ -346,6 +363,7 @@
   ],
   "Cardiff City": [
     true,
+    false,
     false
   ],
   "West Bromwich Albion": [
@@ -360,6 +378,7 @@
     false,
     false,
     false,
+    false,
     false
   ],
   "Wrexham AFC": [
@@ -369,9 +388,11 @@
   "Burnley": [
     false,
     true,
-    false
+    false,
+    true
   ],
   "Middlesbrough": [
+    false,
     false,
     false,
     false,
@@ -402,7 +423,8 @@
   ],
   "VfB Stuttgart": [
     false,
-    true
+    true,
+    false
   ],
   "1. FC Köln": [
     false,
@@ -445,6 +467,7 @@
   "Bournemouth": [
     false,
     true,
+    true,
     true
   ],
   "Curzon Ashton FC": [
@@ -466,20 +489,24 @@
   "Bayer Leverkusen": [
     true,
     false,
+    true,
     true
   ],
   "Union Berlin": [
     true,
-    false
+    false,
+    true
   ],
   "TSG Hoffenheim": [
-    true
+    true,
+    false
   ],
   "Borussia Monchengladbach": [
     false
   ],
   "Elversberg": [
-    false
+    false,
+    true
   ],
   "RB Leipzig": [
     false,
@@ -487,11 +514,13 @@
     true
   ],
   "SC Paderborn": [
-    true
+    true,
+    false
   ],
   "Brentford": [
     false,
-    false
+    false,
+    true
   ],
   "Manchester City": [
     false,
@@ -518,7 +547,8 @@
     true
   ],
   "Bayern Munich": [
-    false
+    false,
+    true
   ],
   "Dynamo Dresden": [
     false,
@@ -530,7 +560,8 @@
   ],
   "Le Havre": [
     false,
-    true
+    true,
+    false
   ],
   "Brest": [
     false
@@ -667,6 +698,7 @@
   ],
   "Lille": [
     true,
+    false,
     false
   ],
   "Estac Troyes": [
@@ -945,6 +977,7 @@
     true
   ],
   "FSV Mainz 05": [
+    true,
     true
   ],
   "Everton": [
@@ -1198,5 +1231,8 @@
   ],
   "Leeds United": [
     false
+  ],
+  "Alavés": [
+    true
   ]
 }
