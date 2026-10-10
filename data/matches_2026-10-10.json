@@ -17,8 +17,8 @@
       "kickoff_local": "2026-10-10 14:00",
       "kickoff_hour": 14,
       "message_id": 505,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -26,7 +26,8 @@
         "odd": 1.81,
         "reasoning": "Ханновер имеет лучший показатель успешных прогнозов (2/3) и более низкий коэффициент на фору +0.25, что делает эту ставку наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:0"
     },
     {
       "event_id": "43e906d3142b57365c8ea449630934f3",
@@ -40,7 +41,7 @@
       "kickoff_local": "2026-10-10 14:00",
       "kickoff_hour": 14,
       "message_id": 506,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -49,7 +50,8 @@
         "odd": 1.83,
         "reasoning": "Выбрана ставка на победу хозяев по форe 0.0, так как коэффициент 1.83 указывает на небольшое преимущество и считается более надёжным, чем тотал."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": "3c813baeb4f415e152409b8dafc46366",
@@ -63,8 +65,8 @@
       "kickoff_local": "2026-10-10 14:00",
       "kickoff_hour": 14,
       "message_id": 507,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -72,7 +74,8 @@
         "odd": 1.88,
         "reasoning": "У СВ Дармштадт 98 хорошие показатели (3 из 3 прогнозов оказались верными) и они являются фаворитом дома, поэтому ставка на их фору -0.25 выглядит наиболее надёжной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:1"
     },
     {
       "event_id": "b870dcfba5e5920d3f1551a3aa1ea435",
@@ -86,8 +89,8 @@
       "kickoff_local": "2026-10-10 14:30",
       "kickoff_hour": 14,
       "message_id": 508,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -95,7 +98,8 @@
         "odd": 2.31,
         "reasoning": "У Арсенала сильный домашний форвард и хорошие показатели побед с разницей более 1.5 гола; коэффициент 2.31 выглядит привлекательным."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     },
     {
       "event_id": "3e8a2baae4566a7c7fcc390dc089e9b8",
@@ -109,8 +113,8 @@
       "kickoff_local": "2026-10-10 14:30",
       "kickoff_hour": 14,
       "message_id": 509,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -118,7 +122,8 @@
         "odd": 1.75,
         "reasoning": "Вест Бромвич Альбион является небольшим фаворитом дома; ставка на форту 0.0 покрывает победу и ничью, а коэффициент 1.75 достаточно высокий для надёжного варианта."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:1"
     },
     {
       "event_id": "4e129a33a3e42b361294e9dd393c9513",
@@ -132,7 +137,7 @@
       "kickoff_local": "2026-10-10 14:30",
       "kickoff_hour": 14,
       "message_id": 510,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -141,7 +146,8 @@
         "odd": 1.6,
         "reasoning": "Бристоль Сити имеет более высокую успешность прошлых прогнозов (75%) и является фаворитом как в прямом рынке, так и в форe с коэффициентом 1.6, что делает ставку на него по форe 0.0 наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": "34156ace068fbe5b24944791e752b43d",
@@ -155,8 +161,8 @@
       "kickoff_local": "2026-10-10 14:30",
       "kickoff_hour": 14,
       "message_id": 511,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -164,7 +170,8 @@
         "odd": 1.67,
         "reasoning": "Выбираем ставку на победу хозяина по форe 0.0, так как коэффициент 1.67 указывает на наибольшую вероятность исхода."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     },
     {
       "event_id": "349c47668fdd909039a9408c14cad8bc",
@@ -200,15 +207,16 @@
       "kickoff_local": "2026-10-10 16:00",
       "kickoff_hour": 16,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 0.25,
         "odd": 1.91,
         "reasoning": "Генуя играет дома и имеет гандикап +0.25 с коэффициентом 1.91, что по оценке букмекеров более вероятно, чем победа Фиорентины с форой -0.25."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "3b71160ad20dba786c4f92e33c987d80",

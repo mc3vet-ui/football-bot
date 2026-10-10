@@ -147,5 +147,11 @@
     "incorrect": 2,
     "push": 1,
     "balance": 460.0
+  },
+  "2026-10-10": {
+    "correct": 3,
+    "incorrect": 3,
+    "push": 2,
+    "balance": -540.0
   }
 }
