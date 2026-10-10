@@ -59,6 +59,7 @@
   ],
   "Paris FC": [
     true,
+    true,
     true
   ],
   "Nice": [
@@ -81,7 +82,8 @@
     true,
     true,
     false,
-    false
+    false,
+    true
   ],
   "Málaga": [
     true
@@ -93,12 +95,14 @@
   ],
   "Le Mans FC": [
     true,
-    true
+    true,
+    false
   ],
   "Manchester United": [
     true,
     true,
-    false
+    false,
+    true
   ],
   "Ipswich Town": [
     true,
@@ -109,7 +113,8 @@
     false,
     true,
     true,
-    false
+    false,
+    true
   ],
   "Como": [
     false,
@@ -132,6 +137,7 @@
   ],
   "Inter Milan": [
     false,
+    true,
     true
   ],
   "Lazio": [
@@ -145,6 +151,7 @@
     true
   ],
   "AS Monaco": [
+    false,
     false,
     false
   ],
@@ -185,6 +192,7 @@
     true,
     false,
     false,
+    true,
     true
   ],
   "Lecce": [
@@ -205,7 +213,8 @@
     true,
     false,
     true,
-    true
+    true,
+    false
   ],
   "Atalanta BC": [
     true,
@@ -229,6 +238,7 @@
   ],
   "Barcelona": [
     true,
+    false,
     false,
     false,
     false
@@ -439,12 +449,14 @@
   "Paris Saint Germain": [
     false,
     false,
-    true
+    true,
+    false
   ],
   "New York City FC": [
     false,
     false,
-    false
+    false,
+    true
   ],
   "Nashville SC": [
     false
@@ -511,6 +523,7 @@
   "RB Leipzig": [
     false,
     false,
+    true,
     true
   ],
   "SC Paderborn": [
@@ -541,7 +554,8 @@
   ],
   "Lorient": [
     false,
-    false
+    false,
+    true
   ],
   "Real Racing Club de Santander": [
     true
@@ -564,11 +578,13 @@
     false
   ],
   "Brest": [
+    false,
     false
   ],
   "Villarreal": [
     false,
     false,
+    true,
     true,
     true
   ],
@@ -586,7 +602,8 @@
   "CF Montreal": [
     true,
     false,
-    false
+    false,
+    true
   ],
   "Charlotte FC": [
     false
@@ -595,6 +612,7 @@
     false
   ],
   "Toronto FC": [
+    true,
     true
   ],
   "Colorado Rapids": [
@@ -635,7 +653,8 @@
   ],
   "Frosinone": [
     true,
-    false
+    false,
+    true
   ],
   "Venezia": [
     true,
@@ -644,7 +663,8 @@
   "Parma": [
     true,
     false,
-    false
+    false,
+    true
   ],
   "Monza": [
     true,
@@ -968,7 +988,8 @@
     false
   ],
   "Eintracht Frankfurt": [
-    false
+    false,
+    true
   ],
   "FC Augsburg": [
     true
@@ -1133,10 +1154,12 @@
     false
   ],
   "Angers": [
-    true
+    true,
+    false
   ],
   "Toulouse": [
-    true
+    true,
+    false
   ],
   "Columbus Crew": [
     false,
@@ -1233,6 +1256,9 @@
     false
   ],
   "Alavés": [
+    true
+  ],
+  "Tottenham Hotspur": [
     true
   ]
 }

@@ -644,15 +644,16 @@
       "kickoff_local": "2026-10-10 19:00",
       "kickoff_hour": 19,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "under",
         "line": 3.5,
         "odd": 1.83,
         "reasoning": "Тотал <3.5 имеет самый низкий коэффициент (1.83) и наибольшую имплицитную вероятность, что в матче будет мало голов."
-      }
+      },
+      "final_score": "3:0"
     },
     {
       "event_id": "22c9b2c43cbe1334381269550dab78e6",
@@ -666,15 +667,16 @@
       "kickoff_local": "2026-10-10 19:30",
       "kickoff_hour": 19,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "under",
         "line": 3.5,
         "odd": 1.59,
         "reasoning": "Низкий коэффициент 1.59 указывает на высокую вероятность, а в матчах этих команд обычно суммарное количество голов не превышает 3.5."
-      }
+      },
+      "final_score": "1:1"
     },
     {
       "event_id": "edb80d633a1906e5865ab70cc9b540ea",
@@ -688,15 +690,16 @@
       "kickoff_local": "2026-10-10 19:30",
       "kickoff_hour": 19,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 2.75,
         "odd": 1.82,
         "reasoning": "Учитывая более низкий риск и хорошие прошлые прогнозы на Getafe, ставка на фору Getafe +2.75 выглядит наиболее вероятной"
-      }
+      },
+      "final_score": "3:0"
     },
     {
       "event_id": "01cb7a67c8ae71201ec27297455fc0e8",
@@ -710,15 +713,16 @@
       "kickoff_local": "2026-10-10 19:30",
       "kickoff_hour": 19,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
         "line": null,
         "odd": 1.61,
         "reasoning": "РБ Лейпциг играет дома, является явным фаворитом с коэффициентом 1.61, что делает победу наиболее вероятной."
-      }
+      },
+      "final_score": "6:0"
     },
     {
       "event_id": "fbed9e8f16fe7532998d46a4276e706c",
@@ -732,15 +736,16 @@
       "kickoff_local": "2026-10-10 20:00",
       "kickoff_hour": 20,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 1.5,
         "odd": 1.38,
         "reasoning": "КФ Монреаль +1.5 имеет самый низкий коэффициент (1.38), что указывает на наибольшую вероятность исхода – команда либо не проиграет более чем с разницей в один гол, либо победит. При отсутствии более уверенных вариантов спред считается более надёжным, чем ставка на победу фаворита."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "82968b1158f3525b7e630cf633233708",
@@ -754,7 +759,7 @@
       "kickoff_local": "2026-10-10 21:30",
       "kickoff_hour": 21,
       "message_id": null,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -762,7 +767,8 @@
         "line": 0.0,
         "odd": 1.89,
         "reasoning": "Фора 0.0 в пользу Нюрнберга имеет коэффициент 1.89, что указывает на наибольшую вероятность победы или ничьи хозяев, лучше остальных вариантов."
-      }
+      },
+      "final_score": "4:4"
     },
     {
       "event_id": "e1ea9930c10116a19a87a37cfb048757",
@@ -776,15 +782,16 @@
       "kickoff_local": "2026-10-10 21:30",
       "kickoff_hour": 21,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
         "line": null,
         "odd": 1.88,
         "reasoning": "Чикаго Файр – явный фаворит с коэффициентом 1.88 и лучшей историей прогнозов (60% успеха), что делает ставку на их победу наиболее вероятной."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "40c1bd70fee927f9bfa8901edab02b48",
@@ -798,15 +805,16 @@
       "kickoff_local": "2026-10-10 21:45",
       "kickoff_hour": 21,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.25,
         "odd": 1.97,
         "reasoning": "Наполи играют дома против Фрозиноне, команда явно сильнее, поэтому вероятна победа с разницей минимум в два гола, что покрывает форту -1.25."
-      }
+      },
+      "final_score": "3:0"
     },
     {
       "event_id": "c2c64ebfc5810226f807c1920d580392",
@@ -820,15 +828,16 @@
       "kickoff_local": "2026-10-10 21:45",
       "kickoff_hour": 21,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -0.75,
         "odd": 1.85,
         "reasoning": "Монако играет дома и считается фаворитом; форой -0.75 достаточно выиграть хотя бы с разницей в один гол, что соответствует их силе, а коэффициент 1.85 предлагает хорошее соотношение риска и выгоды."
-      }
+      },
+      "final_score": "2:2"
     },
     {
       "event_id": "007dc2ff845c33e3e18f2bd2bc126304",
@@ -842,15 +851,16 @@
       "kickoff_local": "2026-10-10 21:45",
       "kickoff_hour": 21,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 0.5,
         "odd": 1.86,
         "reasoning": "У Анже в последних прогнозах 100% успех, а коэффициент на фору +0.5 (1.86) дает наибольшую вероятностную оценку среди доступных вариантов."
-      }
+      },
+      "final_score": "5:1"
     },
     {
       "event_id": "2849460eb4d15adbb20ec15927a0fd4a",
@@ -864,15 +874,16 @@
       "kickoff_local": "2026-10-10 21:45",
       "kickoff_hour": 21,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -2.5,
         "odd": 1.95,
         "reasoning": "ПСЖ явно фаворит, вероятность победы с разницей более 2.5 гола высока, коэффициент приемлемый."
-      }
+      },
+      "final_score": "3:1"
     },
     {
       "event_id": "3aa72885e0aa107c62843749f7930a9a",
@@ -886,15 +897,16 @@
       "kickoff_local": "2026-10-10 21:45",
       "kickoff_hour": 21,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 0.25,
         "odd": 2.14,
         "reasoning": "Спред Lorient +0.25 безопаснее: команда должна не проиграть, а коэффициент 2.14 приемлем."
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "551f242223b1625f458d1a2ea212a0c3",
@@ -908,15 +920,16 @@
       "kickoff_local": "2026-10-10 22:00",
       "kickoff_hour": 22,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
         "line": null,
         "odd": 1.36,
         "reasoning": "Домашняя команда — явный фаворит, коэффициент 1.36, что дает наибольшую вероятность победы."
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "2793c97e3a0354a231d182df3a3968dd",
