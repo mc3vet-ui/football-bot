@@ -319,15 +319,16 @@
       "kickoff_local": "2026-10-11 18:15",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.25,
         "odd": 1.92,
         "reasoning": "Ренн играет дома, имеет более высокие шансы на победу, а в последних прогнозах на эту команду 2 из 3 были верны; форой -1.25 они должны выиграть с разницей минимум в два гола, что выглядит наиболее вероятным вариантом."
-      }
+      },
+      "final_score": "4:1"
     },
     {
       "event_id": "6dbab232dd8d2aed0cb1d6f7978fb7b1",
@@ -341,15 +342,16 @@
       "kickoff_local": "2026-10-11 18:30",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 2.5,
         "odd": 1.55,
         "reasoning": "Обе команды обладают сильным нападением, в их матчах часто выпадает более 2.5 гола; коэффициент 1.55 указывает на высокую вероятность."
-      }
+      },
+      "final_score": "0:3"
     },
     {
       "event_id": "eaf509fb37413b7d055cd394667792b3",

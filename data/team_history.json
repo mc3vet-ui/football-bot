@@ -93,6 +93,7 @@
   "Rennes": [
     true,
     false,
+    true,
     true
   ],
   "Le Mans FC": [
@@ -438,9 +439,11 @@
   ],
   "Auxerre": [
     false,
-    false
+    false,
+    true
   ],
   "Liverpool": [
+    true,
     true,
     true
   ],
@@ -552,7 +555,8 @@
   "Manchester City": [
     false,
     true,
-    false
+    false,
+    true
   ],
   "Coventry City": [
     false
