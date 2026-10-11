@@ -2,7 +2,8 @@
   "FC St. Pauli": [
     true,
     true,
-    false
+    false,
+    true
   ],
   "1. FC Kaiserslautern": [
     true,
@@ -65,6 +66,7 @@
   "Nice": [
     true,
     true,
+    false,
     false
   ],
   "SC Freiburg": [
@@ -142,6 +144,7 @@
   ],
   "Lazio": [
     true,
+    true,
     true
   ],
   "Genoa": [
@@ -199,7 +202,8 @@
   "Lecce": [
     true,
     false,
-    false
+    false,
+    true
   ],
   "AS Roma": [
     true,
@@ -224,7 +228,8 @@
   "Bologna": [
     true,
     true,
-    false
+    false,
+    true
   ],
   "Aston Villa": [
     true,
@@ -263,6 +268,7 @@
     true,
     false,
     false,
+    true,
     true
   ],
   "Athletic Bilbao": [
@@ -322,7 +328,8 @@
   "Portsmouth": [
     true,
     false,
-    false
+    false,
+    true
   ],
   "Derby County": [
     true,
@@ -356,7 +363,8 @@
   "Southampton": [
     false,
     true,
-    false
+    false,
+    true
   ],
   "Stoke City": [
     true,
@@ -413,11 +421,13 @@
   ],
   "Arminia Bielefeld": [
     true,
+    false,
     false
   ],
   "Karlsruher SC": [
     false,
     false,
+    true,
     true
   ],
   "Lyon": [
@@ -550,6 +560,7 @@
   "Crystal Palace": [
     true,
     true,
+    false,
     false
   ],
   "RC Lens": [
@@ -574,7 +585,8 @@
   ],
   "VfL Bochum": [
     false,
-    true
+    true,
+    false
   ],
   "Le Havre": [
     false,
@@ -688,14 +700,16 @@
   "Monza": [
     true,
     false,
-    false
+    false,
+    true
   ],
   "Troyes": [
     true
   ],
   "Strasbourg": [
     true,
-    true
+    true,
+    false
   ],
   "Sheffield Utd": [
     true,
@@ -1170,6 +1184,7 @@
     false
   ],
   "Nottingham Forest": [
+    false,
     false
   ],
   "Angers": [
@@ -1286,5 +1301,8 @@
   ],
   "San Diego FC": [
     false
+  ],
+  "Elche CF": [
+    true
   ]
 }
