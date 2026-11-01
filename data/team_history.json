@@ -64,6 +64,7 @@
   "Paris FC": [
     true,
     true,
+    true,
     true
   ],
   "Nice": [
@@ -88,6 +89,7 @@
     true,
     false,
     false,
+    true,
     true
   ],
   "Málaga": [
@@ -161,7 +163,8 @@
   "AS Monaco": [
     false,
     false,
-    false
+    false,
+    true
   ],
   "Marseille": [
     false,
@@ -441,11 +444,13 @@
     false,
     true,
     true,
-    false
+    false,
+    true
   ],
   "Auxerre": [
     false,
     false,
+    true,
     true
   ],
   "Liverpool": [
@@ -520,7 +525,8 @@
   "Torino": [
     false,
     true,
-    false
+    false,
+    true
   ],
   "Bayer Leverkusen": [
     true,
@@ -584,6 +590,7 @@
     true
   ],
   "Real Racing Club de Santander": [
+    true,
     true
   ],
   "Bayern Munich": [
@@ -697,6 +704,7 @@
   "Frosinone": [
     true,
     false,
+    true,
     true
   ],
   "Venezia": [
@@ -722,7 +730,8 @@
   "Strasbourg": [
     true,
     true,
-    false
+    false,
+    true
   ],
   "Sheffield Utd": [
     true,
@@ -1202,7 +1211,8 @@
   ],
   "Angers": [
     true,
-    false
+    false,
+    true
   ],
   "Toulouse": [
     true,

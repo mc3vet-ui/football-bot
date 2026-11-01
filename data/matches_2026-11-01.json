@@ -134,7 +134,7 @@
       "kickoff_local": "2026-11-01 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -142,7 +142,8 @@
         "line": -1.0,
         "odd": 1.85,
         "reasoning": "Лацио играет дома, является явным фаворитом, последние прогнозы на неё 100% успешны, а фора -1.0 с коэффициентом 1.85 выглядит наиболее вероятным исходом."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "b7b781db85506536dce5e7ce59a59863",
@@ -156,15 +157,16 @@
       "kickoff_local": "2026-11-01 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -0.5,
         "odd": 2.02,
         "reasoning": "У Фрозиноне 2 из 3 прошлых прогнозов были успешны, а ставка на форту -0.5 с коэффициентом 2.02 предлагает более надёжный вариант победы хозяев."
-      }
+      },
+      "final_score": "2:0"
     },
     {
       "event_id": "448a1083448ea9dff55bfebf15ff20b4",
@@ -178,15 +180,16 @@
       "kickoff_local": "2026-11-01 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -0.75,
         "odd": 2.11,
         "reasoning": "Страсбург считается фаворитом, 2 из 3 наших прогнозов на него были успешны, а коэффициент на форту -0.75 (2.11) предлагает надёжный вариант с небольшим риском."
-      }
+      },
+      "final_score": "5:1"
     },
     {
       "event_id": "60eaeb599578cd5c951f917c4fef06ff",
@@ -200,7 +203,7 @@
       "kickoff_local": "2026-11-01 17:30",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -208,7 +211,8 @@
         "line": 0.0,
         "odd": 2.0,
         "reasoning": "Учитывая более высокий процент успешных прогнозов на Union Berlin (2/3) и более выгодный коэффициент на их победу в форте 0.0, ставка на хозяев выглядит наиболее надёжной."
-      }
+      },
+      "final_score": "1:1"
     },
     {
       "event_id": "6c520ed959578ca3aebe351ee3765d53",
@@ -222,15 +226,16 @@
       "kickoff_local": "2026-11-01 18:15",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": -2.0,
         "odd": 1.93,
         "reasoning": "Реал Мадрид явно сильнее хозяев и с большой вероятностью выиграет с разницей более 2 мячей, что подтверждается коэффициентом 1.93."
-      }
+      },
+      "final_score": "0:3"
     },
     {
       "event_id": "cf3a2e2b4a4e9815d1d0be8dcef916da",
@@ -244,8 +249,8 @@
       "kickoff_local": "2026-11-01 19:15",
       "kickoff_hour": 19,
       "message_id": 533,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -253,7 +258,8 @@
         "odd": 1.85,
         "reasoning": "У Пари ФК хорошие результаты в прошлых прогнозах (3 из 3), а коэффициент 1.85 на форуме 0.0 указывает на небольшое преимущество хозяев."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:1"
     },
     {
       "event_id": "961df571fad52d969150e9ced52b16f7",
@@ -267,8 +273,8 @@
       "kickoff_local": "2026-11-01 19:15",
       "kickoff_hour": 19,
       "message_id": 534,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -276,7 +282,8 @@
         "odd": 1.99,
         "reasoning": "Лион играет дома и является явным фаворитом; вероятность победы с разницей минимум в два мяча высока, а коэффициент 1.99 на форту -1.25 выглядит привлекательным."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:0"
     },
     {
       "event_id": "6a3819cdbe2ba2fe5a3d8f9b4b459965",
