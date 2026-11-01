@@ -297,8 +297,8 @@
       "kickoff_local": "2026-11-01 19:30",
       "kickoff_hour": 19,
       "message_id": 535,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -306,7 +306,8 @@
         "odd": 1.52,
         "reasoning": "Ливерпуль играет дома, а ставка на форту +0.5 покрывает победу или ничью, что наиболее вероятно."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:1"
     },
     {
       "event_id": "1eb5e1a69ae9dd9edd92fde344308a4e",
@@ -320,8 +321,8 @@
       "kickoff_local": "2026-11-01 19:30",
       "kickoff_hour": 19,
       "message_id": 536,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -329,7 +330,8 @@
         "odd": 1.55,
         "reasoning": "Франкфурт играет дома, имеет коэффициент 1.55 и более высокий процент успешных прогнозов, поэтому наиболее вероятна их победа."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:1"
     },
     {
       "event_id": "940b9e69539033539039f9af694e2925",
@@ -343,8 +345,8 @@
       "kickoff_local": "2026-11-01 20:00",
       "kickoff_hour": 20,
       "message_id": 537,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -352,7 +354,8 @@
         "odd": 1.78,
         "reasoning": "Генуя имеет наименьший коэффициент в форте -0.0 (1.78), что указывает на наибольшую вероятность победы, а форты обычно надёжнее, чем исход матча."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:2"
     },
     {
       "event_id": "5262991e389930615bec34b642428c93",
@@ -366,8 +369,8 @@
       "kickoff_local": "2026-11-01 20:30",
       "kickoff_hour": 20,
       "message_id": 538,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -375,7 +378,8 @@
         "odd": 2.06,
         "reasoning": "Эльче имеет 100% успешность в последних прогнозах, а фора -0.25 с коэффициентом 2.06 указывает на небольшое преимущество хозяев, что делает ставку наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:1"
     },
     {
       "event_id": "aeadf1388a1075328536501576b3d550",
@@ -389,8 +393,8 @@
       "kickoff_local": "2026-11-01 22:45",
       "kickoff_hour": 22,
       "message_id": 539,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -398,7 +402,8 @@
         "odd": 2.0,
         "reasoning": "Napoli имеет более высокий процент успешных прогнозов (3/5) и спред +0.25 с коэффициентом 2.0, что делает ставку на то, что они не проиграют, наиболее вероятной"
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:0"
     },
     {
       "event_id": "df1e1589c51bbcac432125567d1f7c58",
@@ -412,8 +417,8 @@
       "kickoff_local": "2026-11-01 22:45",
       "kickoff_hour": 22,
       "message_id": 540,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -421,7 +426,8 @@
         "odd": 1.95,
         "reasoning": "Марсель играет дома, имеет более высокий процент успешных прогнозов и шансы на победу с форой -0.5 почти такие же, как на прямую победу, что делает эту ставку наиболее надёжной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:0"
     },
     {
       "event_id": "3757bcd765c7da1538cdf2785e784038",

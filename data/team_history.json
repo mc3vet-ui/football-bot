@@ -122,7 +122,8 @@
     true,
     true,
     false,
-    true
+    true,
+    false
   ],
   "Como": [
     false,
@@ -138,7 +139,8 @@
   "Valencia": [
     true,
     false,
-    true
+    true,
+    false
   ],
   "Cagliari": [
     false,
@@ -158,6 +160,7 @@
     true,
     false,
     false,
+    true,
     true
   ],
   "AS Monaco": [
@@ -168,6 +171,7 @@
   ],
   "Marseille": [
     false,
+    true,
     true,
     true
   ],
@@ -181,7 +185,8 @@
     true,
     false,
     false,
-    false
+    false,
+    true
   ],
   "Sevilla": [
     true,
@@ -212,6 +217,7 @@
     true,
     false,
     false,
+    true,
     true
   ],
   "AS Roma": [
@@ -249,6 +255,7 @@
   "Arsenal": [
     true,
     true,
+    false,
     false,
     false
   ],
@@ -456,7 +463,8 @@
   "Liverpool": [
     true,
     true,
-    true
+    true,
+    false
   ],
   "VfB Stuttgart": [
     false,
@@ -836,7 +844,8 @@
   "Juventus": [
     false,
     false,
-    true
+    true,
+    false
   ],
   "Stade Brestois 29": [
     false,
@@ -1044,6 +1053,7 @@
   ],
   "Eintracht Frankfurt": [
     false,
+    true,
     true
   ],
   "FC Augsburg": [
@@ -1216,7 +1226,8 @@
   ],
   "Toulouse": [
     true,
-    false
+    false,
+    true
   ],
   "Columbus Crew": [
     false,
@@ -1326,7 +1337,8 @@
     false
   ],
   "Elche CF": [
-    true
+    true,
+    false
   ],
   "Greuther Fürth": [
     true
