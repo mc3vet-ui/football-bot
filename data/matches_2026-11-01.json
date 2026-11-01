@@ -17,8 +17,8 @@
       "kickoff_local": "2026-11-01 14:30",
       "kickoff_hour": 14,
       "message_id": 530,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -26,7 +26,8 @@
         "odd": 2.1,
         "reasoning": "В последние прогнозы Венеция показывала 100% успех, а ставка на фору +1.5 имеет более высокий коэффициент и меньше риска, чем победа аутсайдера."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:0"
     },
     {
       "event_id": "39d0820cd44e82da9ed3b84313b0cd7a",
@@ -40,15 +41,16 @@
       "kickoff_local": "2026-11-01 15:30",
       "kickoff_hour": 15,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 0.0,
         "odd": 1.61,
         "reasoning": "У Ст. Паули в последних прогнозах высокий процент успеха (3 из 4), а ставка на форту 0.0 (draw no bet) уменьшает риск ничьи, при этом коэффициент 1.61 достаточно привлекательный."
-      }
+      },
+      "final_score": "1:3"
     },
     {
       "event_id": "6e154ced962547bf41645ccc96e37c3f",
@@ -62,15 +64,16 @@
       "kickoff_local": "2026-11-01 15:30",
       "kickoff_hour": 15,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 0.0,
         "odd": 1.56,
         "reasoning": "Низкая коэффициент на форту 0.0 в пользу хозяев указывает на их преимущество; спред обычно более надёжен, чем ставка на победу."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "e1b59e013929e5b7224683c54905fc78",
@@ -84,15 +87,16 @@
       "kickoff_local": "2026-11-01 15:30",
       "kickoff_hour": 15,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "under",
         "line": 3.5,
         "odd": 1.5,
         "reasoning": "Тотал ниже 3.5 имеет самый низкий коэффициент (1.5), что указывает на высокую вероятность события; в среднем в матчах 2‑й Бундеслиги количество голов часто ниже этой отметки."
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "ddcc9a51a2d7368e055d1abefacdb74e",
@@ -106,15 +110,16 @@
       "kickoff_local": "2026-11-01 16:00",
       "kickoff_hour": 16,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 0.25,
         "odd": 1.88,
         "reasoning": "Ставка на фору Getafe +0.25 требует лишь нед поражения хозяина и имеет более низкий коэффициент (1.88), что делает её наиболее вероятной, учитывая домашнее преимущество и хорошие результаты прошлых прогнозов."
-      }
+      },
+      "final_score": "3:1"
     },
     {
       "event_id": "3f9f4bc9a19bf36dcb74be2f29610d55",
