@@ -203,6 +203,7 @@
     true,
     false,
     true,
+    false,
     false
   ],
   "Chicago Fire": [
@@ -289,6 +290,7 @@
     true
   ],
   "Athletic Bilbao": [
+    true,
     true,
     true
   ],
@@ -495,6 +497,7 @@
   ],
   "Nashville SC": [
     false,
+    true,
     true
   ],
   "1. FC Nürnberg": [
@@ -638,6 +641,7 @@
   "Atlanta United FC": [
     false,
     false,
+    false,
     false
   ],
   "Philadelphia Union": [
@@ -661,7 +665,8 @@
   ],
   "Toronto FC": [
     true,
-    true
+    true,
+    false
   ],
   "Colorado Rapids": [
     true,
@@ -685,7 +690,8 @@
     false,
     false,
     true,
-    false
+    false,
+    true
   ],
   "Real Salt Lake": [
     false,
@@ -707,7 +713,8 @@
   "Vancouver Whitecaps FC": [
     false,
     true,
-    true
+    true,
+    false
   ],
   "Frosinone": [
     true,
@@ -852,6 +859,7 @@
     false
   ],
   "Real Sociedad": [
+    true,
     true,
     true,
     true

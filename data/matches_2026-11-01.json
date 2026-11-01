@@ -441,8 +441,8 @@
       "kickoff_local": "2026-11-01 23:00",
       "kickoff_hour": 23,
       "message_id": 541,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -450,7 +450,8 @@
         "odd": 1.97,
         "reasoning": "Атлетик Бильбао небольшое фаворитное преимущество (-0.5) с коэффициентом 1.97, а прошлые прогнозы по обеим командам были 100% точны, что делает эту ставку наиболее надёжной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     },
     {
       "event_id": "196c38051dc539d3d85bc3b2e3f9b45b",
@@ -464,8 +465,8 @@
       "kickoff_local": "2026-11-01 23:30",
       "kickoff_hour": 23,
       "message_id": 542,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "under",
@@ -473,7 +474,8 @@
         "odd": 1.56,
         "reasoning": "Ожидается небольшое количество голов, коэффициент на тотал ниже 2, что указывает на более высокую вероятность результата \"меньше 3.5\"."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "5:1"
     },
     {
       "event_id": "2bf8103627b1f0afe9f9b1b619ebbe61",
@@ -487,8 +489,8 @@
       "kickoff_local": "2026-11-02 00:30",
       "kickoff_hour": 0,
       "message_id": 543,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "under",
@@ -496,7 +498,8 @@
         "odd": 1.78,
         "reasoning": "Недавняя статистика прогнозов указывает на более надёжный результат Торонто, а коэффициент на тотал ниже 2 свидетельствует о вероятном низком количестве голов в матче."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:1"
     },
     {
       "event_id": "54bf2a52e2dd2f8b9212f4816dceaada",
@@ -510,8 +513,8 @@
       "kickoff_local": "2026-11-02 00:30",
       "kickoff_hour": 0,
       "message_id": 544,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -519,7 +522,8 @@
         "odd": 1.65,
         "reasoning": "Нэшвилл сильнее, но победа с разницей в 2 гола маловероятна, поэтому ставка на аутсайдера с форой +1.5 имеет высокий шанс."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:2"
     },
     {
       "event_id": "b728a3eea55b37d5ce5268b9a594802f",
