@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T15:58:40.063706+03:00",
+  "posted_batches": [
+    "day"
+  ],
+  "matches": [
+    {
+      "event_id": "66608b64d462d1d3deabe573c8456d86",
+      "sport_key": "soccer_italy_serie_a",
+      "source": "odds_api",
+      "league": "Серия А",
+      "home": "Sassuolo",
+      "away": "Fiorentina",
+      "home_ru": "Сассуоло",
+      "away_ru": "Фиорентина",
+      "kickoff_local": "2026-11-02 20:30",
+      "kickoff_hour": 20,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": -0.25,
+        "odd": 2.11,
+        "reasoning": "Фиорентина в спреде -0.25 (коэффициент 2.11) имеет более высокие шансы победы, а в последних прогнозах показывала 1 из 3 успехов, тогда как Сассуоло не имел удачных прогнозов; спред надёжнее прямого исхода."
+      }
+    },
+    {
+      "event_id": "2e488800d615a94e5377c195810303c0",
+      "sport_key": "soccer_italy_serie_a",
+      "source": "odds_api",
+      "league": "Серия А",
+      "home": "Atalanta BC",
+      "away": "Parma",
+      "home_ru": "Аталанта",
+      "away_ru": "Парма",
+      "kickoff_local": "2026-11-02 22:45",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": -1.0,
+        "odd": 1.85,
+        "reasoning": "Аталанта играет дома и имеет хорошие шансы выиграть с разницей более одного гола, коэффициент на форту -1.0 (1.85) выглядит наиболее вероятным вариантом."
+      }
+    },
+    {
+      "event_id": "5118966f484adf525196d196a61bc5d6",
+      "sport_key": "soccer_france_ligue_one",
+      "source": "odds_api",
+      "league": "Лига 1",
+      "home": "Lorient",
+      "away": "Brest",
+      "home_ru": "Лориан",
+      "away_ru": "Брест",
+      "kickoff_local": "2026-11-02 22:45",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 1.76,
+        "reasoning": "У хозяев более высокий процент успешных прогнозов и более низкий коэффициент на форту 0.0, что указывает на большую вероятность не проиграть."
+      }
+    },
+    {
+      "event_id": "0f552d9c6990c69474f50ff2fb54e9a3",
+      "sport_key": "soccer_epl",
+      "source": "odds_api",
+      "league": "АПЛ",
+      "home": "Newcastle United",
+      "away": "Everton",
+      "home_ru": "Ньюкасл Юнайтед",
+      "away_ru": "Эвертон",
+      "kickoff_local": "2026-11-02 23:00",
+      "kickoff_hour": 23,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 1.63,
+        "reasoning": "Ньюкасл играет дома против слабого Эвертона, коэффициент на победу в форте 0.0 самый низкий (1.63), что указывает на высокую вероятность победы хозяев."
+      }
+    },
+    {
+      "event_id": "7a2cd2744fdf15ea675423a6c23df46b",
+      "sport_key": "soccer_spain_la_liga",
+      "source": "odds_api",
+      "league": "Ла Лига",
+      "home": "Deportivo La Coruña",
+      "away": "CA Osasuna",
+      "home_ru": "Депортиво Ла Корунья",
+      "away_ru": "КА Осасуна",
+      "kickoff_local": "2026-11-02 23:00",
+      "kickoff_hour": 23,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": 0.0,
+        "odd": 2.6,
+        "reasoning": "У CA Osasuna 100% успех в последних прогнозах, а коэффициент на форту 0.0 (2.6) лучше, чем на прямую победу, что делает эту ставку наиболее надёжной."
+      }
+    }
+  ]
+}
