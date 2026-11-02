@@ -302,7 +302,8 @@
     true,
     false,
     true,
-    false
+    false,
+    true
   ],
   "St. Louis City SC": [
     true,
@@ -636,6 +637,7 @@
   ],
   "Inter Miami CF": [
     false,
+    true,
     true
   ],
   "Atlanta United FC": [
@@ -661,7 +663,8 @@
   ],
   "Houston Dynamo": [
     false,
-    true
+    true,
+    false
   ],
   "Toronto FC": [
     true,
@@ -700,15 +703,18 @@
   "Los Angeles FC": [
     false,
     false,
-    true
+    true,
+    false
   ],
   "Portland Timbers": [
+    false,
     false,
     false
   ],
   "Minnesota United FC": [
     false,
-    true
+    true,
+    false
   ],
   "Vancouver Whitecaps FC": [
     false,

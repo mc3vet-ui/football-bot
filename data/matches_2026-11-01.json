@@ -537,8 +537,8 @@
       "kickoff_local": "2026-11-02 03:00",
       "kickoff_hour": 3,
       "message_id": 545,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "under",
@@ -546,7 +546,8 @@
         "odd": 1.82,
         "reasoning": "Общий тотал 3.5 имеет наименьший коэффициент (1.82), что указывает на наибольшую вероятность, а обе команды не отличаются высоким уровнем атакующей эффективности, поэтому ставка на \"меньше 3.5\" выглядит наиболее проходимой."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:2"
     },
     {
       "event_id": "1a27bec6400dba567344a86aee6fca4a",
@@ -560,8 +561,8 @@
       "kickoff_local": "2026-11-02 04:30",
       "kickoff_hour": 4,
       "message_id": 546,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -569,7 +570,8 @@
         "odd": 2.12,
         "reasoning": "У Лос-Анджелес ФК сильный домашний фактор и они фавориты, спред -1.0 с коэффициентом 2.12 выглядит наиболее вероятным исходом."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:3"
     },
     {
       "event_id": "c59921cdf131bc3c6e9fdc0cbe5abe3f",
@@ -583,8 +585,8 @@
       "kickoff_local": "2026-11-02 05:45",
       "kickoff_hour": 5,
       "message_id": 547,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -592,7 +594,8 @@
         "odd": 1.56,
         "reasoning": "Фора +1.0 для Хьюстон Динамо покрывается даже при небольшом поражении, что делает ставку более надёжной, плюс коэффициент 1.56."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:1"
     }
   ]
 }
