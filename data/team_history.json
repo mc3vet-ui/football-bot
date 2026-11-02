@@ -134,6 +134,7 @@
   ],
   "Deportivo La Coruña": [
     true,
+    false,
     false
   ],
   "Valencia": [
@@ -228,7 +229,8 @@
     false
   ],
   "CA Osasuna": [
-    true
+    true,
+    false
   ],
   "Getafe": [
     true,
@@ -240,6 +242,7 @@
   ],
   "Atalanta BC": [
     true,
+    false,
     false
   ],
   "Bologna": [
@@ -515,6 +518,7 @@
     true
   ],
   "Newcastle United": [
+    false,
     false
   ],
   "Bournemouth": [
@@ -532,6 +536,7 @@
   "Fiorentina": [
     false,
     false,
+    true,
     true
   ],
   "Torino": [
@@ -599,7 +604,8 @@
   "Lorient": [
     false,
     false,
-    true
+    true,
+    false
   ],
   "Real Racing Club de Santander": [
     true,
@@ -625,6 +631,7 @@
     false
   ],
   "Brest": [
+    false,
     false,
     false
   ],
@@ -737,7 +744,8 @@
     true,
     false,
     false,
-    true
+    true,
+    false
   ],
   "Monza": [
     true,
@@ -852,7 +860,8 @@
   ],
   "Sassuolo": [
     false,
-    false
+    false,
+    true
   ],
   "Juventus": [
     false,
@@ -1081,7 +1090,8 @@
     true
   ],
   "Everton": [
-    true
+    true,
+    false
   ],
   "Ipswich": [
     true
