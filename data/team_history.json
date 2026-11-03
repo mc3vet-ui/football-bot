@@ -475,7 +475,8 @@
   "VfB Stuttgart": [
     false,
     true,
-    false
+    false,
+    true
   ],
   "1. FC Köln": [
     false,
@@ -1365,6 +1366,9 @@
     false
   ],
   "Greuther Fürth": [
+    true
+  ],
+  "Galatasaray": [
     true
   ]
 }

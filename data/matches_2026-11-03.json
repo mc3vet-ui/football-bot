@@ -18,8 +18,8 @@
       "kickoff_local": "2026-11-03 20:45",
       "kickoff_hour": 20,
       "message_id": 558,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -27,7 +27,8 @@
         "odd": 1.66,
         "reasoning": "Галатасарай является явным фаворитом (коэффициент 1.94), а ставка на форту 0.0 имеет более низкий коэффициент 1.66, что указывает на большую вероятность победы или ничьи в пользу хозяина."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:0"
     },
     {
       "event_id": "55e0f74a61f7d72defa7ea0c83532ea5",
@@ -41,7 +42,7 @@
       "kickoff_local": "2026-11-03 20:45",
       "kickoff_hour": 20,
       "message_id": 559,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -50,7 +51,8 @@
         "odd": 1.45,
         "reasoning": "Шахтер получает форту +1.0 с самым низким коэффициентом 1.45, что указывает на высокую вероятность не проиграть более чем в один гол, что делает эту ставку наиболее надёжной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:1"
     },
     {
       "event_id": "9469c1977185a1acd0154cc0a3b93331",
