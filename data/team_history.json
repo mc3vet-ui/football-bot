@@ -110,6 +110,7 @@
     true,
     true,
     false,
+    true,
     true
   ],
   "Ipswich Town": [
@@ -149,6 +150,7 @@
   ],
   "Inter Milan": [
     false,
+    true,
     true,
     true
   ],
@@ -198,6 +200,7 @@
   "Atlético Madrid": [
     true,
     true,
+    true,
     true
   ],
   "Seattle Sounders FC": [
@@ -226,7 +229,8 @@
     true,
     false,
     true,
-    false
+    false,
+    true
   ],
   "CA Osasuna": [
     true,
@@ -254,6 +258,7 @@
   "Aston Villa": [
     true,
     false,
+    true,
     true
   ],
   "Arsenal": [
@@ -268,7 +273,8 @@
     false,
     false,
     false,
-    false
+    false,
+    true
   ],
   "Rayo Vallecano": [
     true,
@@ -320,11 +326,13 @@
   "Lincoln City": [
     false,
     true,
+    true,
     true
   ],
   "Blackburn Rovers": [
     false,
     true,
+    false,
     false
   ],
   "Sheffield United": [
@@ -335,6 +343,7 @@
   "Bolton Wanderers": [
     true,
     false,
+    true,
     true
   ],
   "Preston North End": [
@@ -352,18 +361,22 @@
     true,
     false,
     false,
-    true
+    true,
+    false
   ],
   "Derby County": [
     true,
-    false
+    false,
+    true
   ],
   "Swansea City": [
     true,
     true,
-    true
+    true,
+    false
   ],
   "Watford": [
+    true,
     true,
     true,
     true
@@ -381,21 +394,25 @@
   "Birmingham City": [
     false,
     false,
-    false
+    false,
+    true
   ],
   "Southampton": [
     false,
     true,
     false,
-    true
+    true,
+    false
   ],
   "Stoke City": [
     true,
     true,
     true,
-    true
+    true,
+    false
   ],
   "Norwich City": [
+    true,
     true,
     true,
     true
@@ -403,6 +420,7 @@
   "Queens Park Rangers": [
     true,
     false,
+    true,
     true
   ],
   "Cardiff City": [
@@ -412,10 +430,12 @@
   ],
   "West Bromwich Albion": [
     false,
+    false,
     false
   ],
   "Charlton Athletic": [
     false,
+    true,
     true
   ],
   "Millwall": [
@@ -423,7 +443,8 @@
     false,
     false,
     false,
-    false
+    false,
+    true
   ],
   "Wrexham AFC": [
     false,
@@ -433,6 +454,7 @@
     false,
     true,
     false,
+    true,
     true
   ],
   "Middlesbrough": [
@@ -492,6 +514,7 @@
     false,
     false,
     true,
+    false,
     false
   ],
   "New York City FC": [
@@ -614,6 +637,7 @@
   ],
   "Bayern Munich": [
     false,
+    true,
     true
   ],
   "Dynamo Dresden": [
@@ -641,7 +665,8 @@
     false,
     true,
     true,
-    true
+    true,
+    false
   ],
   "Inter Miami CF": [
     false,
@@ -803,6 +828,7 @@
   ],
   "Lille": [
     true,
+    false,
     false,
     false
   ],
@@ -1369,6 +1395,18 @@
     true
   ],
   "Galatasaray": [
+    true
+  ],
+  "Bodø/Glimt": [
+    false
+  ],
+  "Feyenoord": [
+    true
+  ],
+  "LASK": [
+    true
+  ],
+  "ŠK Slovan Bratislava": [
     true
   ]
 }
