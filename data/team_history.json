@@ -126,13 +126,15 @@
     true,
     false,
     true,
-    false
+    false,
+    true
   ],
   "Como": [
     false,
     false,
     false,
     false,
+    true,
     true
   ],
   "Deportivo La Coruña": [
@@ -184,6 +186,7 @@
     true,
     true,
     true,
+    false,
     false
   ],
   "Hamburger SV": [
@@ -266,6 +269,7 @@
   "Arsenal": [
     true,
     true,
+    false,
     false,
     false,
     false
@@ -357,7 +361,8 @@
     true,
     true,
     false,
-    true
+    true,
+    false
   ],
   "Portsmouth": [
     true,
@@ -390,6 +395,7 @@
   ],
   "Wolverhampton Wanderers": [
     true,
+    false,
     false,
     false
   ],
@@ -450,7 +456,8 @@
   ],
   "Wrexham AFC": [
     false,
-    true
+    true,
+    false
   ],
   "Burnley": [
     false,
@@ -460,6 +467,7 @@
     true
   ],
   "Middlesbrough": [
+    false,
     false,
     false,
     false,
@@ -511,6 +519,7 @@
     true,
     false,
     true,
+    false,
     false
   ],
   "Paris Saint Germain": [
@@ -598,7 +607,8 @@
     false,
     false,
     true,
-    true
+    true,
+    false
   ],
   "SC Paderborn": [
     true,
@@ -613,7 +623,8 @@
     false,
     true,
     false,
-    true
+    true,
+    false
   ],
   "Coventry City": [
     false
@@ -626,7 +637,8 @@
   ],
   "RC Lens": [
     false,
-    false
+    false,
+    true
   ],
   "Lorient": [
     false,
@@ -1418,5 +1430,23 @@
   ],
   "Fenerbahce": [
     false
+  ],
+  "Slavia Praha": [
+    false
+  ],
+  "PSV Eindhoven": [
+    true
+  ],
+  "Club Brugge": [
+    true
+  ],
+  "Porto": [
+    true
+  ],
+  "Viking FK": [
+    true
+  ],
+  "Sabah FK": [
+    true
   ]
 }
