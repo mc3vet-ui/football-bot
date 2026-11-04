@@ -18,8 +18,8 @@
       "kickoff_local": "2026-11-04 18:30",
       "kickoff_hour": 18,
       "message_id": 578,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -27,7 +27,8 @@
         "odd": 2.0,
         "reasoning": "У Ренна хороший показатель прогнозов (3 из 4) и он играет дома; спред -0.25 с коэффициентом 2.0 дает более надёжный вариант, чем прямая победа, поэтому эта ставка наиболее вероятна."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:0"
     },
     {
       "event_id": "f43ef699c987e112e115f7035114854e",
@@ -41,8 +42,8 @@
       "kickoff_local": "2026-11-04 20:45",
       "kickoff_hour": 20,
       "message_id": 580,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -50,7 +51,8 @@
         "odd": 1.95,
         "reasoning": "Реал Мадрид имеет сильный атакующий потенциал и в последних прогнозах показывал 4 из 6 успешных ставок; вероятность победы с разницей более 2 голов высока, а коэффициент 1.95 привлекательный."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:3"
     },
     {
       "event_id": "e901dbcdd6e2255fb24d84032b9d437a",
@@ -64,8 +66,8 @@
       "kickoff_local": "2026-11-04 20:45",
       "kickoff_hour": 20,
       "message_id": 581,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
@@ -73,7 +75,8 @@
         "odd": 1.38,
         "reasoning": "Коэффициент на победу Ливерпуля самый низкий, а статистика прошлых прогнозов показывает высокую точность по этой команде, что делает эту ставку наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:2"
     },
     {
       "event_id": "47523374e8d8cdd5b43677e358317587",

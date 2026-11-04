@@ -90,7 +90,8 @@
     false,
     false,
     true,
-    true
+    true,
+    false
   ],
   "Málaga": [
     true
@@ -99,7 +100,8 @@
     true,
     false,
     true,
-    true
+    true,
+    false
   ],
   "Le Mans FC": [
     true,
@@ -492,6 +494,7 @@
     true,
     true,
     true,
+    false,
     false
   ],
   "VfB Stuttgart": [
@@ -1003,7 +1006,8 @@
     false
   ],
   "Olympiakos Piraeus": [
-    true
+    true,
+    false
   ],
   "Jagiellonia": [
     true
@@ -1408,5 +1412,11 @@
   ],
   "ŠK Slovan Bratislava": [
     true
+  ],
+  "AEK Athens": [
+    false
+  ],
+  "Fenerbahce": [
+    false
   ]
 }
