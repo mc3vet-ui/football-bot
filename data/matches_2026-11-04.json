@@ -1,0 +1,296 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T15:42:23.760363+03:00",
+  "posted_batches": [
+    "day"
+  ],
+  "matches": [
+    {
+      "event_id": "29ebc4d234c1c6e86ebea07ab9174818",
+      "sport_key": "soccer_uefa_europa_league",
+      "source": "odds_api",
+      "league": "Лига Европы",
+      "home": "Rennes",
+      "away": "Olympiakos Piraeus",
+      "home_ru": "Ренн",
+      "away_ru": "Олимпиакос Пирей",
+      "kickoff_local": "2026-11-04 18:30",
+      "kickoff_hour": 18,
+      "message_id": 578,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": -0.25,
+        "odd": 2.0,
+        "reasoning": "У Ренна хороший показатель прогнозов (3 из 4) и он играет дома; спред -0.25 с коэффициентом 2.0 дает более надёжный вариант, чем прямая победа, поэтому эта ставка наиболее вероятна."
+      },
+      "has_photo": true
+    },
+    {
+      "event_id": "f43ef699c987e112e115f7035114854e",
+      "sport_key": "soccer_uefa_champs_league",
+      "source": "odds_api",
+      "league": "Лига Чемпионов",
+      "home": "AEK Athens",
+      "away": "Real Madrid",
+      "home_ru": "АЭК Афины",
+      "away_ru": "Реал Мадрид",
+      "kickoff_local": "2026-11-04 20:45",
+      "kickoff_hour": 20,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": -2.0,
+        "odd": 1.95,
+        "reasoning": "Реал Мадрид имеет сильный атакующий потенциал и в последних прогнозах показывал 4 из 6 успешных ставок; вероятность победы с разницей более 2 голов высока, а коэффициент 1.95 привлекательный."
+      }
+    },
+    {
+      "event_id": "e901dbcdd6e2255fb24d84032b9d437a",
+      "sport_key": "soccer_uefa_champs_league",
+      "source": "odds_api",
+      "league": "Лига Чемпионов",
+      "home": "Fenerbahce",
+      "away": "Liverpool",
+      "home_ru": "Фенербахче",
+      "away_ru": "Ливерпуль",
+      "kickoff_local": "2026-11-04 20:45",
+      "kickoff_hour": 20,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "away",
+        "line": null,
+        "odd": 1.38,
+        "reasoning": "Коэффициент на победу Ливерпуля самый низкий, а статистика прошлых прогнозов показывает высокую точность по этой команде, что делает эту ставку наиболее вероятной."
+      }
+    },
+    {
+      "event_id": "47523374e8d8cdd5b43677e358317587",
+      "sport_key": "soccer_efl_champ",
+      "source": "odds_api",
+      "league": "Чемпионшип",
+      "home": "Cardiff City",
+      "away": "West Ham United",
+      "home_ru": "Кардифф Сити",
+      "away_ru": "Вест Хэм Юнайтед",
+      "kickoff_local": "2026-11-04 22:45",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": 0.0,
+        "odd": 1.44,
+        "reasoning": "Вест Хэм Юнайтед имеет более низкие коэффициенты и лучшую статистику прошлых прогнозов, а ставка на их победу с форой 0.0 (коэф. 1.44) считается более надёжной, чем исход матча."
+      }
+    },
+    {
+      "event_id": "e35b42924a5fe785a52709c4d17c14c2",
+      "sport_key": "soccer_efl_champ",
+      "source": "odds_api",
+      "league": "Чемпионшип",
+      "home": "Wrexham AFC",
+      "away": "Middlesbrough",
+      "home_ru": "Врексэм AFC",
+      "away_ru": "Мидлсбро",
+      "kickoff_local": "2026-11-04 22:45",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "totals",
+        "selection": "over",
+        "line": 2.5,
+        "odd": 1.61,
+        "reasoning": "Ожидается более 2.5 голов, так как Мидлсбро играет в атаке и коэффициент на тотал выше 1.6, что указывает на высокую вероятность."
+      }
+    },
+    {
+      "event_id": "a5910ae3b314876faea7f5c03b8aeaad",
+      "sport_key": "soccer_uefa_champs_league",
+      "source": "odds_api",
+      "league": "Лига Чемпионов",
+      "home": "Slavia Praha",
+      "away": "Arsenal",
+      "home_ru": "Славия Прага",
+      "away_ru": "Арсенал",
+      "kickoff_local": "2026-11-04 23:00",
+      "kickoff_hour": 23,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": -1.5,
+        "odd": 1.77,
+        "reasoning": "Арсенал явный фаворит, ожидается победа с разницей минимум в два мяча, коэффициент 1.77"
+      }
+    },
+    {
+      "event_id": "6d386ed81fabf67aa19fbd442c0d8c60",
+      "sport_key": "soccer_uefa_champs_league",
+      "source": "odds_api",
+      "league": "Лига Чемпионов",
+      "home": "Borussia Dortmund",
+      "away": "Real Betis",
+      "home_ru": "Боруссия Дортмунд",
+      "away_ru": "Реал Бетис",
+      "kickoff_local": "2026-11-04 23:00",
+      "kickoff_hour": 23,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": -1.5,
+        "odd": 2.82,
+        "reasoning": "У Боруссии Дортмунд хороший показатель побед в последних прогнозах (3/4) и сильный домашний фактор, а коэффициент -1.5 с форой 2.82 выглядит наиболее вероятным."
+      }
+    },
+    {
+      "event_id": "449d718632202f0e5997d2e4b7273483",
+      "sport_key": "soccer_uefa_champs_league",
+      "source": "odds_api",
+      "league": "Лига Чемпионов",
+      "home": "PSV Eindhoven",
+      "away": "Club Brugge",
+      "home_ru": "ПСВ Эйндховен",
+      "away_ru": "Клуб Бругге",
+      "kickoff_local": "2026-11-04 23:00",
+      "kickoff_hour": 23,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": 1.0,
+        "odd": 1.56,
+        "reasoning": "Клуб Бругге +1.0 имеет более низкий коэффициент, указывающий на большую вероятность, чем победа ПСВ с разницей в 2 гола."
+      }
+    },
+    {
+      "event_id": "013cecbf40f5b4530342632a80f35b00",
+      "sport_key": "soccer_uefa_champs_league",
+      "source": "odds_api",
+      "league": "Лига Чемпионов",
+      "home": "RC Lens",
+      "away": "Como",
+      "home_ru": "РС Ленс",
+      "away_ru": "Комо",
+      "kickoff_local": "2026-11-04 23:00",
+      "kickoff_hour": 23,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": 0.0,
+        "odd": 1.51,
+        "reasoning": "Самый низкий коэффициент среди доступных рынков — 0.0 форой на Комо (1.51), что дает большую вероятность выигрыша, а также прошлый успех прогнозов на Комо выше, чем у Ленса."
+      }
+    },
+    {
+      "event_id": "df7d2d81b9e2f3f11c6aeddaee6b7085",
+      "sport_key": "soccer_uefa_champs_league",
+      "source": "odds_api",
+      "league": "Лига Чемпионов",
+      "home": "RB Leipzig",
+      "away": "Manchester City",
+      "home_ru": "РБ Лейпциг",
+      "away_ru": "Манчестер Сити",
+      "kickoff_local": "2026-11-04 23:00",
+      "kickoff_hour": 23,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "away",
+        "line": -1.5,
+        "odd": 2.36,
+        "reasoning": "Manchester City обладает большим атакующим потенциалом и в последних матчах часто выигрывает с разницей более 1.5 гола, а у РБ Лейпциг дома сложно удержать такой отрыв."
+      }
+    },
+    {
+      "event_id": "ba82ee37f64a66a30d85f8b90082ec2f",
+      "sport_key": "soccer_uefa_champs_league",
+      "source": "odds_api",
+      "league": "Лига Чемпионов",
+      "home": "Porto",
+      "away": "Napoli",
+      "home_ru": "Порту",
+      "away_ru": "Неаполь",
+      "kickoff_local": "2026-11-04 23:00",
+      "kickoff_hour": 23,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 1.73,
+        "reasoning": "Порту играет дома, является фаворитом с коэффициентом 1.73, а у Наполи нет убедительных преимуществ; ставка на победу Порту наиболее вероятна."
+      }
+    },
+    {
+      "event_id": "6277e639c064e641265fcb98a0e200b9",
+      "sport_key": "soccer_uefa_champs_league",
+      "source": "odds_api",
+      "league": "Лига Чемпионов",
+      "home": "Viking FK",
+      "away": "Sabah FK",
+      "home_ru": "Викинг ФК",
+      "away_ru": "Сабах ФК",
+      "kickoff_local": "2026-11-04 23:00",
+      "kickoff_hour": 23,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": -1.5,
+        "odd": 2.03,
+        "reasoning": "Викинг ФК играет дома и считается фаворитом, коэффициент на победу с форой -1.5 (2.03) выше, чем у гостя, что указывает на большую вероятность победы с разницей более 1.5 гола."
+      }
+    },
+    {
+      "event_id": "7d58b1a0732fa9d2c2fa42d44e636eed",
+      "sport_key": "soccer_efl_champ",
+      "source": "odds_api",
+      "league": "Чемпионшип",
+      "home": "Bristol City",
+      "away": "Wolverhampton Wanderers",
+      "home_ru": "Бристоль Сити",
+      "away_ru": "Вулверхэмптон Уондерерс",
+      "kickoff_local": "2026-11-04 23:00",
+      "kickoff_hour": 23,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "spreads",
+        "selection": "home",
+        "line": 0.0,
+        "odd": 2.33,
+        "reasoning": "Учитывая 75% успешных прогнозов на Бристоль Сити и более выгодный коэффициент на форту 0.0, ставка на победу хозяев выглядит наиболее вероятной."
+      }
+    }
+  ]
+}
