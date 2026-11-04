@@ -2,7 +2,8 @@
   "date": "2026-11-04",
   "generated_at": "2026-11-04T15:42:23.760363+03:00",
   "posted_batches": [
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -39,7 +40,7 @@
       "away_ru": "Реал Мадрид",
       "kickoff_local": "2026-11-04 20:45",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 580,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -48,7 +49,8 @@
         "line": -2.0,
         "odd": 1.95,
         "reasoning": "Реал Мадрид имеет сильный атакующий потенциал и в последних прогнозах показывал 4 из 6 успешных ставок; вероятность победы с разницей более 2 голов высока, а коэффициент 1.95 привлекательный."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "e901dbcdd6e2255fb24d84032b9d437a",
@@ -61,7 +63,7 @@
       "away_ru": "Ливерпуль",
       "kickoff_local": "2026-11-04 20:45",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 581,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -70,7 +72,8 @@
         "line": null,
         "odd": 1.38,
         "reasoning": "Коэффициент на победу Ливерпуля самый низкий, а статистика прошлых прогнозов показывает высокую точность по этой команде, что делает эту ставку наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "47523374e8d8cdd5b43677e358317587",
@@ -83,7 +86,7 @@
       "away_ru": "Вест Хэм Юнайтед",
       "kickoff_local": "2026-11-04 22:45",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 582,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -92,7 +95,8 @@
         "line": 0.0,
         "odd": 1.44,
         "reasoning": "Вест Хэм Юнайтед имеет более низкие коэффициенты и лучшую статистику прошлых прогнозов, а ставка на их победу с форой 0.0 (коэф. 1.44) считается более надёжной, чем исход матча."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "e35b42924a5fe785a52709c4d17c14c2",
@@ -105,7 +109,7 @@
       "away_ru": "Мидлсбро",
       "kickoff_local": "2026-11-04 22:45",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 583,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -114,7 +118,8 @@
         "line": 2.5,
         "odd": 1.61,
         "reasoning": "Ожидается более 2.5 голов, так как Мидлсбро играет в атаке и коэффициент на тотал выше 1.6, что указывает на высокую вероятность."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "a5910ae3b314876faea7f5c03b8aeaad",
@@ -127,7 +132,7 @@
       "away_ru": "Арсенал",
       "kickoff_local": "2026-11-04 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 584,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -136,7 +141,8 @@
         "line": -1.5,
         "odd": 1.77,
         "reasoning": "Арсенал явный фаворит, ожидается победа с разницей минимум в два мяча, коэффициент 1.77"
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "6d386ed81fabf67aa19fbd442c0d8c60",
@@ -149,7 +155,7 @@
       "away_ru": "Реал Бетис",
       "kickoff_local": "2026-11-04 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 585,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -158,7 +164,8 @@
         "line": -1.5,
         "odd": 2.82,
         "reasoning": "У Боруссии Дортмунд хороший показатель побед в последних прогнозах (3/4) и сильный домашний фактор, а коэффициент -1.5 с форой 2.82 выглядит наиболее вероятным."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "449d718632202f0e5997d2e4b7273483",
@@ -171,7 +178,7 @@
       "away_ru": "Клуб Бругге",
       "kickoff_local": "2026-11-04 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 586,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -180,7 +187,8 @@
         "line": 1.0,
         "odd": 1.56,
         "reasoning": "Клуб Бругге +1.0 имеет более низкий коэффициент, указывающий на большую вероятность, чем победа ПСВ с разницей в 2 гола."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "013cecbf40f5b4530342632a80f35b00",
@@ -193,7 +201,7 @@
       "away_ru": "Комо",
       "kickoff_local": "2026-11-04 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 587,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -202,7 +210,8 @@
         "line": 0.0,
         "odd": 1.51,
         "reasoning": "Самый низкий коэффициент среди доступных рынков — 0.0 форой на Комо (1.51), что дает большую вероятность выигрыша, а также прошлый успех прогнозов на Комо выше, чем у Ленса."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "df7d2d81b9e2f3f11c6aeddaee6b7085",
@@ -215,7 +224,7 @@
       "away_ru": "Манчестер Сити",
       "kickoff_local": "2026-11-04 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 588,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -224,7 +233,8 @@
         "line": -1.5,
         "odd": 2.36,
         "reasoning": "Manchester City обладает большим атакующим потенциалом и в последних матчах часто выигрывает с разницей более 1.5 гола, а у РБ Лейпциг дома сложно удержать такой отрыв."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "ba82ee37f64a66a30d85f8b90082ec2f",
@@ -237,7 +247,7 @@
       "away_ru": "Неаполь",
       "kickoff_local": "2026-11-04 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 589,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -246,7 +256,8 @@
         "line": null,
         "odd": 1.73,
         "reasoning": "Порту играет дома, является фаворитом с коэффициентом 1.73, а у Наполи нет убедительных преимуществ; ставка на победу Порту наиболее вероятна."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "6277e639c064e641265fcb98a0e200b9",
@@ -259,7 +270,7 @@
       "away_ru": "Сабах ФК",
       "kickoff_local": "2026-11-04 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 590,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -268,7 +279,8 @@
         "line": -1.5,
         "odd": 2.03,
         "reasoning": "Викинг ФК играет дома и считается фаворитом, коэффициент на победу с форой -1.5 (2.03) выше, чем у гостя, что указывает на большую вероятность победы с разницей более 1.5 гола."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "7d58b1a0732fa9d2c2fa42d44e636eed",
@@ -281,7 +293,7 @@
       "away_ru": "Вулверхэмптон Уондерерс",
       "kickoff_local": "2026-11-04 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 591,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -290,7 +302,8 @@
         "line": 0.0,
         "odd": 2.33,
         "reasoning": "Учитывая 75% успешных прогнозов на Бристоль Сити и более выгодный коэффициент на форту 0.0, ставка на победу хозяев выглядит наиболее вероятной."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
