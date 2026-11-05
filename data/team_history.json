@@ -53,7 +53,8 @@
     false,
     true,
     false,
-    true
+    true,
+    false
   ],
   "Fulham": [
     true,
@@ -180,7 +181,8 @@
     false,
     true,
     true,
-    true
+    true,
+    false
   ],
   "Borussia Dortmund": [
     true,
@@ -302,7 +304,8 @@
     false,
     false,
     true,
-    true
+    true,
+    false
   ],
   "Athletic Bilbao": [
     true,
@@ -587,7 +590,8 @@
     true,
     false,
     true,
-    true
+    true,
+    false
   ],
   "Union Berlin": [
     true,
@@ -911,6 +915,7 @@
     false,
     false,
     true,
+    false,
     false
   ],
   "Stade Brestois 29": [
@@ -1007,6 +1012,7 @@
     false
   ],
   "Benfica": [
+    false,
     false
   ],
   "Anderlecht": [
@@ -1020,6 +1026,7 @@
     false
   ],
   "Dinamo Zagreb": [
+    false,
     false
   ],
   "Olympiakos Piraeus": [
@@ -1030,7 +1037,8 @@
     true
   ],
   "AZ Alkmaar": [
-    true
+    true,
+    false
   ],
   "Sturm Graz": [
     false
@@ -1062,7 +1070,8 @@
     true
   ],
   "Celtic": [
-    false
+    false,
+    true
   ],
   "Ferencvarosi TC": [
     false
@@ -1088,7 +1097,8 @@
     true
   ],
   "Torreense": [
-    false
+    false,
+    true
   ],
   "SpVgg Greuther Fürth": [
     false
@@ -1476,5 +1486,29 @@
   ],
   "Omonoia FC": [
     true
+  ],
+  "Lech Poznań": [
+    false
+  ],
+  "Besiktas JK": [
+    true
+  ],
+  "Union Saint-Gilloise": [
+    false
+  ],
+  "FC Ararat-Armenia": [
+    true
+  ],
+  "Hapoel Be'er Sheva": [
+    false
+  ],
+  "OFI Crete": [
+    false
+  ],
+  "SK Sturm Graz": [
+    false
+  ],
+  "NK Celje": [
+    false
   ]
 }
