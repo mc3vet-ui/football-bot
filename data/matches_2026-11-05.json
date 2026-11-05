@@ -2,7 +2,8 @@
   "date": "2026-11-05",
   "generated_at": "2026-11-05T15:53:33.353860+03:00",
   "posted_batches": [
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -16,7 +17,7 @@
       "away_ru": "Ференцварош ТС",
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 594,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -25,7 +26,8 @@
         "line": -1.5,
         "odd": 1.94,
         "reasoning": "Милан играет дома и является явным фаворитом, поэтому ставка на фору -1.5 выглядит наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "9604c5b1c465435911e038db95ab2a7b",
@@ -38,7 +40,7 @@
       "away_ru": "Зальцбург",
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 595,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -47,7 +49,8 @@
         "line": null,
         "odd": 1.98,
         "reasoning": "У Андерлехта хороший показатель в прошлых прогнозах, а коэффициент 1.98 указывает на фаворитскую позицию."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "d437cbfcee6b57ec58d464e6b459c56e",
@@ -60,7 +63,7 @@
       "away_ru": "Борнмут",
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 596,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -69,7 +72,8 @@
         "line": 2.5,
         "odd": 1.6,
         "reasoning": "Коэффициент на тотал больше 2.5 самый низкий (1.6), что указывает на высокую вероятность более 2,5 голов в матче."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "2347e0e7725940f6a14d5a80601390a5",
@@ -82,7 +86,7 @@
       "away_ru": "Хоффенхайм",
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 597,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -91,7 +95,8 @@
         "line": 0.0,
         "odd": 1.46,
         "reasoning": "Кристал Пэлас является фаворитом, коэффициент на 0.0 форту (1.46) ниже, чем на победу (1.72), что указывает на большую вероятность победы или ничьи в их пользу."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "3493023efb0aadbdffe37e74e528177c",
@@ -104,7 +109,7 @@
       "away_ru": "Ягеллония Белосток",
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 598,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -113,7 +118,8 @@
         "line": 0.0,
         "odd": 1.5,
         "reasoning": "Левски играет дома и считается фаворитом, коэффициент 1.5 на форту 0.0 (draw no bet) дает хорошую ценность с минимальным риском."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "c50815d0a3cbc7dfe6b9f3a737ce4836",
@@ -126,7 +132,7 @@
       "away_ru": "Виктория Пльзень",
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 599,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -135,7 +141,8 @@
         "line": 0.0,
         "odd": 1.75,
         "reasoning": "Низкие коэффициенты на форту 0.0 в пользу гостя (1.75) указывают на наибольшую вероятность исхода."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "d6ef4964addd663baed90f8f19fda1d3",
@@ -148,7 +155,7 @@
       "away_ru": "Лион",
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 600,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -157,7 +164,8 @@
         "line": -1.5,
         "odd": 2.62,
         "reasoning": "У Реал Сосьедад отличная форма (4 из 4 прогнозов), играет дома и имеет фаворитский коэффициент; ставка на фору -1.5 выглядит наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "02228f9f6863e25c9538d6062932e155",
@@ -170,7 +178,7 @@
       "away_ru": "Омония ФК",
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 601,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -179,7 +187,8 @@
         "line": null,
         "odd": 1.66,
         "reasoning": "НЕК Неймеген явный фаворит с коэффициентом 1.66, что делает победу хозяина наиболее вероятным исходом."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "c91f4c9744f6ca502b7986a564e858df",
@@ -192,7 +201,7 @@
       "away_ru": "Ювентус",
       "kickoff_local": "2026-11-05 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 602,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -201,7 +210,8 @@
         "line": 0.5,
         "odd": 1.96,
         "reasoning": "Учитывая успешный прошлый прогноз на AZ и более надёжный спред, ставка на победу или ничью AZ с форой +0.5 имеет высокий шанс пройти."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "e1c3625feeebcd65317e17a4e9a38c4f",
@@ -214,7 +224,7 @@
       "away_ru": "Марсель",
       "kickoff_local": "2026-11-05 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 603,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -223,7 +233,8 @@
         "line": -1.5,
         "odd": 1.85,
         "reasoning": "Байер Леверкузен играет дома и имеет хорошие шансы выиграть с разницей более 1.5 гола, коэффициент 1.85 выглядит привлекательным."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "bc4a4cc34a2219d9564b7b0c17ba2934",
@@ -236,7 +247,7 @@
       "away_ru": "Лех Познань",
       "kickoff_local": "2026-11-05 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 604,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -245,7 +256,8 @@
         "line": -2.5,
         "odd": 1.97,
         "reasoning": "Бенфика играет дома и в листинге указана форой -2.5 с коэффициентом 1.97, что указывает на уверенный перевес, поэтому выбираем эту ставку."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "5ecf6578ba030a1e99abaa3200319e37",
@@ -258,7 +270,7 @@
       "away_ru": "Бешикташ Джей Кей",
       "kickoff_local": "2026-11-05 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 605,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -267,7 +279,8 @@
         "line": 2.5,
         "odd": 1.67,
         "reasoning": "Обе команды обладают атакующим потенциалом, поэтому в матче скорее всего будет более 2.5 голов; низкий коэффициент на Over 2.5 указывает на его большую вероятность."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "b828d43ba5fa1c8cdd2e34aabea9d0ce",
@@ -280,7 +293,7 @@
       "away_ru": "Юнион Сен-Жиллуаз",
       "kickoff_local": "2026-11-05 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 606,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -289,7 +302,8 @@
         "line": 0.0,
         "odd": 1.73,
         "reasoning": "Коэффициент на форту 0.0 в пользу хозяев самый низкий (1.73), что указывает на наибольшую вероятность. Кроме того, у Celta Vigo положительная история прогнозов (3 из 5)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "6dad8d4dd99ba6f5dae0b3abdf8f669b",
@@ -302,7 +316,7 @@
       "away_ru": "Динамо Загреб",
       "kickoff_local": "2026-11-05 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 607,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -311,7 +325,8 @@
         "line": -1.5,
         "odd": 2.27,
         "reasoning": "Сандерленд играет дома, у него хорошие показатели в последних прогнозах и шанс выиграть с разницей более 1.5 гола, а коэффициент 2.27 выглядит привлекательным."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "402e102fa845ed84ab7e59b3b17f8c29",
@@ -324,7 +339,7 @@
       "away_ru": "ФК Арарат-Армения",
       "kickoff_local": "2026-11-05 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 608,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -333,7 +348,8 @@
         "line": null,
         "odd": 1.64,
         "reasoning": "Торреенсе является явным фаворитом с самым низким коэффициентом 1.64, что указывает на наибольшую вероятность победы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "2af127e906ae56f3543d283b85f7b54e",
@@ -346,7 +362,7 @@
       "away_ru": "ОФИ Крит",
       "kickoff_local": "2026-11-05 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 609,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -355,7 +371,8 @@
         "line": -0.25,
         "odd": 1.92,
         "reasoning": "Небольшой форсированный гандикап -0.25 с коэффициентом 1.92 указывает на небольшое преимущество хозяев, что более надёжно, чем прямая ставка на победу."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "84b68e09ecbe93fdbce759cd822322a2",
@@ -368,7 +385,7 @@
       "away_ru": "НК Целье",
       "kickoff_local": "2026-11-05 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 610,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -377,7 +394,8 @@
         "line": -1.0,
         "odd": 1.83,
         "reasoning": "У хозяев сильный атакующий потенциал и домашнее поле, они часто выигрывают с разницей более одного гола, что делает ставку на покрытие форы -1.0 наиболее вероятной."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
