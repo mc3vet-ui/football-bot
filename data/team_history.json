@@ -490,7 +490,8 @@
     true,
     true,
     false,
-    true
+    true,
+    false
   ],
   "Auxerre": [
     false,
@@ -559,6 +560,7 @@
   ],
   "Bournemouth": [
     false,
+    true,
     true,
     true,
     true
@@ -919,7 +921,8 @@
     true,
     true,
     true,
-    true
+    true,
+    false
   ],
   "Atletico Madrid": [
     true,
@@ -1000,12 +1003,14 @@
   ],
   "AC Milan": [
     false,
+    false,
     false
   ],
   "Benfica": [
     false
   ],
   "Anderlecht": [
+    true,
     true
   ],
   "Celje": [
@@ -1066,7 +1071,8 @@
     true
   ],
   "NEC Nijmegen": [
-    false
+    false,
+    true
   ],
   "Plzen": [
     true
@@ -1078,7 +1084,8 @@
     true
   ],
   "Lillestrom": [
-    false
+    false,
+    true
   ],
   "Torreense": [
     false
@@ -1447,6 +1454,27 @@
     true
   ],
   "Sabah FK": [
+    true
+  ],
+  "Ferencváros TC": [
+    false
+  ],
+  "Salzburg": [
+    true
+  ],
+  "Sparta Prague": [
+    true
+  ],
+  "PFC Levski Sofia": [
+    true
+  ],
+  "Jagiellonia Białystok": [
+    true
+  ],
+  "Viktoria Plzeň": [
+    true
+  ],
+  "Omonoia FC": [
     true
   ]
 }

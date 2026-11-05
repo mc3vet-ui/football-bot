@@ -18,8 +18,8 @@
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
       "message_id": 594,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -27,7 +27,8 @@
         "odd": 1.94,
         "reasoning": "Милан играет дома и является явным фаворитом, поэтому ставка на фору -1.5 выглядит наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:2"
     },
     {
       "event_id": "9604c5b1c465435911e038db95ab2a7b",
@@ -41,8 +42,8 @@
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
       "message_id": 595,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -50,7 +51,8 @@
         "odd": 1.98,
         "reasoning": "У Андерлехта хороший показатель в прошлых прогнозах, а коэффициент 1.98 указывает на фаворитскую позицию."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:0"
     },
     {
       "event_id": "d437cbfcee6b57ec58d464e6b459c56e",
@@ -64,8 +66,8 @@
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
       "message_id": 596,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
@@ -73,7 +75,8 @@
         "odd": 1.6,
         "reasoning": "Коэффициент на тотал больше 2.5 самый низкий (1.6), что указывает на высокую вероятность более 2,5 голов в матче."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:3"
     },
     {
       "event_id": "2347e0e7725940f6a14d5a80601390a5",
@@ -87,7 +90,7 @@
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
       "message_id": 597,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -96,7 +99,8 @@
         "odd": 1.46,
         "reasoning": "Кристал Пэлас является фаворитом, коэффициент на 0.0 форту (1.46) ниже, чем на победу (1.72), что указывает на большую вероятность победы или ничьи в их пользу."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": "3493023efb0aadbdffe37e74e528177c",
@@ -110,8 +114,8 @@
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
       "message_id": 598,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -119,7 +123,8 @@
         "odd": 1.5,
         "reasoning": "Левски играет дома и считается фаворитом, коэффициент 1.5 на форту 0.0 (draw no bet) дает хорошую ценность с минимальным риском."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:0"
     },
     {
       "event_id": "c50815d0a3cbc7dfe6b9f3a737ce4836",
@@ -133,8 +138,8 @@
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
       "message_id": 599,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -142,7 +147,8 @@
         "odd": 1.75,
         "reasoning": "Низкие коэффициенты на форту 0.0 в пользу гостя (1.75) указывают на наибольшую вероятность исхода."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:1"
     },
     {
       "event_id": "d6ef4964addd663baed90f8f19fda1d3",
@@ -156,8 +162,8 @@
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
       "message_id": 600,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -165,7 +171,8 @@
         "odd": 2.62,
         "reasoning": "У Реал Сосьедад отличная форма (4 из 4 прогнозов), играет дома и имеет фаворитский коэффициент; ставка на фору -1.5 выглядит наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": "02228f9f6863e25c9538d6062932e155",
@@ -179,8 +186,8 @@
       "kickoff_local": "2026-11-05 20:45",
       "kickoff_hour": 20,
       "message_id": 601,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -188,7 +195,8 @@
         "odd": 1.66,
         "reasoning": "НЕК Неймеген явный фаворит с коэффициентом 1.66, что делает победу хозяина наиболее вероятным исходом."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:1"
     },
     {
       "event_id": "c91f4c9744f6ca502b7986a564e858df",
