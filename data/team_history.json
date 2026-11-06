@@ -196,12 +196,14 @@
     false,
     false,
     false,
-    true
+    true,
+    false
   ],
   "Sevilla": [
     true,
     true,
     false,
+    true,
     true
   ],
   "Atlético Madrid": [
@@ -353,7 +355,8 @@
     true,
     false,
     true,
-    true
+    true,
+    false
   ],
   "Preston North End": [
     true,
@@ -377,7 +380,8 @@
   "Derby County": [
     true,
     false,
-    true
+    true,
+    false
   ],
   "Swansea City": [
     true,
@@ -604,6 +608,7 @@
     false
   ],
   "Borussia Monchengladbach": [
+    false,
     false
   ],
   "Elversberg": [
@@ -634,6 +639,7 @@
     false
   ],
   "Coventry City": [
+    false,
     false
   ],
   "Crystal Palace": [
@@ -787,6 +793,7 @@
   "Venezia": [
     true,
     true,
+    true,
     true
   ],
   "Parma": [
@@ -809,7 +816,8 @@
     true,
     true,
     false,
-    true
+    true,
+    false
   ],
   "Sheffield Utd": [
     true,
@@ -948,7 +956,8 @@
   ],
   "Udinese": [
     false,
-    false
+    false,
+    true
   ],
   "Leeds": [
     true,
@@ -1154,6 +1163,7 @@
   ],
   "Everton": [
     true,
+    false,
     false
   ],
   "Ipswich": [
@@ -1314,7 +1324,8 @@
   "Toulouse": [
     true,
     false,
-    true
+    true,
+    false
   ],
   "Columbus Crew": [
     false,
@@ -1412,6 +1423,7 @@
     false
   ],
   "Alavés": [
+    true,
     true
   ],
   "Tottenham Hotspur": [
@@ -1513,6 +1525,12 @@
     false
   ],
   "NK Celje": [
+    false
+  ],
+  "Bristol Rovers": [
+    false
+  ],
+  "Cambridge United": [
     false
   ]
 }

@@ -66,8 +66,8 @@
       "kickoff_local": "2026-11-06 22:30",
       "kickoff_hour": 22,
       "message_id": 615,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -75,7 +75,8 @@
         "odd": 1.88,
         "reasoning": "Фора +0.25 в пользу гостя имеет более низкий коэффициент (1.88), что указывает на более высокую вероятность её реализации."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:1"
     },
     {
       "event_id": "a2cfd69166c7d4c8f255ab28fc38afb9",
@@ -89,8 +90,8 @@
       "kickoff_local": "2026-11-06 22:30",
       "kickoff_hour": 22,
       "message_id": 616,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -98,7 +99,8 @@
         "odd": 2.01,
         "reasoning": "Кембридж Юнайтед считается небольшим фаворитом, а ставка на их победу с форой -0.25 имеет более высокие шансы, чем прямая победа, и коэффициент 2.01 выглядит привлекательным."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:0"
     },
     {
       "event_id": "fa069801a5c9b49143447a1a1d173fd1",
@@ -112,8 +114,8 @@
       "kickoff_local": "2026-11-06 22:45",
       "kickoff_hour": 22,
       "message_id": 617,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -121,7 +123,8 @@
         "odd": 2.03,
         "reasoning": "Венеция имеет 3 из 3 удачных прогноза и играет дома, спред -0.25 с коэффициентом 2.03 выглядит наиболее вероятным вариантом"
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     },
     {
       "event_id": "5e7d141f719835de18877ed95bedcb32",
@@ -135,8 +138,8 @@
       "kickoff_local": "2026-11-06 22:45",
       "kickoff_hour": 22,
       "message_id": 618,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -144,7 +147,8 @@
         "odd": 1.98,
         "reasoning": "У Страсбурга хорошие показатели в прогнозах (75% успеха) и гандикап +0.25 даёт преимущество, при этом коэффициент 1.98, что делает ставку более надёжной, чем прямая победа."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:1"
     },
     {
       "event_id": "11047b1cde59d964057561511e731859",
@@ -181,8 +185,8 @@
       "kickoff_local": "2026-11-06 23:00",
       "kickoff_hour": 23,
       "message_id": 620,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -190,7 +194,8 @@
         "odd": 1.45,
         "reasoning": "Ковентри получает фору +1.5, коэффициент 1.45 указывает на высокую вероятность, что Эвертон не выиграет с разницей более одного гола."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:1"
     },
     {
       "event_id": "9dd0014685fd62d9b2890d7c33a8c9ab",
@@ -204,8 +209,8 @@
       "kickoff_local": "2026-11-06 23:00",
       "kickoff_hour": 23,
       "message_id": 621,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "under",
@@ -213,7 +218,8 @@
         "odd": 1.7,
         "reasoning": "Низкие коэффициенты и статистика указывают на то, что в матче будет менее 2.5 голов"
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:0"
     },
     {
       "event_id": "af665449ac9e2c4e1f183376e85fc936",
@@ -227,8 +233,8 @@
       "kickoff_local": "2026-11-06 23:00",
       "kickoff_hour": 23,
       "message_id": 622,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -236,7 +242,8 @@
         "odd": 1.92,
         "reasoning": "На форуме 0.0 Болтон имеет более низкий коэффициент (1.92) и в последних прогнозах команда показывала 75% успеха, что делает эту ставку наиболее вероятной."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:1"
     }
   ]
 }
