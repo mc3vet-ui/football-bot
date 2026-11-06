@@ -18,8 +18,8 @@
       "kickoff_local": "2026-11-06 20:30",
       "kickoff_hour": 20,
       "message_id": 613,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
@@ -27,7 +27,8 @@
         "odd": 1.42,
         "reasoning": "Фора 0.0 в пользу хозяев имеет лучший коэффициент (1.42) и учитывая успешные прошлые прогнозы на Динамо, это наиболее вероятный вариант."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "3:0"
     },
     {
       "event_id": "2dadc88ea39453a5f2b10fc9a3a30f4b",
@@ -41,8 +42,8 @@
       "kickoff_local": "2026-11-06 20:30",
       "kickoff_hour": 20,
       "message_id": 614,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -50,7 +51,8 @@
         "odd": 1.92,
         "reasoning": "Эйнтрахт Брауншвейг показывает хорошую форму, последние прогнозы на неё 2 из 2, а коэффициент победы 1.92 выглядит наиболее вероятным вариантом."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "0:0"
     },
     {
       "event_id": "295076c39e49863cb54db085ac3cd340",

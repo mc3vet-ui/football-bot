@@ -555,7 +555,8 @@
   ],
   "FC Energie Cottbus": [
     false,
-    true
+    true,
+    false
   ],
   "Newcastle United": [
     false,
@@ -663,6 +664,7 @@
   ],
   "Dynamo Dresden": [
     false,
+    true,
     true,
     true
   ],
@@ -1120,7 +1122,8 @@
   ],
   "Eintracht Braunschweig": [
     true,
-    true
+    true,
+    false
   ],
   "Tottenham": [
     false
@@ -1425,6 +1428,7 @@
     false
   ],
   "Greuther Fürth": [
+    true,
     true
   ],
   "Galatasaray": [
