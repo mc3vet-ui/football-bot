@@ -69,6 +69,7 @@
     true,
     true,
     true,
+    true,
     true
   ],
   "Nice": [
@@ -86,7 +87,8 @@
     true,
     false,
     true,
-    false
+    false,
+    true
   ],
   "Real Madrid": [
     true,
@@ -247,10 +249,12 @@
     false,
     true,
     false,
+    true,
     true
   ],
   "CA Osasuna": [
     true,
+    false,
     false
   ],
   "Getafe": [
@@ -270,6 +274,7 @@
     true,
     true,
     false,
+    true,
     true
   ],
   "Aston Villa": [
@@ -322,7 +327,8 @@
   "Athletic Bilbao": [
     true,
     true,
-    true
+    true,
+    false
   ],
   "Columbus Crew SC": [
     true,
@@ -531,6 +537,7 @@
     false,
     false,
     true,
+    true,
     true
   ],
   "Liverpool": [
@@ -544,6 +551,7 @@
     false,
     true,
     false,
+    true,
     true
   ],
   "1. FC Köln": [
@@ -667,6 +675,7 @@
     true,
     false,
     true,
+    false,
     false
   ],
   "Coventry City": [
@@ -835,7 +844,8 @@
     false,
     false,
     true,
-    false
+    false,
+    true
   ],
   "Monza": [
     true,
@@ -954,6 +964,7 @@
   "Sassuolo": [
     false,
     false,
+    true,
     true
   ],
   "Juventus": [
@@ -1351,6 +1362,7 @@
     false
   ],
   "Nottingham Forest": [
+    false,
     false,
     false
   ],
@@ -1755,6 +1767,12 @@
     true
   ],
   "Sholing FC": [
+    true
+  ],
+  "Altrincham FC": [
+    true
+  ],
+  "Notts County FC": [
     true
   ]
 }
