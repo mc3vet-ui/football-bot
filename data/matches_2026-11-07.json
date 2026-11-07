@@ -17,15 +17,16 @@
       "kickoff_local": "2026-11-07 15:00",
       "kickoff_hour": 15,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 2.5,
         "odd": 1.62,
         "reasoning": "Тотал Over 2.5 имеет самый низкий коэффициент (1.62), что указывает на наибольшую вероятность, и обе команды способны обеспечить более 2.5 гола в матче."
-      }
+      },
+      "final_score": "0:1"
     },
     {
       "event_id": "3b9a50f1eb2723779a14eae1199c8e5c",
@@ -39,15 +40,16 @@
       "kickoff_local": "2026-11-07 15:00",
       "kickoff_hour": 15,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 1.0,
         "odd": 1.71,
         "reasoning": "Успешные прогнозы на Дармштадт (4/4) и коэффициент на их фору +1.0 (1.71) указывают на высокую вероятность, что команда не проиграет более чем в один мяч."
-      }
+      },
+      "final_score": "2:0"
     },
     {
       "event_id": "1a2b66dec637d06c15d3902ac9068c1f",
@@ -61,15 +63,16 @@
       "kickoff_local": "2026-11-07 15:00",
       "kickoff_hour": 15,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
         "line": null,
         "odd": 2.38,
         "reasoning": "Хольштейн Киль играет дома, имеет лучшую статистику прошлых прогнозов (50% vs 33% у Арминии) и коэффициент на победу хозяев самый низкий среди доступных, что указывает на наибольшую вероятность выигрыша."
-      }
+      },
+      "final_score": "1:2"
     },
     {
       "event_id": "5c87852253fd11eea5d34ad723356607",
@@ -83,15 +86,16 @@
       "kickoff_local": "2026-11-07 15:30",
       "kickoff_hour": 15,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 0.0,
         "odd": 1.91,
         "reasoning": "Тоттенхэм имеет 100% успех в прошлых прогнозах и является фаворитом в спреде с коэффициентом 1.91, что делает ставку на победу гостя наиболее вероятной."
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "89fe6860f3058526dd227dc27efd902a",
@@ -105,15 +109,16 @@
       "kickoff_local": "2026-11-07 15:30",
       "kickoff_hour": 15,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 2.5,
         "odd": 1.76,
         "reasoning": "Тотал больше 2.5 имеет самый низкий коэффициент (1.76), что указывает на высокую вероятность, а учитывая хорошие прогнозы на Norwich, ожидается открытая игра."
-      }
+      },
+      "final_score": "0:5"
     },
     {
       "event_id": "e8492593cecfc388af8a4852f06599c6",
@@ -127,15 +132,16 @@
       "kickoff_local": "2026-11-07 15:30",
       "kickoff_hour": 15,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "under",
         "line": 2.5,
         "odd": 1.57,
         "reasoning": "Низкие коэффициенты на тотал меньше 2.5 (1.57) указывают на высокую вероятность небольшого количества голов; учитывая отсутствие убедительного варианта в форе, ставка на \"Тотал УНДЕР 2.5\" выглядит наиболее надёжной."
-      }
+      },
+      "final_score": "1:2"
     },
     {
       "event_id": "a88341ac02c8103eedc594a2ceb3a400",
@@ -149,15 +155,16 @@
       "kickoff_local": "2026-11-07 15:30",
       "kickoff_hour": 15,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 1.0,
         "odd": 1.36,
         "reasoning": "Коэффициент 1.36 указывает на высокую вероятность того, что хозяева не проиграют с разницей более одного гола; учитывая, что фаворит играет в гостях, такой результат выглядит наиболее вероятным."
-      }
+      },
+      "final_score": "1:1"
     },
     {
       "event_id": "de935794b7d93f3607ac9ad54d18f4c7",
@@ -171,15 +178,16 @@
       "kickoff_local": "2026-11-07 16:00",
       "kickoff_hour": 16,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 0.25,
         "odd": 1.83,
         "reasoning": "Учитывая успешные прошлые прогнозы на Real Racing и более низкий коэффициент на их фору +0.25, этот вариант имеет наибольшую вероятность."
-      }
+      },
+      "final_score": "1:2"
     },
     {
       "event_id": "52b256088d29b4abb82e0c63ea9852fe",

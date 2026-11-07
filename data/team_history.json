@@ -10,7 +10,8 @@
     true,
     true,
     true,
-    true
+    true,
+    false
   ],
   "1. FC Magdeburg": [
     false,
@@ -23,13 +24,15 @@
     true,
     false,
     true,
-    true
+    true,
+    false
   ],
   "SV Darmstadt 98": [
     true,
     true,
     true,
-    true
+    true,
+    false
   ],
   "Hannover 96": [
     true,
@@ -95,6 +98,7 @@
     false
   ],
   "Málaga": [
+    true,
     true
   ],
   "Rennes": [
@@ -368,13 +372,15 @@
     true,
     false,
     true,
-    false
+    false,
+    true
   ],
   "Portsmouth": [
     true,
     false,
     false,
     true,
+    false,
     false
   ],
   "Derby County": [
@@ -404,7 +410,8 @@
     true,
     false,
     false,
-    false
+    false,
+    true
   ],
   "Birmingham City": [
     false,
@@ -424,9 +431,11 @@
     true,
     true,
     true,
+    false,
     false
   ],
   "Norwich City": [
+    true,
     true,
     true,
     true,
@@ -464,7 +473,8 @@
   "Wrexham AFC": [
     false,
     true,
-    false
+    false,
+    true
   ],
   "Burnley": [
     false,
@@ -483,6 +493,7 @@
   ],
   "Arminia Bielefeld": [
     true,
+    false,
     false,
     false
   ],
@@ -551,6 +562,7 @@
   "1. FC Nürnberg": [
     false,
     true,
+    false,
     false
   ],
   "VfL Wolfsburg": [
@@ -660,6 +672,7 @@
     false
   ],
   "Real Racing Club de Santander": [
+    true,
     true,
     true
   ],
@@ -846,6 +859,7 @@
   ],
   "VfL Osnabrück": [
     true,
+    false,
     false
   ],
   "Hertha BSC": [
@@ -1420,6 +1434,7 @@
     true
   ],
   "Leeds United": [
+    false,
     false
   ],
   "Alavés": [
@@ -1427,7 +1442,8 @@
     true
   ],
   "Tottenham Hotspur": [
-    true
+    true,
+    false
   ],
   "D.C. United": [
     true
