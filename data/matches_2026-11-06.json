@@ -162,8 +162,8 @@
       "kickoff_local": "2026-11-06 22:45",
       "kickoff_hour": 22,
       "message_id": 619,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -171,7 +171,8 @@
         "odd": 1.94,
         "reasoning": "Лестер Сити явно фаворит, их шансы победить с форой -1.5 выше 1.9, что указывает на высокую вероятность победы минимум в два гола."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:4"
     },
     {
       "event_id": "586bec023ee8ac2f0645d963bd2c9d25",
