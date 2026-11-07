@@ -201,15 +201,16 @@
       "kickoff_local": "2026-11-07 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
         "line": null,
         "odd": 2.23,
         "reasoning": "Фрозиноне имеет более высокую точность прошлых прогнозов (3 из 4) и коэффициент победы выше, что делает ставку на их победу наиболее вероятной."
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "0d53a5dbd9d4f4716e923b97e92dfb0d",
@@ -223,15 +224,16 @@
       "kickoff_local": "2026-11-07 17:00",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -0.5,
         "odd": 1.83,
         "reasoning": "Торино играет дома и является фаворитом с коэффициентом 1.83; ставка на фору -0.5 требует победы хотя бы с одним голом, что обычно надёжнее простой победы или тотала."
-      }
+      },
+      "final_score": "1:1"
     },
     {
       "event_id": "cdb5f9dd39e79db69659c76cd96d0bbe",
@@ -245,15 +247,16 @@
       "kickoff_local": "2026-11-07 17:30",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 3.75,
         "odd": 1.82,
         "reasoning": "Лейпциг дома обычно забивает много, а коэффициент на тотал более 3.75 (1.82) указывает на вероятность выше 50%."
-      }
+      },
+      "final_score": "5:2"
     },
     {
       "event_id": "fe97f5adf397dd6b0a8a9e0a5272f307",
@@ -267,15 +270,16 @@
       "kickoff_local": "2026-11-07 17:30",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": -1.75,
         "odd": 1.88,
         "reasoning": "Бавария явно сильнее Майнца, вероятность победы с разницей минимум в два мяча высока, коэффициент 1.88 оправдан."
-      }
+      },
+      "final_score": "1:2"
     },
     {
       "event_id": "3ef62ef56758041178c5280225fe5db7",
@@ -289,15 +293,16 @@
       "kickoff_local": "2026-11-07 17:30",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.5,
         "odd": 1.9,
         "reasoning": "Дортмунд играет дома против слабого соперника, статистика прогнозов показывает 60% успешных ставок на него, а коэффициент на форту -1.5 (1.9) указывает на высокую вероятность победы с разницей минимум в два гола."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "4ca4c7a2a1c15e9121f9a7eaa7f42ddb",
@@ -311,7 +316,7 @@
       "kickoff_local": "2026-11-07 17:30",
       "kickoff_hour": 17,
       "message_id": null,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -319,7 +324,8 @@
         "line": 0.0,
         "odd": 1.81,
         "reasoning": "Франкфурт показывает более высокий процент успешных прогнозов и ставка на форой -0.0 (драфт‑но‑бет) имеет наибольшую вероятность исхода."
-      }
+      },
+      "final_score": "2:2"
     },
     {
       "event_id": "842fcc5b9feb8c63054a661ad1fc8926",
@@ -333,15 +339,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -2.5,
         "odd": 2.35,
         "reasoning": "Арсенал играет дома и явно сильнее, вероятность победы с разницей более 2.5 гола высока"
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "3903e98a54db0f2cc23095407fe9dad8",
@@ -355,7 +362,7 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -363,7 +370,8 @@
         "line": 0.0,
         "odd": 1.57,
         "reasoning": "Фулхэм имеет более высокий шанс победы (коэффициент 2.09) и хорошую статистику прогнозов (3 из 4), а ставка на форту 0.0 с коэффициентом 1.57 дает наибольшую вероятность выигрыша без риска ничьи."
-      }
+      },
+      "final_score": "1:1"
     },
     {
       "event_id": "82688a32b0049a0c66b2e56309b6b67b",
@@ -377,7 +385,7 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -385,7 +393,8 @@
         "line": 1.0,
         "odd": 1.44,
         "reasoning": "Ставка на фору Суанси +1.0, так как команда имеет высокий процент успешных прогнозов (3/4) и коэффициент 1.44, что указывает на небольшую рискованность и хорошую вероятность не проиграть более чем в 1 гол."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "228a3fca36f1fc8943ab0b7c54f06860",
@@ -399,15 +408,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
         "line": null,
         "odd": 1.65,
         "reasoning": "Вест Хэм явный фаворит с коэффициентом 1.65 и историей успешных прогнозов (2 из 3), поэтому ставка на их победу наиболее вероятна."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "463c2870517b0ad28afcbd8775287064",
@@ -421,7 +431,7 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -429,7 +439,8 @@
         "line": 1.0,
         "odd": 1.44,
         "reasoning": "Учитывая более высокую успешность прошлых прогнозов на Burnley (60%) и низкий риск при ставке на форту +1.0, эта ставка выглядит наиболее надёжной."
-      }
+      },
+      "final_score": "5:4"
     },
     {
       "event_id": "e1b2a10bfd51e1716202de92f585f502",
@@ -443,15 +454,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 1.0,
         "odd": 1.41,
         "reasoning": "Чалтон получает фору +1 с низким коэффициентом 1.41, что указывает на высокую вероятность не проиграть более чем в одну шайбу, учитывая хорошие результаты прошлых прогнозов."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "611adbd4bc3a3e1b8b03def9d8a29e54",
@@ -465,7 +477,7 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -473,7 +485,8 @@
         "line": 1.0,
         "odd": 1.73,
         "reasoning": "Фора Линкольн Сити +1.0 имеет самый низкий коэффициент среди доступных фор, что указывает на высокую вероятность того, что команда не проиграет более чем в одно очко; обе команды показывали хорошие результаты в прошлых прогнозах."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "a30b201e4df636949371d73491c620b5",
@@ -487,15 +500,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 1.0,
         "odd": 2.12,
         "reasoning": "Уотфорд получает фору +1.0 с коэффициентом 2.12, а прошлые прогнозы на Уотфорд имели 100% успех, что делает эту ставку наиболее вероятной."
-      }
+      },
+      "final_score": "0:0"
     },
     {
       "event_id": "b990dcb534c9019a2846d11c7d879030",
@@ -509,15 +523,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 1.0,
         "odd": 1.36,
         "reasoning": "Фора Миллволл +1.0 имеет наименьший риск и более высокий шанс успеха, учитывая плохие результаты прогнозов Вест Бромвич и более низкий коэффициент."
-      }
+      },
+      "final_score": "3:0"
     },
     {
       "event_id": "4330962b4e3ef6768d90008d6befb10d",
@@ -531,15 +546,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 1.0,
         "odd": 1.9,
         "reasoning": "Прогнозируем, что Престон сможет удержать разницу в один гол, так как матч ожидается напряжённым, а коэффициент на фору +1.0 (1.9) выглядит наиболее вероятным."
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "4ef5e708a61c4776165a19afbbf6386a",
@@ -553,15 +569,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -0.5,
         "odd": 1.93,
         "reasoning": "Фора -0.5 для хозяина имеет коэффициент 1.93, что указывает на небольшое преимущество хозяев, и спред обычно более надёжен, чем прямой исход."
-      }
+      },
+      "final_score": "1:4"
     },
     {
       "event_id": "223ee579af6d52020487330258793b05",
@@ -575,15 +592,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -2.75,
         "odd": 1.94,
         "reasoning": "Фора -2.75 на хозяев имеет более низкий коэффициент (1.94), что указывает на более высокую вероятность её исхода."
-      }
+      },
+      "final_score": "4:0"
     },
     {
       "event_id": "1177ee34714042a2aadf1e7be65f1f3f",
@@ -597,15 +615,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 0.25,
         "odd": 1.81,
         "reasoning": "Низкие коэффициенты у форы AFC Wimbledon +0.25 (1.81) указывают на наибольшую вероятность исхода."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "6f1692ae95ae69b37f077a96bbb90c04",
@@ -619,15 +638,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 0.25,
         "odd": 1.97,
         "reasoning": "Вайкомб небольшой фаворит, но разница в форe небольшая, поэтому ставка на то, что хозяева не проиграют (+0.25), имеет наибольшую вероятность."
-      }
+      },
+      "final_score": "0:2"
     },
     {
       "event_id": "33f8b0cf4bb1122bace8eff0cac4e53b",
@@ -641,15 +661,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.75,
         "odd": 1.91,
         "reasoning": "Барнсли явный фаворит, ожидается победа с разницей минимум в два гола, коэффициент 1.91 выглядит обоснованным."
-      }
+      },
+      "final_score": "7:2"
     },
     {
       "event_id": "bf11813920b38df905a906fe81cf173f",
@@ -663,15 +684,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "away",
         "line": null,
         "odd": 12.06,
         "reasoning": "Прогноз по коэффициентам букмекера (ИИ-анализ временно недоступен)."
-      }
+      },
+      "final_score": "4:0"
     },
     {
       "event_id": "01af22354338961e182ffb5eba5a5ad6",
@@ -685,15 +707,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -0.75,
         "odd": 2.0,
         "reasoning": "Барнет играет дома и является фаворитом (коэффициент 1.78). Фора -0.75 с коэффициентом 2.0 показывает, что они должны выиграть хотя бы с разницей в один гол, что выглядит наиболее вероятным вариантом."
-      }
+      },
+      "final_score": "3:0"
     },
     {
       "event_id": "4eb79fa9b03661a5e16addb93f8ca61e",
@@ -707,15 +730,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 0.0,
         "odd": 1.51,
         "reasoning": "Гиллингем играет дома, коэффициент 1.51 — самый низкий, указывающий на наибольшую вероятность победы."
-      }
+      },
+      "final_score": "0:1"
     },
     {
       "event_id": "4d284d4ab3d3c83412130ea2a467970f",
@@ -729,7 +753,7 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "totals",
@@ -737,7 +761,8 @@
         "line": 3.0,
         "odd": 1.89,
         "reasoning": "Низкий тотал 3.0 с коэффициентом 1.89 указывает на большую вероятность, что в матче будет менее 3 голов."
-      }
+      },
+      "final_score": "1:2"
     },
     {
       "event_id": "ca82afcbf53e63dbbdd3c5d77d8e3b64",
@@ -751,15 +776,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -0.75,
         "odd": 1.99,
         "reasoning": "Бореам Вуд играет дома, коэффициент на победу с форой -0.75 (1.99) показывает, что они считаются фаворитом и должны выиграть хотя бы с разницей в один гол."
-      }
+      },
+      "final_score": "0:3"
     },
     {
       "event_id": "24eed1b69953fd73f546a7f7f7b0103e",
@@ -773,15 +799,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.75,
         "odd": 1.81,
         "reasoning": "Брадфорд Сити играет дома и считается явным фаворитом, поэтому победа с разницей минимум в 2 гола выглядит наиболее вероятной."
-      }
+      },
+      "final_score": "7:0"
     },
     {
       "event_id": "d9f354f2d3dae7bf4880a0e48df41c4a",
@@ -795,15 +822,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 0.5,
         "odd": 1.84,
         "reasoning": "Коэффициент на фору Ротерхэм +0.5 самый низкий, что указывает на наибольшую вероятность того, что команда не проиграет более чем с разницей в один гол."
-      }
+      },
+      "final_score": "0:2"
     },
     {
       "event_id": "be3fcb0aaaf07ae7a9b653c7d2437846",
@@ -817,15 +845,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 0.0,
         "odd": 1.79,
         "reasoning": "Коэффициент на Salford City в форe 0.0 (1.79) самый низкий, что указывает на наибольшую вероятность их победы; рынок форe обычно надёжнее, чем прямой исход."
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "ad3b84c613ba9e6536347a743b9e91e2",
@@ -839,15 +868,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -0.25,
         "odd": 2.0,
         "reasoning": "Челтнем Таун играет дома, а коэффициент на фору -0.25 (2.0) указывает на небольшое преимущество, спреды обычно более надёжны, чем тоталы, поэтому это наиболее вероятный вариант."
-      }
+      },
+      "final_score": "2:0"
     },
     {
       "event_id": "fa297b1bb43c042668e7cbf69bf4ff29",
@@ -861,15 +891,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
         "line": null,
         "odd": 1.51,
         "reasoning": "Честерфилд играет дома и является явным фаворитом, коэффициент 1.51 указывает на высокую вероятность победы."
-      }
+      },
+      "final_score": "4:3"
     },
     {
       "event_id": "c0df356f14ab84850d3f0f5b1a2e7c10",
@@ -883,15 +914,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.5,
         "odd": 1.88,
         "reasoning": "Колчестер Юнайтед — явный фаворит дома, а ставка на фору -1.5 имеет более высокую вероятность выигрыша, чем аутсайдер или ничья."
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "83305f5928c73bb22b600a815f6a42af",
@@ -905,15 +937,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": -0.5,
         "odd": 1.84,
         "reasoning": "Донкастер Роверс — явный фаворит, ставка на их победу с форой -0.5 имеет высокий шанс и коэффициент 1.84."
-      }
+      },
+      "final_score": "3:0"
     },
     {
       "event_id": "c68b9b8ec959d5469ed391fb5c83b9e9",
@@ -927,15 +960,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 0.5,
         "odd": 1.93,
         "reasoning": "Выбираем фору +0.5 для хозяина, так как ставка покрывает победу или ничью дома и имеет более высокие шансы, чем outright победа аутсайдера."
-      }
+      },
+      "final_score": "2:0"
     },
     {
       "event_id": "060caee32440545181468f5fcb86ba13",
@@ -949,15 +983,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": -0.5,
         "odd": 1.89,
         "reasoning": "Шрусбери Таун явный фаворит, коэффициент -0.5 (1.89) соответствует их преимуществу и обычно более надёжен, чем простой исход."
-      }
+      },
+      "final_score": "1:2"
     },
     {
       "event_id": "b0c99381498992bc1a5509cc49ef5e9d",
@@ -971,15 +1006,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.25,
         "odd": 1.83,
         "reasoning": "Хаддерсфилд играет дома, является явным фаворитом, а коэффициент -1.25 (1.83) предлагает реалистичный вариант победы с разницей более одного гола"
-      }
+      },
+      "final_score": "1:2"
     },
     {
       "event_id": "0f385a5872fb59900213de6415b79b50",
@@ -993,15 +1029,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -0.75,
         "odd": 1.91,
         "reasoning": "Флитвуд Таун играет дома и считается фаворитом, вероятно победит с разницей минимум в один гол, что покрывает форту -0.75"
-      }
+      },
+      "final_score": "1:2"
     },
     {
       "event_id": "f4a57f5b8ec8cf8eb4606ec168205bfc",
@@ -1015,15 +1052,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.5,
         "odd": 1.88,
         "reasoning": "Лутон играет дома и считается фаворитом, вероятность победы с разницей минимум в два гола выше, коэффициент ниже, чем у фореста +1.5."
-      }
+      },
+      "final_score": "2:0"
     },
     {
       "event_id": "12f4bedf857e6e3bbe1920e5d0b124bd",
@@ -1037,15 +1075,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 2.5,
         "odd": 1.83,
         "reasoning": "Самый низкий коэффициент у тотала Over 2.5 (1.83), а тоталы обычно более надёжны, чем прямой исход, поэтому выбираем более вероятный вариант – матч с более чем 2.5 голами."
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "c2b74a8800994cf8201b4da5831faa40",
@@ -1059,15 +1098,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.25,
         "odd": 1.85,
         "reasoning": "Лейтон Ориент явно фаворит, а форой -1.25 с коэффициентом 1.85 показывает высокую вероятность победы с разницей минимум в два гола."
-      }
+      },
+      "final_score": "5:1"
     },
     {
       "event_id": "7d1259dfc6a03ea318e89a92682386ed",
@@ -1081,15 +1121,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.5,
         "odd": 1.98,
         "reasoning": "Мэнсфилд Таун является явным фаворитом (коэффициент 1.35), поэтому победа с разницей минимум в 2 гола (-1.5) выглядит наиболее вероятной."
-      }
+      },
+      "final_score": "3:0"
     },
     {
       "event_id": "b6036403155ba29fe45d071b9409f595",
@@ -1103,15 +1144,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
         "line": null,
         "odd": 1.45,
         "reasoning": "Домашняя команда явно фаворит, коэффициент 1.45 указывает на высокую вероятность победы (~69%)."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "91ae19b9b078bccf467811c586b0dbe5",
@@ -1125,15 +1167,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 0.0,
         "odd": 1.88,
         "reasoning": "Рынок форы обычно надёжнее, коэффициент 1.88 указывает на высокую вероятность, что хозяин не проиграет (выиграет или сыграет вничью)."
-      }
+      },
+      "final_score": "3:1"
     },
     {
       "event_id": "cf35dd879b49980fb3a891655c81f90b",
@@ -1147,15 +1190,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -0.5,
         "odd": 1.83,
         "reasoning": "Йорк Сити ФК играет дома и является фаворитом; форой -0.5 с коэффициентом 1.83 предлагает высокую вероятность победы с разницей хотя бы в один мяч."
-      }
+      },
+      "final_score": "4:0"
     },
     {
       "event_id": "4d07dbbf66aed980ca56b6b3894e731b",
@@ -1169,15 +1213,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -0.25,
         "odd": 1.81,
         "reasoning": "Оксфорд Юнайтед играет дома и считается фаворитом, коэффициент на фору -0.25 (1.81) самый низкий, что указывает на наибольшую вероятность выигрыша."
-      }
+      },
+      "final_score": "0:1"
     },
     {
       "event_id": "7260ba7fdba6afb8cfdf17e1d9ee7acf",
@@ -1191,15 +1236,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
         "line": null,
         "odd": 1.56,
         "reasoning": "Порт Вейл — явный фаворит с коэффициентом 1.56, что указывает на высокую вероятность победы в матче."
-      }
+      },
+      "final_score": "4:2"
     },
     {
       "event_id": "e5caf2fc06a824b6e8d7f29f9ec4809c",
@@ -1213,15 +1259,16 @@
       "kickoff_local": "2026-11-07 18:00",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.25,
         "odd": 1.85,
         "reasoning": "Салисбери ФК явный фаворит (коэффициент 1.38), а фора -1.25 с коэффициентом 1.85 указывает на высокую вероятность победы с разницей минимум в два гола."
-      }
+      },
+      "final_score": "6:0"
     },
     {
       "event_id": "262c2c99c38456b8a70cb9daa32f2f6d",
@@ -1235,15 +1282,16 @@
       "kickoff_local": "2026-11-07 18:15",
       "kickoff_hour": 18,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "under",
         "line": 2.5,
         "odd": 1.8,
         "reasoning": "Низкий коэффициент 1.8 у тотала ниже 2.5 указывает на наибольшую вероятность исхода."
-      }
+      },
+      "final_score": "0:0"
     },
     {
       "event_id": "813cc4970b2dcab8457490a332fb5a6c",

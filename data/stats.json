@@ -197,9 +197,9 @@
     "balance": -2910.0
   },
   "2026-11-07": {
-    "correct": 3,
-    "incorrect": 5,
-    "push": 0,
-    "balance": -3050.0
+    "correct": 25,
+    "incorrect": 25,
+    "push": 6,
+    "balance": -4890.0
   }
 }
