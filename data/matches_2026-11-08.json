@@ -2,7 +2,8 @@
   "date": "2026-11-08",
   "generated_at": "2026-11-08T14:41:23.593915+03:00",
   "posted_batches": [
-    "morning"
+    "morning",
+    "evening"
   ],
   "matches": [
     {
@@ -397,7 +398,7 @@
       "away_ru": "АС Монако",
       "kickoff_local": "2026-11-08 19:15",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 668,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -406,7 +407,8 @@
         "line": -0.75,
         "odd": 1.86,
         "reasoning": "Монaко является явным фаворитом, а форой -0.75 они должны выиграть хотя бы с разницей в один гол, что более вероятно, чем чистая победа без форы."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "54fae64b1421d836e07a17cad0536c73",
@@ -419,7 +421,7 @@
       "away_ru": "Ницца",
       "kickoff_local": "2026-11-08 19:15",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 669,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -428,7 +430,8 @@
         "line": 0.5,
         "odd": 1.85,
         "reasoning": "У Анже небольшое преимущество по форe +0.5, коэффициент 1.85 и хорошие результаты прошлых прогнозов (2 из 3)."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "cc9731ee7796fe0d532f11ca2aa522c9",
@@ -441,7 +444,7 @@
       "away_ru": "Лион",
       "kickoff_local": "2026-11-08 19:15",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 670,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -450,7 +453,8 @@
         "line": null,
         "odd": 2.55,
         "reasoning": "У Лиона более высокая эффективность прошлых прогнозов (3 из 6) и он является фаворитом матча, коэффициент 2.55, что делает ставку на победу гостя наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "3e9954446f26494c04c4967db523d375",
@@ -463,7 +467,7 @@
       "away_ru": "Лориан",
       "kickoff_local": "2026-11-08 19:15",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 671,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -472,7 +476,8 @@
         "line": 0.25,
         "odd": 1.83,
         "reasoning": "Коэффициент 1.83 на спреде Le Havre +0.25 показывает наибольшую вероятность, а спреды обычно надёжнее, чем outright."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "b0a4b5448a7e02d9ad1eaa817599fff0",
@@ -485,7 +490,7 @@
       "away_ru": "Астон Вилла",
       "kickoff_local": "2026-11-08 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 672,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -494,7 +499,8 @@
         "line": 0.0,
         "odd": 1.67,
         "reasoning": "У Манчестер Юнайтед хорошая форма и 4 из 5 прогнозов оказались верными, играя дома, они являются фаворитом, а ставка на форту 0.0 с коэффициентом 1.67 имеет наибольшую вероятность выигрыша."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "c1b9696d88719cb8832d794b986cdd68",
@@ -507,7 +513,7 @@
       "away_ru": "Унион Берлин",
       "kickoff_local": "2026-11-08 19:30",
       "kickoff_hour": 19,
-      "message_id": null,
+      "message_id": 673,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -516,7 +522,8 @@
         "line": -1.25,
         "odd": 2.0,
         "reasoning": "Фрайбург играет дома и имеет хорошие шансы выиграть с разницей минимум в два гола, коэффициент 2.0 выглядит привлекательным."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "657fd1ac35832f65fcc6feba93970e10",
@@ -529,7 +536,7 @@
       "away_ru": "Комо",
       "kickoff_local": "2026-11-08 20:00",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 674,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -538,7 +545,8 @@
         "line": -0.5,
         "odd": 2.05,
         "reasoning": "Интер Милан является фаворитом, в прошлых прогнозах на эту команду 75% успеха, а коэффициент на фору -0.5 (2.05) предлагает хорошую ценность."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "1564b836c58a5d41b3b07681dcda2a45",
@@ -551,7 +559,7 @@
       "away_ru": "Шеффилд Уэнсдей",
       "kickoff_local": "2026-11-08 20:15",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 675,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -560,7 +568,8 @@
         "line": -0.25,
         "odd": 1.88,
         "reasoning": "Небольшой фор-0.25 в пользу Sheffield Wednesday имеет более низкие коэффициенты, что указывает на большую вероятность победы гостя."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "0d2e199bfba0db42871696c10037bad3",
@@ -573,7 +582,7 @@
       "away_ru": "Леванте",
       "kickoff_local": "2026-11-08 20:30",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 676,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -582,7 +591,8 @@
         "line": -0.5,
         "odd": 1.83,
         "reasoning": "Кэльта Вига играет дома и является фаворитом; фора -0.5 с тем же коэффициентом 1.83 указывает на высокую вероятность победы с разницей минимум в один мяч."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "81ad04996f63fb60b494d243b13ac586",
@@ -595,7 +605,7 @@
       "away_ru": "Хетафе",
       "kickoff_local": "2026-11-08 20:30",
       "kickoff_hour": 20,
-      "message_id": null,
+      "message_id": 677,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -604,7 +614,8 @@
         "line": null,
         "odd": 1.51,
         "reasoning": "Вильярреаль — явный фаворит с коэффициентом 1.51, что делает ставку на их победу наиболее вероятной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "8963081c3457212ee238b498bbc33a03",
@@ -617,7 +628,7 @@
       "away_ru": "ФК Шальке 04",
       "kickoff_local": "2026-11-08 21:30",
       "kickoff_hour": 21,
-      "message_id": null,
+      "message_id": 678,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -626,7 +637,8 @@
         "line": 3.0,
         "odd": 2.02,
         "reasoning": "Хоффенхайм — явный фаворит, а ожидаемое количество голов в матче небольшое, поэтому тотал меньше 3.0 имеет высокий шанс реализации."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "7f50eb7deaebfbcd45c3f4e7cd3724e4",
@@ -639,7 +651,7 @@
       "away_ru": "Ювентус",
       "kickoff_local": "2026-11-08 22:45",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 679,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -648,7 +660,8 @@
         "line": 0.25,
         "odd": 2.0,
         "reasoning": "Небольшой форой 0.25 в пользу Ювентуса, но Фиорентина имеет более высокую точность прошлых прогнозов и коэффициент 2.0, что делает ставку на её победу с форой привлекательной."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "4e917e19b59093a02a0e12bcf9a5ecc4",
@@ -661,7 +674,7 @@
       "away_ru": "Марсель",
       "kickoff_local": "2026-11-08 22:45",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 680,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -670,7 +683,8 @@
         "line": 0.0,
         "odd": 2.25,
         "reasoning": "У Марселя более высокий процент успешных прогнозов (60%) и коэффициент на нулевую фору 2.25, что делает ставку более ценной, при этом форой 0.0 снижается риск."
-      }
+      },
+      "has_photo": true
     },
     {
       "event_id": "dd247b356d8fc53e4b4f9bfcfe09c924",
@@ -683,7 +697,7 @@
       "away_ru": "Барселона",
       "kickoff_local": "2026-11-08 23:00",
       "kickoff_hour": 23,
-      "message_id": null,
+      "message_id": 681,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -692,7 +706,8 @@
         "line": 0.0,
         "odd": 2.59,
         "reasoning": "У Атлетико Мадрид 4 из 4 успешных прогнозов, а коэффициент 0.0 форы 2.59 дает большую вероятность выигрыша, чем outright."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
