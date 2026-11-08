@@ -97,7 +97,8 @@
     false,
     true,
     true,
-    false
+    false,
+    true
   ],
   "Málaga": [
     true,
@@ -154,7 +155,8 @@
     true,
     false,
     true,
-    false
+    false,
+    true
   ],
   "Cagliari": [
     false,
@@ -233,6 +235,7 @@
     true,
     false,
     false,
+    true,
     true,
     true
   ],
@@ -332,6 +335,7 @@
   ],
   "Columbus Crew SC": [
     true,
+    true,
     true
   ],
   "New England Revolution": [
@@ -339,6 +343,7 @@
     false,
     true,
     false,
+    true,
     true
   ],
   "St. Louis City SC": [
@@ -570,16 +575,19 @@
     false,
     true,
     false,
+    false,
     false
   ],
   "New York City FC": [
     false,
     false,
     false,
-    true
+    true,
+    false
   ],
   "Nashville SC": [
     false,
+    true,
     true,
     true
   ],
@@ -742,28 +750,33 @@
   "Inter Miami CF": [
     false,
     true,
-    true
+    true,
+    false
   ],
   "Atlanta United FC": [
     false,
     false,
     false,
-    false
+    false,
+    true
   ],
   "Philadelphia Union": [
     true,
     true,
+    false,
     false
   ],
   "CF Montreal": [
     true,
     false,
     false,
-    true
+    true,
+    false
   ],
   "Charlotte FC": [
     false,
-    true
+    true,
+    false
   ],
   "Houston Dynamo": [
     false,
@@ -773,6 +786,7 @@
   "Toronto FC": [
     true,
     true,
+    false,
     false
   ],
   "Colorado Rapids": [
@@ -798,6 +812,7 @@
     false,
     true,
     false,
+    true,
     true
   ],
   "Real Salt Lake": [
@@ -824,6 +839,7 @@
     false,
     true,
     true,
+    false,
     false
   ],
   "Frosinone": [
@@ -854,7 +870,8 @@
     true
   ],
   "Troyes": [
-    true
+    true,
+    false
   ],
   "Strasbourg": [
     true,
@@ -1383,6 +1400,7 @@
   ],
   "Orlando City SC": [
     true,
+    true,
     true
   ],
   "DC United": [
@@ -1434,7 +1452,8 @@
   ],
   "FC Cincinnati": [
     false,
-    false
+    false,
+    true
   ],
   "St. Louis City": [
     true
@@ -1483,7 +1502,8 @@
     false
   ],
   "D.C. United": [
-    true
+    true,
+    false
   ],
   "San Diego FC": [
     false
@@ -1774,5 +1794,11 @@
   ],
   "Notts County FC": [
     true
+  ],
+  "Peterborough United": [
+    false
+  ],
+  "Reading": [
+    false
   ]
 }

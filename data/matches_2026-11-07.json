@@ -1489,15 +1489,16 @@
       "kickoff_local": "2026-11-07 23:00",
       "kickoff_hour": 23,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": -1.75,
         "odd": 2.03,
         "reasoning": "Реал Мадрид значительно сильнее соперника, вероятность победы с разницей более 1.5 гола высока, коэффициент 2.03 выглядит привлекательным"
-      }
+      },
+      "final_score": "0:3"
     },
     {
       "event_id": "765e3169379099e9506fc1ffe41ad06d",
@@ -1511,15 +1512,16 @@
       "kickoff_local": "2026-11-07 23:00",
       "kickoff_hour": 23,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 0.25,
         "odd": 1.79,
         "reasoning": "Фора +0.25 для хозяев имеет самый низкий коэффициент (1.79) и считается наиболее вероятным исходом среди доступных вариантов."
-      }
+      },
+      "final_score": "0:5"
     },
     {
       "event_id": "f7b240389fa5ec055c58a48ab153dcdd",
@@ -1533,15 +1535,16 @@
       "kickoff_local": "2026-11-07 23:05",
       "kickoff_hour": 23,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -2.25,
         "odd": 2.04,
         "reasoning": "ПСЖ играет дома, значительно сильнее Труа, поэтому покрытие форы -2.25 выглядит наиболее вероятным."
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "f5ca1b83c89f16c83a63977c741ed93d",
@@ -1555,15 +1558,16 @@
       "kickoff_local": "2026-11-08 00:00",
       "kickoff_hour": 0,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -0.5,
         "odd": 1.87,
         "reasoning": "Хозяин поля имеет небольшое преимущество по спреду -0.5 и более высокий коэффициент, а статистика прошлых прогнозов показывает лучшую результативность на Нью-Йорк Ред Буллз."
-      }
+      },
+      "final_score": "3:0"
     },
     {
       "event_id": "1cecab6721bb9ac477e36301c2c5412b",
@@ -1577,15 +1581,16 @@
       "kickoff_local": "2026-11-08 00:00",
       "kickoff_hour": 0,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 1.0,
         "odd": 1.71,
         "reasoning": "Фора +1.0 на хозяев имеет более низкий коэффициент (1.71) и более высокую вероятность выигрыша, чем остальные варианты, поэтому это наиболее вероятный вариант ставки."
-      }
+      },
+      "final_score": "0:2"
     },
     {
       "event_id": "4e4cd20d205e8bd0cd8ba54391b62257",
@@ -1599,15 +1604,16 @@
       "kickoff_local": "2026-11-08 00:00",
       "kickoff_hour": 0,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "under",
         "line": 4.5,
         "odd": 1.54,
         "reasoning": "Низкий тотал 4.5 имеет более низкий коэффициент (1.54), что указывает на большую вероятность, а также учитывая, что обе команды не отличаются высокой атакующей мощью, ставка на \"меньше 4.5\" выглядит наиболее надёжной."
-      }
+      },
+      "final_score": "3:3"
     },
     {
       "event_id": "666fea65b8706a9b975d3dad9ffea2b7",
@@ -1621,15 +1627,16 @@
       "kickoff_local": "2026-11-08 00:00",
       "kickoff_hour": 0,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 1.0,
         "odd": 1.43,
         "reasoning": "Коламбус Крю SC имеет более низкий коэффициент (+1.0 при 1.43), что указывает на высокую вероятность покрыть форту в пользу гостя; спреды обычно надёжнее прямого исхода."
-      }
+      },
+      "final_score": "3:4"
     },
     {
       "event_id": "b26aa1979396e60e599b7ef1cdaa606a",
@@ -1643,15 +1650,16 @@
       "kickoff_local": "2026-11-08 00:00",
       "kickoff_hour": 0,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "h2h",
         "selection": "home",
         "line": null,
         "odd": 2.95,
         "reasoning": "В последних прогнозах D.C. United имела 100% успех, что повышает вероятность её победы, а коэффициент 2.95 указывает на недооценённость хозяев."
-      }
+      },
+      "final_score": "0:1"
     },
     {
       "event_id": "e373abc8622b9853aa4fbd3d01c33d8e",
@@ -1665,15 +1673,16 @@
       "kickoff_local": "2026-11-08 00:00",
       "kickoff_hour": 0,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "under",
         "line": 3.5,
         "odd": 1.63,
         "reasoning": "Под 3.5 гола имеет наименьший коэффициент (1.63), что указывает на большую вероятность, а остальные варианты менее убедительны."
-      }
+      },
+      "final_score": "0:2"
     },
     {
       "event_id": "2999abe7822c923b29c9fd21905c1723",
@@ -1687,15 +1696,16 @@
       "kickoff_local": "2026-11-08 00:00",
       "kickoff_hour": 0,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -0.5,
         "odd": 1.93,
         "reasoning": "У Орландо хорошие прогнозы и игра дома, шанс победы с разницей хотя бы в один гол выше."
-      }
+      },
+      "final_score": "1:0"
     },
     {
       "event_id": "c0c73d9305b8e399fb6cf9a234a7b9e4",
@@ -1709,15 +1719,16 @@
       "kickoff_local": "2026-11-08 00:00",
       "kickoff_hour": 0,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "under",
         "line": 3.5,
         "odd": 1.74,
         "reasoning": "Команда хозяев сильнее, но матчи в MLS часто заканчиваются с небольшим количеством голов; коэффициент на тотал ниже 3.5 (1.74) указывает на более высокую вероятность такого исхода."
-      }
+      },
+      "final_score": "4:1"
     },
     {
       "event_id": "21a304be611df436b73802b3a5d9995a",
