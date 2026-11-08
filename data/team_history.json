@@ -228,7 +228,8 @@
     false,
     true,
     false,
-    false
+    false,
+    true
   ],
   "Chicago Fire": [
     true,
@@ -348,12 +349,14 @@
   ],
   "St. Louis City SC": [
     true,
+    false,
     false
   ],
   "FC Dallas": [
     true,
     false,
-    true
+    true,
+    false
   ],
   "Lincoln City": [
     false,
@@ -781,6 +784,7 @@
   "Houston Dynamo": [
     false,
     true,
+    false,
     false
   ],
   "Toronto FC": [
@@ -791,13 +795,16 @@
   ],
   "Colorado Rapids": [
     true,
+    false,
     false
   ],
   "Austin FC": [
     false,
+    true,
     true
   ],
   "San Jose Earthquakes": [
+    false,
     false,
     false,
     false
@@ -805,7 +812,8 @@
   "Sporting Kansas City": [
     false,
     true,
-    false
+    false,
+    true
   ],
   "New York Red Bulls": [
     false,
@@ -823,16 +831,19 @@
     false,
     false,
     true,
-    false
+    false,
+    true
   ],
   "Portland Timbers": [
     false,
     false,
-    false
+    false,
+    true
   ],
   "Minnesota United FC": [
     false,
     true,
+    false,
     false
   ],
   "Vancouver Whitecaps FC": [
@@ -1506,7 +1517,8 @@
     false
   ],
   "San Diego FC": [
-    false
+    false,
+    true
   ],
   "Elche CF": [
     true,

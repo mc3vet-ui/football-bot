@@ -1742,15 +1742,16 @@
       "kickoff_local": "2026-11-08 03:00",
       "kickoff_hour": 3,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": -0.5,
         "odd": 1.7,
         "reasoning": "Портленд Тимберс — явный фаворит (коэффициент 1.66), а форой -0.5 они должны выиграть, что более вероятно, чем ничья или победа аутсайдера."
-      }
+      },
+      "final_score": "0:2"
     },
     {
       "event_id": "db5e2057ebc4fbcd2110819712ce2916",
@@ -1764,15 +1765,16 @@
       "kickoff_local": "2026-11-08 03:00",
       "kickoff_hour": 3,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 1.0,
         "odd": 1.41,
         "reasoning": "Низкий коэффициент на фору +1.0 для Colorado Rapids (1.41) указывает на высокую вероятность, а статистика прогнозов не противоречит выбору."
-      }
+      },
+      "final_score": "3:1"
     },
     {
       "event_id": "4700f8b90846ac8a1cf14f077523f486",
@@ -1786,15 +1788,16 @@
       "kickoff_local": "2026-11-08 03:00",
       "kickoff_hour": 3,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 2.5,
         "odd": 1.67,
         "reasoning": "Ожидается более 2.5 гола, коэффициент низкий, значит высокая вероятность"
-      }
+      },
+      "final_score": "0:1"
     },
     {
       "event_id": "acf95111eb7b4a661b16372eb8d3a6e1",
@@ -1808,7 +1811,7 @@
       "kickoff_local": "2026-11-08 03:00",
       "kickoff_hour": 3,
       "message_id": null,
-      "result_checked": false,
+      "result_checked": true,
       "correct": null,
       "pick": {
         "market": "spreads",
@@ -1816,7 +1819,8 @@
         "line": 1.0,
         "odd": 1.66,
         "reasoning": "Фора +1.0 для LA Galaxy дает им шанс выиграть или проиграть лишь одной головой, что статистически надёжнее, а коэффициент 1.66 привлекательный."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "8afef7f1a4041f69d3bce0e3d39a7ee8",
@@ -1830,15 +1834,16 @@
       "kickoff_local": "2026-11-08 03:00",
       "kickoff_hour": 3,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "under",
         "line": 3.5,
         "odd": 1.57,
         "reasoning": "Сиэтл играет дома, а в матчах MLS часто наблюдается небольшое количество голов; под 3.5 гола имеет наибольшую вероятность (коэффициент 1.57)."
-      }
+      },
+      "final_score": "2:1"
     },
     {
       "event_id": "551a91ff0d1abf418624bf290b9e87fe",
@@ -1852,15 +1857,16 @@
       "kickoff_local": "2026-11-08 03:00",
       "kickoff_hour": 3,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": 1.0,
         "odd": 1.68,
         "reasoning": "Коэффициент на фору +1.0 для аутсайдера самый низкий, что указывает на наибольшую вероятность, а спреды обычно надёжнее прямого исхода."
-      }
+      },
+      "final_score": "3:1"
     },
     {
       "event_id": "0db0938ab636e18037e77f2375ade121",
@@ -1874,15 +1880,16 @@
       "kickoff_local": "2026-11-08 03:00",
       "kickoff_hour": 3,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "under",
         "line": 4.0,
         "odd": 1.73,
         "reasoning": "Ожидается небольшое количество голов, под 4.0, коэффициент низкий, что указывает на высокую вероятность."
-      }
+      },
+      "final_score": "0:1"
     }
   ]
 }
