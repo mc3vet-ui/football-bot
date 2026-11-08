@@ -17,8 +17,8 @@
       "kickoff_local": "2026-11-08 14:30",
       "kickoff_hour": 14,
       "message_id": 666,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "spreads",
         "selection": "away",
@@ -26,7 +26,8 @@
         "odd": 2.08,
         "reasoning": "Лацио имеет небольшую фору +0.25 и наш прошлый прогноз на эту команду 100% успешен, а коэффициент 2.08 предлагает хорошую ценность."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "1:1"
     },
     {
       "event_id": "c9e63cacd0dd6905393db92fe2a98672",
@@ -40,15 +41,16 @@
       "kickoff_local": "2026-11-08 15:00",
       "kickoff_hour": 15,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "away",
         "line": -1.5,
         "odd": 1.85,
         "reasoning": "Гримсби Таун значительно сильнее Стаффорд Рейнджерс, ожидается победа с разницей более 1.5 гола, коэффициент 1.85"
-      }
+      },
+      "final_score": "3:3"
     },
     {
       "event_id": "7e748a8bdb13a55389b8e51876b9a504",
@@ -62,15 +64,16 @@
       "kickoff_local": "2026-11-08 15:30",
       "kickoff_hour": 15,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": -1.0,
         "odd": 2.6,
         "reasoning": "Хайденхайм играет дома, имеет хорошие шансы победить с разницей минимум в один мяч, коэффициент 2.6 и исторический успех прогнозов 66%"
-      }
+      },
+      "final_score": "2:2"
     },
     {
       "event_id": "63c47ffbc57892224b9af4b2c2436522",
@@ -84,15 +87,16 @@
       "kickoff_local": "2026-11-08 15:30",
       "kickoff_hour": 15,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "totals",
         "selection": "over",
         "line": 2.5,
         "odd": 1.55,
         "reasoning": "Обе команды показывают атакующий стиль, а коэффициент на тотал больше 2.5 низок, что указывает на высокую вероятность более трех голов в матче."
-      }
+      },
+      "final_score": "4:1"
     },
     {
       "event_id": "e8c45f8f9ebcfde9f58ed47573691def",
@@ -106,15 +110,16 @@
       "kickoff_local": "2026-11-08 15:30",
       "kickoff_hour": 15,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "totals",
         "selection": "under",
         "line": 3.5,
         "odd": 1.5,
         "reasoning": "Ожидается небольшое количество голов, под 3.5, так как обе команды обычно играют в оборонительном стиле, а коэффициент низкий."
-      }
+      },
+      "final_score": "3:2"
     },
     {
       "event_id": "c35673eb1e889309d6985c091a43a3f5",
@@ -128,15 +133,16 @@
       "kickoff_local": "2026-11-08 16:00",
       "kickoff_hour": 16,
       "message_id": null,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": false,
       "pick": {
         "market": "spreads",
         "selection": "home",
         "line": 0.5,
         "odd": 2.0,
         "reasoning": "Эльче получает фору +0.5 с коэффициентом 2.0 — вероятность не проиграть (ничья или победа) выше, чем покрыть фору фаворита, что делает ставку наиболее надёжной."
-      }
+      },
+      "final_score": "0:2"
     },
     {
       "event_id": "79ed3df594d7b352ef027128b1ba5d0a",

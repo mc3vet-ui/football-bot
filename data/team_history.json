@@ -4,7 +4,8 @@
     true,
     false,
     true,
-    false
+    false,
+    true
   ],
   "1. FC Kaiserslautern": [
     true,
@@ -16,7 +17,8 @@
   "1. FC Magdeburg": [
     false,
     false,
-    false
+    false,
+    true
   ],
   "Holstein Kiel": [
     false,
@@ -39,7 +41,8 @@
     false,
     true,
     false,
-    true
+    true,
+    false
   ],
   "Chelsea": [
     true,
@@ -135,6 +138,7 @@
     false,
     true,
     false,
+    true,
     true
   ],
   "Como": [
@@ -170,6 +174,7 @@
     true
   ],
   "Lazio": [
+    true,
     true,
     true,
     true
@@ -531,7 +536,8 @@
     false,
     false,
     true,
-    true
+    true,
+    false
   ],
   "Lyon": [
     false,
@@ -570,6 +576,7 @@
     true,
     false,
     true,
+    false,
     false,
     false
   ],
@@ -730,6 +737,7 @@
   "VfL Bochum": [
     false,
     true,
+    false,
     false
   ],
   "Le Havre": [
@@ -910,7 +918,8 @@
   "1. FC Heidenheim": [
     true,
     false,
-    true
+    true,
+    false
   ],
   "Energie Cottbus": [
     false,
@@ -1491,6 +1500,7 @@
     false
   ],
   "Stafford Rangers FC": [
+    false,
     false
   ],
   "Scarborough Athletic FC": [
@@ -1522,6 +1532,7 @@
   ],
   "Elche CF": [
     true,
+    false,
     false
   ],
   "Greuther Fürth": [
@@ -1811,6 +1822,9 @@
     false
   ],
   "Reading": [
+    false
+  ],
+  "Grimsby Town": [
     false
   ]
 }
