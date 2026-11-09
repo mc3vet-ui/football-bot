@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T16:29:24.785731+03:00",
+  "posted_batches": [
+    "day"
+  ],
+  "matches": [
+    {
+      "event_id": 1646814,
+      "sport_key": "af_45",
+      "source": "api_football",
+      "league": "Кубок Англии",
+      "home": "Plymouth Parkway",
+      "away": "Berkhamsted",
+      "home_ru": "Плимут Парквей",
+      "away_ru": "Берхэмстед",
+      "kickoff_local": "2026-11-09 22:30",
+      "kickoff_hour": 22,
+      "message_id": null,
+      "result_checked": false,
+      "correct": null,
+      "pick": {
+        "market": "h2h",
+        "selection": "home",
+        "line": null,
+        "odd": 2.05,
+        "reasoning": "Домашняя команда является фаворитом с самым низким коэффициентом, что повышает вероятность её победы."
+      }
+    }
+  ]
+}
