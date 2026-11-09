@@ -18,8 +18,8 @@
       "kickoff_local": "2026-11-09 22:30",
       "kickoff_hour": 22,
       "message_id": 685,
-      "result_checked": false,
-      "correct": null,
+      "result_checked": true,
+      "correct": true,
       "pick": {
         "market": "h2h",
         "selection": "home",
@@ -27,7 +27,8 @@
         "odd": 2.05,
         "reasoning": "Домашняя команда является фаворитом с самым низким коэффициентом, что повышает вероятность её победы."
       },
-      "has_photo": true
+      "has_photo": true,
+      "final_score": "2:1"
     }
   ]
 }
