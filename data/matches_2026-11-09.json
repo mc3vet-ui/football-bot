@@ -2,7 +2,8 @@
   "date": "2026-11-09",
   "generated_at": "2026-11-09T16:29:24.785731+03:00",
   "posted_batches": [
-    "day"
+    "day",
+    "evening"
   ],
   "matches": [
     {
@@ -16,7 +17,7 @@
       "away_ru": "Берхэмстед",
       "kickoff_local": "2026-11-09 22:30",
       "kickoff_hour": 22,
-      "message_id": null,
+      "message_id": 685,
       "result_checked": false,
       "correct": null,
       "pick": {
@@ -25,7 +26,8 @@
         "line": null,
         "odd": 2.05,
         "reasoning": "Домашняя команда является фаворитом с самым низким коэффициентом, что повышает вероятность её победы."
-      }
+      },
+      "has_photo": true
     }
   ]
 }
