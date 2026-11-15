@@ -34,6 +34,7 @@ on:
           - stats_weekly
           - stats_monthly
           - stats_yearly
+          - live_check
 
 permissions:
   contents: write
@@ -130,6 +131,18 @@ jobs:
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           TIMEZONE: 'Europe/Moscow'
         run: python main.py stats yearly
+
+      - name: Check LIVE matches
+        if: |
+          github.event.schedule == '20 * * * *' ||
+          github.event.schedule == '40 * * * *' ||
+          (github.event_name == 'workflow_dispatch' && inputs.mode == 'live_check')
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          TIMEZONE: 'Europe/Moscow'
+        run: python main.py live_check
 
       - name: Commit updated data files
         run: |
