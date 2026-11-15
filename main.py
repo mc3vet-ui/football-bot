@@ -28,6 +28,7 @@ import sys
 import re
 import json
 import time
+import html
 import requests
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
@@ -91,6 +92,9 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 IMAGES_DIR = os.path.join(os.path.dirname(__file__), "images")
 GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY", "")  # auto-set by GitHub Actions
 STATS_PATH = os.path.join(DATA_DIR, "stats.json")
+LIVE_SIGNAL_PATH = os.path.join(DATA_DIR, "live_signals.json")
+LIVE_MIN_TOTAL_GOALS = 3
+LIVE_MAX_ELAPSED_MINUTE = 20
 
 BATCHES = [
     ("morning", 6, 15),
@@ -733,7 +737,123 @@ def edit_telegram_caption(message_id, new_caption):
     resp.raise_for_status()
     return resp.json()
 
+# ---------------------------------------------------------------------------
+# LIVE alerts: 3+ goals in first half, by minute 20
+# ---------------------------------------------------------------------------
 
+def load_live_signals():
+    if not os.path.exists(LIVE_SIGNAL_PATH):
+        return {"sent": {}}
+
+    with open(LIVE_SIGNAL_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    if not isinstance(data, dict) or not isinstance(data.get("sent"), dict):
+        raise ValueError("Invalid live_signals.json")
+
+    return data
+
+
+def save_live_signals(state):
+    os.makedirs(DATA_DIR, exist_ok=True)
+    tmp_path = LIVE_SIGNAL_PATH + ".tmp"
+
+    with open(tmp_path, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+
+    os.replace(tmp_path, LIVE_SIGNAL_PATH)
+
+
+def live_check():
+    if not API_FOOTBALL_KEY:
+        raise RuntimeError("API_FOOTBALL_KEY is not configured")
+
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL:
+        raise RuntimeError("Telegram settings are missing")
+
+    print("[live_check] Checking live fixtures...")
+
+    payload = api_football_get("/fixtures", {"live": "all"})
+    fixtures = payload.get("response", [])
+
+    state = load_live_signals()
+    sent = state["sent"]
+    published = 0
+
+    for item in fixtures:
+        fixture = item.get("fixture") or {}
+        status = fixture.get("status") or {}
+
+        if status.get("short") != "1H":
+            continue
+
+        try:
+            minute = int(status.get("elapsed"))
+        except (TypeError, ValueError):
+            continue
+
+        if minute < 1 or minute > LIVE_MAX_ELAPSED_MINUTE:
+            continue
+
+        fixture_id = fixture.get("id")
+        if fixture_id is None:
+            continue
+
+        fixture_id = str(fixture_id)
+
+        if fixture_id in sent:
+            continue
+
+        goals = item.get("goals") or {}
+
+        try:
+            home_goals = int(goals.get("home"))
+            away_goals = int(goals.get("away"))
+        except (TypeError, ValueError):
+            continue
+
+        total = home_goals + away_goals
+
+        if total < LIVE_MIN_TOTAL_GOALS:
+            continue
+
+        teams = item.get("teams") or {}
+        home = (teams.get("home") or {}).get("name") or "Хозяева"
+        away = (teams.get("away") or {}).get("name") or "Гости"
+
+        league = item.get("league") or {}
+        league_name = league.get("name") or "Футбол"
+        country = league.get("country") or ""
+
+        competition = f"{country}, {league_name}" if country else league_name
+
+        message = (
+            "🚨 <b>LIVE — 3+ гола в первом тайме!</b>\n\n"
+            f"🏆 {html.escape(competition)}\n"
+            f"⚽ <b>{html.escape(home)} "
+            f"{home_goals}:{away_goals} "
+            f"{html.escape(away)}</b>\n"
+            f"⏱ {minute}-я минута первого тайма\n"
+            f"🔥 Всего голов: {total}"
+        )
+
+        message_id = send_telegram_message(message)
+
+        sent[fixture_id] = {
+            "home": home,
+            "away": away,
+            "score": f"{home_goals}:{away_goals}",
+            "minute": minute,
+            "sent_at": datetime.now(TIMEZONE).isoformat(),
+            "telegram_message_id": message_id,
+        }
+
+        save_live_signals(state)
+        published += 1
+
+        print(f"[live_check] Published: {home} {home_goals}:{away_goals} {away}")
+
+    print(f"[live_check] Published alerts: {published}")
 # ---------------------------------------------------------------------------
 # Post mode
 # ---------------------------------------------------------------------------
@@ -1101,6 +1221,8 @@ if __name__ == "__main__":
         post_batch()
     elif mode == "check_results":
         check_results()
+    elif mode == "live_check":
+        live_check()
     elif mode == "stats":
         period = sys.argv[2] if len(sys.argv) > 2 else "daily"
         post_stats(period)
