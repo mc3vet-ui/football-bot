@@ -1030,6 +1030,11 @@ def check_results():
     today = datetime.now(TIMEZONE).date()
     checked_total = 0
 
+    # Reuse one Odds API /scores response per league across all three football days.
+    # This prevents duplicate quota usage when the same league has pending picks
+    # in more than one daily data file.
+    scores_cache_by_sport = {}
+
     for days_back in range(0, 3):
         day = (today - timedelta(days=days_back)).strftime("%Y-%m-%d")
         path = data_path(day)
@@ -1050,13 +1055,17 @@ def check_results():
         scores_by_event = {}
         sport_keys_needed = {m["sport_key"] for m in odds_api_pending}
         for sport_key in sport_keys_needed:
-            try:
-                scores = odds_api_get(f"/sports/{sport_key}/scores", {"daysFrom": 3})
-            except requests.exceptions.HTTPError as e:
-                print(f"[check_results] Error fetching scores for {sport_key}: {e}")
-                continue
-            for s in scores:
-                scores_by_event[s["id"]] = s
+            if sport_key not in scores_cache_by_sport:
+                try:
+                    scores_cache_by_sport[sport_key] = odds_api_get(
+                        f"/sports/{sport_key}/scores", {"daysFrom": 3}
+                    )
+                except requests.exceptions.HTTPError as e:
+                    print(f"[check_results] Error fetching scores for {sport_key}: {e}")
+                    continue
+
+            for score_item in scores_cache_by_sport[sport_key]:
+                scores_by_event[score_item["id"]] = score_item
 
         # api-football.com backup matches: one /fixtures?id= call per match.
         af_fixtures_by_id = {}
