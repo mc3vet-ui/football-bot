@@ -3,7 +3,6 @@ name: Football predictions bot
 concurrency:
   group: football-bot
   cancel-in-progress: false
-
 on:
   schedule:
     - cron: '0 5 * * *'    # 08:00 мск — публикация утреннего батча (+ загрузка данных дня)
@@ -15,7 +14,6 @@ on:
     - cron: '5 6 1 1 *'    # 09:05 мск 1 января — итоги прошлого года
     - cron: '20 * * * *'   # Проверка LIVE-матчей на 20-й минуте каждого часа
     - cron: '40 * * * *'   # Проверка LIVE-матчей на 40-й минуте каждого часа
-
   workflow_dispatch:
     inputs:
       mode:
@@ -41,10 +39,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
-
+        uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
@@ -57,7 +54,6 @@ jobs:
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python main.py sports
-
       - name: Post batch
         if: |
           github.event.schedule == '0 5 * * *' ||
@@ -72,7 +68,6 @@ jobs:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           TIMEZONE: 'Europe/Moscow'
         run: python main.py post
-
       - name: Check results
         if: |
           github.event.schedule == '50 4 * * *' ||
@@ -84,7 +79,6 @@ jobs:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           TIMEZONE: 'Europe/Moscow'
         run: python main.py check_results
-
       - name: Daily stats
         if: |
           github.event.schedule == '50 4 * * *' ||
@@ -94,7 +88,6 @@ jobs:
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           TIMEZONE: 'Europe/Moscow'
         run: python main.py stats daily
-
       - name: Weekly stats
         if: |
           github.event.schedule == '59 20 * * 0' ||
@@ -104,7 +97,6 @@ jobs:
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           TIMEZONE: 'Europe/Moscow'
         run: python main.py stats weekly
-
       - name: Monthly stats
         if: |
           github.event.schedule == '0 6 1 * *' ||
@@ -114,7 +106,6 @@ jobs:
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           TIMEZONE: 'Europe/Moscow'
         run: python main.py stats monthly
-
       - name: Yearly stats
         if: |
           github.event.schedule == '5 6 1 1 *' ||
@@ -124,7 +115,6 @@ jobs:
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           TIMEZONE: 'Europe/Moscow'
         run: python main.py stats yearly
-
       - name: Check LIVE matches
         if: |
           github.event.schedule == '20 * * * *' ||
@@ -136,7 +126,6 @@ jobs:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           TIMEZONE: 'Europe/Moscow'
         run: python main.py live_check
-
       - name: Commit updated data files
         run: |
           git config user.name "football-bot"
